@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Core Control Unit — Engineering & Digital Solutions",
+    "description": "Core Control Unit is a French software engineering company specialising in system architecture and custom digital solutions."
+  },
+  "nav": {
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Start"
+  },
+  "hero": {
+    "badge": "System active — v1.0.0",
+    "tagline": "Software engineering & system architecture",
+    "taglineSub": "Custom digital solutions — France",
+    "ctaPrimary": "Our services",
+    "ctaSecondary": "Start a project",
+    "scroll": "Scroll",
+    "stat1Label": "Years of experience",
+    "stat2Label": "Projects delivered",
+    "stat3Label": "Proprietary code"
+  },
+  "services": {
+    "sectionLabel": "Catalogue",
+    "heading": "Services",
+    "subtitle": "Complete engineering solutions for your most demanding digital projects.",
+    "items": [
+      { "code": "SVC-01", "title": "System Architecture", "description": "Design of robust and scalable software infrastructures. Microservices, modular monoliths, distributed systems." },
+      { "code": "SVC-02", "title": "Web Development", "description": "High-performance web applications with modern technologies. React, Next.js, REST and GraphQL APIs." },
+      { "code": "SVC-03", "title": "Back-end Engineering", "description": "Critical business services in Rust, Node.js or Python. Performance optimisation, security and resilience." },
+      { "code": "SVC-04", "title": "Technical Consulting", "description": "Codebase audit, stack selection, architecture review. Supporting product and technical teams." },
+      { "code": "SVC-05", "title": "Integration & DevOps", "description": "CI/CD pipelines, Docker/Kubernetes containerisation, cloud deployment and application monitoring." },
+      { "code": "SVC-06", "title": "Custom Solutions", "description": "Development of business tools, automations, parsers, embedded systems and specialised CLIs." }
+    ]
+  },
+  "about": {
+    "sectionLabel": "Identity",
+    "heading": "About",
+    "p1": "Core Control Unit is a French software engineering company built on a simple principle: deliver code that works, holds up, and adapts.",
+    "p2": "We work on complex projects — system architectures, critical applications, business tools — maintaining a senior approach with no unnecessary overhead.",
+    "p3": "Based in France, we work remotely with European and international teams, on a project basis or as reinforcement for existing teams.",
+    "values": [
+      { "label": "Reliability", "desc": "Production code, not demos." },
+      { "label": "Precision", "desc": "Explicit architecture, zero magic." },
+      { "label": "Velocity", "desc": "Fast delivery without sacrificing quality." },
+      { "label": "Transparency", "desc": "Direct communication, honest estimates." }
+    ]
+  },
+  "contact": {
+    "sectionLabel": "Transmission",
+    "heading": "Start a project",
+    "subtitle": "Describe your project. We respond within 48h.",
+    "panelLabel": "CONTACT FORM",
+    "labelName": "Full name",
+    "placeholderName": "John Smith",
+    "labelEmail": "Email",
+    "placeholderEmail": "john@company.com",
+    "labelProject": "Project",
+    "placeholderProject": "Describe your project, your current stack, your constraints...",
+    "submit": "Send transmission"
+  },
+  "footer": {
+    "country": "France"
+  }
+}

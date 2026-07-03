@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Core Control Unit — Ingeniería & Soluciones Digitales",
+    "description": "Core Control Unit es una empresa francesa de ingeniería de software especializada en arquitectura de sistemas y soluciones digitales a medida."
+  },
+  "nav": {
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "cta": "Empezar"
+  },
+  "hero": {
+    "badge": "Sistema activo — v1.0.0",
+    "tagline": "Ingeniería de software & arquitectura de sistemas",
+    "taglineSub": "Soluciones digitales a medida — Francia",
+    "ctaPrimary": "Nuestros servicios",
+    "ctaSecondary": "Iniciar un proyecto",
+    "scroll": "Desplazar",
+    "stat1Label": "Años de experiencia",
+    "stat2Label": "Proyectos entregados",
+    "stat3Label": "Código propietario"
+  },
+  "services": {
+    "sectionLabel": "Catálogo",
+    "heading": "Servicios",
+    "subtitle": "Soluciones de ingeniería completas para sus proyectos digitales más exigentes.",
+    "items": [
+      { "code": "SVC-01", "title": "Arquitectura de Sistemas", "description": "Diseño de infraestructuras de software robustas y escalables. Microservicios, monolitos modulares, sistemas distribuidos." },
+      { "code": "SVC-02", "title": "Desarrollo Web", "description": "Aplicaciones web de alto rendimiento con tecnologías modernas. React, Next.js, APIs REST y GraphQL." },
+      { "code": "SVC-03", "title": "Ingeniería Back-end", "description": "Servicios de negocio críticos en Rust, Node.js o Python. Optimización del rendimiento, seguridad y resiliencia." },
+      { "code": "SVC-04", "title": "Consultoría Técnica", "description": "Auditoría de código, selección de stack, revisión de arquitectura. Acompañamiento de equipos de producto y técnicos." },
+      { "code": "SVC-05", "title": "Integración & DevOps", "description": "Pipelines CI/CD, contenedorización Docker/Kubernetes, despliegue en cloud y monitorización de aplicaciones." },
+      { "code": "SVC-06", "title": "Soluciones a Medida", "description": "Desarrollo de herramientas de negocio, automatizaciones, parsers, sistemas embebidos y CLIs especializados." }
+    ]
+  },
+  "about": {
+    "sectionLabel": "Identidad",
+    "heading": "Acerca de",
+    "p1": "Core Control Unit es una empresa francesa de ingeniería de software fundada en un principio simple: entregar código que funciona, que aguanta y que se adapta.",
+    "p2": "Trabajamos en proyectos complejos — arquitecturas de sistemas, aplicaciones críticas, herramientas de negocio — manteniendo un enfoque senior sin overhead innecesario.",
+    "p3": "Con sede en Francia, trabajamos en remoto con equipos europeos e internacionales, en modo proyecto o como refuerzo de equipos existentes.",
+    "values": [
+      { "label": "Fiabilidad", "desc": "Código de producción, no demos." },
+      { "label": "Precisión", "desc": "Arquitectura explícita, cero magia." },
+      { "label": "Velocidad", "desc": "Entrega rápida sin sacrificar la calidad." },
+      { "label": "Transparencia", "desc": "Comunicación directa, estimaciones honestas." }
+    ]
+  },
+  "contact": {
+    "sectionLabel": "Transmisión",
+    "heading": "Iniciar un proyecto",
+    "subtitle": "Describe tu proyecto. Te respondemos en 48h.",
+    "panelLabel": "FORMULARIO DE CONTACTO",
+    "labelName": "Nombre completo",
+    "placeholderName": "Juan García",
+    "labelEmail": "Email",
+    "placeholderEmail": "juan@empresa.es",
+    "labelProject": "Proyecto",
+    "placeholderProject": "Describe tu proyecto, tu stack actual, tus restricciones...",
+    "submit": "Enviar transmisión"
+  },
+  "footer": {
+    "country": "Francia"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Core Control Unit — Ingegneria & Soluzioni Digitali",
+    "description": "Core Control Unit è un'azienda francese di ingegneria del software specializzata in architettura di sistemi e soluzioni digitali su misura."
+  },
+  "nav": {
+    "services": "Servizi",
+    "projects": "Progetti",
+    "about": "Chi siamo",
+    "contact": "Contatto",
+    "cta": "Inizia"
+  },
+  "hero": {
+    "badge": "Sistema attivo — v1.0.0",
+    "tagline": "Ingegneria del software & architettura di sistemi",
+    "taglineSub": "Soluzioni digitali su misura — Francia",
+    "ctaPrimary": "I nostri servizi",
+    "ctaSecondary": "Avvia un progetto",
+    "scroll": "Scorri",
+    "stat1Label": "Anni di esperienza",
+    "stat2Label": "Progetti consegnati",
+    "stat3Label": "Codice proprietario"
+  },
+  "services": {
+    "sectionLabel": "Catalogo",
+    "heading": "Servizi",
+    "subtitle": "Soluzioni di ingegneria complete per i vostri progetti digitali più esigenti.",
+    "items": [
+      { "code": "SVC-01", "title": "Architettura di Sistema", "description": "Progettazione di infrastrutture software robuste e scalabili. Microservizi, monoliti modulari, sistemi distribuiti." },
+      { "code": "SVC-02", "title": "Sviluppo Web", "description": "Applicazioni web ad alte prestazioni con tecnologie moderne. React, Next.js, API REST e GraphQL." },
+      { "code": "SVC-03", "title": "Ingegneria Back-end", "description": "Servizi aziendali critici in Rust, Node.js o Python. Ottimizzazione delle prestazioni, sicurezza e resilienza." },
+      { "code": "SVC-04", "title": "Consulenza Tecnica", "description": "Audit del codice, scelta dello stack, revisione dell'architettura. Supporto ai team di prodotto e tecnici." },
+      { "code": "SVC-05", "title": "Integrazione & DevOps", "description": "Pipeline CI/CD, containerizzazione Docker/Kubernetes, deployment cloud e monitoraggio applicativo." },
+      { "code": "SVC-06", "title": "Soluzioni Su Misura", "description": "Sviluppo di strumenti aziendali, automazioni, parser, sistemi embedded e CLI specializzate." }
+    ]
+  },
+  "about": {
+    "sectionLabel": "Identità",
+    "heading": "Chi siamo",
+    "p1": "Core Control Unit è un'azienda francese di ingegneria del software fondata su un principio semplice: consegnare codice che funziona, che regge e che si adatta.",
+    "p2": "Interveniamo su progetti complessi — architetture di sistema, applicazioni critiche, strumenti aziendali — mantenendo un approccio senior senza overhead inutile.",
+    "p3": "Con sede in Francia, lavoriamo da remoto con team europei e internazionali, in modalità progetto o come rinforzo di team esistenti.",
+    "values": [
+      { "label": "Affidabilità", "desc": "Codice di produzione, non demo." },
+      { "label": "Precisione", "desc": "Architettura esplicita, zero magia." },
+      { "label": "Velocità", "desc": "Consegna rapida senza sacrificare la qualità." },
+      { "label": "Trasparenza", "desc": "Comunicazione diretta, stime oneste." }
+    ]
+  },
+  "contact": {
+    "sectionLabel": "Trasmissione",
+    "heading": "Avvia un progetto",
+    "subtitle": "Descrivi il tuo progetto. Ti rispondiamo entro 48h.",
+    "panelLabel": "MODULO DI CONTATTO",
+    "labelName": "Nome completo",
+    "placeholderName": "Mario Rossi",
+    "labelEmail": "Email",
+    "placeholderEmail": "mario@azienda.it",
+    "labelProject": "Progetto",
+    "placeholderProject": "Descrivi il tuo progetto, il tuo stack attuale, i tuoi vincoli...",
+    "submit": "Invia trasmissione"
+  },
+  "footer": {
+    "country": "Francia"
+  }
+}

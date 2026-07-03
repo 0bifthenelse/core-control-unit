@@ -1,4 +1,8 @@
-export function Footer() {
+import { getTranslations } from "next-intl/server";
+
+export async function Footer() {
+  const t = await getTranslations("footer");
+
   return (
     <footer className="border-t border-[#1e2330] py-8 px-6">
       <div className="mx-auto max-w-7xl flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -10,7 +14,7 @@ export function Footer() {
           </span>
         </div>
         <div className="flex items-center gap-6">
-          <span className="text-[10px] uppercase tracking-widest text-[#5a6070]">France</span>
+          <span className="text-[10px] uppercase tracking-widest text-[#5a6070]">{t("country")}</span>
           <a
             href="mailto:contact@corecontrolunit.fr"
             className="text-[10px] uppercase tracking-widest text-[#5a6070] hover:text-[#ff7d27] transition-colors"

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "Core Control Unit — Ingénierie & Solutions Numériques",
+    "description": "Core Control Unit est une entreprise française spécialisée en ingénierie logicielle, architecture système et solutions numériques sur mesure."
+  },
+  "nav": {
+    "services": "Services",
+    "projects": "Projets",
+    "about": "À propos",
+    "contact": "Contact",
+    "cta": "Démarrer"
+  },
+  "hero": {
+    "badge": "Système actif — v1.0.0",
+    "tagline": "Ingénierie logicielle & architecture système",
+    "taglineSub": "Solutions numériques sur mesure — France",
+    "ctaPrimary": "Nos services",
+    "ctaSecondary": "Démarrer un projet",
+    "scroll": "Défiler",
+    "stat1Label": "Années d'expérience",
+    "stat2Label": "Projets livrés",
+    "stat3Label": "Code propriétaire"
+  },
+  "services": {
+    "sectionLabel": "Catalogue",
+    "heading": "Services",
+    "subtitle": "Des solutions d'ingénierie complètes pour vos projets numériques les plus exigeants.",
+    "items": [
+      { "code": "SVC-01", "title": "Architecture Système", "description": "Conception d'infrastructures logicielles robustes et scalables. Microservices, monolithes modulaires, systèmes distribués." },
+      { "code": "SVC-02", "title": "Développement Web", "description": "Applications web haute performance avec les technologies modernes. React, Next.js, API REST et GraphQL." },
+      { "code": "SVC-03", "title": "Ingénierie Back-end", "description": "Services métier critiques en Rust, Node.js ou Python. Optimisation des performances, sécurité et résilience." },
+      { "code": "SVC-04", "title": "Conseil Technique", "description": "Audit de codebase, choix de stack, revue d'architecture. Accompagnement des équipes produit et technique." },
+      { "code": "SVC-05", "title": "Intégration & DevOps", "description": "Pipelines CI/CD, containerisation Docker/Kubernetes, déploiement cloud et monitoring applicatif." },
+      { "code": "SVC-06", "title": "Solutions Sur Mesure", "description": "Développement d'outils métier, automatisations, parsers, systèmes embarqués et CLIs spécialisés." }
+    ]
+  },
+  "about": {
+    "sectionLabel": "Identité",
+    "heading": "À propos",
+    "p1": "Core Control Unit est une société française d'ingénierie logicielle fondée sur un principe simple : livrer du code qui fonctionne, qui tient, et qui s'adapte.",
+    "p2": "Nous intervenons sur des projets complexes — architectures système, applications critiques, outils métier — en gardant une approche senior, sans overhead inutile.",
+    "p3": "Basés en France, nous travaillons en remote avec des équipes européennes et internationales, en mode projet ou en renfort d'équipe existante.",
+    "values": [
+      { "label": "Fiabilité", "desc": "Code de production, pas de démos." },
+      { "label": "Précision", "desc": "Architecture explicite, zéro magie." },
+      { "label": "Vélocité", "desc": "Livraison rapide sans sacrifier la qualité." },
+      { "label": "Transparence", "desc": "Communication directe, estimations honnêtes." }
+    ]
+  },
+  "contact": {
+    "sectionLabel": "Transmission",
+    "heading": "Démarrer un projet",
+    "subtitle": "Décrivez votre projet. Nous vous répondons sous 48h.",
+    "panelLabel": "FORMULAIRE DE CONTACT",
+    "labelName": "Nom complet",
+    "placeholderName": "Jean Dupont",
+    "labelEmail": "Email",
+    "placeholderEmail": "jean@entreprise.fr",
+    "labelProject": "Projet",
+    "placeholderProject": "Décrivez votre projet, votre stack actuelle, vos contraintes...",
+    "submit": "Envoyer la transmission"
+  },
+  "footer": {
+    "country": "France"
+  }
+}

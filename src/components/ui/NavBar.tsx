@@ -2,15 +2,17 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { LanguageSelector } from "./LanguageSelector";
 
-const navLinks = [
-  { href: "#services", label: "Services" },
-  { href: "#projets", label: "Projets" },
-  { href: "#apropos", label: "À propos" },
-  { href: "#contact", label: "Contact" },
-];
+type NavLink = { href: string; label: string };
 
-export function NavBar() {
+interface NavBarProps {
+  links: NavLink[];
+  cta: string;
+  locale: string;
+}
+
+export function NavBar({ links, cta, locale }: NavBarProps) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -24,7 +26,7 @@ export function NavBar() {
         </Link>
 
         <ul className="hidden md:flex items-center gap-8">
-          {navLinks.map(({ href, label }) => (
+          {links.map(({ href, label }) => (
             <li key={href}>
               <a
                 href={href}
@@ -36,13 +38,16 @@ export function NavBar() {
           ))}
         </ul>
 
-        <a
-          href="#contact"
-          className="hidden md:inline-flex items-center gap-2 border border-[#ff7d27] px-4 py-2 text-xs uppercase tracking-widest text-[#ff7d27] hover:bg-[#ff7d27] hover:text-black transition-all duration-200"
-          style={{ clipPath: "polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px))" }}
-        >
-          Démarrer
-        </a>
+        <div className="hidden md:flex items-center gap-4">
+          <LanguageSelector locale={locale} />
+          <a
+            href="#contact"
+            className="inline-flex items-center gap-2 border border-[#ff7d27] px-4 py-2 text-xs uppercase tracking-widest text-[#ff7d27] hover:bg-[#ff7d27] hover:text-black transition-all duration-200"
+            style={{ clipPath: "polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px))" }}
+          >
+            {cta}
+          </a>
+        </div>
 
         <button
           className="md:hidden text-[#5a6070] hover:text-[#ff7d27]"
@@ -69,8 +74,8 @@ export function NavBar() {
 
       {open && (
         <div className="md:hidden border-t border-[#1e2330] bg-[#0d0f12] px-6 py-4">
-          <ul className="flex flex-col gap-4">
-            {navLinks.map(({ href, label }) => (
+          <ul className="flex flex-col gap-4 mb-4">
+            {links.map(({ href, label }) => (
               <li key={href}>
                 <a
                   href={href}
@@ -82,6 +87,9 @@ export function NavBar() {
               </li>
             ))}
           </ul>
+          <div className="border-t border-[#1e2330] pt-4">
+            <LanguageSelector locale={locale} />
+          </div>
         </div>
       )}
     </header>

@@ -1,4 +1,4 @@
-import { NavBar } from "@/components/ui/NavBar";
+import { NavBarServer } from "@/components/ui/NavBarServer";
 import { Footer } from "@/components/ui/Footer";
 import { HeroSection } from "@/features/hero/components/HeroSection";
 import { ServicesSection } from "@/features/services/components/ServicesSection";
@@ -8,7 +8,7 @@ import { ContactSection } from "@/features/contact/components/ContactSection";
 export default function Home() {
   return (
     <>
-      <NavBar />
+      <NavBarServer />
       <main>
         <HeroSection />
         <ServicesSection />
