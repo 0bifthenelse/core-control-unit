@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { HudPanel } from "@/components/ui/HudPanel";
 import { AccentLine } from "@/components/ui/AccentLine";
 
-type ProjectItem = { code: string; title: string; description: string };
+type ProjectItem = { title: string; description: string };
 
 const PICSUM_SEEDS = ["proj1", "proj2", "proj3"];
 
@@ -23,8 +23,8 @@ export async function ProjectsSection() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-          {items.map(({ code, title, description }, i) => (
-            <HudPanel key={code} className="overflow-hidden group hover:border-[#ff7d27]/40 transition-colors duration-300">
+          {items.map(({ title, description }, i) => (
+            <HudPanel key={title} className="overflow-hidden group hover:border-[#ff7d27]/40 transition-colors duration-300">
               <div className="relative w-full aspect-video overflow-hidden">
                 <Image
                   src={`https://picsum.photos/seed/${PICSUM_SEEDS[i]}/800/500`}
@@ -35,9 +35,6 @@ export async function ProjectsSection() {
                   sizes="(max-width: 1024px) 100vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-[#0d0f12]/40 group-hover:bg-[#0d0f12]/20 transition-colors duration-500" />
-                <span className="absolute top-3 left-3 text-[10px] font-mono text-[#ff7d27] tracking-widest bg-[#0d0f12]/80 px-2 py-1">
-                  {code}
-                </span>
                 <div className="absolute bottom-0 inset-x-0 h-0.5 bg-gradient-to-r from-[#ff7d27]/70 to-transparent" />
               </div>
               <div className="p-6">

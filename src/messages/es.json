@@ -12,8 +12,8 @@
   },
   "hero": {
     "badge": "Sistema activo — v1.0.0",
-    "tagline": "Ingeniería de software & arquitectura de sistemas",
-    "taglineSub": "Soluciones digitales a medida — Francia",
+    "tagline": "Web · Blockchain · Marketing",
+    "taglineSub": "Soluciones digitales a medida — internacional",
     "ctaPrimary": "Nuestros servicios",
     "ctaSecondary": "Iniciar un proyecto",
     "scroll": "Desplazar",
@@ -24,22 +24,22 @@
   "services": {
     "sectionLabel": "Catálogo",
     "heading": "Servicios",
-    "subtitle": "Soluciones de ingeniería completas para sus proyectos digitales más exigentes.",
+    "subtitle": "Desde desarrollo web hasta seguridad blockchain y campañas de publicidad exterior en EE. UU. — un espectro completo.",
     "items": [
-      { "code": "SVC-01", "title": "Arquitectura de Sistemas", "description": "Diseño de infraestructuras de software robustas y escalables. Microservicios, monolitos modulares, sistemas distribuidos." },
-      { "code": "SVC-02", "title": "Desarrollo Web", "description": "Aplicaciones web de alto rendimiento con tecnologías modernas. React, Next.js, APIs REST y GraphQL." },
-      { "code": "SVC-03", "title": "Ingeniería Back-end", "description": "Servicios de negocio críticos en Rust, Node.js o Python. Optimización del rendimiento, seguridad y resiliencia." },
-      { "code": "SVC-04", "title": "Consultoría Técnica", "description": "Auditoría de código, selección de stack, revisión de arquitectura. Acompañamiento de equipos de producto y técnicos." },
-      { "code": "SVC-05", "title": "Integración & DevOps", "description": "Pipelines CI/CD, contenedorización Docker/Kubernetes, despliegue en cloud y monitorización de aplicaciones." },
-      { "code": "SVC-06", "title": "Soluciones a Medida", "description": "Desarrollo de herramientas de negocio, automatizaciones, parsers, sistemas embebidos y CLIs especializados." }
+      { "title": "Desarrollo Web", "description": "Sitios y aplicaciones web para particulares y empresas. Entregamos el código fuente completo o nos encargamos del hosting con Vercel o infraestructura personalizada.", "price": "A consultar" },
+      { "title": "Auditoría de Smart Contract", "description": "Auditoría de seguridad de tus smart contracts en Solidity. Identificamos vulnerabilidades, fallos lógicos e ineficiencias de gas con un informe detallado.", "price": "Desde $100" },
+      { "title": "Desarrollo de Smart Contract", "description": "Desarrollo Solidity a medida — tokens, NFTs, protocolos DeFi, lógica on-chain personalizada. Construido con seguridad desde el primer momento.", "price": "A consultar" },
+      { "title": "Integración Web3", "description": "Conecta tu sitio o aplicación existente a la blockchain. Conexión de wallet, datos on-chain, interacción con contratos — integración perfecta.", "price": "A consultar" },
+      { "title": "Bots & Aplicaciones", "description": "Bots de Discord, Telegram, blockchain, o cualquier software de escritorio. Si se puede construir, lo construimos.", "price": "A consultar" },
+      { "title": "Marketing en Vallas (EE. UU.)", "description": "Publicidad física en todo Estados Unidos a través de nuestra red privada de vallas publicitarias. Cobertura nacional, ubicación estratégica, alto impacto.", "price": "A consultar" }
     ]
   },
   "about": {
     "sectionLabel": "Identidad",
     "heading": "Acerca de",
-    "p1": "Core Control Unit es una empresa francesa de ingeniería de software fundada en un principio simple: entregar código que funciona, que aguanta y que se adapta.",
-    "p2": "Trabajamos en proyectos complejos — arquitecturas de sistemas, aplicaciones críticas, herramientas de negocio — manteniendo un enfoque senior sin overhead innecesario.",
-    "p3": "Con sede en Francia, trabajamos en remoto con equipos europeos e internacionales, en modo proyecto o como refuerzo de equipos existentes.",
+    "p1": "Core Control Unit es una empresa de servicios digitales que abarca desarrollo web, seguridad blockchain, integración Web3, software a medida y marketing físico en Estados Unidos.",
+    "p2": "Trabajamos directamente con particulares, startups y pymes — sin intermediarios ni overhead. Comunicación clara, entrega rápida y código que realmente te pertenece.",
+    "p3": "Operamos a nivel internacional con un enfoque totalmente remoto, gestionando proyectos de principio a fin: desde la primera línea de código hasta la valla publicitaria en activo.",
     "values": [
       { "label": "Fiabilidad", "desc": "Código de producción, no demos." },
       { "label": "Precisión", "desc": "Arquitectura explícita, cero magia." },
@@ -65,9 +65,9 @@
     "heading": "Proyectos recientes",
     "viewProject": "Ver proyecto →",
     "items": [
-      { "code": "PRJ-01", "title": "Plataforma SaaS", "description": "Arquitectura multi-tenant con autenticación federada, paneles en tiempo real y motor de facturación modular." },
-      { "code": "PRJ-02", "title": "API Crítica", "description": "Servicio de alta disponibilidad que gestiona más de 10M de peticiones/día. Stack Rust, Redis, PostgreSQL con SLA 99,9 %." },
-      { "code": "PRJ-03", "title": "Herramienta de Negocio", "description": "Automatización de flujos de trabajo complejos para una PYME industrial. Análisis de datos ERP, reportes automáticos y alertas." }
+      { "title": "Auditoría de Protocolo DeFi", "description": "Auditoría Solidity completa de un protocolo de préstamos. Se identificaron 3 vulnerabilidades críticas antes del lanzamiento en mainnet, evitando posibles pérdidas de fondos." },
+      { "title": "Aplicación E-commerce", "description": "Tienda Next.js con integración Stripe, CMS personalizado y hosting en Vercel. Entregada con transferencia completa del código fuente al cliente." },
+      { "title": "Bot de Trading Blockchain", "description": "Bot on-chain automatizado que monitoriza pools de liquidez en DEX y ejecuta operaciones según estrategias configurables. Desarrollado para un cliente privado." }
     ]
   },
   "footer": {

@@ -12,8 +12,8 @@
   },
   "hero": {
     "badge": "System active — v1.0.0",
-    "tagline": "Software engineering & system architecture",
-    "taglineSub": "Custom digital solutions — France",
+    "tagline": "Web · Blockchain · Marketing",
+    "taglineSub": "Custom digital solutions — worldwide",
     "ctaPrimary": "Our services",
     "ctaSecondary": "Start a project",
     "scroll": "Scroll",
@@ -24,22 +24,22 @@
   "services": {
     "sectionLabel": "Catalogue",
     "heading": "Services",
-    "subtitle": "Complete engineering solutions for your most demanding digital projects.",
+    "subtitle": "From websites to blockchain security and nationwide billboard campaigns — we cover the full spectrum.",
     "items": [
-      { "code": "SVC-01", "title": "System Architecture", "description": "Design of robust and scalable software infrastructures. Microservices, modular monoliths, distributed systems." },
-      { "code": "SVC-02", "title": "Web Development", "description": "High-performance web applications with modern technologies. React, Next.js, REST and GraphQL APIs." },
-      { "code": "SVC-03", "title": "Back-end Engineering", "description": "Critical business services in Rust, Node.js or Python. Performance optimisation, security and resilience." },
-      { "code": "SVC-04", "title": "Technical Consulting", "description": "Codebase audit, stack selection, architecture review. Supporting product and technical teams." },
-      { "code": "SVC-05", "title": "Integration & DevOps", "description": "CI/CD pipelines, Docker/Kubernetes containerisation, cloud deployment and application monitoring." },
-      { "code": "SVC-06", "title": "Custom Solutions", "description": "Development of business tools, automations, parsers, embedded systems and specialised CLIs." }
+      { "title": "Web Development", "description": "Websites and web apps for individuals and businesses. We deliver full source code or handle hosting via Vercel or custom infrastructure — your call.", "price": "On quote" },
+      { "title": "Smart Contract Audit", "description": "Security audit of your Solidity smart contracts. We identify vulnerabilities, logic flaws, and gas inefficiencies with a detailed report.", "price": "From $100" },
+      { "title": "Smart Contract Development", "description": "Custom Solidity smart contract development — tokens, NFTs, DeFi protocols, custom on-chain logic. Built secure from the ground up.", "price": "On quote" },
+      { "title": "Web3 Integration", "description": "Connect your existing website or app to the blockchain. Wallet connection, on-chain data, contract interaction — seamlessly integrated.", "price": "On quote" },
+      { "title": "Bots & Custom Apps", "description": "Discord bots, Telegram bots, blockchain bots, or any standalone GUI application. If it can be built, we build it.", "price": "On quote" },
+      { "title": "Billboard Marketing", "description": "Physical advertising across the United States through our private billboard network. Nationwide reach, targeted placement, high impact.", "price": "On quote" }
     ]
   },
   "about": {
     "sectionLabel": "Identity",
     "heading": "About",
-    "p1": "Core Control Unit is a French software engineering company built on a simple principle: deliver code that works, holds up, and adapts.",
-    "p2": "We work on complex projects — system architectures, critical applications, business tools — maintaining a senior approach with no unnecessary overhead.",
-    "p3": "Based in France, we work remotely with European and international teams, on a project basis or as reinforcement for existing teams.",
+    "p1": "Core Control Unit is a digital services company spanning web development, blockchain security, Web3 integration, custom software, and physical marketing across the United States.",
+    "p2": "We work directly with individuals, startups, and small businesses — no middleman, no overhead. You get clear communication, fast turnaround, and code you actually own.",
+    "p3": "Operating internationally with a remote-first approach, we handle projects end-to-end: from the first line of code to the billboard going live.",
     "values": [
       { "label": "Reliability", "desc": "Production code, not demos." },
       { "label": "Precision", "desc": "Explicit architecture, zero magic." },
@@ -65,9 +65,9 @@
     "heading": "Recent projects",
     "viewProject": "View project →",
     "items": [
-      { "code": "PRJ-01", "title": "SaaS Platform", "description": "Multi-tenant architecture with federated authentication, real-time dashboards and modular billing engine." },
-      { "code": "PRJ-02", "title": "Critical API", "description": "High-availability service handling 10M+ requests/day. Rust, Redis, PostgreSQL stack with 99.9% SLA." },
-      { "code": "PRJ-03", "title": "Business Tool", "description": "Complex workflow automation for an industrial SME. ERP data parsing, automated reporting and alerts." }
+      { "title": "DeFi Protocol Audit", "description": "Full Solidity audit of a lending protocol. Identified 3 critical vulnerabilities before mainnet launch, preventing potential loss of user funds." },
+      { "title": "E-commerce Web App", "description": "Next.js storefront with Stripe integration, custom CMS, and Vercel hosting. Delivered with full source code transfer to the client." },
+      { "title": "Blockchain Trading Bot", "description": "Automated on-chain bot monitoring DEX liquidity pools and executing trades based on configurable strategies. Built for a private client." }
     ]
   },
   "footer": {
