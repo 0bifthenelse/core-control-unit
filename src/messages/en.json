@@ -60,7 +60,78 @@
     "placeholderProject": "Describe your project, your current stack, your constraints...",
     "submit": "Send transmission"
   },
+  "projects": {
+    "sectionLabel": "Work",
+    "heading": "Recent projects",
+    "viewProject": "View project →",
+    "items": [
+      { "code": "PRJ-01", "title": "SaaS Platform", "description": "Multi-tenant architecture with federated authentication, real-time dashboards and modular billing engine." },
+      { "code": "PRJ-02", "title": "Critical API", "description": "High-availability service handling 10M+ requests/day. Rust, Redis, PostgreSQL stack with 99.9% SLA." },
+      { "code": "PRJ-03", "title": "Business Tool", "description": "Complex workflow automation for an industrial SME. ERP data parsing, automated reporting and alerts." }
+    ]
+  },
   "footer": {
-    "country": "France"
+    "country": "France",
+    "siretLabel": "SIRET",
+    "siretValue": "XXX XXX XXX XXXXX",
+    "phone": "+33 X XX XX XX XX",
+    "tagline": "Software engineering · France",
+    "linksLabel": "Links",
+    "legal": "Legal notice",
+    "rgpd": "GDPR contact",
+    "rights": "All rights reserved"
+  },
+  "cookies": {
+    "notice": "This site uses only essential technical cookies.",
+    "accept": "Got it"
+  },
+  "legal": {
+    "title": "Legal notice",
+    "editorTitle": "Site publisher",
+    "editorName": "Core Control Unit",
+    "editorType": "Simplified joint-stock company (SAS) with share capital of XXX €",
+    "editorActivity": "Business activity: computer programming, websites, and any application",
+    "editorSiret": "SIRET: XXX XXX XXX XXXXX",
+    "editorAddress": "Registered office: XXX, XXXXX, France",
+    "editorEmail": "Email: contact@corecontrolunit.fr",
+    "editorPhone": "Phone: +33 X XX XX XX XX",
+    "editorDirector": "Publication director: [First LAST]",
+    "hostingTitle": "Hosting",
+    "hostingName": "Host: [Hosting provider name]",
+    "hostingAddress": "Address: [Hosting provider address]",
+    "hostingContact": "Contact: [Hosting provider email or phone]",
+    "ipTitle": "Intellectual property",
+    "ipText": "All content on this site (texts, images, graphics, logo, icons, etc.) is the exclusive property of Core Control Unit, protected by French and international intellectual property laws. Any reproduction, distribution or use without prior authorisation is strictly prohibited.",
+    "dataTitle": "Personal data",
+    "dataText": "In accordance with the General Data Protection Regulation (GDPR — EU 2016/679) and the French Data Protection Act, you have the following rights regarding your personal data:",
+    "dataRights": [
+      "Right of access to your data",
+      "Right to rectification of your data",
+      "Right to erasure (right to be forgotten)",
+      "Right to data portability",
+      "Right to object to processing",
+      "Right to restriction of processing"
+    ],
+    "dataContact": "To exercise these rights, use the form below or contact us at contact@corecontrolunit.fr. We are committed to responding within 30 days.",
+    "dataLegal": "Legal basis for processing: legitimate interest (commercial contact form) and explicit consent (marketing communications).",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "This site does not use tracking or advertising cookies. Only strictly necessary technical cookies may be set. No data is shared with third parties for advertising purposes.",
+    "rgpdTitle": "Exercise your GDPR rights",
+    "rgpdSubtitle": "Use this form to exercise your rights regarding your personal data. We acknowledge receipt within 72h and process your request within 30 days.",
+    "rgpdPanelLabel": "GDPR FORM",
+    "rgpdLabelName": "Full name",
+    "rgpdPlaceholderName": "John Smith",
+    "rgpdLabelEmail": "Email",
+    "rgpdPlaceholderEmail": "john@example.com",
+    "rgpdLabelType": "Request type",
+    "rgpdTypeAccess": "Right of access",
+    "rgpdTypeRectification": "Right to rectification",
+    "rgpdTypeDeletion": "Right to erasure",
+    "rgpdTypePortability": "Right to portability",
+    "rgpdTypeOpposition": "Right to object",
+    "rgpdTypeLimitation": "Right to restriction",
+    "rgpdLabelMessage": "Details of your request",
+    "rgpdPlaceholderMessage": "Describe your request precisely...",
+    "rgpdSubmit": "Send request"
   }
 }

@@ -26,6 +26,7 @@ export async function HeroSection() {
 
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-24 text-center">
         <div className="flex items-center justify-center gap-3 mb-8">
+          <span className="w-1.5 h-1.5 rounded-full bg-[#4ade80] animate-pulse" />
           <div className="h-px w-12 bg-[#ff7d27]" />
           <span className="text-[10px] uppercase tracking-[0.3em] text-[#ff7d27]">
             {t("badge")}
@@ -35,22 +36,22 @@ export async function HeroSection() {
 
         <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-none mb-6">
           <span className="block text-[#e8eaf0]">CORE</span>
-          <span className="block text-[#ff7d27]">CONTROL</span>
+          <span className="block text-[#ff7d27]" style={{ textShadow: "0 0 40px rgba(255,125,39,0.45), 0 0 80px rgba(255,125,39,0.2)" }}>CONTROL</span>
           <span className="block text-[#e8eaf0]">UNIT</span>
         </h1>
 
         <AccentLine className="my-8 max-w-xs mx-auto" />
 
-        <p className="text-sm sm:text-base text-[#5a6070] max-w-xl mx-auto leading-relaxed mb-12 uppercase tracking-widest">
+        <p className="text-sm sm:text-base text-[#5a6070] max-w-xl mx-auto leading-relaxed mb-12">
           {t("tagline")}
           <br />
-          <span className="text-[#e8eaf0]">{t("taglineSub")}</span>
+          <span className="text-[#e8eaf0] text-base sm:text-lg font-medium">{t("taglineSub")}</span>
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="#services"
-            className="inline-flex items-center gap-3 bg-[#ff7d27] px-8 py-4 text-xs uppercase tracking-widest text-black font-bold hover:bg-[#e06b1a] transition-colors duration-200"
+            className="inline-flex items-center gap-3 bg-[#ff7d27] px-8 py-4 text-xs uppercase tracking-widest text-black font-bold hover:bg-[#e06b1a] transition-colors duration-200 shadow-[0_0_20px_rgba(255,125,39,0.35)]"
             style={{ clipPath: "polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px))" }}
           >
             {t("ctaPrimary")}
@@ -67,14 +68,14 @@ export async function HeroSection() {
           </a>
         </div>
 
-        <div className="mt-24 grid grid-cols-3 gap-4 max-w-lg mx-auto">
+        <div className="mt-24 grid grid-cols-3 gap-4 max-w-lg mx-auto border-t border-[#1e2330] pt-8">
           {[
             { value: "12+", label: t("stat1Label") },
             { value: "80+", label: t("stat2Label") },
             { value: "100%", label: t("stat3Label") },
           ].map(({ value, label }) => (
             <div key={label} className="text-center">
-              <div className="text-2xl font-bold text-[#ff7d27]">{value}</div>
+              <div className="text-3xl sm:text-4xl font-bold text-[#ff7d27]">{value}</div>
               <div className="text-[10px] uppercase tracking-widest text-[#5a6070] mt-1">{label}</div>
             </div>
           ))}

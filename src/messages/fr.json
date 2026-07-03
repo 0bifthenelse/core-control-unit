@@ -60,7 +60,78 @@
     "placeholderProject": "Décrivez votre projet, votre stack actuelle, vos contraintes...",
     "submit": "Envoyer la transmission"
   },
+  "projects": {
+    "sectionLabel": "Réalisations",
+    "heading": "Projets récents",
+    "viewProject": "Voir le projet →",
+    "items": [
+      { "code": "PRJ-01", "title": "Plateforme SaaS", "description": "Architecture multi-tenant avec authentification fédérée, tableaux de bord temps réel et moteur de facturation modulaire." },
+      { "code": "PRJ-02", "title": "API Critique", "description": "Service haute disponibilité traitant 10M+ requêtes/jour. Stack Rust, Redis, PostgreSQL avec SLA 99,9 %." },
+      { "code": "PRJ-03", "title": "Outil Métier", "description": "Automatisation de workflows complexes pour une PME industrielle. Parsing données ERP, reporting automatisé et alertes." }
+    ]
+  },
   "footer": {
-    "country": "France"
+    "country": "France",
+    "siretLabel": "SIRET",
+    "siretValue": "XXX XXX XXX XXXXX",
+    "phone": "+33 X XX XX XX XX",
+    "tagline": "Ingénierie logicielle · France",
+    "linksLabel": "Liens",
+    "legal": "Mentions légales",
+    "rgpd": "Contact RGPD",
+    "rights": "Tous droits réservés"
+  },
+  "cookies": {
+    "notice": "Ce site n'utilise que des cookies techniques essentiels.",
+    "accept": "Compris"
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "editorTitle": "Éditeur du site",
+    "editorName": "Core Control Unit",
+    "editorType": "Société par actions simplifiée (SAS) au capital de XXX €",
+    "editorActivity": "Activité : programmation informatique, sites web et toute application",
+    "editorSiret": "SIRET : XXX XXX XXX XXXXX",
+    "editorAddress": "Siège social : XXX, XXXXX, France",
+    "editorEmail": "Email : contact@corecontrolunit.fr",
+    "editorPhone": "Téléphone : +33 X XX XX XX XX",
+    "editorDirector": "Directeur de la publication : [Prénom NOM]",
+    "hostingTitle": "Hébergement",
+    "hostingName": "Hébergeur : [Nom de l'hébergeur]",
+    "hostingAddress": "Adresse : [Adresse de l'hébergeur]",
+    "hostingContact": "Contact : [Email ou téléphone de l'hébergeur]",
+    "ipTitle": "Propriété intellectuelle",
+    "ipText": "L'ensemble des contenus présents sur ce site (textes, images, graphismes, logo, icônes, etc.) est la propriété exclusive de Core Control Unit, protégée par les lois françaises et internationales relatives à la propriété intellectuelle. Toute reproduction, diffusion ou utilisation sans autorisation préalable est strictement interdite.",
+    "dataTitle": "Données personnelles",
+    "dataText": "Conformément au Règlement Général sur la Protection des Données (RGPD — UE 2016/679) et à la loi Informatique et Libertés, vous disposez des droits suivants concernant vos données personnelles :",
+    "dataRights": [
+      "Droit d'accès à vos données",
+      "Droit de rectification de vos données",
+      "Droit à l'effacement (droit à l'oubli)",
+      "Droit à la portabilité des données",
+      "Droit d'opposition au traitement",
+      "Droit à la limitation du traitement"
+    ],
+    "dataContact": "Pour exercer ces droits, utilisez le formulaire ci-dessous ou contactez-nous à contact@corecontrolunit.fr. Nous nous engageons à répondre dans un délai de 30 jours.",
+    "dataLegal": "Base légale du traitement : intérêt légitime (formulaire de contact commercial) et consentement explicite (communications marketing).",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Ce site n'utilise pas de cookies de traçage ou publicitaires. Seuls des cookies techniques strictement nécessaires au fonctionnement du site peuvent être déposés. Aucune donnée n'est partagée avec des tiers à des fins publicitaires.",
+    "rgpdTitle": "Exercer vos droits RGPD",
+    "rgpdSubtitle": "Utilisez ce formulaire pour exercer vos droits relatifs à vos données personnelles. Nous accusons réception sous 72h et traitons votre demande dans un délai de 30 jours.",
+    "rgpdPanelLabel": "FORMULAIRE RGPD",
+    "rgpdLabelName": "Nom complet",
+    "rgpdPlaceholderName": "Jean Dupont",
+    "rgpdLabelEmail": "Email",
+    "rgpdPlaceholderEmail": "jean@exemple.fr",
+    "rgpdLabelType": "Type de demande",
+    "rgpdTypeAccess": "Droit d'accès",
+    "rgpdTypeRectification": "Droit de rectification",
+    "rgpdTypeDeletion": "Droit à l'effacement",
+    "rgpdTypePortability": "Droit à la portabilité",
+    "rgpdTypeOpposition": "Droit d'opposition",
+    "rgpdTypeLimitation": "Droit à la limitation",
+    "rgpdLabelMessage": "Détail de votre demande",
+    "rgpdPlaceholderMessage": "Décrivez précisément votre demande...",
+    "rgpdSubmit": "Envoyer la demande"
   }
 }

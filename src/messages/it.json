@@ -60,7 +60,78 @@
     "placeholderProject": "Descrivi il tuo progetto, il tuo stack attuale, i tuoi vincoli...",
     "submit": "Invia trasmissione"
   },
+  "projects": {
+    "sectionLabel": "Lavori",
+    "heading": "Progetti recenti",
+    "viewProject": "Vedi progetto →",
+    "items": [
+      { "code": "PRJ-01", "title": "Piattaforma SaaS", "description": "Architettura multi-tenant con autenticazione federata, dashboard in tempo reale e motore di fatturazione modulare." },
+      { "code": "PRJ-02", "title": "API Critica", "description": "Servizio ad alta disponibilità che gestisce 10M+ richieste/giorno. Stack Rust, Redis, PostgreSQL con SLA 99,9 %." },
+      { "code": "PRJ-03", "title": "Strumento Aziendale", "description": "Automazione di workflow complessi per una PMI industriale. Parsing dati ERP, reportistica automatizzata e alert." }
+    ]
+  },
   "footer": {
-    "country": "Francia"
+    "country": "Francia",
+    "siretLabel": "SIRET",
+    "siretValue": "XXX XXX XXX XXXXX",
+    "phone": "+33 X XX XX XX XX",
+    "tagline": "Ingegneria del software · Francia",
+    "linksLabel": "Link",
+    "legal": "Note legali",
+    "rgpd": "Contatto RGPD",
+    "rights": "Tutti i diritti riservati"
+  },
+  "cookies": {
+    "notice": "Questo sito utilizza solo cookie tecnici essenziali.",
+    "accept": "Capito"
+  },
+  "legal": {
+    "title": "Note legali",
+    "editorTitle": "Editore del sito",
+    "editorName": "Core Control Unit",
+    "editorType": "Società per azioni semplificata (SAS) con capitale di XXX €",
+    "editorActivity": "Attività: programmazione informatica, siti web e qualsiasi applicazione",
+    "editorSiret": "SIRET: XXX XXX XXX XXXXX",
+    "editorAddress": "Sede legale: XXX, XXXXX, Francia",
+    "editorEmail": "Email: contact@corecontrolunit.fr",
+    "editorPhone": "Telefono: +33 X XX XX XX XX",
+    "editorDirector": "Direttore della pubblicazione: [Nome COGNOME]",
+    "hostingTitle": "Hosting",
+    "hostingName": "Fornitore: [Nome del fornitore di hosting]",
+    "hostingAddress": "Indirizzo: [Indirizzo del fornitore di hosting]",
+    "hostingContact": "Contatto: [Email o telefono del fornitore]",
+    "ipTitle": "Proprietà intellettuale",
+    "ipText": "Tutti i contenuti presenti su questo sito (testi, immagini, grafica, logo, icone, ecc.) sono di proprietà esclusiva di Core Control Unit, protetti dalle leggi francesi e internazionali sulla proprietà intellettuale. Qualsiasi riproduzione, distribuzione o utilizzo senza autorizzazione previa è strettamente vietato.",
+    "dataTitle": "Dati personali",
+    "dataText": "In conformità con il Regolamento Generale sulla Protezione dei Dati (RGPD — UE 2016/679) e la normativa francese applicabile, disponi dei seguenti diritti in merito ai tuoi dati personali:",
+    "dataRights": [
+      "Diritto di accesso ai tuoi dati",
+      "Diritto di rettifica dei tuoi dati",
+      "Diritto alla cancellazione (diritto all'oblio)",
+      "Diritto alla portabilità dei dati",
+      "Diritto di opposizione al trattamento",
+      "Diritto alla limitazione del trattamento"
+    ],
+    "dataContact": "Per esercitare questi diritti, utilizza il modulo sottostante o contattaci a contact@corecontrolunit.fr. Ci impegniamo a rispondere entro 30 giorni.",
+    "dataLegal": "Base giuridica del trattamento: interesse legittimo (modulo di contatto commerciale) e consenso esplicito (comunicazioni di marketing).",
+    "cookiesTitle": "Cookie",
+    "cookiesText": "Questo sito non utilizza cookie di tracciamento o pubblicitari. Possono essere depositati solo cookie tecnici strettamente necessari al funzionamento del sito. Nessun dato viene condiviso con terze parti a fini pubblicitari.",
+    "rgpdTitle": "Esercita i tuoi diritti RGPD",
+    "rgpdSubtitle": "Utilizza questo modulo per esercitare i tuoi diritti relativi ai tuoi dati personali. Confermiamo la ricezione entro 72h e trattiamo la tua richiesta entro 30 giorni.",
+    "rgpdPanelLabel": "MODULO RGPD",
+    "rgpdLabelName": "Nome completo",
+    "rgpdPlaceholderName": "Mario Rossi",
+    "rgpdLabelEmail": "Email",
+    "rgpdPlaceholderEmail": "mario@esempio.it",
+    "rgpdLabelType": "Tipo di richiesta",
+    "rgpdTypeAccess": "Diritto di accesso",
+    "rgpdTypeRectification": "Diritto di rettifica",
+    "rgpdTypeDeletion": "Diritto alla cancellazione",
+    "rgpdTypePortability": "Diritto alla portabilità",
+    "rgpdTypeOpposition": "Diritto di opposizione",
+    "rgpdTypeLimitation": "Diritto alla limitazione",
+    "rgpdLabelMessage": "Dettaglio della tua richiesta",
+    "rgpdPlaceholderMessage": "Descrivi con precisione la tua richiesta...",
+    "rgpdSubmit": "Invia richiesta"
   }
 }
