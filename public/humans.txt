@@ -1,0 +1,9 @@
+/* TEAM */
+Developer: 0bifthenelse
+GitHub: https://github.com/0bifthenelse
+
+/* SITE */
+Last update: 2026
+Language: French
+Standards: HTML5, CSS3
+Components: Next.js, React, TypeScript, Tailwind CSS
