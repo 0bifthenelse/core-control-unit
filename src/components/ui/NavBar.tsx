@@ -1,8 +1,28 @@
 "use client";
 
-import Link from "next/link";
+import { Link as LocaleLink } from "@/i18n/navigation";
 import { useState } from "react";
 import { LanguageSelector } from "./LanguageSelector";
+
+function NavLinkItem({ href, className, onClick, children }: {
+  href: string;
+  className: string;
+  onClick?: () => void;
+  children: React.ReactNode;
+}) {
+  if (href.startsWith("#")) {
+    return (
+      <a href={href} className={className} onClick={onClick}>
+        {children}
+      </a>
+    );
+  }
+  return (
+    <LocaleLink href={href} className={className} onClick={onClick}>
+      {children}
+    </LocaleLink>
+  );
+}
 
 type NavLink = { href: string; label: string };
 
@@ -18,22 +38,22 @@ export function NavBar({ links, cta, locale }: NavBarProps) {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-[#1e2330] bg-[#0d0f12]/90 backdrop-blur-sm">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <Link href="/" className="flex items-center gap-2">
+        <LocaleLink href="/" className="flex items-center gap-2">
           <span className="text-[#ff7d27] font-bold text-sm tracking-widest uppercase">CCU</span>
           <span className="text-[#5a6070] text-xs tracking-widest uppercase hidden sm:inline">
             Core Control Unit
           </span>
-        </Link>
+        </LocaleLink>
 
         <ul className="hidden md:flex items-center gap-8">
           {links.map(({ href, label }) => (
             <li key={href}>
-              <a
+              <NavLinkItem
                 href={href}
                 className="text-xs uppercase tracking-widest text-[#5a6070] hover:text-[#ff7d27] transition-colors duration-200"
               >
                 {label}
-              </a>
+              </NavLinkItem>
             </li>
           ))}
         </ul>
@@ -77,13 +97,13 @@ export function NavBar({ links, cta, locale }: NavBarProps) {
           <ul className="flex flex-col gap-4 mb-4">
             {links.map(({ href, label }) => (
               <li key={href}>
-                <a
+                <NavLinkItem
                   href={href}
                   className="text-xs uppercase tracking-widest text-[#5a6070] hover:text-[#ff7d27] transition-colors"
                   onClick={() => setOpen(false)}
                 >
                   {label}
-                </a>
+                </NavLinkItem>
               </li>
             ))}
           </ul>

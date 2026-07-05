@@ -69,10 +69,15 @@
     "sectionLabel": "Réalisations",
     "heading": "Projets récents",
     "viewProject": "Voir le projet →",
+    "viewAll": "Voir tous les projets →",
+    "detailSubtitle": "Un aperçu détaillé de quelques projets livrés de bout en bout.",
+    "backToHome": "← Retour à l'accueil",
+    "visitProject": "Voir le projet en ligne",
+    "comingSoon": "Lien en ligne bientôt disponible",
     "items": [
-      { "title": "Campagne d'affichage USA", "description": "Campagne d'affichage nationale pour une marque grand public : placement coordonné dans 12 États, gérée de bout en bout, de la création graphique aux panneaux en ligne." },
-      { "title": "Application E-commerce", "description": "Boutique Next.js avec intégration Stripe, CMS personnalisé et hébergement Vercel. Livré avec transfert complet du code source au client." },
-      { "title": "Bot Discord Communautaire", "description": "Bot sur mesure gérant une communauté de 20 000 membres : onboarding automatisé, outils de modération et notifications d'événements en direct. Développé pour un client privé." }
+      { "id": "us-billboard-campaign", "title": "Campagne d'affichage USA", "description": "Campagne d'affichage nationale pour une marque grand public : placement coordonné dans 12 États, gérée de bout en bout, de la création graphique aux panneaux en ligne.", "longDescription": "Une marque grand public souhaitait une présence physique à travers les États-Unis sans gérer une dizaine de prestataires régionaux. Nous avons piloté la campagne de bout en bout : direction créative, conception des panneaux, négociation des emplacements dans 12 États, et suivi en direct une fois les panneaux installés. Un seul interlocuteur, une seule facture, un calendrier coordonné sur tous les marchés." },
+      { "id": "ecommerce-web-app", "title": "Application E-commerce", "description": "Boutique Next.js avec intégration Stripe, CMS personnalisé et hébergement Vercel. Livré avec transfert complet du code source au client.", "longDescription": "Un commerçant en croissance devait quitter une plateforme SaaS trop rigide pour quelque chose qu'il possède réellement. Nous avons développé une boutique Next.js avec Stripe Checkout, un CMS sur mesure léger pour la gestion des produits et des stocks, déployée sur Vercel. Le code source complet a été transféré à la livraison, sans dépendance à un prestataire." },
+      { "id": "community-discord-bot", "title": "Bot Discord Communautaire", "description": "Bot sur mesure gérant une communauté de 20 000 membres : onboarding automatisé, outils de modération et notifications d'événements en direct. Développé pour un client privé.", "longDescription": "Une communauté Discord de 20 000 membres dépassait les capacités d'une modération manuelle. Nous avons développé un bot sur mesure gérant l'onboarding automatisé, l'application des règles et les outils de modération, ainsi que les notifications d'événements en direct, adapté au fonctionnement précis de cette communauté plutôt qu'un bot générique." }
     ]
   },
   "footer": {

@@ -6,7 +6,7 @@ export async function NavBarServer() {
   const locale = await getLocale();
   const links = [
     { href: "#services", label: t("services") },
-    { href: "#projets", label: t("projects") },
+    { href: "/projects", label: t("projects") },
     { href: "#apropos", label: t("about") },
     { href: "#contact", label: t("contact") },
   ];

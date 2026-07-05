@@ -26,6 +26,14 @@ export async function HeroSection() {
             animationDuration: "6s",
           }}
         />
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "radial-gradient(ellipse 60% 40% at 50% 100%, rgba(255,125,39,0.06) 0%, transparent 70%)",
+          }}
+        />
+        <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse 100% 100% at 50% 50%, transparent 40%, rgba(13,15,18,0.6) 100%)" }} />
       </div>
 
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-24 text-center">
@@ -38,7 +46,7 @@ export async function HeroSection() {
           <div className="h-px w-12 bg-[#ff7d27]" />
         </div>
 
-        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-none mb-6">
+        <h1 className="text-3xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-none mb-6">
           <span className="block text-[#e8eaf0]">CORE</span>
           <span className="block text-[#ff7d27]" style={{ textShadow: "0 0 40px rgba(255,125,39,0.45), 0 0 80px rgba(255,125,39,0.2)" }}>CONTROL</span>
           <span className="block text-[#e8eaf0]">UNIT</span>

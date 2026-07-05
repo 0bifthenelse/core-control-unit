@@ -69,10 +69,15 @@
     "sectionLabel": "Lavori",
     "heading": "Progetti recenti",
     "viewProject": "Vedi progetto →",
+    "viewAll": "Vedi tutti i progetti →",
+    "detailSubtitle": "Uno sguardo più da vicino ad alcuni progetti consegnati dall'inizio alla fine.",
+    "backToHome": "← Torna alla home",
+    "visitProject": "Vedi il progetto live",
+    "comingSoon": "Link live in arrivo",
     "items": [
-      { "title": "Campagna Cartelloni USA", "description": "Campagna di cartelloni su scala nazionale per un marchio di consumo: posizionamento coordinato in 12 stati, gestita dall'inizio alla fine, dal design grafico ai cartelloni attivi." },
-      { "title": "App E-commerce", "description": "Vetrina Next.js con integrazione Stripe, CMS personalizzato e hosting su Vercel. Consegnata con trasferimento completo del codice sorgente al cliente." },
-      { "title": "Bot Discord per Community", "description": "Bot su misura che gestisce una community di 20.000 membri: onboarding automatizzato, strumenti di moderazione e notifiche di eventi in diretta. Sviluppato per un cliente privato." }
+      { "id": "us-billboard-campaign", "title": "Campagna Cartelloni USA", "description": "Campagna di cartelloni su scala nazionale per un marchio di consumo: posizionamento coordinato in 12 stati, gestita dall'inizio alla fine, dal design grafico ai cartelloni attivi.", "longDescription": "Un marchio di consumo voleva una presenza fisica in tutti gli Stati Uniti senza gestire una decina di fornitori regionali. Abbiamo seguito la campagna dall'inizio alla fine: direzione creativa, design dei cartelloni, negoziazione degli spazi in 12 stati e monitoraggio in diretta una volta installati. Un unico referente, un'unica fattura, tempistiche coordinate su tutti i mercati." },
+      { "id": "ecommerce-web-app", "title": "App E-commerce", "description": "Vetrina Next.js con integrazione Stripe, CMS personalizzato e hosting su Vercel. Consegnata con trasferimento completo del codice sorgente al cliente.", "longDescription": "Un rivenditore in crescita doveva lasciare una piattaforma SaaS troppo rigida per qualcosa che possedesse realmente. Abbiamo costruito una vetrina Next.js con Stripe Checkout, un CMS personalizzato leggero per la gestione di prodotti e inventario, distribuita su Vercel. Il codice sorgente completo è stato consegnato al cliente, senza vincoli verso terzi." },
+      { "id": "community-discord-bot", "title": "Bot Discord per Community", "description": "Bot su misura che gestisce una community di 20.000 membri: onboarding automatizzato, strumenti di moderazione e notifiche di eventi in diretta. Sviluppato per un cliente privato.", "longDescription": "Una community Discord di 20.000 membri superava le capacità della moderazione manuale. Abbiamo sviluppato un bot su misura che gestisce onboarding automatizzato, applicazione delle regole e strumenti di moderazione, oltre a notifiche di eventi in diretta, adattato al funzionamento specifico di questa community invece di un bot generico." }
     ]
   },
   "footer": {

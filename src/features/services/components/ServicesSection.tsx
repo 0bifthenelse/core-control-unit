@@ -35,7 +35,7 @@ export async function ServicesSection() {
           {items.map(({ title, description, price }, i) => (
             <HudPanel
               key={title}
-              className={`p-6 transition-all duration-300 group ${
+              className={`p-6 transition-all duration-300 group hover:-translate-y-1 ${
                 i === 1
                   ? "border-[#ff7d27]/50 shadow-[0_0_24px_rgba(255,125,39,0.12)] hover:border-[#ff7d27]"
                   : "hover:border-[#ff7d27]/70 hover:shadow-[0_0_16px_rgba(255,125,39,0.08)]"

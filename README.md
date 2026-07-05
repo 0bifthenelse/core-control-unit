@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Core Control Unit
 
-## Getting Started
+Marketing and lead-generation website for Core Control Unit, a software engineering and digital services company. The site presents the company's services (web development, billboard marketing, custom apps/bots, and blockchain/Solidity work), a project showcase, and a GDPR-compliant contact flow, in four languages.
 
-First, run the development server:
+Live domain: `ccunit.com`.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Stack
+
+- **Next.js 16** (App Router), **React 19**, **TypeScript**
+- **Tailwind CSS v4** for styling
+- **next-intl 4** for internationalisation and locale-aware routing
+- **Playwright** for end-to-end/visual checks
+
+No database, CMS, or backend services — the site is fully static/server-rendered content sourced from local i18n message files.
+
+## Internationalisation
+
+Locales: `fr` (default), `en`, `es`, `it`, configured in `src/i18n/routing.ts`. Every route is nested under a `[locale]` segment (`src/app/[locale]`); `src/proxy.ts` handles locale negotiation/redirects. All page copy lives in `src/messages/{locale}.json`, loaded per-request via `next-intl/server`.
+
+## Architecture
+
+Feature-first organisation:
+
+```
+src/
+  app/[locale]/          route segments (home, /projects, /mentions-legales)
+  features/<feature>/    one folder per page section (hero, services, projects, about, contact, cookies, legal)
+    components/
+  components/ui/         shared design-system primitives (HudPanel, AccentLine, NavBarServer, Footer, StickyContact, LanguageSelector)
+  i18n/                  next-intl routing/navigation/request config
+  messages/              {fr,en,es,it}.json translation content
+  styles/                global styles
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Each feature exposes a server component (e.g. `HeroSection`, `ServicesSection`, `ProjectsSection`) that fetches its own translations via `getTranslations()` and is composed into pages in `src/app/[locale]`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Routes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/{locale}` — single-page homepage: Hero, Services, Projects (teaser), About, Contact.
+- `/{locale}/projects` — full project showcase with extended descriptions, screenshots, and links.
+- `/{locale}/mentions-legales` — French legal notice / GDPR rights page.
 
-## Learn More
+## Design system
 
-To learn more about Next.js, take a look at the following resources:
+Dark, HUD/technical aesthetic built on a three-color palette (`#0d0f12` background, `#e8eaf0` text, `#ff7d27` accent). Angular clip-path panels (`HudPanel`) and accent underlines (`AccentLine`) are the two recurring structural primitives; everything else is plain Tailwind utility classes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Getting started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm install
+npm run dev
+```
 
-## Deploy on Vercel
+Open [http://localhost:3000](http://localhost:3000).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Command           | Description                        |
+| ------------------ | ----------------------------------- |
+| `npm run dev`       | Start the development server        |
+| `npm run build`     | Production build                    |
+| `npm run start`     | Serve the production build          |
+| `npm run lint`      | Run ESLint                          |
+
+## Deployment
+
+Vercel-ready out of the box — no additional configuration required beyond a standard Next.js deployment.
