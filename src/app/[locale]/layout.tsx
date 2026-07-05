@@ -41,7 +41,7 @@ export async function generateMetadata({
     openGraph: {
       title: t("title"),
       description: t("description"),
-      url: `https://corecontrolunit.fr/${locale}`,
+      url: `https://ccunit.com/${locale}`,
       siteName: "Core Control Unit",
       locale: ogLocaleMap[locale] ?? "fr_FR",
       type: "website",
@@ -53,12 +53,12 @@ export async function generateMetadata({
     },
     robots: { index: true, follow: true },
     alternates: {
-      canonical: `https://corecontrolunit.fr/${locale}`,
+      canonical: `https://ccunit.com/${locale}`,
       languages: {
-        fr: "https://corecontrolunit.fr/fr",
-        en: "https://corecontrolunit.fr/en",
-        es: "https://corecontrolunit.fr/es",
-        it: "https://corecontrolunit.fr/it",
+        fr: "https://ccunit.com/fr",
+        en: "https://ccunit.com/en",
+        es: "https://ccunit.com/es",
+        it: "https://ccunit.com/it",
       },
     },
   };

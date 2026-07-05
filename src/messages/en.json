@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Core Control Unit — Engineering & Digital Solutions",
+    "title": "Core Control Unit | Engineering & Digital Solutions",
     "description": "Core Control Unit is a French software engineering company specialising in system architecture and custom digital solutions."
   },
   "nav": {
@@ -11,34 +11,38 @@
     "cta": "Start"
   },
   "hero": {
-    "badge": "System active — v1.0.0",
-    "tagline": "Web · Blockchain · Marketing",
-    "taglineSub": "Custom digital solutions — worldwide",
-    "ctaPrimary": "Our services",
-    "ctaSecondary": "Start a project",
+    "badge": "Available for new projects",
+    "tagline": "Websites, apps & nationwide advertising",
+    "taglineSub": "We design and build the websites and apps your business runs on, and put your brand on billboards across the US.",
+    "email": "contact@ccunit.com",
+    "pill1": "Web Development",
+    "pill2": "Billboard Marketing",
+    "pill3": "Custom Apps",
+    "ctaPrimary": "Start your project",
+    "ctaSecondary": "See our services",
     "scroll": "Scroll",
-    "stat1Label": "Years of experience",
-    "stat2Label": "Projects delivered",
-    "stat3Label": "Proprietary code"
+    "stat1Label": "Years building",
+    "stat2Label": "Projects shipped",
+    "stat3Label": "Code you own"
   },
   "services": {
     "sectionLabel": "Catalogue",
     "heading": "Services",
-    "subtitle": "From websites to blockchain security and nationwide billboard campaigns — we cover the full spectrum.",
+    "subtitle": "From custom websites to nationwide billboard campaigns and bespoke apps. We build, ship, and get your brand seen.",
     "items": [
-      { "title": "Web Development", "description": "Websites and web apps for individuals and businesses. We deliver full source code or handle hosting via Vercel or custom infrastructure — your call.", "price": "On quote" },
+      { "title": "Web Development", "description": "Websites and web apps for individuals and businesses. We deliver full source code or handle hosting via Vercel or custom infrastructure. Your call.", "price": "On quote" },
+      { "title": "Billboard Marketing", "description": "Physical advertising across the United States through our private billboard network. Nationwide reach, targeted placement, high impact.", "price": "On quote" },
+      { "title": "Bots & Custom Apps", "description": "Discord bots, Telegram bots, and standalone desktop applications tailored to your workflow. If it can be built, we build it.", "price": "On quote" },
       { "title": "Smart Contract Audit", "description": "Security audit of your Solidity smart contracts. We identify vulnerabilities, logic flaws, and gas inefficiencies with a detailed report.", "price": "From $100" },
-      { "title": "Smart Contract Development", "description": "Custom Solidity smart contract development — tokens, NFTs, DeFi protocols, custom on-chain logic. Built secure from the ground up.", "price": "On quote" },
-      { "title": "Web3 Integration", "description": "Connect your existing website or app to the blockchain. Wallet connection, on-chain data, contract interaction — seamlessly integrated.", "price": "On quote" },
-      { "title": "Bots & Custom Apps", "description": "Discord bots, Telegram bots, blockchain bots, or any standalone GUI application. If it can be built, we build it.", "price": "On quote" },
-      { "title": "Billboard Marketing", "description": "Physical advertising across the United States through our private billboard network. Nationwide reach, targeted placement, high impact.", "price": "On quote" }
+      { "title": "Smart Contract Development", "description": "Custom Solidity smart contract development: tokens, NFTs, DeFi protocols, custom on-chain logic. Built secure from the ground up.", "price": "On quote" },
+      { "title": "Web3 Integration", "description": "Connect your existing website or app to the blockchain. Wallet connection, on-chain data, contract interaction, seamlessly integrated.", "price": "On quote" }
     ]
   },
   "about": {
     "sectionLabel": "Identity",
     "heading": "About",
-    "p1": "Core Control Unit is a digital services company spanning web development, blockchain security, Web3 integration, custom software, and physical marketing across the United States.",
-    "p2": "We work directly with individuals, startups, and small businesses — no middleman, no overhead. You get clear communication, fast turnaround, and code you actually own.",
+    "p1": "Core Control Unit is a digital services company spanning web development, custom software, and physical billboard marketing across the United States, with blockchain expertise on hand when a project calls for it.",
+    "p2": "We work directly with individuals, startups, and small businesses. No middleman, no overhead. You get clear communication, fast turnaround, and code you actually own.",
     "p3": "Operating internationally with a remote-first approach, we handle projects end-to-end: from the first line of code to the billboard going live.",
     "values": [
       { "label": "Reliability", "desc": "Production code, not demos." },
@@ -51,6 +55,7 @@
     "sectionLabel": "Transmission",
     "heading": "Start a project",
     "subtitle": "Describe your project. We respond within 48h.",
+    "floating": "Contact us",
     "panelLabel": "CONTACT FORM",
     "labelName": "Full name",
     "placeholderName": "John Smith",
@@ -65,9 +70,9 @@
     "heading": "Recent projects",
     "viewProject": "View project →",
     "items": [
-      { "title": "DeFi Protocol Audit", "description": "Full Solidity audit of a lending protocol. Identified 3 critical vulnerabilities before mainnet launch, preventing potential loss of user funds." },
+      { "title": "US Billboard Campaign", "description": "Nationwide billboard campaign for a consumer brand: coordinated placement across 12 states, handled end-to-end from creative design to live boards." },
       { "title": "E-commerce Web App", "description": "Next.js storefront with Stripe integration, custom CMS, and Vercel hosting. Delivered with full source code transfer to the client." },
-      { "title": "Blockchain Trading Bot", "description": "Automated on-chain bot monitoring DEX liquidity pools and executing trades based on configurable strategies. Built for a private client." }
+      { "title": "Community Discord Bot", "description": "Custom bot managing a 20k-member community: automated onboarding, moderation tools, and live event notifications. Built for a private client." }
     ]
   },
   "footer": {
@@ -93,7 +98,7 @@
     "editorActivity": "Business activity: computer programming, websites, and any application",
     "editorSiret": "SIRET: XXX XXX XXX XXXXX",
     "editorAddress": "Registered office: XXX, XXXXX, France",
-    "editorEmail": "Email: contact@corecontrolunit.fr",
+    "editorEmail": "Email: contact@ccunit.com",
     "editorPhone": "Phone: +33 X XX XX XX XX",
     "editorDirector": "Publication director: [First LAST]",
     "hostingTitle": "Hosting",
@@ -112,7 +117,7 @@
       "Right to object to processing",
       "Right to restriction of processing"
     ],
-    "dataContact": "To exercise these rights, use the form below or contact us at contact@corecontrolunit.fr. We are committed to responding within 30 days.",
+    "dataContact": "To exercise these rights, use the form below or contact us at contact@ccunit.com. We are committed to responding within 30 days.",
     "dataLegal": "Legal basis for processing: legitimate interest (commercial contact form) and explicit consent (marketing communications).",
     "cookiesTitle": "Cookies",
     "cookiesText": "This site does not use tracking or advertising cookies. Only strictly necessary technical cookies may be set. No data is shared with third parties for advertising purposes.",

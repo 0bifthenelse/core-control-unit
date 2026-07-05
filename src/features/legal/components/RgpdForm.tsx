@@ -36,7 +36,7 @@ export function RgpdForm({
   return (
     <HudPanel label={panelLabel} className="p-8">
       <form
-        action="mailto:contact@corecontrolunit.fr"
+        action="mailto:contact@ccunit.com"
         method="post"
         encType="text/plain"
         className="space-y-5"

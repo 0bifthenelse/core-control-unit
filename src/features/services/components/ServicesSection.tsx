@@ -4,6 +4,15 @@ import { AccentLine } from "@/components/ui/AccentLine";
 
 type ServiceItem = { title: string; description: string; price: string };
 
+const ICONS = [
+  <path key="web" d="M2 5h20v14H2zM2 9h20M6 13h6M6 16h4" />,
+  <path key="billboard" d="M3 4h18v10H3zM7 14v6M17 14v6M2 20h20" />,
+  <path key="app" d="M9 3H4v5M20 9V4h-5M4 16v5h5M15 21h5v-5M8 12l3 3 5-6" />,
+  <path key="shield" d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z M9 12l2 2 4-4" />,
+  <path key="code" d="M8 6l-6 6 6 6M16 6l6 6-6 6M13 4l-2 16" />,
+  <path key="web3" d="M9 12a5 5 0 015-5h1a4 4 0 010 8h-1M15 12a5 5 0 01-5 5H9a4 4 0 010-8h1" />,
+];
+
 export async function ServicesSection() {
   const t = await getTranslations("services");
   const items = t.raw("items") as ServiceItem[];
@@ -23,10 +32,28 @@ export async function ServicesSection() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {items.map(({ title, description, price }) => (
-            <HudPanel key={title} className="p-6 hover:border-[#ff7d27]/70 hover:shadow-[0_0_16px_rgba(255,125,39,0.08)] transition-all duration-300 group">
-              <div className="mb-4">
-                <div className="w-8 h-0.5 bg-[#ff7d27] opacity-60" />
+          {items.map(({ title, description, price }, i) => (
+            <HudPanel
+              key={title}
+              className={`p-6 transition-all duration-300 group ${
+                i === 1
+                  ? "border-[#ff7d27]/50 shadow-[0_0_24px_rgba(255,125,39,0.12)] hover:border-[#ff7d27]"
+                  : "hover:border-[#ff7d27]/70 hover:shadow-[0_0_16px_rgba(255,125,39,0.08)]"
+              }`}
+            >
+              <div className="mb-4 text-[#ff7d27]">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  {ICONS[i]}
+                </svg>
               </div>
               <h3 className="text-sm font-bold uppercase tracking-wider text-[#e8eaf0] mb-3">{title}</h3>
               <p className="text-xs text-[#5a6070] leading-relaxed">{description}</p>

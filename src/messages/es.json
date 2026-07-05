@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Core Control Unit — Ingeniería & Soluciones Digitales",
+    "title": "Core Control Unit | Ingeniería & Soluciones Digitales",
     "description": "Core Control Unit es una empresa francesa de ingeniería de software especializada en arquitectura de sistemas y soluciones digitales a medida."
   },
   "nav": {
@@ -11,34 +11,38 @@
     "cta": "Empezar"
   },
   "hero": {
-    "badge": "Sistema activo — v1.0.0",
-    "tagline": "Web · Blockchain · Marketing",
-    "taglineSub": "Soluciones digitales a medida — internacional",
-    "ctaPrimary": "Nuestros servicios",
-    "ctaSecondary": "Iniciar un proyecto",
+    "badge": "Disponibles para nuevos proyectos",
+    "tagline": "Sitios web, apps y publicidad a nivel nacional",
+    "taglineSub": "Diseñamos y construimos los sitios web y las apps que tu negocio necesita, y ponemos tu marca en vallas por todo Estados Unidos.",
+    "email": "contact@ccunit.com",
+    "pill1": "Desarrollo Web",
+    "pill2": "Marketing en Vallas",
+    "pill3": "Apps a medida",
+    "ctaPrimary": "Inicia tu proyecto",
+    "ctaSecondary": "Ver nuestros servicios",
     "scroll": "Desplazar",
-    "stat1Label": "Años de experiencia",
+    "stat1Label": "Años activos",
     "stat2Label": "Proyectos entregados",
-    "stat3Label": "Código propietario"
+    "stat3Label": "Código que es tuyo"
   },
   "services": {
     "sectionLabel": "Catálogo",
     "heading": "Servicios",
-    "subtitle": "Desde desarrollo web hasta seguridad blockchain y campañas de publicidad exterior en EE. UU. — un espectro completo.",
+    "subtitle": "Desde sitios web a medida hasta campañas de vallas en todo EE. UU. y aplicaciones personalizadas. Construimos, lanzamos y hacemos que se vea tu marca.",
     "items": [
       { "title": "Desarrollo Web", "description": "Sitios y aplicaciones web para particulares y empresas. Entregamos el código fuente completo o nos encargamos del hosting con Vercel o infraestructura personalizada.", "price": "A consultar" },
+      { "title": "Marketing en Vallas (EE. UU.)", "description": "Publicidad física en todo Estados Unidos a través de nuestra red privada de vallas publicitarias. Cobertura nacional, ubicación estratégica, alto impacto.", "price": "A consultar" },
+      { "title": "Bots & Aplicaciones", "description": "Bots de Discord, Telegram y software de escritorio autónomo adaptado a tu actividad. Si se puede construir, lo construimos.", "price": "A consultar" },
       { "title": "Auditoría de Smart Contract", "description": "Auditoría de seguridad de tus smart contracts en Solidity. Identificamos vulnerabilidades, fallos lógicos e ineficiencias de gas con un informe detallado.", "price": "Desde $100" },
-      { "title": "Desarrollo de Smart Contract", "description": "Desarrollo Solidity a medida — tokens, NFTs, protocolos DeFi, lógica on-chain personalizada. Construido con seguridad desde el primer momento.", "price": "A consultar" },
-      { "title": "Integración Web3", "description": "Conecta tu sitio o aplicación existente a la blockchain. Conexión de wallet, datos on-chain, interacción con contratos — integración perfecta.", "price": "A consultar" },
-      { "title": "Bots & Aplicaciones", "description": "Bots de Discord, Telegram, blockchain, o cualquier software de escritorio. Si se puede construir, lo construimos.", "price": "A consultar" },
-      { "title": "Marketing en Vallas (EE. UU.)", "description": "Publicidad física en todo Estados Unidos a través de nuestra red privada de vallas publicitarias. Cobertura nacional, ubicación estratégica, alto impacto.", "price": "A consultar" }
+      { "title": "Desarrollo de Smart Contract", "description": "Desarrollo Solidity a medida: tokens, NFTs, protocolos DeFi, lógica on-chain personalizada. Construido con seguridad desde el primer momento.", "price": "A consultar" },
+      { "title": "Integración Web3", "description": "Conecta tu sitio o aplicación existente a la blockchain. Conexión de wallet, datos on-chain, interacción con contratos, integración perfecta.", "price": "A consultar" }
     ]
   },
   "about": {
     "sectionLabel": "Identidad",
     "heading": "Acerca de",
-    "p1": "Core Control Unit es una empresa de servicios digitales que abarca desarrollo web, seguridad blockchain, integración Web3, software a medida y marketing físico en Estados Unidos.",
-    "p2": "Trabajamos directamente con particulares, startups y pymes — sin intermediarios ni overhead. Comunicación clara, entrega rápida y código que realmente te pertenece.",
+    "p1": "Core Control Unit es una empresa de servicios digitales que abarca desarrollo web, software a medida y marketing físico en vallas por todo Estados Unidos, con experiencia en blockchain disponible cuando un proyecto lo requiere.",
+    "p2": "Trabajamos directamente con particulares, startups y pymes. Sin intermediarios ni overhead. Comunicación clara, entrega rápida y código que realmente te pertenece.",
     "p3": "Operamos a nivel internacional con un enfoque totalmente remoto, gestionando proyectos de principio a fin: desde la primera línea de código hasta la valla publicitaria en activo.",
     "values": [
       { "label": "Fiabilidad", "desc": "Código de producción, no demos." },
@@ -51,6 +55,7 @@
     "sectionLabel": "Transmisión",
     "heading": "Iniciar un proyecto",
     "subtitle": "Describe tu proyecto. Te respondemos en 48h.",
+    "floating": "Contáctanos",
     "panelLabel": "FORMULARIO DE CONTACTO",
     "labelName": "Nombre completo",
     "placeholderName": "Juan García",
@@ -65,9 +70,9 @@
     "heading": "Proyectos recientes",
     "viewProject": "Ver proyecto →",
     "items": [
-      { "title": "Auditoría de Protocolo DeFi", "description": "Auditoría Solidity completa de un protocolo de préstamos. Se identificaron 3 vulnerabilidades críticas antes del lanzamiento en mainnet, evitando posibles pérdidas de fondos." },
+      { "title": "Campaña de Vallas EE. UU.", "description": "Campaña de vallas a nivel nacional para una marca de consumo: colocación coordinada en 12 estados, gestionada de principio a fin, del diseño gráfico a las vallas en activo." },
       { "title": "Aplicación E-commerce", "description": "Tienda Next.js con integración Stripe, CMS personalizado y hosting en Vercel. Entregada con transferencia completa del código fuente al cliente." },
-      { "title": "Bot de Trading Blockchain", "description": "Bot on-chain automatizado que monitoriza pools de liquidez en DEX y ejecuta operaciones según estrategias configurables. Desarrollado para un cliente privado." }
+      { "title": "Bot de Discord Comunitario", "description": "Bot a medida que gestiona una comunidad de 20 000 miembros: onboarding automatizado, herramientas de moderación y notificaciones de eventos en directo. Desarrollado para un cliente privado." }
     ]
   },
   "footer": {
@@ -93,7 +98,7 @@
     "editorActivity": "Actividad: programación informática, sitios web y cualquier aplicación",
     "editorSiret": "SIRET: XXX XXX XXX XXXXX",
     "editorAddress": "Domicilio social: XXX, XXXXX, Francia",
-    "editorEmail": "Email: contact@corecontrolunit.fr",
+    "editorEmail": "Email: contact@ccunit.com",
     "editorPhone": "Teléfono: +33 X XX XX XX XX",
     "editorDirector": "Director de publicación: [Nombre APELLIDO]",
     "hostingTitle": "Alojamiento",
@@ -112,7 +117,7 @@
       "Derecho de oposición al tratamiento",
       "Derecho a la limitación del tratamiento"
     ],
-    "dataContact": "Para ejercer estos derechos, utilice el formulario a continuación o contáctenos en contact@corecontrolunit.fr. Nos comprometemos a responder en un plazo de 30 días.",
+    "dataContact": "Para ejercer estos derechos, utilice el formulario a continuación o contáctenos en contact@ccunit.com. Nos comprometemos a responder en un plazo de 30 días.",
     "dataLegal": "Base legal del tratamiento: interés legítimo (formulario de contacto comercial) y consentimiento explícito (comunicaciones de marketing).",
     "cookiesTitle": "Cookies",
     "cookiesText": "Este sitio no utiliza cookies de seguimiento ni publicitarias. Solo pueden instalarse cookies técnicas estrictamente necesarias para el funcionamiento del sitio. No se comparten datos con terceros con fines publicitarios.",

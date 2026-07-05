@@ -22,10 +22,10 @@ export async function Footer() {
         <div className="space-y-3">
           <span className="block text-[10px] uppercase tracking-[0.3em] text-[#ff7d27]">Contact</span>
           <a
-            href="mailto:contact@corecontrolunit.fr"
+            href="mailto:contact@ccunit.com"
             className="block text-[10px] uppercase tracking-widest text-[#5a6070] hover:text-[#ff7d27] transition-colors"
           >
-            contact@corecontrolunit.fr
+            contact@ccunit.com
           </a>
           <a
             href={`tel:${t("phone").replace(/\s/g, "")}`}
@@ -72,7 +72,7 @@ export async function Footer() {
             {t("siretLabel")} : {t("siretValue")}
           </span>
           <span className="text-[10px] uppercase tracking-widest text-[#5a6070]">
-            © {new Date().getFullYear()} Core Control Unit — {t("rights")}
+            © {new Date().getFullYear()} Core Control Unit | {t("rights")}
           </span>
         </div>
       </div>

@@ -3,6 +3,9 @@ import { AccentLine } from "@/components/ui/AccentLine";
 
 export async function HeroSection() {
   const t = await getTranslations("hero");
+  const tf = await getTranslations("footer");
+  const email = t("email");
+  const phone = tf("phone");
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
@@ -16,10 +19,11 @@ export async function HeroSection() {
           }}
         />
         <div
-          className="absolute inset-0"
+          className="absolute inset-0 animate-pulse"
           style={{
             background:
-              "radial-gradient(ellipse 80% 60% at 50% 40%, rgba(255,125,39,0.06) 0%, transparent 70%)",
+              "radial-gradient(ellipse 80% 60% at 50% 40%, rgba(255,125,39,0.10) 0%, transparent 70%)",
+            animationDuration: "6s",
           }}
         />
       </div>
@@ -42,10 +46,9 @@ export async function HeroSection() {
 
         <AccentLine className="my-8 max-w-xs mx-auto" />
 
-        <p className="text-sm sm:text-base text-[#5a6070] max-w-xl mx-auto leading-relaxed mb-12">
-          {t("tagline")}
-          <br />
-          <span className="text-[#e8eaf0] text-base sm:text-lg font-medium">{t("taglineSub")}</span>
+        <p className="max-w-2xl mx-auto leading-relaxed mb-10">
+          <span className="block text-[11px] uppercase tracking-[0.25em] text-[#ff7d27] mb-4">{t("tagline")}</span>
+          <span className="block text-[#e8eaf0] text-lg sm:text-2xl font-semibold leading-snug">{t("taglineSub")}</span>
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -68,7 +71,34 @@ export async function HeroSection() {
           </a>
         </div>
 
-        <div className="mt-24 grid grid-cols-3 gap-4 max-w-lg mx-auto border-t border-[#1e2330] pt-8">
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-[11px] uppercase tracking-widest text-[#5a6070]">
+          <a href={`mailto:${email}`} className="inline-flex items-center gap-2 hover:text-[#ff7d27] transition-colors">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M3 5h18v14H3zM3 6l9 7 9-7" />
+            </svg>
+            {email}
+          </a>
+          <a href={`tel:${phone.replace(/\s/g, "")}`} className="inline-flex items-center gap-2 hover:text-[#ff7d27] transition-colors">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M5 4h4l2 5-3 2a12 12 0 005 5l2-3 5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z" />
+            </svg>
+            {phone}
+          </a>
+        </div>
+
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+          {[t("pill1"), t("pill2"), t("pill3")].map((pill) => (
+            <span
+              key={pill}
+              className="border border-[#1e2330] bg-[#111418]/60 px-4 py-2 text-[10px] uppercase tracking-widest text-[#e8eaf0]"
+              style={{ clipPath: "polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px))" }}
+            >
+              {pill}
+            </span>
+          ))}
+        </div>
+
+        <div className="mt-20 grid grid-cols-3 gap-4 max-w-lg mx-auto border-t border-[#1e2330] pt-8">
           {[
             { value: "12+", label: t("stat1Label") },
             { value: "80+", label: t("stat2Label") },

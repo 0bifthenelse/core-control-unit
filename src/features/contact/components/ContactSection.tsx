@@ -22,7 +22,7 @@ export async function ContactSection() {
         <div className="max-w-xl mx-auto">
           <HudPanel label={t("panelLabel")} className="p-8">
             <form
-              action="mailto:contact@corecontrolunit.fr"
+              action="mailto:contact@ccunit.com"
               method="post"
               encType="text/plain"
               className="space-y-5"

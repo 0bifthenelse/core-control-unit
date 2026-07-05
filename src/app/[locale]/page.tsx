@@ -1,5 +1,6 @@
 import { NavBarServer } from "@/components/ui/NavBarServer";
 import { Footer } from "@/components/ui/Footer";
+import { StickyContact } from "@/components/ui/StickyContact";
 import { HeroSection } from "@/features/hero/components/HeroSection";
 import { ServicesSection } from "@/features/services/components/ServicesSection";
 import { ProjectsSection } from "@/features/projects/components/ProjectsSection";
@@ -17,6 +18,7 @@ export default function Home() {
         <AboutSection />
         <ContactSection />
       </main>
+      <StickyContact />
       <Footer />
     </>
   );
