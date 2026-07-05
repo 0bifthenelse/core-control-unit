@@ -40,7 +40,7 @@ export async function Footer() {
         <div className="space-y-3">
           <span className="block text-[10px] uppercase tracking-[0.3em] text-[#ff7d27]">{t("linksLabel")}</span>
           <a
-            href="https://github.com/core-control-unit"
+            href="https://github.com/0bifthenelse/core-control-unit"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-[10px] uppercase tracking-widest text-[#5a6070] hover:text-[#ff7d27] transition-colors"
