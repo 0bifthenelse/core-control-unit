@@ -77,7 +77,7 @@ export function RgpdForm({
             className={`${INPUT_STYLE} appearance-none cursor-pointer`}
             style={CLIP_INPUT}
           >
-            <option value="">—</option>
+            <option value="">...</option>
             {types.map(({ value, label }) => (
               <option key={value} value={value}>
                 {label}

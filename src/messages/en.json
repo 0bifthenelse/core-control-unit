@@ -76,7 +76,7 @@
     "comingSoon": "Live link coming soon",
     "items": [
       { "id": "us-billboard-campaign", "title": "US Billboard Campaign", "description": "Nationwide billboard campaign for a consumer brand: coordinated placement across 12 states, handled end-to-end from creative design to live boards.", "longDescription": "A consumer brand wanted physical presence across the US without managing a dozen regional vendors. We ran the whole campaign end-to-end: creative direction, board design, placement negotiation across 12 states, and live monitoring once boards went up. Single point of contact, one invoice, coordinated timing across every market." },
-      { "id": "ecommerce-web-app", "title": "E-commerce Web App", "description": "Next.js storefront with Stripe integration, custom CMS, and Vercel hosting. Delivered with full source code transfer to the client.", "longDescription": "A growing retailer needed to move off a bloated SaaS platform onto something they actually owned. We built a Next.js storefront with Stripe Checkout, a lightweight custom CMS for product and inventory management, and deployed it on Vercel. Full source code was handed over at delivery — no vendor lock-in." },
+      { "id": "ecommerce-web-app", "title": "E-commerce Web App", "description": "Next.js storefront with Stripe integration, custom CMS, and Vercel hosting. Delivered with full source code transfer to the client.", "longDescription": "A growing retailer needed to move off a bloated SaaS platform onto something they actually owned. We built a Next.js storefront with Stripe Checkout, a lightweight custom CMS for product and inventory management, and deployed it on Vercel. Full source code was handed over at delivery, with no vendor lock-in." },
       { "id": "community-discord-bot", "title": "Community Discord Bot", "description": "Custom bot managing a 20k-member community: automated onboarding, moderation tools, and live event notifications. Built for a private client.", "longDescription": "A 20,000-member Discord community was outgrowing manual moderation. We built a custom bot handling automated onboarding flows, rule enforcement and moderation tooling, and live notifications for community events, tailored to how this specific community operates rather than a generic off-the-shelf bot." }
     ]
   },
@@ -113,7 +113,7 @@
     "ipTitle": "Intellectual property",
     "ipText": "All content on this site (texts, images, graphics, logo, icons, etc.) is the exclusive property of Core Control Unit, protected by French and international intellectual property laws. Any reproduction, distribution or use without prior authorisation is strictly prohibited.",
     "dataTitle": "Personal data",
-    "dataText": "In accordance with the General Data Protection Regulation (GDPR — EU 2016/679) and the French Data Protection Act, you have the following rights regarding your personal data:",
+    "dataText": "In accordance with the General Data Protection Regulation (GDPR, EU 2016/679) and the French Data Protection Act, you have the following rights regarding your personal data:",
     "dataRights": [
       "Right of access to your data",
       "Right to rectification of your data",

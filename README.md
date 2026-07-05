@@ -11,7 +11,7 @@ Live domain: `ccunit.net`.
 - **next-intl 4** for internationalisation and locale-aware routing
 - **Playwright** for end-to-end/visual checks
 
-No database, CMS, or backend services — the site is fully static/server-rendered content sourced from local i18n message files.
+No database, CMS, or backend services; the site is fully static/server-rendered content sourced from local i18n message files.
 
 ## Internationalisation
 
@@ -36,9 +36,9 @@ Each feature exposes a server component (e.g. `HeroSection`, `ServicesSection`, 
 
 ## Routes
 
-- `/{locale}` — single-page homepage: Hero, Services, Projects (teaser), About, Contact.
-- `/{locale}/projects` — full project showcase with extended descriptions, screenshots, and links.
-- `/{locale}/mentions-legales` — French legal notice / GDPR rights page.
+- `/{locale}`: single-page homepage: Hero, Services, Projects (teaser), About, Contact.
+- `/{locale}/projects`: full project showcase with extended descriptions, screenshots, and links.
+- `/{locale}/mentions-legales`: French legal notice / GDPR rights page.
 
 ## Design system
 
@@ -64,4 +64,4 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Deployment
 
-Vercel-ready out of the box — no additional configuration required beyond a standard Next.js deployment.
+Vercel-ready out of the box, no additional configuration required beyond a standard Next.js deployment.
