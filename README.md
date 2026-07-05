@@ -2,7 +2,7 @@
 
 Marketing and lead-generation website for Core Control Unit, a software engineering and digital services company. The site presents the company's services (web development, billboard marketing, custom apps/bots, and blockchain/Solidity work), a project showcase, and a GDPR-compliant contact flow, in four languages.
 
-Live domain: `ccunit.com`.
+Live domain: `ccunit.net`.
 
 ## Stack
 

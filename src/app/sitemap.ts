@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 const locales = ["fr", "en", "es", "it"];
-const base = "https://ccunit.com";
+const base = "https://ccunit.net";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return locales.map((locale) => ({
