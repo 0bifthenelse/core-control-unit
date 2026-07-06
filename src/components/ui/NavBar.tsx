@@ -39,7 +39,7 @@ export function NavBar({ links, cta, locale }: NavBarProps) {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-[#1e2330] bg-[#0d0f12]/90 backdrop-blur-sm">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <LocaleLink href="/" className="flex items-center" aria-label="Core Control Unit — home">
+        <LocaleLink href="/" className="flex items-center" aria-label="Core Control Unit - home">
           <Image
             src="/ccunit_logo_dark.svg"
             alt="Core Control Unit"

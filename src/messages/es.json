@@ -13,7 +13,7 @@
   "hero": {
     "badge": "Disponibles para nuevos proyectos",
     "tagline": "Sitios web, apps y publicidad a nivel nacional",
-    "taglineSub": "Creamos los sitios web y las apps con los que funciona tu negocio — y ponemos tu marca en vallas por todo Estados Unidos.",
+    "taglineSub": "Creamos los sitios web y las apps con los que funciona tu negocio - y ponemos tu marca en vallas por todo Estados Unidos.",
     "email": "contact@ccunit.net",
     "pill1": "Sitios web",
     "pill2": "Vallas publicitarias",
@@ -27,19 +27,19 @@
     "heading": "Servicios",
     "subtitle": "Desde sitios web y apps a medida hasta campañas de vallas por todo EE. UU. Lo creamos, lo lanzamos y hacemos que se note tu marca.",
     "items": [
-      { "title": "Sitios y apps web", "description": "Sitios y aplicaciones web para particulares y empresas. Te entregamos todo el código, o nos encargamos del alojamiento por ti — como prefieras.", "price": "A consultar" },
+      { "title": "Sitios y apps web", "description": "Sitios y aplicaciones web para particulares y empresas. Te entregamos todo el código, o nos encargamos del alojamiento por ti - como prefieras.", "price": "A consultar" },
       { "title": "Publicidad en vallas (EE. UU.)", "description": "Publicidad física por todo Estados Unidos a través de nuestra propia red de vallas publicitarias. Cobertura nacional, las ubicaciones adecuadas, imposible de pasar por alto.", "price": "A consultar" },
       { "title": "Bots & aplicaciones", "description": "Bots de Discord y Telegram, además de software de escritorio a medida pensado para tu forma de trabajar. Si se puede construir, lo construimos.", "price": "A consultar" },
       { "title": "Auditoría de smart contract", "description": "Una revisión de seguridad exhaustiva de tus smart contracts en blockchain, con un informe claro de todo lo que hay que corregir.", "price": "Desde $100" },
-      { "title": "Desarrollo de smart contract", "description": "Smart contracts en blockchain a medida — tokens, NFTs y más — creados de forma segura desde el principio.", "price": "A consultar" },
+      { "title": "Desarrollo de smart contract", "description": "Smart contracts en blockchain a medida - tokens, NFTs y más - creados de forma segura desde el principio.", "price": "A consultar" },
       { "title": "Integración Web3", "description": "Conecta tu sitio o aplicación a la blockchain, desde el inicio de sesión con wallet hasta los datos en vivo, integrado sin fricciones.", "price": "A consultar" }
     ]
   },
   "about": {
     "sectionLabel": "Quiénes somos",
     "heading": "Acerca de",
-    "p1": "Core Control Unit es un estudio digital que abarca sitios web, software a medida y publicidad en vallas por todo Estados Unidos — con conocimientos de blockchain a mano siempre que un proyecto lo requiere.",
-    "p2": "Trabajamos directamente con particulares, startups y pequeñas empresas. Sin intermediarios ni excesos — solo comunicación clara, entrega rápida y un trabajo que es completamente tuyo.",
+    "p1": "Core Control Unit es un estudio digital que abarca sitios web, software a medida y publicidad en vallas por todo Estados Unidos - con conocimientos de blockchain a mano siempre que un proyecto lo requiere.",
+    "p2": "Trabajamos directamente con particulares, startups y pequeñas empresas. Sin intermediarios ni excesos - solo comunicación clara, entrega rápida y un trabajo que es completamente tuyo.",
     "p3": "Trabajamos en remoto con clientes de todo el mundo y gestionamos cada proyecto de principio a fin: desde la primera línea de código hasta la valla publicitaria en activo.",
     "values": [
       { "label": "Fiabilidad", "desc": "Hecho para durar, no solo para la demo." },

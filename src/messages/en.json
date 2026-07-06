@@ -13,7 +13,7 @@
   "hero": {
     "badge": "Available for new projects",
     "tagline": "Websites, apps & nationwide advertising",
-    "taglineSub": "We build the websites and apps your business runs on — and put your brand on billboards right across America.",
+    "taglineSub": "We build the websites and apps your business runs on - and put your brand on billboards right across America.",
     "email": "contact@ccunit.net",
     "pill1": "Websites",
     "pill2": "Billboard Ads",
@@ -27,19 +27,19 @@
     "heading": "Services",
     "subtitle": "From websites and custom apps to billboard campaigns across America. We build it, launch it, and get your brand noticed.",
     "items": [
-      { "title": "Websites & Web Apps", "description": "Websites and web apps for people and businesses. We hand over all the code, or take care of hosting for you — whichever suits you best.", "price": "On quote" },
+      { "title": "Websites & Web Apps", "description": "Websites and web apps for people and businesses. We hand over all the code, or take care of hosting for you - whichever suits you best.", "price": "On quote" },
       { "title": "Billboard Advertising", "description": "Physical advertising across the United States through our own billboard network. Nationwide reach, the right locations, hard to miss.", "price": "On quote" },
       { "title": "Bots & Custom Apps", "description": "Discord and Telegram bots, plus custom desktop software built around the way you work. If it can be built, we'll build it.", "price": "On quote" },
       { "title": "Smart Contract Audit", "description": "A thorough security review of your blockchain smart contracts, with a clear report of anything that needs fixing.", "price": "From $100" },
-      { "title": "Smart Contract Development", "description": "Custom blockchain smart contracts — tokens, NFTs and more — built securely from the ground up.", "price": "On quote" },
+      { "title": "Smart Contract Development", "description": "Custom blockchain smart contracts - tokens, NFTs and more - built securely from the ground up.", "price": "On quote" },
       { "title": "Web3 Integration", "description": "Connect your website or app to the blockchain, from wallet sign-in to live on-chain data, smoothly integrated.", "price": "On quote" }
     ]
   },
   "about": {
     "sectionLabel": "Who we are",
     "heading": "About",
-    "p1": "Core Control Unit is a digital studio covering websites, custom software, and billboard advertising across the United States — with blockchain know-how on hand whenever a project calls for it.",
-    "p2": "We work directly with individuals, startups, and small businesses. No middlemen, no bloat — just clear communication, quick turnaround, and work you fully own.",
+    "p1": "Core Control Unit is a digital studio covering websites, custom software, and billboard advertising across the United States - with blockchain know-how on hand whenever a project calls for it.",
+    "p2": "We work directly with individuals, startups, and small businesses. No middlemen, no bloat - just clear communication, quick turnaround, and work you fully own.",
     "p3": "We work remotely with clients around the world and handle each project end to end: from the first line of code to the billboard going live.",
     "values": [
       { "label": "Reliability", "desc": "Built to last, not just to demo." },
