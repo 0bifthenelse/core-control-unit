@@ -4,6 +4,7 @@ import { Link as LocaleLink } from "@/i18n/navigation";
 import { useState } from "react";
 import Image from "next/image";
 import { LanguageSelector } from "./LanguageSelector";
+import { ThemeToggle } from "./ThemeToggle";
 
 function NavLinkItem({ href, className, onClick, children }: {
   href: string;
@@ -46,7 +47,7 @@ export function NavBar({ links, cta, locale }: NavBarProps) {
             width={105}
             height={28}
             priority
-            className="h-7 w-auto"
+            className="h-9 sm:h-10 w-auto"
           />
         </LocaleLink>
 
@@ -64,6 +65,7 @@ export function NavBar({ links, cta, locale }: NavBarProps) {
         </ul>
 
         <div className="hidden md:flex items-center gap-4">
+          <ThemeToggle />
           <LanguageSelector locale={locale} />
           <a
             href="#contact"
@@ -112,7 +114,8 @@ export function NavBar({ links, cta, locale }: NavBarProps) {
               </li>
             ))}
           </ul>
-          <div className="border-t border-[#1e2330] pt-4">
+          <div className="border-t border-[#1e2330] pt-4 flex items-center gap-4">
+            <ThemeToggle />
             <LanguageSelector locale={locale} />
           </div>
         </div>

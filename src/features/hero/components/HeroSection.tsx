@@ -15,7 +15,7 @@ export async function HeroSection() {
           className="absolute inset-0 opacity-20"
           style={{
             backgroundImage:
-              "linear-gradient(#1e2330 1px, transparent 1px), linear-gradient(90deg, #1e2330 1px, transparent 1px)",
+              "linear-gradient(var(--color-border) 1px, transparent 1px), linear-gradient(90deg, var(--color-border) 1px, transparent 1px)",
             backgroundSize: "60px 60px",
           }}
         />
@@ -62,16 +62,16 @@ export async function HeroSection() {
         </div>
 
         <h1 className="text-3xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-none mb-6">
-          <span className="block text-[#e8eaf0]">CORE</span>
+          <span className="block text-text-primary">CORE</span>
           <span className="block text-[#ff7d27]" style={{ textShadow: "0 0 40px rgba(255,125,39,0.45), 0 0 80px rgba(255,125,39,0.2)" }}>CONTROL</span>
-          <span className="block text-[#e8eaf0]">UNIT</span>
+          <span className="block text-text-primary">UNIT</span>
         </h1>
 
         <AccentLine className="my-8 max-w-xs mx-auto" />
 
         <p className="max-w-2xl mx-auto leading-relaxed mb-10">
           <span className="block text-[11px] uppercase tracking-[0.25em] text-[#ff7d27] mb-4">{t("tagline")}</span>
-          <span className="block text-[#e8eaf0] text-lg sm:text-2xl font-semibold leading-snug">{t("taglineSub")}</span>
+          <span className="block text-text-primary text-lg sm:text-2xl font-semibold leading-snug">{t("taglineSub")}</span>
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -87,14 +87,14 @@ export async function HeroSection() {
           </a>
           <a
             href="#contact"
-            className="inline-flex items-center gap-3 border border-[#1e2330] px-8 py-4 text-xs uppercase tracking-widest text-[#5a6070] hover:border-[#ff7d27] hover:text-[#ff7d27] transition-all duration-200"
+            className="inline-flex items-center gap-3 border border-border px-8 py-4 text-xs uppercase tracking-widest text-text-muted hover:border-[#ff7d27] hover:text-[#ff7d27] transition-all duration-200"
             style={{ clipPath: "polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px))" }}
           >
             {t("ctaSecondary")}
           </a>
         </div>
 
-        <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-[11px] uppercase tracking-widest text-[#5a6070]">
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-[11px] uppercase tracking-widest text-text-muted">
           <a href={`mailto:${email}`} className="inline-flex items-center gap-2 hover:text-[#ff7d27] transition-colors">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M3 5h18v14H3zM3 6l9 7 9-7" />
@@ -113,7 +113,7 @@ export async function HeroSection() {
           {[t("pill1"), t("pill2"), t("pill3"), t("pill4")].map((pill) => (
             <span
               key={pill}
-              className="border border-[#1e2330] bg-[#111418]/60 px-4 py-2 text-[10px] uppercase tracking-widest text-[#e8eaf0]"
+              className="border border-border bg-panel/60 px-4 py-2 text-[10px] uppercase tracking-widest text-text-primary"
               style={{ clipPath: "polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px))" }}
             >
               {pill}

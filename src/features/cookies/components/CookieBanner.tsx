@@ -20,12 +20,12 @@ export function CookieBanner() {
 
   return (
     <div
-      className="fixed bottom-4 right-4 z-50 flex items-center gap-4 px-4 py-3 bg-[#111418] border-l-2 border-[#ff7d27] border-t border-r border-b border-[#1e2330] max-w-xs"
+      className="fixed bottom-4 right-4 z-50 flex items-center gap-4 px-4 py-3 bg-panel border-l-2 border-[#ff7d27] border-t border-r border-b border-border max-w-xs"
       style={{ clipPath: "polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px))" }}
       role="region"
       aria-label="Cookie notice"
     >
-      <p className="text-[10px] uppercase tracking-wider text-[#5a6070] leading-relaxed flex-1">
+      <p className="text-[10px] uppercase tracking-wider text-text-muted leading-relaxed flex-1">
         {t("notice")}
       </p>
       <button

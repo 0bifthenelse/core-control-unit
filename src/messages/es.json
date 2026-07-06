@@ -13,8 +13,8 @@
   "hero": {
     "badge": "Disponibles para nuevos proyectos",
     "tagline": "Sitios web, apps y publicidad a nivel nacional",
-    "taglineSub": "Creamos los sitios web y las apps con los que funciona tu negocio, y ponemos tu marca en vallas por los 50 estados de EE. UU.",
-    "email": "contact@ccunit.net",
+    "taglineSub": "Creamos los sitios web y las apps con los que funciona tu negocio, y ponemos tu marca en vallas, incluidos formatos gigantes, por los 50 estados de EE. UU.",
+    "email": "business@ccunit.net",
     "pill1": "Sitios web",
     "pill2": "Vallas publicitarias",
     "pill3": "Apps a medida",
@@ -28,11 +28,12 @@
     "subtitle": "Desde sitios web y apps a medida hasta campañas de vallas por los 50 estados de EE. UU. Lo creamos, lo lanzamos y hacemos que se note tu marca.",
     "items": [
       { "title": "Sitios y apps web", "description": "Sitios y aplicaciones web para particulares y empresas. Te entregamos todo el código, o nos encargamos del alojamiento por ti, como prefieras.", "price": "A consultar" },
-      { "title": "Publicidad en vallas (EE. UU.)", "description": "Publicidad física por los 50 estados de EE. UU. a través de nuestra red asociada de 3.200 vallas publicitarias. Cobertura nacional, las ubicaciones adecuadas, imposible de pasar por alto.", "price": "A consultar" },
-      { "title": "Bots & aplicaciones", "description": "Bots de Discord y Telegram, además de software de escritorio a medida pensado para tu forma de trabajar. Si se puede construir, lo construimos.", "price": "A consultar" },
-      { "title": "Auditoría de smart contract", "description": "Una revisión de seguridad exhaustiva de tus smart contracts en blockchain, con un informe claro de todo lo que hay que corregir.", "price": "Desde $100" },
+      { "title": "Publicidad en vallas (EE. UU.)", "description": "Publicidad física por los 50 estados de EE. UU. a través de un contacto privado con una red de 3.200 vallas publicitarias, incluidos formatos gigantes. Cobertura nacional, las ubicaciones adecuadas, imposible de pasar por alto.", "price": "A consultar" },
+      { "title": "Bots, juegos y apps de escritorio", "description": "Bots de Discord y Telegram, videojuegos 2D y 3D de pequeña escala para web y para Windows/Linux desarrollados con SDL o Electron junto con three.js y drei, además de software de escritorio con interfaz gráfica a medida. Si se puede construir, lo construimos.", "price": "A consultar" },
+      { "title": "Generación procedural de libros", "description": "Software que genera contenido listo para publicar de forma procedural: libros de pasatiempos, novelas clásicas, maquetados y dimensionados para el formato Kindle de Amazon. Indica un género o tipo de pasatiempo y el resto se genera solo.", "price": "A consultar" },
       { "title": "Desarrollo de smart contract", "description": "Smart contracts en blockchain a medida: tokens, NFTs y más, creados de forma segura desde el principio.", "price": "A consultar" },
-      { "title": "Integración Web3", "description": "Conecta tu sitio o aplicación a la blockchain, desde el inicio de sesión con wallet hasta los datos en vivo, integrado sin fricciones.", "price": "A consultar" }
+      { "title": "Auditorías de seguridad con IA", "description": "Ejecutamos nuestro propio modelo de auditoría con IA para detectar automáticamente vulnerabilidades en smart contracts de Solidity, sacando a la luz problemas que una revisión manual podría pasar por alto.", "price": "A consultar" },
+      { "title": "Bots de arbitraje flash-loan", "description": "Bots de arbitraje mediante flash-loans que diseñamos y ejecutamos nosotros mismos, por ahora en Polygon y BNB Smart Chain, cazando diferencias de precio en DeFi en tiempo real. No es un servicio que vendamos, solo algo que construimos y probamos internamente.", "price": "Proyecto interno, no a la venta" }
     ],
     "values": [
       { "label": "Fiabilidad", "desc": "Hecho para durar, no solo para la demo." },
@@ -44,7 +45,7 @@
   "about": {
     "sectionLabel": "Quiénes somos",
     "heading": "Acerca de",
-    "p1": "Core Control Unit es un estudio digital que abarca sitios web, software a medida y publicidad en vallas por los 50 estados de EE. UU. a través de una red asociada de 3.200 vallas, con conocimientos de blockchain a mano siempre que un proyecto lo requiere.",
+    "p1": "Core Control Unit es una pequeña empresa independiente, no una gran corporación sin rostro. Creamos sitios web y software a medida, y gracias a un contacto privado podemos conseguir espacios publicitarios, incluidos formatos gigantes, por los 50 estados de EE. UU. mediante una red de 3.200 vallas, con conocimientos de blockchain a mano siempre que un proyecto lo requiere.",
     "p2": "Trabajamos directamente con particulares, startups y pequeñas empresas. Sin intermediarios ni excesos: solo comunicación clara, entrega rápida y un trabajo que es completamente tuyo.",
     "p3": "Trabajamos en remoto con clientes de todo el mundo y gestionamos cada proyecto de principio a fin: desde la primera línea de código hasta la valla publicitaria en activo."  },
   "contact": {
@@ -59,7 +60,8 @@
     "placeholderEmail": "juan@empresa.es",
     "labelProject": "Proyecto",
     "placeholderProject": "Describe tu proyecto, tu stack actual, tus restricciones...",
-    "submit": "Enviar mensaje"
+    "submit": "Enviar mensaje",
+    "emailSubject": "Nueva solicitud de proyecto"
   },
   "projects": {
     "sectionLabel": "Trabajos",
@@ -101,7 +103,7 @@
     "editorActivity": "Actividad: programación informática, sitios web y cualquier aplicación",
     "editorSiret": "SIRET: XXX XXX XXX XXXXX",
     "editorAddress": "Domicilio social: XXX, XXXXX, Francia",
-    "editorEmail": "Email: contact@ccunit.net",
+    "editorEmail": "Email: business@ccunit.net",
     "editorPhone": "Teléfono: +33 X XX XX XX XX",
     "editorDirector": "Director de publicación: [Nombre APELLIDO]",
     "hostingTitle": "Alojamiento",
@@ -120,7 +122,7 @@
       "Derecho de oposición al tratamiento",
       "Derecho a la limitación del tratamiento"
     ],
-    "dataContact": "Para ejercer estos derechos, utilice el formulario a continuación o contáctenos en contact@ccunit.net. Nos comprometemos a responder en un plazo de 30 días.",
+    "dataContact": "Para ejercer estos derechos, utilice el formulario a continuación o contáctenos en business@ccunit.net. Nos comprometemos a responder en un plazo de 30 días.",
     "dataLegal": "Base legal del tratamiento: interés legítimo (formulario de contacto comercial) y consentimiento explícito (comunicaciones de marketing).",
     "cookiesTitle": "Cookies",
     "cookiesText": "Este sitio no utiliza cookies de seguimiento ni publicitarias. Solo pueden instalarse cookies técnicas estrictamente necesarias para el funcionamiento del sitio. No se comparten datos con terceros con fines publicitarios.",
@@ -140,6 +142,7 @@
     "rgpdTypeLimitation": "Derecho a la limitación",
     "rgpdLabelMessage": "Detalle de su solicitud",
     "rgpdPlaceholderMessage": "Describa su solicitud con precisión...",
-    "rgpdSubmit": "Enviar solicitud"
+    "rgpdSubmit": "Enviar solicitud",
+    "rgpdEmailSubject": "Solicitud de datos RGPD"
   }
 }

@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { CookieBanner } from "@/features/cookies/components/CookieBanner";
+import { ThemeProvider } from "@/components/ui/ThemeProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -80,12 +81,14 @@ export default async function LocaleLayout({
   const { locale } = await params;
   const messages = await getMessages();
   return (
-    <html lang={locale} className={`${geistSans.variable} ${geistMono.variable} h-full`}>
-      <body className="min-h-full flex flex-col bg-[#0d0f12] text-[#e8eaf0]">
-        <NextIntlClientProvider messages={messages}>
-          {children}
-          <CookieBanner />
-        </NextIntlClientProvider>
+    <html lang={locale} className={`${geistSans.variable} ${geistMono.variable} h-full`} suppressHydrationWarning>
+      <body className="min-h-full flex flex-col bg-surface text-text-primary">
+        <ThemeProvider>
+          <NextIntlClientProvider messages={messages}>
+            {children}
+            <CookieBanner />
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

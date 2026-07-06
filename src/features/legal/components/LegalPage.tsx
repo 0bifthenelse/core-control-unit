@@ -7,7 +7,7 @@ function Section({ title, children }: { title: string; children: React.ReactNode
     <div className="mb-12">
       <span className="text-[10px] uppercase tracking-[0.3em] text-[#ff7d27]">{title}</span>
       <AccentLine className="mt-3 mb-4" />
-      <div className="space-y-2 text-xs text-[#5a6070] leading-relaxed">{children}</div>
+      <div className="space-y-2 text-xs text-text-muted leading-relaxed">{children}</div>
     </div>
   );
 }
@@ -28,12 +28,12 @@ export async function LegalPage() {
   return (
     <main className="py-24 px-6">
       <div className="mx-auto max-w-3xl">
-        <h1 className="text-3xl sm:text-4xl font-bold text-[#e8eaf0] uppercase tracking-tight mb-16">
+        <h1 className="text-3xl sm:text-4xl font-bold text-text-primary uppercase tracking-tight mb-16">
           {t("title")}
         </h1>
 
         <Section title={t("editorTitle")}>
-          <p className="text-[#e8eaf0] font-bold">{t("editorName")}</p>
+          <p className="text-text-primary font-bold">{t("editorName")}</p>
           <p>{t("editorType")}</p>
           <p>{t("editorActivity")}</p>
           <p>{t("editorSiret")}</p>
@@ -75,7 +75,7 @@ export async function LegalPage() {
           <div className="mb-10 text-center">
             <span className="text-[10px] uppercase tracking-[0.3em] text-[#ff7d27]">{t("rgpdTitle")}</span>
             <AccentLine className="mt-3 mb-4 max-w-xs mx-auto" />
-            <p className="text-xs text-[#5a6070] max-w-sm mx-auto">{t("rgpdSubtitle")}</p>
+            <p className="text-xs text-text-muted max-w-sm mx-auto">{t("rgpdSubtitle")}</p>
           </div>
           <RgpdForm
             panelLabel={t("rgpdPanelLabel")}
@@ -88,6 +88,7 @@ export async function LegalPage() {
             labelMessage={t("rgpdLabelMessage")}
             placeholderMessage={t("rgpdPlaceholderMessage")}
             submit={t("rgpdSubmit")}
+            emailSubject={t("rgpdEmailSubject")}
           />
         </div>
       </div>

@@ -21,7 +21,7 @@ export async function ProjectsPage() {
       <div className="mx-auto max-w-7xl">
         <Link
           href="/"
-          className="inline-block mb-10 text-[10px] uppercase tracking-widest text-[#5a6070] hover:text-[#ff7d27] transition-colors font-mono"
+          className="inline-block mb-10 text-[10px] uppercase tracking-widest text-text-muted hover:text-[#ff7d27] transition-colors font-mono"
         >
           {t("backToHome")}
         </Link>
@@ -29,10 +29,10 @@ export async function ProjectsPage() {
         <div className="mb-20 max-w-2xl">
           <span className="text-[10px] uppercase tracking-[0.3em] text-[#ff7d27]">{t("sectionLabel")}</span>
           <AccentLine className="mt-3 mb-6" />
-          <h1 className="text-3xl sm:text-4xl font-bold text-[#e8eaf0] uppercase tracking-tight mb-4">
+          <h1 className="text-3xl sm:text-4xl font-bold text-text-primary uppercase tracking-tight mb-4">
             {t("heading")}
           </h1>
-          <p className="text-sm text-[#5a6070] leading-relaxed">{t("detailSubtitle")}</p>
+          <p className="text-sm text-text-muted leading-relaxed">{t("detailSubtitle")}</p>
         </div>
 
         <div className="space-y-24">
@@ -45,10 +45,10 @@ export async function ProjectsPage() {
             return (
               <section key={id} id={id} className="scroll-mt-24">
                 <div className="mb-8">
-                  <h2 className="text-2xl sm:text-3xl font-bold text-[#e8eaf0] uppercase tracking-tight mb-4">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-text-primary uppercase tracking-tight mb-4">
                     {title}
                   </h2>
-                  <p className="text-sm text-[#5a6070] leading-relaxed max-w-3xl">{longDescription}</p>
+                  <p className="text-sm text-text-muted leading-relaxed max-w-3xl">{longDescription}</p>
                 </div>
 
                 {screenshots[0] && (
@@ -119,7 +119,7 @@ export async function ProjectsPage() {
                       {t("visitProject")} →
                     </a>
                   ) : (
-                    <span className="inline-flex items-center gap-2 text-[10px] uppercase tracking-widest text-[#5a6070] font-mono">
+                    <span className="inline-flex items-center gap-2 text-[10px] uppercase tracking-widest text-text-muted font-mono">
                       {t("comingSoon")}
                     </span>
                   )}
@@ -128,7 +128,7 @@ export async function ProjectsPage() {
                       href={repoUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-[10px] uppercase tracking-widest text-[#5a6070] hover:text-[#ff7d27] transition-colors font-mono"
+                      className="inline-flex items-center gap-2 text-[10px] uppercase tracking-widest text-text-muted hover:text-[#ff7d27] transition-colors font-mono"
                     >
                       <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                         <path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.46-1.18-1.11-1.49-1.11-1.49-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.36 9.36 0 015 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.79-4.58 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.470-.01 2.81 0 .27.18.6.69.49A10.02 10.02 0 0022 12.25C22 6.58 17.52 2 12 2z" />

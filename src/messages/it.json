@@ -13,8 +13,8 @@
   "hero": {
     "badge": "Disponibili per nuovi progetti",
     "tagline": "Siti web, app e pubblicità su scala nazionale",
-    "taglineSub": "Creiamo i siti web e le app su cui gira la tua azienda, e mettiamo il tuo marchio sui cartelloni in tutti i 50 stati americani.",
-    "email": "contact@ccunit.net",
+    "taglineSub": "Creiamo i siti web e le app su cui gira la tua azienda, e mettiamo il tuo marchio sui cartelloni, compresi i formati giganti, in tutti i 50 stati americani.",
+    "email": "business@ccunit.net",
     "pill1": "Siti web",
     "pill2": "Cartelloni pubblicitari",
     "pill3": "App su misura",
@@ -28,11 +28,12 @@
     "subtitle": "Da siti web e app su misura a campagne di cartelloni in tutti i 50 stati americani. Lo creiamo, lo lanciamo e facciamo notare il tuo marchio.",
     "items": [
       { "title": "Siti e app web", "description": "Siti e applicazioni web per privati e aziende. Ti consegniamo tutto il codice, oppure gestiamo l'hosting per te, come preferisci.", "price": "Su preventivo" },
-      { "title": "Pubblicità sui cartelloni (USA)", "description": "Pubblicità fisica in tutti i 50 stati americani grazie alla nostra rete partner di 3.200 cartelloni. Copertura nazionale, le posizioni giuste, impossibile non notarli.", "price": "Su preventivo" },
-      { "title": "Bot & applicazioni", "description": "Bot Discord e Telegram, oltre a software desktop su misura pensato per il tuo modo di lavorare. Se può essere costruito, lo costruiamo.", "price": "Su preventivo" },
-      { "title": "Audit smart contract", "description": "Un'analisi di sicurezza approfondita dei tuoi smart contract blockchain, con un report chiaro di tutto ciò che va corretto.", "price": "Da $100" },
+      { "title": "Pubblicità sui cartelloni (USA)", "description": "Pubblicità fisica in tutti i 50 stati americani grazie a un contatto privato con una rete di 3.200 cartelloni pubblicitari, compresi i formati giganti. Copertura nazionale, le posizioni giuste, impossibile non notarli.", "price": "Su preventivo" },
+      { "title": "Bot, giochi e app desktop", "description": "Bot Discord e Telegram, videogiochi 2D e 3D di piccola scala per il web e per Windows/Linux sviluppati con SDL o Electron insieme a three.js e drei, oltre a software desktop con interfaccia grafica su misura. Se può essere costruito, lo costruiamo.", "price": "Su preventivo" },
+      { "title": "Generazione procedurale di libri", "description": "Software che genera contenuti pronti alla pubblicazione in modo procedurale: libri di enigmi, romanzi classici, impaginati e dimensionati per il formato Kindle di Amazon. Indica un genere o un tipo di enigma e il resto si genera da sé.", "price": "Su preventivo" },
       { "title": "Sviluppo smart contract", "description": "Smart contract blockchain su misura: token, NFT e altro ancora, costruiti in modo sicuro fin dall'inizio.", "price": "Su preventivo" },
-      { "title": "Integrazione Web3", "description": "Collega il tuo sito o app alla blockchain, dall'accesso con wallet ai dati in tempo reale, integrato in modo fluido.", "price": "Su preventivo" }
+      { "title": "Audit di sicurezza con IA", "description": "Facciamo girare il nostro modello di audit basato su IA per individuare automaticamente le vulnerabilità nei smart contract Solidity, facendo emergere problemi che una revisione manuale potrebbe non cogliere.", "price": "Su preventivo" },
+      { "title": "Bot di arbitraggio flash-loan", "description": "Bot di arbitraggio tramite flash-loan che progettiamo e facciamo girare noi stessi, per ora su Polygon e BNB Smart Chain, a caccia di differenze di prezzo DeFi in tempo reale. Non è un servizio che vendiamo, solo un progetto che costruiamo e testiamo internamente.", "price": "Progetto interno, non in vendita" }
     ],
     "values": [
       { "label": "Affidabilità", "desc": "Fatto per durare, non solo per la demo." },
@@ -44,7 +45,7 @@
   "about": {
     "sectionLabel": "Chi siamo",
     "heading": "Chi siamo",
-    "p1": "Core Control Unit è uno studio digitale che si occupa di siti web, software su misura e pubblicità sui cartelloni in tutti i 50 stati americani grazie a una rete partner di 3.200 cartelloni, con competenze blockchain a disposizione ogni volta che un progetto lo richiede.",
+    "p1": "Core Control Unit è una piccola azienda indipendente, non una grande società senza volto. Realizziamo siti web e software su misura e, grazie a un contatto privato, possiamo ottenere spazi pubblicitari, compresi i formati giganti, in tutti i 50 stati americani tramite una rete di 3.200 cartelloni, con competenze blockchain a disposizione ogni volta che un progetto lo richiede.",
     "p2": "Lavoriamo direttamente con privati, startup e piccole imprese. Nessun intermediario, niente fronzoli: solo comunicazione chiara, consegna rapida e un lavoro che ti appartiene per intero.",
     "p3": "Lavoriamo da remoto con clienti in tutto il mondo e seguiamo ogni progetto dall'inizio alla fine: dalla prima riga di codice al cartellone attivo."  },
   "contact": {
@@ -59,7 +60,8 @@
     "placeholderEmail": "mario@azienda.it",
     "labelProject": "Progetto",
     "placeholderProject": "Descrivi il tuo progetto, il tuo stack attuale, i tuoi vincoli...",
-    "submit": "Invia messaggio"
+    "submit": "Invia messaggio",
+    "emailSubject": "Nuova richiesta di progetto"
   },
   "projects": {
     "sectionLabel": "Lavori",
@@ -101,7 +103,7 @@
     "editorActivity": "Attività: programmazione informatica, siti web e qualsiasi applicazione",
     "editorSiret": "SIRET: XXX XXX XXX XXXXX",
     "editorAddress": "Sede legale: XXX, XXXXX, Francia",
-    "editorEmail": "Email: contact@ccunit.net",
+    "editorEmail": "Email: business@ccunit.net",
     "editorPhone": "Telefono: +33 X XX XX XX XX",
     "editorDirector": "Direttore della pubblicazione: [Nome COGNOME]",
     "hostingTitle": "Hosting",
@@ -120,7 +122,7 @@
       "Diritto di opposizione al trattamento",
       "Diritto alla limitazione del trattamento"
     ],
-    "dataContact": "Per esercitare questi diritti, utilizza il modulo sottostante o contattaci a contact@ccunit.net. Ci impegniamo a rispondere entro 30 giorni.",
+    "dataContact": "Per esercitare questi diritti, utilizza il modulo sottostante o contattaci a business@ccunit.net. Ci impegniamo a rispondere entro 30 giorni.",
     "dataLegal": "Base giuridica del trattamento: interesse legittimo (modulo di contatto commerciale) e consenso esplicito (comunicazioni di marketing).",
     "cookiesTitle": "Cookie",
     "cookiesText": "Questo sito non utilizza cookie di tracciamento o pubblicitari. Possono essere depositati solo cookie tecnici strettamente necessari al funzionamento del sito. Nessun dato viene condiviso con terze parti a fini pubblicitari.",
@@ -140,6 +142,7 @@
     "rgpdTypeLimitation": "Diritto alla limitazione",
     "rgpdLabelMessage": "Dettaglio della tua richiesta",
     "rgpdPlaceholderMessage": "Descrivi con precisione la tua richiesta...",
-    "rgpdSubmit": "Invia richiesta"
+    "rgpdSubmit": "Invia richiesta",
+    "rgpdEmailSubject": "Richiesta di dati RGPD"
   }
 }

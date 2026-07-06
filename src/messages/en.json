@@ -13,8 +13,8 @@
   "hero": {
     "badge": "Available for new projects",
     "tagline": "Websites, apps & nationwide advertising",
-    "taglineSub": "We build the websites and apps your business runs on, and put your brand on billboards across all 50 US states.",
-    "email": "contact@ccunit.net",
+    "taglineSub": "We build the websites and apps your business runs on, and put your brand on billboards, including giant formats, across all 50 US states.",
+    "email": "business@ccunit.net",
     "pill1": "Websites",
     "pill2": "Billboard Ads",
     "pill3": "Custom Apps",
@@ -28,11 +28,12 @@
     "subtitle": "From websites and custom apps to billboard campaigns across all 50 US states. We build it, launch it, and get your brand noticed.",
     "items": [
       { "title": "Websites & Web Apps", "description": "Websites and web apps for people and businesses. We hand over all the code, or take care of hosting for you, whichever suits you best.", "price": "On quote" },
-      { "title": "Billboard Advertising", "description": "Physical advertising across all 50 US states through our partner network of 3,200 billboards. Nationwide reach, the right locations, hard to miss.", "price": "On quote" },
-      { "title": "Bots & Custom Apps", "description": "Discord and Telegram bots, plus custom desktop software built around the way you work. If it can be built, we'll build it.", "price": "On quote" },
-      { "title": "Smart Contract Audit", "description": "A thorough security review of your blockchain smart contracts, with a clear report of anything that needs fixing.", "price": "From $100" },
+      { "title": "Billboard Advertising", "description": "Physical advertising across all 50 US states through a private contact with a network of 3,200 billboard spots, including giant formats. Nationwide reach, the right locations, hard to miss.", "price": "On quote" },
+      { "title": "Bots, Games & Desktop Apps", "description": "Discord and Telegram bots, small-scale 2D and 3D video games for the web and for Windows/Linux built with SDL or Electron paired with three.js and drei, plus general-purpose desktop GUI software. If it can be built, we'll build it.", "price": "On quote" },
+      { "title": "Procedural Book Generation", "description": "Software that procedurally generates ready-to-publish content, puzzle books, classic-style novels, sized and formatted for the Amazon Kindle format. Point it at a genre or puzzle type and it does the rest.", "price": "On quote" },
       { "title": "Smart Contract Development", "description": "Custom blockchain smart contracts, tokens, NFTs & more, built securely from the ground up.", "price": "On quote" },
-      { "title": "Web3 Integration", "description": "Connect your website or app to the blockchain, from wallet sign-in to live on-chain data, smoothly integrated.", "price": "On quote" }
+      { "title": "AI Security Audits", "description": "We run our own AI auditing model to automatically flag vulnerabilities in Solidity smart contracts, surfacing issues a manual review might miss.", "price": "On quote" },
+      { "title": "Flash-Loan Arbitrage Bots", "description": "Blockchain flash-loan arbitrage bots we design and run ourselves on Polygon and BNB Smart Chain for now, hunting DeFi price gaps in real time. Not a service we sell, just something we build and experiment with in-house.", "price": "In-house, not for sale" }
     ],
     "values": [
       { "label": "Reliability", "desc": "Built to last, not just to demo." },
@@ -44,7 +45,7 @@
   "about": {
     "sectionLabel": "Who we are",
     "heading": "About",
-    "p1": "Core Control Unit is a digital studio covering websites, custom software, and billboard advertising across all 50 US states through a 3,200-strong partner network, with blockchain know-how on hand whenever a project calls for it.",
+    "p1": "Core Control Unit is a small, independent software company, not a faceless corporation. We build websites and custom software, and through a private contact we can secure billboard spots, including giant formats, across all 50 US states via a 3,200-strong network, with blockchain expertise on hand whenever a project calls for it.",
     "p2": "We work directly with individuals, startups, and small businesses. No middlemen, no bloat, just clear communication, quick turnaround, and work you fully own.",
     "p3": "We work remotely with clients around the world and handle each project end to end: from the first line of code to the billboard going live."  },
   "contact": {
@@ -59,7 +60,8 @@
     "placeholderEmail": "john@company.com",
     "labelProject": "Project",
     "placeholderProject": "Describe your project, your current stack, your constraints...",
-    "submit": "Send message"
+    "submit": "Send message",
+    "emailSubject": "New project inquiry"
   },
   "projects": {
     "sectionLabel": "Work",
@@ -101,7 +103,7 @@
     "editorActivity": "Business activity: computer programming, websites, and any application",
     "editorSiret": "SIRET: XXX XXX XXX XXXXX",
     "editorAddress": "Registered office: XXX, XXXXX, France",
-    "editorEmail": "Email: contact@ccunit.net",
+    "editorEmail": "Email: business@ccunit.net",
     "editorPhone": "Phone: +33 X XX XX XX XX",
     "editorDirector": "Publication director: [First LAST]",
     "hostingTitle": "Hosting",
@@ -120,7 +122,7 @@
       "Right to object to processing",
       "Right to restriction of processing"
     ],
-    "dataContact": "To exercise these rights, use the form below or contact us at contact@ccunit.net. We are committed to responding within 30 days.",
+    "dataContact": "To exercise these rights, use the form below or contact us at business@ccunit.net. We are committed to responding within 30 days.",
     "dataLegal": "Legal basis for processing: legitimate interest (commercial contact form) and explicit consent (marketing communications).",
     "cookiesTitle": "Cookies",
     "cookiesText": "This site does not use tracking or advertising cookies. Only strictly necessary technical cookies may be set. No data is shared with third parties for advertising purposes.",
@@ -140,6 +142,7 @@
     "rgpdTypeLimitation": "Right to restriction",
     "rgpdLabelMessage": "Details of your request",
     "rgpdPlaceholderMessage": "Describe your request precisely...",
-    "rgpdSubmit": "Send request"
+    "rgpdSubmit": "Send request",
+    "rgpdEmailSubject": "GDPR data request"
   }
 }

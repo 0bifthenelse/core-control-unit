@@ -13,8 +13,8 @@
   "hero": {
     "badge": "Disponible pour de nouveaux projets",
     "tagline": "Sites, applications & publicité à l'échelle nationale",
-    "taglineSub": "Nous créons les sites web et applications sur lesquels repose votre activité, et affichons votre marque sur des panneaux dans les 50 États américains.",
-    "email": "contact@ccunit.net",
+    "taglineSub": "Nous créons les sites web et applications sur lesquels repose votre activité, et affichons votre marque sur des panneaux, y compris des formats géants, dans les 50 États américains.",
+    "email": "business@ccunit.net",
     "pill1": "Sites web",
     "pill2": "Panneaux publicitaires",
     "pill3": "Applications sur mesure",
@@ -28,11 +28,12 @@
     "subtitle": "Des sites web et applications sur mesure aux campagnes d'affichage dans les 50 États américains. Nous le concevons, nous le lançons et nous faisons remarquer votre marque.",
     "items": [
       { "title": "Sites & applications web", "description": "Sites et applications web pour particuliers et entreprises. Nous vous livrons l'intégralité du code, ou nous prenons en charge l'hébergement pour vous, selon ce qui vous convient le mieux.", "price": "Sur devis" },
-      { "title": "Publicité sur panneaux (USA)", "description": "Publicité physique dans les 50 États américains grâce à notre réseau partenaire de 3 200 panneaux d'affichage. Une couverture nationale, les bons emplacements, impossible à manquer.", "price": "Sur devis" },
-      { "title": "Bots & applications", "description": "Bots Discord et Telegram, ainsi que des logiciels de bureau sur mesure conçus autour de votre façon de travailler. Si c'est réalisable, nous le réalisons.", "price": "Sur devis" },
-      { "title": "Audit de smart contract", "description": "Un examen de sécurité approfondi de vos smart contracts blockchain, accompagné d'un rapport clair de tout ce qui doit être corrigé.", "price": "À partir de 100 $" },
+      { "title": "Publicité sur panneaux (USA)", "description": "Publicité physique dans les 50 États américains grâce à un contact privé disposant d'un réseau de 3 200 emplacements publicitaires, y compris des formats géants. Une couverture nationale, les bons emplacements, impossible à manquer.", "price": "Sur devis" },
+      { "title": "Bots, jeux & applications de bureau", "description": "Bots Discord et Telegram, jeux vidéo 2D et 3D à petite échelle pour le web et pour Windows/Linux développés avec SDL ou Electron associé à three.js et drei, ainsi que des logiciels de bureau à interface graphique sur mesure. Si c'est réalisable, nous le réalisons.", "price": "Sur devis" },
+      { "title": "Génération procédurale de livres", "description": "Des logiciels qui génèrent du contenu prêt à publier de façon procédurale : livres de jeux (mots croisés, sudokus...), romans classiques, mis en page et dimensionnés pour le format Kindle d'Amazon. Indiquez un genre ou un type de jeu, le reste suit.", "price": "Sur devis" },
       { "title": "Développement de smart contract", "description": "Smart contracts blockchain sur mesure : tokens, NFTs et bien plus, conçus en toute sécurité dès le départ.", "price": "Sur devis" },
-      { "title": "Intégration Web3", "description": "Nous connectons votre site ou application à la blockchain, de la connexion du wallet aux données en direct, avec une intégration fluide.", "price": "Sur devis" }
+      { "title": "Audits de sécurité par IA", "description": "Nous faisons tourner notre propre modèle d'audit par IA pour repérer automatiquement les failles dans les smart contracts Solidity, en faisant remonter des problèmes qu'une revue manuelle pourrait manquer.", "price": "Sur devis" },
+      { "title": "Bots d'arbitrage flash-loan", "description": "Des bots d'arbitrage par flash-loan que nous concevons et faisons tourner nous-mêmes, pour l'instant sur Polygon et BNB Smart Chain, à l'affût des écarts de prix DeFi en temps réel. Ce n'est pas un service que nous vendons, juste un projet que nous construisons et testons en interne.", "price": "Projet interne, non commercialisé" }
     ],
     "values": [
       { "label": "Fiabilité", "desc": "Conçu pour durer, pas juste pour la démo." },
@@ -44,7 +45,7 @@
   "about": {
     "sectionLabel": "Qui nous sommes",
     "heading": "À propos",
-    "p1": "Core Control Unit est un studio numérique qui couvre les sites web, les logiciels sur mesure et la publicité par affichage dans les 50 États américains grâce à un réseau partenaire de 3 200 panneaux, avec un savoir-faire blockchain à disposition dès qu'un projet le nécessite.",
+    "p1": "Core Control Unit est une petite entreprise indépendante, pas une grande société sans visage. Nous concevons des sites web et des logiciels sur mesure, et grâce à un contact privé, nous pouvons obtenir des emplacements publicitaires, y compris des formats géants, dans les 50 États américains via un réseau de 3 200 panneaux, avec un savoir-faire blockchain à disposition dès qu'un projet le nécessite.",
     "p2": "Nous travaillons directement avec des particuliers, des startups et des petites entreprises. Sans intermédiaire ni superflu : une communication claire, des délais rapides et un travail qui vous appartient entièrement.",
     "p3": "Nous travaillons à distance avec des clients partout dans le monde et gérons chaque projet de bout en bout : de la première ligne de code jusqu'au panneau d'affichage en ligne."  },
   "contact": {
@@ -59,7 +60,8 @@
     "placeholderEmail": "jean@entreprise.fr",
     "labelProject": "Projet",
     "placeholderProject": "Décrivez votre projet, votre stack actuelle, vos contraintes...",
-    "submit": "Envoyer le message"
+    "submit": "Envoyer le message",
+    "emailSubject": "Nouvelle demande de projet"
   },
   "projects": {
     "sectionLabel": "Réalisations",
@@ -101,7 +103,7 @@
     "editorActivity": "Activité : programmation informatique, sites web et toute application",
     "editorSiret": "SIRET : XXX XXX XXX XXXXX",
     "editorAddress": "Siège social : XXX, XXXXX, France",
-    "editorEmail": "Email : contact@ccunit.net",
+    "editorEmail": "Email : business@ccunit.net",
     "editorPhone": "Téléphone : +33 X XX XX XX XX",
     "editorDirector": "Directeur de la publication : [Prénom NOM]",
     "hostingTitle": "Hébergement",
@@ -120,7 +122,7 @@
       "Droit d'opposition au traitement",
       "Droit à la limitation du traitement"
     ],
-    "dataContact": "Pour exercer ces droits, utilisez le formulaire ci-dessous ou contactez-nous à contact@ccunit.net. Nous nous engageons à répondre dans un délai de 30 jours.",
+    "dataContact": "Pour exercer ces droits, utilisez le formulaire ci-dessous ou contactez-nous à business@ccunit.net. Nous nous engageons à répondre dans un délai de 30 jours.",
     "dataLegal": "Base légale du traitement : intérêt légitime (formulaire de contact commercial) et consentement explicite (communications marketing).",
     "cookiesTitle": "Cookies",
     "cookiesText": "Ce site n'utilise pas de cookies de traçage ou publicitaires. Seuls des cookies techniques strictement nécessaires au fonctionnement du site peuvent être déposés. Aucune donnée n'est partagée avec des tiers à des fins publicitaires.",
@@ -140,6 +142,7 @@
     "rgpdTypeLimitation": "Droit à la limitation",
     "rgpdLabelMessage": "Détail de votre demande",
     "rgpdPlaceholderMessage": "Décrivez précisément votre demande...",
-    "rgpdSubmit": "Envoyer la demande"
+    "rgpdSubmit": "Envoyer la demande",
+    "rgpdEmailSubject": "Demande de données RGPD"
   }
 }

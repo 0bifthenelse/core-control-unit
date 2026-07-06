@@ -1,14 +1,24 @@
 @import "tailwindcss";
 
-@theme inline {
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
   --color-accent: #ff7d27;
+  --color-surface: #f4f0e6;
+  --color-panel: #ece5d4;
+  --color-border: #d8cfb8;
+  --color-text-primary: #2b2b26;
+  --color-text-muted: #6b6555;
+  --font-mono: var(--font-geist-mono), 'Courier New', monospace;
+  --font-sans: var(--font-geist-sans), Arial, sans-serif;
+}
+
+.dark {
   --color-surface: #0d0f12;
   --color-panel: #111418;
   --color-border: #1e2330;
   --color-text-primary: #e8eaf0;
   --color-text-muted: #5a6070;
-  --font-mono: var(--font-geist-mono), 'Courier New', monospace;
-  --font-sans: var(--font-geist-sans), Arial, sans-serif;
 }
 
 * {
@@ -20,10 +30,11 @@ html {
 }
 
 body {
-  background-color: #0d0f12;
-  color: #e8eaf0;
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
   font-family: var(--font-mono);
   -webkit-font-smoothing: antialiased;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 ::selection {
@@ -35,7 +46,7 @@ body {
   width: 4px;
 }
 ::-webkit-scrollbar-track {
-  background: #0d0f12;
+  background: var(--color-surface);
 }
 ::-webkit-scrollbar-thumb {
   background: #ff7d27;

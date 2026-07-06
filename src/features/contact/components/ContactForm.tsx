@@ -4,49 +4,42 @@ import { FormEvent } from "react";
 import { HudPanel } from "@/components/ui/HudPanel";
 import { LABEL_STYLE, INPUT_STYLE, CLIP_INPUT, BUTTON_STYLE, CLIP_BUTTON } from "@/components/ui/formStyles";
 
-interface RgpdFormProps {
+interface ContactFormProps {
   panelLabel: string;
   labelName: string;
   placeholderName: string;
   labelEmail: string;
   placeholderEmail: string;
-  labelType: string;
-  types: { value: string; label: string }[];
-  labelMessage: string;
-  placeholderMessage: string;
+  labelProject: string;
+  placeholderProject: string;
   submit: string;
   emailSubject: string;
 }
 
-export function RgpdForm({
+export function ContactForm({
   panelLabel,
   labelName,
   placeholderName,
   labelEmail,
   placeholderEmail,
-  labelType,
-  types,
-  labelMessage,
-  placeholderMessage,
+  labelProject,
+  placeholderProject,
   submit,
   emailSubject,
-}: RgpdFormProps) {
+}: ContactFormProps) {
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const form = e.currentTarget;
     const name = (form.elements.namedItem("name") as HTMLInputElement).value;
     const email = (form.elements.namedItem("email") as HTMLInputElement).value;
-    const type = (form.elements.namedItem("type") as HTMLSelectElement);
-    const typeLabel = type.options[type.selectedIndex]?.text ?? "";
-    const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value;
+    const project = (form.elements.namedItem("project") as HTMLTextAreaElement).value;
 
     const body = [
       `${labelName}: ${name}`,
       `${labelEmail}: ${email}`,
-      `${labelType}: ${typeLabel}`,
       "",
-      `${labelMessage}:`,
-      message,
+      `${labelProject}:`,
+      project,
     ].join("\n");
 
     window.location.href =
@@ -60,9 +53,7 @@ export function RgpdForm({
     <HudPanel label={panelLabel} className="p-8">
       <form onSubmit={handleSubmit} className="space-y-5">
         <div>
-          <label className={LABEL_STYLE}>
-            {labelName}
-          </label>
+          <label className={LABEL_STYLE}>{labelName}</label>
           <input
             type="text"
             name="name"
@@ -73,9 +64,7 @@ export function RgpdForm({
           />
         </div>
         <div>
-          <label className={LABEL_STYLE}>
-            {labelEmail}
-          </label>
+          <label className={LABEL_STYLE}>{labelEmail}</label>
           <input
             type="email"
             name="email"
@@ -86,33 +75,13 @@ export function RgpdForm({
           />
         </div>
         <div>
-          <label className={LABEL_STYLE}>
-            {labelType}
-          </label>
-          <select
-            name="type"
-            required
-            className={`${INPUT_STYLE} appearance-none cursor-pointer`}
-            style={CLIP_INPUT}
-          >
-            <option value="">...</option>
-            {types.map(({ value, label }) => (
-              <option key={value} value={value}>
-                {label}
-              </option>
-            ))}
-          </select>
-        </div>
-        <div>
-          <label className={LABEL_STYLE}>
-            {labelMessage}
-          </label>
+          <label className={LABEL_STYLE}>{labelProject}</label>
           <textarea
-            name="message"
+            name="project"
             required
             rows={5}
             className={`${INPUT_STYLE} resize-none`}
-            placeholder={placeholderMessage}
+            placeholder={placeholderProject}
             style={CLIP_INPUT}
           />
         </div>
