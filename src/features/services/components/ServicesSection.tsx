@@ -33,6 +33,15 @@ export async function ServicesSection() {
           </p>
         </div>
 
+        <div className="mb-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {values.map(({ label, desc }) => (
+            <div key={label} className="border-l-2 border-[#ff7d27] pl-4 py-2">
+              <div className="text-xs font-bold uppercase tracking-widest text-[#e8eaf0] mb-1">{label}</div>
+              <div className="text-xs text-[#5a6070]">{desc}</div>
+            </div>
+          ))}
+        </div>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {items.map(({ title, description, price }, i) => (
             <HudPanel
@@ -61,15 +70,6 @@ export async function ServicesSection() {
               <p className="text-xs text-[#5a6070] leading-relaxed">{description}</p>
               <span className="mt-auto pt-4 inline-block text-[10px] font-mono text-[#ff7d27] tracking-widest">{price}</span>
             </HudPanel>
-          ))}
-        </div>
-
-        <div className="mt-16 pt-12 border-t border-[#1e2330] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {values.map(({ label, desc }) => (
-            <div key={label} className="border-l-2 border-[#ff7d27] pl-4 py-2">
-              <div className="text-xs font-bold uppercase tracking-widest text-[#e8eaf0] mb-1">{label}</div>
-              <div className="text-xs text-[#5a6070]">{desc}</div>
-            </div>
           ))}
         </div>
       </div>
