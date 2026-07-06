@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { AccentLine } from "@/components/ui/AccentLine";
 
@@ -37,6 +38,20 @@ export async function HeroSection() {
       </div>
 
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-24 text-center">
+        <div className="pointer-events-none absolute left-1/2 top-1/2 -z-10 flex -translate-x-1/2 -translate-y-1/2 items-center justify-center">
+          <div
+            className="absolute h-72 w-72 sm:h-[26rem] sm:w-[26rem] rounded-full"
+            style={{ background: "radial-gradient(circle, rgba(255,125,39,0.20) 0%, transparent 70%)" }}
+          />
+          <Image
+            src="/favicon.svg"
+            alt=""
+            aria-hidden
+            width={420}
+            height={420}
+            className="w-56 sm:w-[22rem] h-auto opacity-[0.10]"
+          />
+        </div>
         <div className="flex items-center justify-center gap-3 mb-8">
           <span className="w-1.5 h-1.5 rounded-full bg-[#4ade80] animate-pulse" />
           <div className="h-px w-12 bg-[#ff7d27]" />

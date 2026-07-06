@@ -13,7 +13,7 @@
   "hero": {
     "badge": "Disponible pour de nouveaux projets",
     "tagline": "Sites, applications & publicité à l'échelle nationale",
-    "taglineSub": "Nous créons les sites et applications qui font tourner votre entreprise - et affichons votre marque sur des panneaux partout aux États-Unis.",
+    "taglineSub": "Nous créons les sites web et applications sur lesquels repose votre activité, et affichons votre marque sur des panneaux dans les 50 États américains.",
     "email": "contact@ccunit.net",
     "pill1": "Sites web",
     "pill2": "Panneaux publicitaires",
@@ -25,21 +25,21 @@
   "services": {
     "sectionLabel": "Ce que nous faisons",
     "heading": "Services",
-    "subtitle": "Des sites web et applications sur mesure aux campagnes d'affichage à travers les États-Unis. On le crée, on le lance, et on fait remarquer votre marque.",
+    "subtitle": "Des sites web et applications sur mesure aux campagnes d'affichage dans les 50 États américains. Nous le concevons, nous le lançons et nous faisons remarquer votre marque.",
     "items": [
-      { "title": "Sites & applications web", "description": "Sites et applications web pour particuliers et entreprises. On vous remet tout le code, ou on s'occupe de l'hébergement pour vous - comme vous préférez.", "price": "Sur devis" },
-      { "title": "Publicité sur panneaux (USA)", "description": "Publicité physique à travers les États-Unis grâce à notre propre réseau de panneaux d'affichage. Couverture nationale, les bons emplacements, impossible à manquer.", "price": "Sur devis" },
-      { "title": "Bots & applications", "description": "Bots Discord et Telegram, ainsi que des logiciels de bureau sur mesure conçus autour de votre façon de travailler. Si ça peut être construit, on le construit.", "price": "Sur devis" },
-      { "title": "Audit de smart contract", "description": "Un examen de sécurité approfondi de vos smart contracts blockchain, avec un rapport clair de tout ce qui doit être corrigé.", "price": "À partir de 100 $" },
-      { "title": "Développement de smart contract", "description": "Smart contracts blockchain sur mesure - tokens, NFTs et plus encore - conçus en toute sécurité dès le départ.", "price": "Sur devis" },
-      { "title": "Intégration Web3", "description": "Connectez votre site ou application à la blockchain, de la connexion du wallet aux données en direct, intégré en douceur.", "price": "Sur devis" }
+      { "title": "Sites & applications web", "description": "Sites et applications web pour particuliers et entreprises. Nous vous livrons l'intégralité du code, ou nous prenons en charge l'hébergement pour vous, selon ce qui vous convient le mieux.", "price": "Sur devis" },
+      { "title": "Publicité sur panneaux (USA)", "description": "Publicité physique dans les 50 États américains grâce à notre réseau partenaire de 3 200 panneaux d'affichage. Une couverture nationale, les bons emplacements, impossible à manquer.", "price": "Sur devis" },
+      { "title": "Bots & applications", "description": "Bots Discord et Telegram, ainsi que des logiciels de bureau sur mesure conçus autour de votre façon de travailler. Si c'est réalisable, nous le réalisons.", "price": "Sur devis" },
+      { "title": "Audit de smart contract", "description": "Un examen de sécurité approfondi de vos smart contracts blockchain, accompagné d'un rapport clair de tout ce qui doit être corrigé.", "price": "À partir de 100 $" },
+      { "title": "Développement de smart contract", "description": "Smart contracts blockchain sur mesure : tokens, NFTs et bien plus, conçus en toute sécurité dès le départ.", "price": "Sur devis" },
+      { "title": "Intégration Web3", "description": "Nous connectons votre site ou application à la blockchain, de la connexion du wallet aux données en direct, avec une intégration fluide.", "price": "Sur devis" }
     ]
   },
   "about": {
     "sectionLabel": "Qui nous sommes",
     "heading": "À propos",
-    "p1": "Core Control Unit est un studio numérique qui couvre les sites web, les logiciels sur mesure et la publicité par affichage à travers les États-Unis - avec un savoir-faire blockchain à disposition dès qu'un projet le nécessite.",
-    "p2": "Nous travaillons directement avec des particuliers, des startups et des petites entreprises. Sans intermédiaire, sans superflu - juste une communication claire, des délais rapides, et un travail qui vous appartient entièrement.",
+    "p1": "Core Control Unit est un studio numérique qui couvre les sites web, les logiciels sur mesure et la publicité par affichage dans les 50 États américains grâce à un réseau partenaire de 3 200 panneaux, avec un savoir-faire blockchain à disposition dès qu'un projet le nécessite.",
+    "p2": "Nous travaillons directement avec des particuliers, des startups et des petites entreprises. Sans intermédiaire ni superflu : une communication claire, des délais rapides et un travail qui vous appartient entièrement.",
     "p3": "Nous travaillons à distance avec des clients partout dans le monde et gérons chaque projet de bout en bout : de la première ligne de code jusqu'au panneau d'affichage en ligne.",
     "values": [
       { "label": "Fiabilité", "desc": "Conçu pour durer, pas juste pour la démo." },
@@ -67,14 +67,15 @@
     "heading": "Projets récents",
     "viewProject": "Voir le projet →",
     "viewAll": "Voir tous les projets →",
-    "detailSubtitle": "Un aperçu détaillé de quelques projets livrés de bout en bout.",
+    "detailSubtitle": "Un aperçu détaillé de ce que nous construisons, de bout en bout.",
     "backToHome": "← Retour à l'accueil",
-    "visitProject": "Voir le projet en ligne",
+    "backToProjects": "← Retour aux projets",
+    "visitProject": "Jouer au test en ligne",
     "comingSoon": "Lien en ligne bientôt disponible",
+    "viewSource": "Voir sur GitHub",
+    "moreSoon": "D'autres projets arrivent bientôt.",
     "items": [
-      { "id": "us-billboard-campaign", "title": "Campagne d'affichage USA", "description": "Campagne d'affichage nationale pour une marque grand public : placement coordonné dans 12 États, gérée de bout en bout, de la création graphique aux panneaux en ligne.", "longDescription": "Une marque grand public souhaitait une présence physique à travers les États-Unis sans gérer une dizaine de prestataires régionaux. Nous avons piloté la campagne de bout en bout : direction créative, conception des panneaux, négociation des emplacements dans 12 États, et suivi en direct une fois les panneaux installés. Un seul interlocuteur, une seule facture, un calendrier coordonné sur tous les marchés." },
-      { "id": "ecommerce-web-app", "title": "Application E-commerce", "description": "Boutique Next.js avec intégration Stripe, CMS personnalisé et hébergement Vercel. Livré avec transfert complet du code source au client.", "longDescription": "Un commerçant en croissance devait quitter une plateforme SaaS trop rigide pour quelque chose qu'il possède réellement. Nous avons développé une boutique Next.js avec Stripe Checkout, un CMS sur mesure léger pour la gestion des produits et des stocks, déployée sur Vercel. Le code source complet a été transféré à la livraison, sans dépendance à un prestataire." },
-      { "id": "community-discord-bot", "title": "Bot Discord Communautaire", "description": "Bot sur mesure gérant une communauté de 20 000 membres : onboarding automatisé, outils de modération et notifications d'événements en direct. Développé pour un client privé.", "longDescription": "Une communauté Discord de 20 000 membres dépassait les capacités d'une modération manuelle. Nous avons développé un bot sur mesure gérant l'onboarding automatisé, l'application des règles et les outils de modération, ainsi que les notifications d'événements en direct, adapté au fonctionnement précis de cette communauté plutôt qu'un bot générique." }
+      { "id": "seculars-online", "title": "Seculars Online", "description": "Un jeu de stratégie en temps réel massivement multijoueur en cours de développement. Fondez un village dans un monde infini généré procéduralement, construisez-le, défendez-le et jouez aux côtés des autres. Testable publiquement dès maintenant.", "longDescription": "Seculars Online est notre jeu de stratégie en temps réel MMO (Build 10, en développement actif), qui tourne entièrement dans le navigateur sur un moteur WebGPU propriétaire développé avec three.js et drei. Les villages reposent sur une génération procédurale infinie : le monde ne s'arrête jamais. Les arbres, l'herbe et les bâtiments sont des entités instanciées animées par une technique de vertex animation texture (VAT), pour un rendu fluide et économe pour le GPU, jusqu'aux bâtiments qui s'imbriquent au fil de la construction. À venir : une carte du monde, des batailles, de la défense de châteaux, une gestion de ville plus poussée, des guildes détenues par les joueurs, et bien plus encore. Le jeu est déjà ouvert aux tests publics : lancez-vous, explorez et contribuez à façonner la suite." }
     ]
   },
   "footer": {
@@ -83,6 +84,7 @@
     "siretValue": "XXX XXX XXX XXXXX",
     "phone": "+33 X XX XX XX XX",
     "tagline": "Ingénierie logicielle · France",
+    "contactLabel": "Contact",
     "linksLabel": "Liens",
     "legal": "Mentions légales",
     "rgpd": "Contact RGPD",

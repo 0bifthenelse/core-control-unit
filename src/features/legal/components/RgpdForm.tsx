@@ -1,12 +1,7 @@
 "use client";
 
 import { HudPanel } from "@/components/ui/HudPanel";
-
-const INPUT_STYLE =
-  "w-full bg-[#0d0f12] border border-[#1e2330] px-4 py-3 text-xs text-[#e8eaf0] focus:border-[#ff7d27] focus:outline-none transition-colors placeholder:text-[#5a6070]";
-const CLIP_INPUT = {
-  clipPath: "polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px))",
-};
+import { LABEL_STYLE, INPUT_STYLE, CLIP_INPUT, BUTTON_STYLE, CLIP_BUTTON } from "@/components/ui/formStyles";
 
 interface RgpdFormProps {
   panelLabel: string;
@@ -42,7 +37,7 @@ export function RgpdForm({
         className="space-y-5"
       >
         <div>
-          <label className="block text-[10px] uppercase tracking-widest text-[#5a6070] mb-2">
+          <label className={LABEL_STYLE}>
             {labelName}
           </label>
           <input
@@ -55,7 +50,7 @@ export function RgpdForm({
           />
         </div>
         <div>
-          <label className="block text-[10px] uppercase tracking-widest text-[#5a6070] mb-2">
+          <label className={LABEL_STYLE}>
             {labelEmail}
           </label>
           <input
@@ -68,7 +63,7 @@ export function RgpdForm({
           />
         </div>
         <div>
-          <label className="block text-[10px] uppercase tracking-widest text-[#5a6070] mb-2">
+          <label className={LABEL_STYLE}>
             {labelType}
           </label>
           <select
@@ -86,7 +81,7 @@ export function RgpdForm({
           </select>
         </div>
         <div>
-          <label className="block text-[10px] uppercase tracking-widest text-[#5a6070] mb-2">
+          <label className={LABEL_STYLE}>
             {labelMessage}
           </label>
           <textarea
@@ -98,11 +93,7 @@ export function RgpdForm({
             style={CLIP_INPUT}
           />
         </div>
-        <button
-          type="submit"
-          className="w-full bg-[#ff7d27] py-4 text-xs uppercase tracking-widest text-black font-bold hover:bg-[#e06b1a] transition-colors duration-200"
-          style={{ clipPath: "polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px))" }}
-        >
+        <button type="submit" className={BUTTON_STYLE} style={CLIP_BUTTON}>
           {submit}
         </button>
       </form>

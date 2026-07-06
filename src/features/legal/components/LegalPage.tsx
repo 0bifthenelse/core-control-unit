@@ -1,6 +1,5 @@
 import { getTranslations } from "next-intl/server";
 import { AccentLine } from "@/components/ui/AccentLine";
-import { HudPanel } from "@/components/ui/HudPanel";
 import { RgpdForm } from "./RgpdForm";
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
@@ -78,20 +77,18 @@ export async function LegalPage() {
             <AccentLine className="mt-3 mb-4 max-w-xs mx-auto" />
             <p className="text-xs text-[#5a6070] max-w-sm mx-auto">{t("rgpdSubtitle")}</p>
           </div>
-          <HudPanel className="p-0">
-            <RgpdForm
-              panelLabel={t("rgpdPanelLabel")}
-              labelName={t("rgpdLabelName")}
-              placeholderName={t("rgpdPlaceholderName")}
-              labelEmail={t("rgpdLabelEmail")}
-              placeholderEmail={t("rgpdPlaceholderEmail")}
-              labelType={t("rgpdLabelType")}
-              types={rgpdTypes}
-              labelMessage={t("rgpdLabelMessage")}
-              placeholderMessage={t("rgpdPlaceholderMessage")}
-              submit={t("rgpdSubmit")}
-            />
-          </HudPanel>
+          <RgpdForm
+            panelLabel={t("rgpdPanelLabel")}
+            labelName={t("rgpdLabelName")}
+            placeholderName={t("rgpdPlaceholderName")}
+            labelEmail={t("rgpdLabelEmail")}
+            placeholderEmail={t("rgpdPlaceholderEmail")}
+            labelType={t("rgpdLabelType")}
+            types={rgpdTypes}
+            labelMessage={t("rgpdLabelMessage")}
+            placeholderMessage={t("rgpdPlaceholderMessage")}
+            submit={t("rgpdSubmit")}
+          />
         </div>
       </div>
     </main>

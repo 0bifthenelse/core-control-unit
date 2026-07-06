@@ -30,12 +30,18 @@ export async function ProjectsSection() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div
+          className={`grid gap-4 ${
+            items.length === 1
+              ? "grid-cols-1 sm:max-w-md"
+              : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+          }`}
+        >
           {items.map(({ id, title, description }) => {
             const asset = projectAssets.find((project) => project.id === id);
             const cover = asset?.screenshots[0];
             return (
-              <HudPanel key={id} className="overflow-hidden group hover:border-[#ff7d27]/40 hover:-translate-y-1 transition-all duration-300">
+              <HudPanel key={id} className="flex flex-col h-full overflow-hidden group hover:border-[#ff7d27]/40 hover:-translate-y-1 transition-all duration-300">
                 <div className="relative w-full aspect-video overflow-hidden">
                   {cover && (
                     <Image
@@ -53,12 +59,12 @@ export async function ProjectsSection() {
                   />
                   <div className="absolute bottom-0 inset-x-0 h-0.5 bg-gradient-to-r from-[#ff7d27]/70 to-transparent" />
                 </div>
-                <div className="p-6">
+                <div className="flex flex-col flex-1 p-6">
                   <h3 className="text-sm font-bold uppercase tracking-wider text-[#e8eaf0] mb-3">{title}</h3>
                   <p className="text-xs text-[#5a6070] leading-relaxed mb-4">{description}</p>
                   <Link
-                    href={`/projects#${id}`}
-                    className="text-[10px] uppercase tracking-widest text-[#ff7d27] hover:text-[#e06b1a] transition-colors font-mono"
+                    href={`/projects/${id}`}
+                    className="mt-auto pt-2 text-[10px] uppercase tracking-widest text-[#ff7d27] hover:text-[#e06b1a] transition-colors font-mono"
                   >
                     {t("viewProject")}
                   </Link>
@@ -67,6 +73,10 @@ export async function ProjectsSection() {
             );
           })}
         </div>
+
+        <p className="mt-10 text-[10px] uppercase tracking-widest text-[#5a6070] font-mono">
+          {t("moreSoon")}
+        </p>
       </div>
     </section>
   );

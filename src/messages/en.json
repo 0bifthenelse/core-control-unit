@@ -13,7 +13,7 @@
   "hero": {
     "badge": "Available for new projects",
     "tagline": "Websites, apps & nationwide advertising",
-    "taglineSub": "We build the websites and apps your business runs on - and put your brand on billboards right across America.",
+    "taglineSub": "We build the websites and apps your business runs on, and put your brand on billboards across all 50 US states.",
     "email": "contact@ccunit.net",
     "pill1": "Websites",
     "pill2": "Billboard Ads",
@@ -25,21 +25,21 @@
   "services": {
     "sectionLabel": "What we do",
     "heading": "Services",
-    "subtitle": "From websites and custom apps to billboard campaigns across America. We build it, launch it, and get your brand noticed.",
+    "subtitle": "From websites and custom apps to billboard campaigns across all 50 US states. We build it, launch it, and get your brand noticed.",
     "items": [
-      { "title": "Websites & Web Apps", "description": "Websites and web apps for people and businesses. We hand over all the code, or take care of hosting for you - whichever suits you best.", "price": "On quote" },
-      { "title": "Billboard Advertising", "description": "Physical advertising across the United States through our own billboard network. Nationwide reach, the right locations, hard to miss.", "price": "On quote" },
+      { "title": "Websites & Web Apps", "description": "Websites and web apps for people and businesses. We hand over all the code, or take care of hosting for you, whichever suits you best.", "price": "On quote" },
+      { "title": "Billboard Advertising", "description": "Physical advertising across all 50 US states through our partner network of 3,200 billboards. Nationwide reach, the right locations, hard to miss.", "price": "On quote" },
       { "title": "Bots & Custom Apps", "description": "Discord and Telegram bots, plus custom desktop software built around the way you work. If it can be built, we'll build it.", "price": "On quote" },
       { "title": "Smart Contract Audit", "description": "A thorough security review of your blockchain smart contracts, with a clear report of anything that needs fixing.", "price": "From $100" },
-      { "title": "Smart Contract Development", "description": "Custom blockchain smart contracts - tokens, NFTs and more - built securely from the ground up.", "price": "On quote" },
+      { "title": "Smart Contract Development", "description": "Custom blockchain smart contracts, tokens, NFTs & more, built securely from the ground up.", "price": "On quote" },
       { "title": "Web3 Integration", "description": "Connect your website or app to the blockchain, from wallet sign-in to live on-chain data, smoothly integrated.", "price": "On quote" }
     ]
   },
   "about": {
     "sectionLabel": "Who we are",
     "heading": "About",
-    "p1": "Core Control Unit is a digital studio covering websites, custom software, and billboard advertising across the United States - with blockchain know-how on hand whenever a project calls for it.",
-    "p2": "We work directly with individuals, startups, and small businesses. No middlemen, no bloat - just clear communication, quick turnaround, and work you fully own.",
+    "p1": "Core Control Unit is a digital studio covering websites, custom software, and billboard advertising across all 50 US states through a 3,200-strong partner network, with blockchain know-how on hand whenever a project calls for it.",
+    "p2": "We work directly with individuals, startups, and small businesses. No middlemen, no bloat, just clear communication, quick turnaround, and work you fully own.",
     "p3": "We work remotely with clients around the world and handle each project end to end: from the first line of code to the billboard going live.",
     "values": [
       { "label": "Reliability", "desc": "Built to last, not just to demo." },
@@ -67,14 +67,15 @@
     "heading": "Recent projects",
     "viewProject": "View project →",
     "viewAll": "See all projects →",
-    "detailSubtitle": "A closer look at a few of the projects we've shipped, end to end.",
+    "detailSubtitle": "A closer look at what we're building, end to end.",
     "backToHome": "← Back to home",
-    "visitProject": "Visit live project",
+    "backToProjects": "← Back to projects",
+    "visitProject": "Play the live test",
     "comingSoon": "Live link coming soon",
+    "viewSource": "View on GitHub",
+    "moreSoon": "More projects coming soon.",
     "items": [
-      { "id": "us-billboard-campaign", "title": "US Billboard Campaign", "description": "Nationwide billboard campaign for a consumer brand: coordinated placement across 12 states, handled end-to-end from creative design to live boards.", "longDescription": "A consumer brand wanted physical presence across the US without managing a dozen regional vendors. We ran the whole campaign end-to-end: creative direction, board design, placement negotiation across 12 states, and live monitoring once boards went up. Single point of contact, one invoice, coordinated timing across every market." },
-      { "id": "ecommerce-web-app", "title": "E-commerce Web App", "description": "Next.js storefront with Stripe integration, custom CMS, and Vercel hosting. Delivered with full source code transfer to the client.", "longDescription": "A growing retailer needed to move off a bloated SaaS platform onto something they actually owned. We built a Next.js storefront with Stripe Checkout, a lightweight custom CMS for product and inventory management, and deployed it on Vercel. Full source code was handed over at delivery, with no vendor lock-in." },
-      { "id": "community-discord-bot", "title": "Community Discord Bot", "description": "Custom bot managing a 20k-member community: automated onboarding, moderation tools, and live event notifications. Built for a private client.", "longDescription": "A 20,000-member Discord community was outgrowing manual moderation. We built a custom bot handling automated onboarding flows, rule enforcement and moderation tooling, and live notifications for community events, tailored to how this specific community operates rather than a generic off-the-shelf bot." }
+      { "id": "seculars-online", "title": "Seculars Online", "description": "A massively-multiplayer online real-time strategy game in active development. Found a village in an endless, procedurally generated world, build & defend it, and play alongside others. Publicly testable right now.", "longDescription": "Seculars Online is our in-house MMO real-time strategy game (Build 10, in active development), running entirely in the browser on a custom WebGPU engine built with three.js & drei. Villages come from infinite procedural generation, so the world never ends. Trees, grass and buildings are instanced matrix entities animated with a vertex animation texture (VAT) technique for smooth, GPU-cheap motion, right down to buildings clipping into place as they are constructed. On the roadmap: a full world map, battles, castle defense, deeper city building, player-owned guilds, and more. It is already open for public testing, so jump in, explore, and help shape where it goes." }
     ]
   },
   "footer": {
@@ -83,6 +84,7 @@
     "siretValue": "XXX XXX XXX XXXXX",
     "phone": "+33 X XX XX XX XX",
     "tagline": "Software engineering · France",
+    "contactLabel": "Contact",
     "linksLabel": "Links",
     "legal": "Legal notice",
     "rgpd": "GDPR contact",

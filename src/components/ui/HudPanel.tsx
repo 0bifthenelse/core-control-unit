@@ -8,7 +8,7 @@ interface HudPanelProps {
 
 export function HudPanel({ children, className = "", label }: HudPanelProps) {
   return (
-    <div className="relative">
+    <div className="relative h-full">
       <div
         className={`relative border border-[#1e2330] bg-[#111418] ${className}`}
         style={{

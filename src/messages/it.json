@@ -13,7 +13,7 @@
   "hero": {
     "badge": "Disponibili per nuovi progetti",
     "tagline": "Siti web, app e pubblicità su scala nazionale",
-    "taglineSub": "Creiamo i siti web e le app su cui gira la tua azienda - e mettiamo il tuo marchio sui cartelloni in tutti gli Stati Uniti.",
+    "taglineSub": "Creiamo i siti web e le app su cui gira la tua azienda, e mettiamo il tuo marchio sui cartelloni in tutti i 50 stati americani.",
     "email": "contact@ccunit.net",
     "pill1": "Siti web",
     "pill2": "Cartelloni pubblicitari",
@@ -25,21 +25,21 @@
   "services": {
     "sectionLabel": "Cosa facciamo",
     "heading": "Servizi",
-    "subtitle": "Da siti web e app su misura a campagne di cartelloni in tutti gli Stati Uniti. Lo creiamo, lo lanciamo e facciamo notare il tuo marchio.",
+    "subtitle": "Da siti web e app su misura a campagne di cartelloni in tutti i 50 stati americani. Lo creiamo, lo lanciamo e facciamo notare il tuo marchio.",
     "items": [
-      { "title": "Siti e app web", "description": "Siti e applicazioni web per privati e aziende. Ti consegniamo tutto il codice, oppure gestiamo l'hosting per te - come preferisci.", "price": "Su preventivo" },
-      { "title": "Pubblicità sui cartelloni (USA)", "description": "Pubblicità fisica in tutti gli Stati Uniti grazie alla nostra rete di cartelloni. Copertura nazionale, le posizioni giuste, impossibile non notarli.", "price": "Su preventivo" },
+      { "title": "Siti e app web", "description": "Siti e applicazioni web per privati e aziende. Ti consegniamo tutto il codice, oppure gestiamo l'hosting per te, come preferisci.", "price": "Su preventivo" },
+      { "title": "Pubblicità sui cartelloni (USA)", "description": "Pubblicità fisica in tutti i 50 stati americani grazie alla nostra rete partner di 3.200 cartelloni. Copertura nazionale, le posizioni giuste, impossibile non notarli.", "price": "Su preventivo" },
       { "title": "Bot & applicazioni", "description": "Bot Discord e Telegram, oltre a software desktop su misura pensato per il tuo modo di lavorare. Se può essere costruito, lo costruiamo.", "price": "Su preventivo" },
       { "title": "Audit smart contract", "description": "Un'analisi di sicurezza approfondita dei tuoi smart contract blockchain, con un report chiaro di tutto ciò che va corretto.", "price": "Da $100" },
-      { "title": "Sviluppo smart contract", "description": "Smart contract blockchain su misura - token, NFT e altro - costruiti in modo sicuro fin dall'inizio.", "price": "Su preventivo" },
+      { "title": "Sviluppo smart contract", "description": "Smart contract blockchain su misura: token, NFT e altro ancora, costruiti in modo sicuro fin dall'inizio.", "price": "Su preventivo" },
       { "title": "Integrazione Web3", "description": "Collega il tuo sito o app alla blockchain, dall'accesso con wallet ai dati in tempo reale, integrato in modo fluido.", "price": "Su preventivo" }
     ]
   },
   "about": {
     "sectionLabel": "Chi siamo",
     "heading": "Chi siamo",
-    "p1": "Core Control Unit è uno studio digitale che si occupa di siti web, software su misura e pubblicità sui cartelloni in tutti gli Stati Uniti - con competenze blockchain a disposizione ogni volta che un progetto lo richiede.",
-    "p2": "Lavoriamo direttamente con privati, startup e piccole imprese. Nessun intermediario, niente fronzoli - solo comunicazione chiara, consegna rapida e un lavoro che ti appartiene per intero.",
+    "p1": "Core Control Unit è uno studio digitale che si occupa di siti web, software su misura e pubblicità sui cartelloni in tutti i 50 stati americani grazie a una rete partner di 3.200 cartelloni, con competenze blockchain a disposizione ogni volta che un progetto lo richiede.",
+    "p2": "Lavoriamo direttamente con privati, startup e piccole imprese. Nessun intermediario, niente fronzoli: solo comunicazione chiara, consegna rapida e un lavoro che ti appartiene per intero.",
     "p3": "Lavoriamo da remoto con clienti in tutto il mondo e seguiamo ogni progetto dall'inizio alla fine: dalla prima riga di codice al cartellone attivo.",
     "values": [
       { "label": "Affidabilità", "desc": "Fatto per durare, non solo per la demo." },
@@ -67,14 +67,15 @@
     "heading": "Progetti recenti",
     "viewProject": "Vedi progetto →",
     "viewAll": "Vedi tutti i progetti →",
-    "detailSubtitle": "Uno sguardo più da vicino ad alcuni progetti consegnati dall'inizio alla fine.",
+    "detailSubtitle": "Uno sguardo più da vicino a ciò che stiamo costruendo, dall'inizio alla fine.",
     "backToHome": "← Torna alla home",
-    "visitProject": "Vedi il progetto live",
+    "backToProjects": "← Torna ai progetti",
+    "visitProject": "Gioca al test live",
     "comingSoon": "Link live in arrivo",
+    "viewSource": "Vedi su GitHub",
+    "moreSoon": "Altri progetti in arrivo.",
     "items": [
-      { "id": "us-billboard-campaign", "title": "Campagna Cartelloni USA", "description": "Campagna di cartelloni su scala nazionale per un marchio di consumo: posizionamento coordinato in 12 stati, gestita dall'inizio alla fine, dal design grafico ai cartelloni attivi.", "longDescription": "Un marchio di consumo voleva una presenza fisica in tutti gli Stati Uniti senza gestire una decina di fornitori regionali. Abbiamo seguito la campagna dall'inizio alla fine: direzione creativa, design dei cartelloni, negoziazione degli spazi in 12 stati e monitoraggio in diretta una volta installati. Un unico referente, un'unica fattura, tempistiche coordinate su tutti i mercati." },
-      { "id": "ecommerce-web-app", "title": "App E-commerce", "description": "Vetrina Next.js con integrazione Stripe, CMS personalizzato e hosting su Vercel. Consegnata con trasferimento completo del codice sorgente al cliente.", "longDescription": "Un rivenditore in crescita doveva lasciare una piattaforma SaaS troppo rigida per qualcosa che possedesse realmente. Abbiamo costruito una vetrina Next.js con Stripe Checkout, un CMS personalizzato leggero per la gestione di prodotti e inventario, distribuita su Vercel. Il codice sorgente completo è stato consegnato al cliente, senza vincoli verso terzi." },
-      { "id": "community-discord-bot", "title": "Bot Discord per Community", "description": "Bot su misura che gestisce una community di 20.000 membri: onboarding automatizzato, strumenti di moderazione e notifiche di eventi in diretta. Sviluppato per un cliente privato.", "longDescription": "Una community Discord di 20.000 membri superava le capacità della moderazione manuale. Abbiamo sviluppato un bot su misura che gestisce onboarding automatizzato, applicazione delle regole e strumenti di moderazione, oltre a notifiche di eventi in diretta, adattato al funzionamento specifico di questa community invece di un bot generico." }
+      { "id": "seculars-online", "title": "Seculars Online", "description": "Un gioco di strategia in tempo reale multiplayer di massa in fase di sviluppo attivo. Fonda un villaggio in un mondo infinito generato proceduralmente, costruiscilo, difendilo e gioca insieme agli altri. Testabile pubblicamente da subito.", "longDescription": "Seculars Online è il nostro gioco di strategia in tempo reale MMO (Build 10, in sviluppo attivo), che gira interamente nel browser su un motore WebGPU proprietario sviluppato con three.js e drei. I villaggi si basano su una generazione procedurale infinita: il mondo non finisce mai. Alberi, erba ed edifici sono entità istanziate animate con una tecnica di vertex animation texture (VAT), per un movimento fluido e leggero per la GPU, fino agli edifici che si incastrano man mano che vengono costruiti. In arrivo: una mappa del mondo, battaglie, difesa dei castelli, una gestione della città più approfondita, gilde di proprietà dei giocatori e altro ancora. Il gioco è già aperto ai test pubblici: entra, esplora e aiuta a plasmarne il futuro." }
     ]
   },
   "footer": {
@@ -83,6 +84,7 @@
     "siretValue": "XXX XXX XXX XXXXX",
     "phone": "+33 X XX XX XX XX",
     "tagline": "Ingegneria del software · Francia",
+    "contactLabel": "Contatto",
     "linksLabel": "Link",
     "legal": "Note legali",
     "rgpd": "Contatto RGPD",

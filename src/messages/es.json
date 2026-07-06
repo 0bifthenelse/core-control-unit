@@ -13,7 +13,7 @@
   "hero": {
     "badge": "Disponibles para nuevos proyectos",
     "tagline": "Sitios web, apps y publicidad a nivel nacional",
-    "taglineSub": "Creamos los sitios web y las apps con los que funciona tu negocio - y ponemos tu marca en vallas por todo Estados Unidos.",
+    "taglineSub": "Creamos los sitios web y las apps con los que funciona tu negocio, y ponemos tu marca en vallas por los 50 estados de EE. UU.",
     "email": "contact@ccunit.net",
     "pill1": "Sitios web",
     "pill2": "Vallas publicitarias",
@@ -25,21 +25,21 @@
   "services": {
     "sectionLabel": "Lo que hacemos",
     "heading": "Servicios",
-    "subtitle": "Desde sitios web y apps a medida hasta campañas de vallas por todo EE. UU. Lo creamos, lo lanzamos y hacemos que se note tu marca.",
+    "subtitle": "Desde sitios web y apps a medida hasta campañas de vallas por los 50 estados de EE. UU. Lo creamos, lo lanzamos y hacemos que se note tu marca.",
     "items": [
-      { "title": "Sitios y apps web", "description": "Sitios y aplicaciones web para particulares y empresas. Te entregamos todo el código, o nos encargamos del alojamiento por ti - como prefieras.", "price": "A consultar" },
-      { "title": "Publicidad en vallas (EE. UU.)", "description": "Publicidad física por todo Estados Unidos a través de nuestra propia red de vallas publicitarias. Cobertura nacional, las ubicaciones adecuadas, imposible de pasar por alto.", "price": "A consultar" },
+      { "title": "Sitios y apps web", "description": "Sitios y aplicaciones web para particulares y empresas. Te entregamos todo el código, o nos encargamos del alojamiento por ti, como prefieras.", "price": "A consultar" },
+      { "title": "Publicidad en vallas (EE. UU.)", "description": "Publicidad física por los 50 estados de EE. UU. a través de nuestra red asociada de 3.200 vallas publicitarias. Cobertura nacional, las ubicaciones adecuadas, imposible de pasar por alto.", "price": "A consultar" },
       { "title": "Bots & aplicaciones", "description": "Bots de Discord y Telegram, además de software de escritorio a medida pensado para tu forma de trabajar. Si se puede construir, lo construimos.", "price": "A consultar" },
       { "title": "Auditoría de smart contract", "description": "Una revisión de seguridad exhaustiva de tus smart contracts en blockchain, con un informe claro de todo lo que hay que corregir.", "price": "Desde $100" },
-      { "title": "Desarrollo de smart contract", "description": "Smart contracts en blockchain a medida - tokens, NFTs y más - creados de forma segura desde el principio.", "price": "A consultar" },
+      { "title": "Desarrollo de smart contract", "description": "Smart contracts en blockchain a medida: tokens, NFTs y más, creados de forma segura desde el principio.", "price": "A consultar" },
       { "title": "Integración Web3", "description": "Conecta tu sitio o aplicación a la blockchain, desde el inicio de sesión con wallet hasta los datos en vivo, integrado sin fricciones.", "price": "A consultar" }
     ]
   },
   "about": {
     "sectionLabel": "Quiénes somos",
     "heading": "Acerca de",
-    "p1": "Core Control Unit es un estudio digital que abarca sitios web, software a medida y publicidad en vallas por todo Estados Unidos - con conocimientos de blockchain a mano siempre que un proyecto lo requiere.",
-    "p2": "Trabajamos directamente con particulares, startups y pequeñas empresas. Sin intermediarios ni excesos - solo comunicación clara, entrega rápida y un trabajo que es completamente tuyo.",
+    "p1": "Core Control Unit es un estudio digital que abarca sitios web, software a medida y publicidad en vallas por los 50 estados de EE. UU. a través de una red asociada de 3.200 vallas, con conocimientos de blockchain a mano siempre que un proyecto lo requiere.",
+    "p2": "Trabajamos directamente con particulares, startups y pequeñas empresas. Sin intermediarios ni excesos: solo comunicación clara, entrega rápida y un trabajo que es completamente tuyo.",
     "p3": "Trabajamos en remoto con clientes de todo el mundo y gestionamos cada proyecto de principio a fin: desde la primera línea de código hasta la valla publicitaria en activo.",
     "values": [
       { "label": "Fiabilidad", "desc": "Hecho para durar, no solo para la demo." },
@@ -67,14 +67,15 @@
     "heading": "Proyectos recientes",
     "viewProject": "Ver proyecto →",
     "viewAll": "Ver todos los proyectos →",
-    "detailSubtitle": "Un vistazo más de cerca a algunos proyectos que hemos entregado de principio a fin.",
+    "detailSubtitle": "Una mirada más de cerca a lo que estamos construyendo, de principio a fin.",
     "backToHome": "← Volver al inicio",
-    "visitProject": "Ver proyecto en directo",
+    "backToProjects": "← Volver a proyectos",
+    "visitProject": "Jugar a la prueba en directo",
     "comingSoon": "Enlace en directo próximamente",
+    "viewSource": "Ver en GitHub",
+    "moreSoon": "Más proyectos próximamente.",
     "items": [
-      { "id": "us-billboard-campaign", "title": "Campaña de Vallas EE. UU.", "description": "Campaña de vallas a nivel nacional para una marca de consumo: colocación coordinada en 12 estados, gestionada de principio a fin, del diseño gráfico a las vallas en activo.", "longDescription": "Una marca de consumo quería presencia física en todo EE. UU. sin gestionar una decena de proveedores regionales. Llevamos la campaña de principio a fin: dirección creativa, diseño de las vallas, negociación de ubicaciones en 12 estados y seguimiento en directo una vez instaladas. Un único punto de contacto, una sola factura, calendario coordinado en todos los mercados." },
-      { "id": "ecommerce-web-app", "title": "Aplicación E-commerce", "description": "Tienda Next.js con integración Stripe, CMS personalizado y hosting en Vercel. Entregada con transferencia completa del código fuente al cliente.", "longDescription": "Un comercio en crecimiento necesitaba dejar una plataforma SaaS demasiado rígida por algo que realmente le perteneciera. Construimos una tienda Next.js con Stripe Checkout, un CMS personalizado ligero para gestión de productos e inventario, desplegada en Vercel. El código fuente completo se entregó al cliente, sin dependencia de terceros." },
-      { "id": "community-discord-bot", "title": "Bot de Discord Comunitario", "description": "Bot a medida que gestiona una comunidad de 20 000 miembros: onboarding automatizado, herramientas de moderación y notificaciones de eventos en directo. Desarrollado para un cliente privado.", "longDescription": "Una comunidad de Discord de 20 000 miembros superaba la capacidad de la moderación manual. Construimos un bot a medida que gestiona onboarding automatizado, aplicación de normas y herramientas de moderación, además de notificaciones de eventos en directo, adaptado al funcionamiento concreto de esta comunidad en lugar de un bot genérico." }
+      { "id": "seculars-online", "title": "Seculars Online", "description": "Un juego de estrategia en tiempo real multijugador masivo en desarrollo activo. Funda una aldea en un mundo infinito generado proceduralmente, constrúyela, defiéndela y juega junto a otros. Ya se puede probar públicamente.", "longDescription": "Seculars Online es nuestro juego de estrategia en tiempo real MMO (Build 10, en desarrollo activo), que funciona por completo en el navegador sobre un motor WebGPU propio desarrollado con three.js y drei. Las aldeas usan generación procedural infinita: el mundo nunca termina. Árboles, hierba y edificios son entidades instanciadas animadas con una técnica de vertex animation texture (VAT), para un movimiento fluido y ligero para la GPU, hasta los edificios que encajan a medida que se construyen. Próximamente: un mapa del mundo, batallas, defensa de castillos, una gestión de ciudades más profunda, gremios propiedad de los jugadores y mucho más. El juego ya está abierto a pruebas públicas: entra, explora y ayuda a dar forma a su futuro." }
     ]
   },
   "footer": {
@@ -83,6 +84,7 @@
     "siretValue": "XXX XXX XXX XXXXX",
     "phone": "+33 X XX XX XX XX",
     "tagline": "Ingeniería de software · Francia",
+    "contactLabel": "Contacto",
     "linksLabel": "Enlaces",
     "legal": "Aviso legal",
     "rgpd": "Contacto RGPD",

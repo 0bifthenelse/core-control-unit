@@ -7,23 +7,21 @@ export async function Footer() {
 
   return (
     <footer className="border-t border-[#1e2330]">
-      {/* Main footer body */}
       <div className="mx-auto max-w-7xl px-6 py-16 grid grid-cols-1 sm:grid-cols-3 gap-10">
-        {/* Brand */}
-        <div className="space-y-3">
+        <div className="space-y-4">
           <Image
             src="/ccunit_logo_dark.svg"
             alt="Core Control Unit"
-            width={120}
-            height={32}
-            className="h-8 w-auto"
+            width={210}
+            height={56}
+            className="h-12 sm:h-14 w-auto"
+            style={{ filter: "drop-shadow(0 0 18px rgba(255,125,39,0.35))" }}
           />
           <p className="text-[10px] uppercase tracking-widest text-[#5a6070]">{t("tagline")}</p>
         </div>
 
-        {/* Contact */}
         <div className="space-y-3">
-          <span className="block text-[10px] uppercase tracking-[0.3em] text-[#ff7d27]">Contact</span>
+          <span className="block text-[10px] uppercase tracking-[0.3em] text-[#ff7d27]">{t("contactLabel")}</span>
           <a
             href="mailto:contact@ccunit.net"
             className="block text-[10px] uppercase tracking-widest text-[#5a6070] hover:text-[#ff7d27] transition-colors"
@@ -39,7 +37,6 @@ export async function Footer() {
           <span className="block text-[10px] uppercase tracking-widest text-[#5a6070]">{t("country")}</span>
         </div>
 
-        {/* Links */}
         <div className="space-y-3">
           <span className="block text-[10px] uppercase tracking-[0.3em] text-[#ff7d27]">{t("linksLabel")}</span>
           <a
@@ -68,7 +65,6 @@ export async function Footer() {
         </div>
       </div>
 
-      {/* Legal bar */}
       <div className="border-t border-[#1e2330] px-6 py-5">
         <div className="mx-auto max-w-7xl flex flex-col sm:flex-row items-center justify-between gap-3">
           <span className="text-[10px] uppercase tracking-widest text-[#5a6070]">
