@@ -95,7 +95,7 @@ export async function HeroSection() {
         </div>
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-          {[t("pill1"), t("pill2"), t("pill3")].map((pill) => (
+          {[t("pill1"), t("pill2"), t("pill3"), t("pill4")].map((pill) => (
             <span
               key={pill}
               className="border border-[#1e2330] bg-[#111418]/60 px-4 py-2 text-[10px] uppercase tracking-widest text-[#e8eaf0]"
@@ -105,24 +105,6 @@ export async function HeroSection() {
             </span>
           ))}
         </div>
-
-        <div className="mt-20 grid grid-cols-3 gap-4 max-w-lg mx-auto border-t border-[#1e2330] pt-8">
-          {[
-            { value: "12+", label: t("stat1Label") },
-            { value: "80+", label: t("stat2Label") },
-            { value: "100%", label: t("stat3Label") },
-          ].map(({ value, label }) => (
-            <div key={label} className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-[#ff7d27]">{value}</div>
-              <div className="text-[10px] uppercase tracking-widest text-[#5a6070] mt-1">{label}</div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[#5a6070]">
-        <span className="text-[10px] uppercase tracking-widest">{t("scroll")}</span>
-        <div className="w-px h-10 bg-gradient-to-b from-[#5a6070] to-transparent" />
       </div>
     </section>
   );

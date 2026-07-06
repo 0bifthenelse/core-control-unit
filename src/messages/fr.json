@@ -13,48 +13,45 @@
   "hero": {
     "badge": "Disponible pour de nouveaux projets",
     "tagline": "Sites, applications & publicité à l'échelle nationale",
-    "taglineSub": "Nous concevons et développons les sites et applications dont votre entreprise a besoin, et affichons votre marque sur des panneaux à travers les États-Unis.",
+    "taglineSub": "Nous créons les sites et applications qui font tourner votre entreprise — et affichons votre marque sur des panneaux partout aux États-Unis.",
     "email": "contact@ccunit.net",
-    "pill1": "Développement Web",
-    "pill2": "Marketing Billboard",
+    "pill1": "Sites web",
+    "pill2": "Panneaux publicitaires",
     "pill3": "Applications sur mesure",
+    "pill4": "Le code vous appartient",
     "ctaPrimary": "Démarrer votre projet",
-    "ctaSecondary": "Voir nos services",
-    "scroll": "Défiler",
-    "stat1Label": "Années d'activité",
-    "stat2Label": "Projets livrés",
-    "stat3Label": "Code qui vous appartient"
+    "ctaSecondary": "Découvrir nos services"
   },
   "services": {
-    "sectionLabel": "Catalogue",
+    "sectionLabel": "Ce que nous faisons",
     "heading": "Services",
-    "subtitle": "Des sites sur mesure aux campagnes d'affichage à travers les États-Unis en passant par des applications dédiées. On construit, on livre, on fait voir votre marque.",
+    "subtitle": "Des sites web et applications sur mesure aux campagnes d'affichage à travers les États-Unis. On le crée, on le lance, et on fait remarquer votre marque.",
     "items": [
-      { "title": "Développement Web", "description": "Sites et applications web pour particuliers et entreprises. Livraison du code source ou hébergement via Vercel ou infrastructure sur mesure.", "price": "Sur devis" },
-      { "title": "Marketing Billboard (USA)", "description": "Publicité physique à travers les États-Unis via notre réseau privé de panneaux d'affichage. Couverture nationale, placement ciblé, fort impact.", "price": "Sur devis" },
-      { "title": "Bots & Applications", "description": "Bots Discord, Telegram, et logiciels de bureau autonomes adaptés à votre activité. Si ça peut être construit, on le construit.", "price": "Sur devis" },
-      { "title": "Audit de Smart Contract", "description": "Audit de sécurité de vos smart contracts Solidity. Identification des vulnérabilités, failles logiques et inefficacités de gas, avec rapport détaillé.", "price": "À partir de 100 $" },
-      { "title": "Développement de Smart Contract", "description": "Développement Solidity sur mesure : tokens, NFTs, protocoles DeFi, logique on-chain personnalisée. Sécurisé dès la conception.", "price": "Sur devis" },
-      { "title": "Intégration Web3", "description": "Connectez votre site ou application à la blockchain. Connexion de wallet, données on-chain, interaction avec des contrats, intégration fluide.", "price": "Sur devis" }
+      { "title": "Sites & applications web", "description": "Sites et applications web pour particuliers et entreprises. On vous remet tout le code, ou on s'occupe de l'hébergement pour vous — comme vous préférez.", "price": "Sur devis" },
+      { "title": "Publicité sur panneaux (USA)", "description": "Publicité physique à travers les États-Unis grâce à notre propre réseau de panneaux d'affichage. Couverture nationale, les bons emplacements, impossible à manquer.", "price": "Sur devis" },
+      { "title": "Bots & applications", "description": "Bots Discord et Telegram, ainsi que des logiciels de bureau sur mesure conçus autour de votre façon de travailler. Si ça peut être construit, on le construit.", "price": "Sur devis" },
+      { "title": "Audit de smart contract", "description": "Un examen de sécurité approfondi de vos smart contracts blockchain, avec un rapport clair de tout ce qui doit être corrigé.", "price": "À partir de 100 $" },
+      { "title": "Développement de smart contract", "description": "Smart contracts blockchain sur mesure — tokens, NFTs et plus encore — conçus en toute sécurité dès le départ.", "price": "Sur devis" },
+      { "title": "Intégration Web3", "description": "Connectez votre site ou application à la blockchain, de la connexion du wallet aux données en direct, intégré en douceur.", "price": "Sur devis" }
     ]
   },
   "about": {
-    "sectionLabel": "Identité",
+    "sectionLabel": "Qui nous sommes",
     "heading": "À propos",
-    "p1": "Core Control Unit est une société de services numériques couvrant le développement web, le logiciel sur mesure et le marketing physique par affichage aux États-Unis, avec une expertise blockchain disponible lorsqu'un projet le nécessite.",
-    "p2": "Nous travaillons directement avec des particuliers, des startups et des PME. Sans intermédiaire, sans overhead. Communication claire, délais rapides, code que vous possédez vraiment.",
-    "p3": "Opérant à l'international en full remote, nous gérons les projets de bout en bout : de la première ligne de code jusqu'au panneau d'affichage en ligne.",
+    "p1": "Core Control Unit est un studio numérique qui couvre les sites web, les logiciels sur mesure et la publicité par affichage à travers les États-Unis — avec un savoir-faire blockchain à disposition dès qu'un projet le nécessite.",
+    "p2": "Nous travaillons directement avec des particuliers, des startups et des petites entreprises. Sans intermédiaire, sans superflu — juste une communication claire, des délais rapides, et un travail qui vous appartient entièrement.",
+    "p3": "Nous travaillons à distance avec des clients partout dans le monde et gérons chaque projet de bout en bout : de la première ligne de code jusqu'au panneau d'affichage en ligne.",
     "values": [
-      { "label": "Fiabilité", "desc": "Code de production, pas de démos." },
-      { "label": "Précision", "desc": "Architecture explicite, zéro magie." },
-      { "label": "Vélocité", "desc": "Livraison rapide sans sacrifier la qualité." },
-      { "label": "Transparence", "desc": "Communication directe, estimations honnêtes." }
+      { "label": "Fiabilité", "desc": "Conçu pour durer, pas juste pour la démo." },
+      { "label": "Précision", "desc": "Un travail soigné et bien pensé." },
+      { "label": "Vélocité", "desc": "Livraison rapide, sans rogner sur la qualité." },
+      { "label": "Transparence", "desc": "Un discours franc et des prix honnêtes." }
     ]
   },
   "contact": {
-    "sectionLabel": "Transmission",
+    "sectionLabel": "Nous contacter",
     "heading": "Démarrer un projet",
-    "subtitle": "Décrivez votre projet. Nous vous répondons sous 48h.",
+    "subtitle": "Parlez-nous de votre projet. Nous répondons sous 48 heures.",
     "floating": "Nous contacter",
     "panelLabel": "FORMULAIRE DE CONTACT",
     "labelName": "Nom complet",
@@ -63,7 +60,7 @@
     "placeholderEmail": "jean@entreprise.fr",
     "labelProject": "Projet",
     "placeholderProject": "Décrivez votre projet, votre stack actuelle, vos contraintes...",
-    "submit": "Envoyer la transmission"
+    "submit": "Envoyer le message"
   },
   "projects": {
     "sectionLabel": "Réalisations",

@@ -1,0 +1,24 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">ccunit — Core Control Unit logo</title>
+  <desc id="desc">Minimal horizontal logo for ccunit using orange #ff7d27, black #0b0b0b, and graphite #3a3a3a.</desc>
+  <defs>
+    <style>
+      .wordmark { font-family: Inter, Manrope, Sora, Avenir Next, Montserrat, Arial, sans-serif; font-weight: 800; letter-spacing: -0.055em; }
+      .tagline { font-family: Inter, Manrope, Sora, Avenir Next, Montserrat, Arial, sans-serif; font-weight: 650; letter-spacing: 0.46em; }
+    </style>
+  </defs>
+  <g id="ccunit-icon" transform="translate(78 52)">
+        <path d="M186.934 136.730 A84 84 0 0 1 136.730 186.934" stroke="#0b0b0b" stroke-width="46" stroke-linecap="butt"/>
+    <path d="M79.270 186.934 A84 84 0 0 1 29.066 136.730" stroke="#3a3a3a" stroke-width="46" stroke-linecap="butt"/>
+    <path d="M29.066 79.270 A84 84 0 0 1 79.270 29.066" stroke="#0b0b0b" stroke-width="46" stroke-linecap="butt"/>
+    <path d="M136.730 29.066 A84 84 0 0 1 186.934 79.270" stroke="#3a3a3a" stroke-width="46" stroke-linecap="butt"/>
+    <circle cx="108" cy="108" r="50" fill="#ff7d27"/>
+    <circle cx="108" cy="108" r="22" fill="#0b0b0b" opacity="0.08"/>
+  </g>
+  <g id="ccunit-wordmark" transform="translate(334 0)">
+    <text class="wordmark" x="0" y="175" font-size="150">
+      <tspan fill="#0b0b0b">cc</tspan><tspan fill="#ff7d27">unit</tspan>
+    </text>
+    <text class="tagline" x="7" y="236" font-size="31" fill="#3a3a3a">CORE CONTROL UNIT</text>
+  </g>
+</svg>

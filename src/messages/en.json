@@ -13,48 +13,45 @@
   "hero": {
     "badge": "Available for new projects",
     "tagline": "Websites, apps & nationwide advertising",
-    "taglineSub": "We design and build the websites and apps your business runs on, and put your brand on billboards across the US.",
+    "taglineSub": "We build the websites and apps your business runs on — and put your brand on billboards right across America.",
     "email": "contact@ccunit.net",
-    "pill1": "Web Development",
-    "pill2": "Billboard Marketing",
+    "pill1": "Websites",
+    "pill2": "Billboard Ads",
     "pill3": "Custom Apps",
+    "pill4": "You own the code",
     "ctaPrimary": "Start your project",
-    "ctaSecondary": "See our services",
-    "scroll": "Scroll",
-    "stat1Label": "Years building",
-    "stat2Label": "Projects shipped",
-    "stat3Label": "Code you own"
+    "ctaSecondary": "See what we do"
   },
   "services": {
-    "sectionLabel": "Catalogue",
+    "sectionLabel": "What we do",
     "heading": "Services",
-    "subtitle": "From custom websites to nationwide billboard campaigns and bespoke apps. We build, ship, and get your brand seen.",
+    "subtitle": "From websites and custom apps to billboard campaigns across America. We build it, launch it, and get your brand noticed.",
     "items": [
-      { "title": "Web Development", "description": "Websites and web apps for individuals and businesses. We deliver full source code or handle hosting via Vercel or custom infrastructure. Your call.", "price": "On quote" },
-      { "title": "Billboard Marketing", "description": "Physical advertising across the United States through our private billboard network. Nationwide reach, targeted placement, high impact.", "price": "On quote" },
-      { "title": "Bots & Custom Apps", "description": "Discord bots, Telegram bots, and standalone desktop applications tailored to your workflow. If it can be built, we build it.", "price": "On quote" },
-      { "title": "Smart Contract Audit", "description": "Security audit of your Solidity smart contracts. We identify vulnerabilities, logic flaws, and gas inefficiencies with a detailed report.", "price": "From $100" },
-      { "title": "Smart Contract Development", "description": "Custom Solidity smart contract development: tokens, NFTs, DeFi protocols, custom on-chain logic. Built secure from the ground up.", "price": "On quote" },
-      { "title": "Web3 Integration", "description": "Connect your existing website or app to the blockchain. Wallet connection, on-chain data, contract interaction, seamlessly integrated.", "price": "On quote" }
+      { "title": "Websites & Web Apps", "description": "Websites and web apps for people and businesses. We hand over all the code, or take care of hosting for you — whichever suits you best.", "price": "On quote" },
+      { "title": "Billboard Advertising", "description": "Physical advertising across the United States through our own billboard network. Nationwide reach, the right locations, hard to miss.", "price": "On quote" },
+      { "title": "Bots & Custom Apps", "description": "Discord and Telegram bots, plus custom desktop software built around the way you work. If it can be built, we'll build it.", "price": "On quote" },
+      { "title": "Smart Contract Audit", "description": "A thorough security review of your blockchain smart contracts, with a clear report of anything that needs fixing.", "price": "From $100" },
+      { "title": "Smart Contract Development", "description": "Custom blockchain smart contracts — tokens, NFTs and more — built securely from the ground up.", "price": "On quote" },
+      { "title": "Web3 Integration", "description": "Connect your website or app to the blockchain, from wallet sign-in to live on-chain data, smoothly integrated.", "price": "On quote" }
     ]
   },
   "about": {
-    "sectionLabel": "Identity",
+    "sectionLabel": "Who we are",
     "heading": "About",
-    "p1": "Core Control Unit is a digital services company spanning web development, custom software, and physical billboard marketing across the United States, with blockchain expertise on hand when a project calls for it.",
-    "p2": "We work directly with individuals, startups, and small businesses. No middleman, no overhead. You get clear communication, fast turnaround, and code you actually own.",
-    "p3": "Operating internationally with a remote-first approach, we handle projects end-to-end: from the first line of code to the billboard going live.",
+    "p1": "Core Control Unit is a digital studio covering websites, custom software, and billboard advertising across the United States — with blockchain know-how on hand whenever a project calls for it.",
+    "p2": "We work directly with individuals, startups, and small businesses. No middlemen, no bloat — just clear communication, quick turnaround, and work you fully own.",
+    "p3": "We work remotely with clients around the world and handle each project end to end: from the first line of code to the billboard going live.",
     "values": [
-      { "label": "Reliability", "desc": "Production code, not demos." },
-      { "label": "Precision", "desc": "Explicit architecture, zero magic." },
-      { "label": "Velocity", "desc": "Fast delivery without sacrificing quality." },
-      { "label": "Transparency", "desc": "Direct communication, honest estimates." }
+      { "label": "Reliability", "desc": "Built to last, not just to demo." },
+      { "label": "Precision", "desc": "Careful, well-thought-out work." },
+      { "label": "Velocity", "desc": "Fast delivery, without cutting corners." },
+      { "label": "Transparency", "desc": "Straight talk and honest pricing." }
     ]
   },
   "contact": {
-    "sectionLabel": "Transmission",
+    "sectionLabel": "Get in touch",
     "heading": "Start a project",
-    "subtitle": "Describe your project. We respond within 48h.",
+    "subtitle": "Tell us about your project. We reply within 48 hours.",
     "floating": "Contact us",
     "panelLabel": "CONTACT FORM",
     "labelName": "Full name",
@@ -63,7 +60,7 @@
     "placeholderEmail": "john@company.com",
     "labelProject": "Project",
     "placeholderProject": "Describe your project, your current stack, your constraints...",
-    "submit": "Send transmission"
+    "submit": "Send message"
   },
   "projects": {
     "sectionLabel": "Work",

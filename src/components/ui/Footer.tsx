@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 
 export async function Footer() {
@@ -10,11 +11,13 @@ export async function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16 grid grid-cols-1 sm:grid-cols-3 gap-10">
         {/* Brand */}
         <div className="space-y-3">
-          <div className="flex items-center gap-3">
-            <span className="text-[#ff7d27] font-bold text-sm tracking-widest">CCU</span>
-            <span className="text-[#1e2330]">|</span>
-            <span className="text-xs font-bold uppercase tracking-widest text-[#e8eaf0]">Core Control Unit</span>
-          </div>
+          <Image
+            src="/ccunit_logo_dark.svg"
+            alt="Core Control Unit"
+            width={120}
+            height={32}
+            className="h-8 w-auto"
+          />
           <p className="text-[10px] uppercase tracking-widest text-[#5a6070]">{t("tagline")}</p>
         </div>
 

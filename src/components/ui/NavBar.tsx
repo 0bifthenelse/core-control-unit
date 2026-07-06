@@ -2,6 +2,7 @@
 
 import { Link as LocaleLink } from "@/i18n/navigation";
 import { useState } from "react";
+import Image from "next/image";
 import { LanguageSelector } from "./LanguageSelector";
 
 function NavLinkItem({ href, className, onClick, children }: {
@@ -38,11 +39,15 @@ export function NavBar({ links, cta, locale }: NavBarProps) {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-[#1e2330] bg-[#0d0f12]/90 backdrop-blur-sm">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <LocaleLink href="/" className="flex items-center gap-2">
-          <span className="text-[#ff7d27] font-bold text-sm tracking-widest uppercase">CCU</span>
-          <span className="text-[#5a6070] text-xs tracking-widest uppercase hidden sm:inline">
-            Core Control Unit
-          </span>
+        <LocaleLink href="/" className="flex items-center" aria-label="Core Control Unit — home">
+          <Image
+            src="/ccunit_logo_dark.svg"
+            alt="Core Control Unit"
+            width={105}
+            height={28}
+            priority
+            className="h-7 w-auto"
+          />
         </LocaleLink>
 
         <ul className="hidden md:flex items-center gap-8">
