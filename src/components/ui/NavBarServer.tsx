@@ -8,6 +8,7 @@ export async function NavBarServer() {
   const links = [
     { href: "#services", label: t("services") },
     { href: "/projects", label: t("projects") },
+    { href: "/showroom", label: t("showroom") },
     { href: "#apropos", label: t("about") },
     { href: "#contact", label: t("contact") },
   ];
