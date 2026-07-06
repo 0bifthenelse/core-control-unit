@@ -14,9 +14,9 @@ function NavLinkItem({ href, className, onClick, children }: {
 }) {
   if (href.startsWith("#")) {
     return (
-      <a href={href} className={className} onClick={onClick}>
+      <LocaleLink href={`/${href}`} className={className} onClick={onClick}>
         {children}
-      </a>
+      </LocaleLink>
     );
   }
   return (
@@ -67,13 +67,13 @@ export function NavBar({ links, cta, locale }: NavBarProps) {
         <div className="hidden md:flex items-center gap-4">
           <ThemeToggle />
           <LanguageSelector locale={locale} />
-          <a
-            href="#contact"
+          <LocaleLink
+            href="/#contact"
             className="inline-flex items-center gap-2 border border-[#ff7d27] px-4 py-2 text-xs uppercase tracking-widest text-[#ff7d27] hover:bg-[#ff7d27] hover:text-black transition-all duration-200 shadow-[0_0_12px_rgba(255,125,39,0.25)] hover:shadow-[0_0_20px_rgba(255,125,39,0.4)]"
             style={{ clipPath: "polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px))" }}
           >
             {cta}
-          </a>
+          </LocaleLink>
         </div>
 
         <button

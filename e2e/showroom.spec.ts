@@ -49,3 +49,44 @@ test("showroom has a procedural shader grass terrain floor", async ({ page }) =>
   expect(info!.floorY).toBeCloseTo(-1);
   expect(info!.grassMaterialType).toContain("Node");
 });
+
+test("showroom has a black hole that rapidly appears", async ({ page }) => {
+  await page.goto("/showroom");
+
+  await expect(page.locator("canvas")).toBeVisible();
+
+  await page.waitForFunction(() => {
+    const s = (window as unknown as { __showroom?: { blackHole?: { present?: boolean } } }).__showroom;
+    return s?.blackHole?.present === true;
+  });
+
+  const bh = await page.evaluate(
+    () =>
+      (window as unknown as {
+        __showroom?: {
+          blackHole: {
+            present: boolean;
+            materialType: string;
+            hasAccretionRing: boolean;
+            hasHaloRing: boolean;
+            facingDotSamples: number[];
+            appearDuration: number;
+            growthSamples: number[];
+          };
+        };
+      }).__showroom!.blackHole,
+  );
+
+  expect(bh.present).toBe(true);
+  expect(bh.materialType).toContain("Node");
+  expect(bh.hasAccretionRing).toBe(true);
+  expect(bh.hasHaloRing).toBe(true);
+  for (const dot of bh.facingDotSamples) {
+    expect(dot).toBeGreaterThan(0.99);
+  }
+  expect(bh.appearDuration).toBeGreaterThan(0);
+
+  expect(bh.growthSamples[0]).toBeCloseTo(0);
+  expect(bh.growthSamples.at(-1)).toBeCloseTo(1);
+  expect(bh.growthSamples[3]).toBeGreaterThan(bh.growthSamples[1]);
+});

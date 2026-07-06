@@ -3,42 +3,56 @@
 import { useEffect, useRef } from "react";
 import * as THREE from "three/webgpu";
 import { uniform } from "three/tsl";
-import { Canvas, useFrame } from "@react-three/fiber";
+import { Canvas } from "@react-three/fiber";
 import { OrthographicCamera } from "@react-three/drei";
-import type { Mesh, Material } from "three";
-import type { MutableRefObject } from "react";
+import type { Material, Mesh } from "three";
 import { GrassField, createGrassMesh, FLOOR_Y } from "./GrassField";
-
-function Cube({ rotationRef }: { rotationRef: MutableRefObject<number> }) {
-  const ref = useRef<Mesh>(null);
-
-  useFrame((_, delta) => {
-    if (ref.current) {
-      ref.current.rotation.y += delta * 0.3;
-      rotationRef.current = ref.current.rotation.y;
-    }
-  });
-
-  return (
-    <mesh ref={ref}>
-      <boxGeometry args={[2, 2, 2]} />
-      <meshStandardMaterial color="#ff7d27" />
-    </mesh>
-  );
-}
+import {
+  BlackHole,
+  createBlackHole,
+  blackHoleGrowth,
+  computeDiscsPivotQuaternion,
+  BLACK_HOLE_APPEAR_DURATION,
+} from "./BlackHole";
 
 export function ShowroomScene() {
-  const cubeRotationRef = useRef(0);
+  const blackHoleRef = useRef(0);
 
   useEffect(() => {
-    const probe = createGrassMesh(uniform(0), uniform(0));
+    const grassProbe = createGrassMesh(uniform(0), uniform(0));
+    const holeProbe = createBlackHole(uniform(0));
+    const horizon = holeProbe.children[0] as Mesh;
+
+    const sampleCameraPositions = [new THREE.Vector3(10, 10, 10), new THREE.Vector3(0, 3, 15)];
+    const facingDotSamples = sampleCameraPositions.map((camPos) => {
+      const quat = computeDiscsPivotQuaternion(camPos);
+      const forward = new THREE.Vector3(0, 0, 1).applyQuaternion(quat);
+      const toCamera = camPos.clone().normalize();
+      return forward.dot(toCamera);
+    });
+
     (window as unknown as { __showroom?: unknown }).__showroom = {
-      grassCount: probe.count,
+      grassCount: grassProbe.count,
       floorY: FLOOR_Y,
-      grassMaterialType: (probe.material as Material).constructor.name,
+      grassMaterialType: (grassProbe.material as Material).constructor.name,
+      blackHole: {
+        present: true,
+        materialType: (horizon.material as Material).constructor.name,
+        hasAccretionRing: holeProbe.userData.hasAccretionRing === true,
+        hasHaloRing: holeProbe.userData.hasHaloRing === true,
+        facingDotSamples,
+        appearDuration: BLACK_HOLE_APPEAR_DURATION,
+        growthSamples: [0, 0.1, 0.3, 0.6, 1.0].map(blackHoleGrowth),
+      },
     };
-    probe.geometry.dispose();
-    (probe.material as Material).dispose();
+
+    grassProbe.geometry.dispose();
+    (grassProbe.material as Material).dispose();
+    holeProbe.traverse((obj) => {
+      const m = obj as Mesh;
+      if (m.geometry) m.geometry.dispose();
+      if (m.material) (m.material as Material).dispose();
+    });
   }, []);
 
   return (
@@ -53,8 +67,8 @@ export function ShowroomScene() {
       <OrthographicCamera makeDefault position={[10, 10, 10]} zoom={80} onUpdate={(c) => c.lookAt(0, 0, 0)} />
       <ambientLight intensity={0.6} />
       <directionalLight position={[10, 10, 10]} intensity={1.5} />
-      <Cube rotationRef={cubeRotationRef} />
-      <GrassField cubeRotationRef={cubeRotationRef} />
+      <BlackHole blackHoleRef={blackHoleRef} />
+      <GrassField blackHoleRef={blackHoleRef} />
     </Canvas>
   );
 }

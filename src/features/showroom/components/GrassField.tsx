@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useRef } from "react";
+import { useMemo } from "react";
 import * as THREE from "three/webgpu";
 import { useFrame } from "@react-three/fiber";
 import {
@@ -10,25 +10,26 @@ import {
   float,
   vec3,
   sin,
-  atan,
   length,
   normalize,
   smoothstep,
   mix,
 } from "three/tsl";
 import type { MutableRefObject } from "react";
-import type { Mesh } from "three";
 
 export const GRASS_COUNT = 6000;
 export const FLOOR_Y = -1;
 const FIELD = 20;
 const BLADE_H = 0.6;
+const WELL_RADIUS = 6;
+const WELL_DEPTH = 2;
+const LEAN = 1.4;
 
 type UniformNode = ReturnType<typeof uniform>;
 
-export function createGrassMesh(timeUniform: UniformNode, cubeRotUniform: UniformNode) {
+export function createGrassMesh(timeUniform: UniformNode, intensityUniform: UniformNode) {
   const timeU = timeUniform as unknown as typeof positionLocal.x;
-  const cubeRotU = cubeRotUniform as unknown as typeof positionLocal.x;
+  const bhU = intensityUniform as unknown as typeof positionLocal.x;
   const geometry = new THREE.PlaneGeometry(0.06, BLADE_H, 1, 4);
   geometry.translate(0, BLADE_H / 2, 0);
 
@@ -71,50 +72,64 @@ export function createGrassMesh(timeUniform: UniformNode, cubeRotUniform: Unifor
     .mul(heightFactor);
 
   const dist = length(aBase.xz);
-  const dir = normalize(aBase.xz);
-  const angle = atan(aBase.z, aBase.x);
-  const falloff = float(1).sub(smoothstep(1.0, 4.0, dist));
-  const sweep = sin(cubeRotU.add(angle.mul(2))).mul(0.3).add(0.4);
-  const bendStrength = falloff.mul(heightFactor).mul(sweep).mul(0.8);
-  const bend = dir.mul(bendStrength);
+  const inward = normalize(aBase.xz).negate();
+  const leanFalloff = float(1).sub(smoothstep(0.5, WELL_RADIUS, dist));
+  const bendStrength = leanFalloff.mul(heightFactor).mul(bhU).mul(LEAN);
+  const bend = inward.mul(bendStrength);
+
+  const sinkFalloff = float(1).sub(smoothstep(0.0, WELL_RADIUS, dist));
+  const sink = sinkFalloff.mul(bhU).mul(WELL_DEPTH);
 
   material.positionNode = vec3(
     positionLocal.x.add(wind).add(bend.x),
-    positionLocal.y,
+    positionLocal.y.sub(sink),
     positionLocal.z.add(bend.y),
   );
-  material.colorNode = mix(
-    vec3(0.16, 0.29, 0.12),
-    vec3(0.45, 0.68, 0.28),
-    heightFactor,
-  );
+  material.colorNode = mix(vec3(0.16, 0.29, 0.12), vec3(0.45, 0.68, 0.28), heightFactor);
 
   mesh.material = material;
   return mesh;
 }
 
+export function createGround(intensityUniform: UniformNode) {
+  const bhU = intensityUniform as unknown as typeof positionLocal.x;
+  const geometry = new THREE.PlaneGeometry(FIELD * 2, FIELD * 2, 96, 96);
+  geometry.rotateX(-Math.PI / 2);
+
+  const material = new THREE.MeshStandardNodeMaterial({
+    roughness: 1,
+    metalness: 0,
+  });
+
+  const radius = length(positionLocal.xz);
+  const dipFalloff = float(1).sub(smoothstep(0.0, WELL_RADIUS, radius));
+  const dip = dipFalloff.mul(bhU).mul(WELL_DEPTH);
+
+  material.positionNode = vec3(positionLocal.x, positionLocal.y.sub(dip), positionLocal.z);
+  material.colorNode = mix(vec3(0.09, 0.16, 0.06), vec3(0.14, 0.24, 0.09), dipFalloff);
+
+  return new THREE.Mesh(geometry, material);
+}
+
 type Props = {
-  cubeRotationRef: MutableRefObject<number>;
+  blackHoleRef: MutableRefObject<number>;
 };
 
-export function GrassField({ cubeRotationRef }: Props) {
-  const groundRef = useRef<Mesh>(null);
+export function GrassField({ blackHoleRef }: Props) {
   const timeU = useMemo(() => uniform(0), []);
-  const cubeRotU = useMemo(() => uniform(0), []);
+  const bhU = useMemo(() => uniform(0), []);
 
-  const blades = useMemo(() => createGrassMesh(timeU, cubeRotU), [timeU, cubeRotU]);
+  const blades = useMemo(() => createGrassMesh(timeU, bhU), [timeU, bhU]);
+  const ground = useMemo(() => createGround(bhU), [bhU]);
 
   useFrame((_, delta) => {
     timeU.value += delta;
-    cubeRotU.value = cubeRotationRef.current;
+    bhU.value = blackHoleRef.current;
   });
 
   return (
     <>
-      <mesh ref={groundRef} rotation-x={-Math.PI / 2} position={[0, FLOOR_Y, 0]}>
-        <planeGeometry args={[FIELD * 2, FIELD * 2]} />
-        <meshStandardMaterial color="#243d16" roughness={1} metalness={0} />
-      </mesh>
+      <primitive object={ground} position={[0, FLOOR_Y, 0]} />
       <primitive object={blades} position={[0, FLOOR_Y, 0]} />
     </>
   );
