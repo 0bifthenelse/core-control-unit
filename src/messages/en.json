@@ -33,14 +33,7 @@
       { "title": "Smart Contract Audit", "description": "A thorough security review of your blockchain smart contracts, with a clear report of anything that needs fixing.", "price": "From $100" },
       { "title": "Smart Contract Development", "description": "Custom blockchain smart contracts, tokens, NFTs & more, built securely from the ground up.", "price": "On quote" },
       { "title": "Web3 Integration", "description": "Connect your website or app to the blockchain, from wallet sign-in to live on-chain data, smoothly integrated.", "price": "On quote" }
-    ]
-  },
-  "about": {
-    "sectionLabel": "Who we are",
-    "heading": "About",
-    "p1": "Core Control Unit is a digital studio covering websites, custom software, and billboard advertising across all 50 US states through a 3,200-strong partner network, with blockchain know-how on hand whenever a project calls for it.",
-    "p2": "We work directly with individuals, startups, and small businesses. No middlemen, no bloat, just clear communication, quick turnaround, and work you fully own.",
-    "p3": "We work remotely with clients around the world and handle each project end to end: from the first line of code to the billboard going live.",
+    ],
     "values": [
       { "label": "Reliability", "desc": "Built to last, not just to demo." },
       { "label": "Precision", "desc": "Careful, well-thought-out work." },
@@ -48,6 +41,12 @@
       { "label": "Transparency", "desc": "Straight talk and honest pricing." }
     ]
   },
+  "about": {
+    "sectionLabel": "Who we are",
+    "heading": "About",
+    "p1": "Core Control Unit is a digital studio covering websites, custom software, and billboard advertising across all 50 US states through a 3,200-strong partner network, with blockchain know-how on hand whenever a project calls for it.",
+    "p2": "We work directly with individuals, startups, and small businesses. No middlemen, no bloat, just clear communication, quick turnaround, and work you fully own.",
+    "p3": "We work remotely with clients around the world and handle each project end to end: from the first line of code to the billboard going live."  },
   "contact": {
     "sectionLabel": "Get in touch",
     "heading": "Start a project",

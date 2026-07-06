@@ -33,14 +33,7 @@
       { "title": "Auditoría de smart contract", "description": "Una revisión de seguridad exhaustiva de tus smart contracts en blockchain, con un informe claro de todo lo que hay que corregir.", "price": "Desde $100" },
       { "title": "Desarrollo de smart contract", "description": "Smart contracts en blockchain a medida: tokens, NFTs y más, creados de forma segura desde el principio.", "price": "A consultar" },
       { "title": "Integración Web3", "description": "Conecta tu sitio o aplicación a la blockchain, desde el inicio de sesión con wallet hasta los datos en vivo, integrado sin fricciones.", "price": "A consultar" }
-    ]
-  },
-  "about": {
-    "sectionLabel": "Quiénes somos",
-    "heading": "Acerca de",
-    "p1": "Core Control Unit es un estudio digital que abarca sitios web, software a medida y publicidad en vallas por los 50 estados de EE. UU. a través de una red asociada de 3.200 vallas, con conocimientos de blockchain a mano siempre que un proyecto lo requiere.",
-    "p2": "Trabajamos directamente con particulares, startups y pequeñas empresas. Sin intermediarios ni excesos: solo comunicación clara, entrega rápida y un trabajo que es completamente tuyo.",
-    "p3": "Trabajamos en remoto con clientes de todo el mundo y gestionamos cada proyecto de principio a fin: desde la primera línea de código hasta la valla publicitaria en activo.",
+    ],
     "values": [
       { "label": "Fiabilidad", "desc": "Hecho para durar, no solo para la demo." },
       { "label": "Precisión", "desc": "Un trabajo cuidado y bien pensado." },
@@ -48,6 +41,12 @@
       { "label": "Transparencia", "desc": "Trato franco y precios honestos." }
     ]
   },
+  "about": {
+    "sectionLabel": "Quiénes somos",
+    "heading": "Acerca de",
+    "p1": "Core Control Unit es un estudio digital que abarca sitios web, software a medida y publicidad en vallas por los 50 estados de EE. UU. a través de una red asociada de 3.200 vallas, con conocimientos de blockchain a mano siempre que un proyecto lo requiere.",
+    "p2": "Trabajamos directamente con particulares, startups y pequeñas empresas. Sin intermediarios ni excesos: solo comunicación clara, entrega rápida y un trabajo que es completamente tuyo.",
+    "p3": "Trabajamos en remoto con clientes de todo el mundo y gestionamos cada proyecto de principio a fin: desde la primera línea de código hasta la valla publicitaria en activo."  },
   "contact": {
     "sectionLabel": "Contáctanos",
     "heading": "Iniciar un proyecto",

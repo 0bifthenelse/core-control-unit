@@ -33,14 +33,7 @@
       { "title": "Audit de smart contract", "description": "Un examen de sécurité approfondi de vos smart contracts blockchain, accompagné d'un rapport clair de tout ce qui doit être corrigé.", "price": "À partir de 100 $" },
       { "title": "Développement de smart contract", "description": "Smart contracts blockchain sur mesure : tokens, NFTs et bien plus, conçus en toute sécurité dès le départ.", "price": "Sur devis" },
       { "title": "Intégration Web3", "description": "Nous connectons votre site ou application à la blockchain, de la connexion du wallet aux données en direct, avec une intégration fluide.", "price": "Sur devis" }
-    ]
-  },
-  "about": {
-    "sectionLabel": "Qui nous sommes",
-    "heading": "À propos",
-    "p1": "Core Control Unit est un studio numérique qui couvre les sites web, les logiciels sur mesure et la publicité par affichage dans les 50 États américains grâce à un réseau partenaire de 3 200 panneaux, avec un savoir-faire blockchain à disposition dès qu'un projet le nécessite.",
-    "p2": "Nous travaillons directement avec des particuliers, des startups et des petites entreprises. Sans intermédiaire ni superflu : une communication claire, des délais rapides et un travail qui vous appartient entièrement.",
-    "p3": "Nous travaillons à distance avec des clients partout dans le monde et gérons chaque projet de bout en bout : de la première ligne de code jusqu'au panneau d'affichage en ligne.",
+    ],
     "values": [
       { "label": "Fiabilité", "desc": "Conçu pour durer, pas juste pour la démo." },
       { "label": "Précision", "desc": "Un travail soigné et bien pensé." },
@@ -48,6 +41,12 @@
       { "label": "Transparence", "desc": "Un discours franc et des prix honnêtes." }
     ]
   },
+  "about": {
+    "sectionLabel": "Qui nous sommes",
+    "heading": "À propos",
+    "p1": "Core Control Unit est un studio numérique qui couvre les sites web, les logiciels sur mesure et la publicité par affichage dans les 50 États américains grâce à un réseau partenaire de 3 200 panneaux, avec un savoir-faire blockchain à disposition dès qu'un projet le nécessite.",
+    "p2": "Nous travaillons directement avec des particuliers, des startups et des petites entreprises. Sans intermédiaire ni superflu : une communication claire, des délais rapides et un travail qui vous appartient entièrement.",
+    "p3": "Nous travaillons à distance avec des clients partout dans le monde et gérons chaque projet de bout en bout : de la première ligne de code jusqu'au panneau d'affichage en ligne."  },
   "contact": {
     "sectionLabel": "Nous contacter",
     "heading": "Démarrer un projet",

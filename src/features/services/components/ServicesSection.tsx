@@ -3,6 +3,7 @@ import { HudPanel } from "@/components/ui/HudPanel";
 import { AccentLine } from "@/components/ui/AccentLine";
 
 type ServiceItem = { title: string; description: string; price: string };
+type ValueItem = { label: string; desc: string };
 
 const ICONS = [
   <path key="web" d="M2 5h20v14H2zM2 9h20M6 13h6M6 16h4" />,
@@ -16,6 +17,7 @@ const ICONS = [
 export async function ServicesSection() {
   const t = await getTranslations("services");
   const items = t.raw("items") as ServiceItem[];
+  const values = t.raw("values") as ValueItem[];
 
   return (
     <section id="services" className="py-24 px-6">
@@ -59,6 +61,15 @@ export async function ServicesSection() {
               <p className="text-xs text-[#5a6070] leading-relaxed">{description}</p>
               <span className="mt-auto pt-4 inline-block text-[10px] font-mono text-[#ff7d27] tracking-widest">{price}</span>
             </HudPanel>
+          ))}
+        </div>
+
+        <div className="mt-16 pt-12 border-t border-[#1e2330] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {values.map(({ label, desc }) => (
+            <div key={label} className="border-l-2 border-[#ff7d27] pl-4 py-2">
+              <div className="text-xs font-bold uppercase tracking-widest text-[#e8eaf0] mb-1">{label}</div>
+              <div className="text-xs text-[#5a6070]">{desc}</div>
+            </div>
           ))}
         </div>
       </div>
