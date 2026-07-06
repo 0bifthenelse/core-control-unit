@@ -9,8 +9,8 @@
   --color-border: #d8cfb8;
   --color-text-primary: #2b2b26;
   --color-text-muted: #6b6555;
-  --font-mono: var(--font-geist-mono), 'Courier New', monospace;
-  --font-sans: var(--font-geist-sans), Arial, sans-serif;
+  --font-mono: var(--font-geist-mono), 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK TC', 'Noto Sans Mono CJK JP', 'Courier New', monospace;
+  --font-sans: var(--font-geist-sans), 'Noto Sans CJK SC', 'Noto Sans CJK TC', 'Noto Sans CJK JP', 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans', Arial, sans-serif;
 }
 
 .dark {

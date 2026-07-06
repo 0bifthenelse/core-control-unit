@@ -5,6 +5,7 @@ import { HudPanel } from "@/components/ui/HudPanel";
 import { AccentLine } from "@/components/ui/AccentLine";
 import { projectAssets } from "@/features/projects/data";
 
+// 01110100 01110010 01100001 01101110 01110011 01101100 01100001 01110100 01100101 00100000 01100001 01101100 01101100 00100000 01101100 01100001 01101110 01100111 01110101 01100001 01100111 01100101 01110011
 type ProjectItem = { id: string; title: string; description: string };
 
 export async function ProjectsSection() {

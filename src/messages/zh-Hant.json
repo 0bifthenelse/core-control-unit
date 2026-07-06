@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "title": "Core Control Unit | 工程與數位解決方案",
+    "description": "Core Control Unit是一家專注於系統架構與客製化數位解決方案的法國軟體工程公司。"
+  },
+  "nav": {
+    "services": "服務",
+    "projects": "作品",
+    "about": "關於我們",
+    "contact": "聯絡我們",
+    "cta": "開始"
+  },
+  "hero": {
+    "badge": "接受新專案洽詢",
+    "tagline": "網站、應用程式與全美廣告",
+    "taglineSub": "我們打造支撐您業務運作的網站與應用程式，並將您的品牌投放到美國全部50州的廣告看板上，包含超大型看板。",
+    "email": "business@ccunit.net",
+    "pill1": "網站",
+    "pill2": "看板廣告",
+    "pill3": "客製化應用程式",
+    "pill4": "程式碼歸您所有",
+    "ctaPrimary": "開始您的專案",
+    "ctaSecondary": "了解我們的工作"
+  },
+  "services": {
+    "sectionLabel": "我們的服務",
+    "heading": "服務",
+    "subtitle": "從網站與客製化應用程式，到遍及美國全部50州的看板廣告活動。我們負責設計、上線，讓您的品牌被看見。",
+    "items": [
+      { "title": "網站與網頁應用程式", "description": "為個人與企業打造的網站與網頁應用程式。我們可以將全部程式碼交付給您，也可以為您代管主機，由您決定。", "price": "個別報價" },
+      { "title": "看板廣告", "description": "透過合作夥伴，在美國全部50州、擁有3,200個看板點位的網絡上刊登實體廣告，包含超大型看板。全國覆蓋，位置精準，難以被忽視。", "price": "個別報價" },
+      { "title": "機器人、遊戲與桌面應用程式", "description": "Discord與Telegram機器人，以SDL或Electron搭配three.js與drei開發的小型2D/3D網頁及Windows/Linux遊戲，還有通用的桌面圖形介面軟體。只要做得出來，我們就能做。", "price": "個別報價" },
+      { "title": "程序化書籍生成", "description": "能以程序化方式產生可直接出版內容的軟體，包含益智解謎書、經典風格小說，並依Amazon Kindle所需尺寸與格式排版。只需指定類型或謎題種類，其餘交給軟體自動完成。", "price": "個別報價" },
+      { "title": "智能合約開發", "description": "客製化區塊鏈智能合約:代幣、NFT等，從零開始安全打造。", "price": "個別報價" },
+      { "title": "AI安全審計", "description": "我們運行自行研發的AI審計模型，自動找出Solidity智能合約中的漏洞，揭露人工審查可能忽略的問題。", "price": "個別報價" },
+      { "title": "閃電貸套利機器人", "description": "我們自行設計並運行的區塊鏈閃電貸套利機器人，目前僅運行於Polygon與BNB智能鏈上，即時捕捉DeFi價格差異。這並非我們對外銷售的服務，而是我們內部自行開發與實驗的專案。", "price": "內部使用，非賣品" }
+    ],
+    "values": [
+      { "label": "可靠", "desc": "為長期使用而打造，而非僅僅是展示。" },
+      { "label": "精準", "desc": "細膩、經過深思熟慮的工作。" },
+      { "label": "效率", "desc": "快速交付，且不犧牲品質。" },
+      { "label": "透明", "desc": "坦誠溝通，價格公開合理。" }
+    ]
+  },
+  "about": {
+    "sectionLabel": "關於我們",
+    "heading": "關於我們",
+    "p1": "Core Control Unit是一家小型獨立軟體公司，而非面目模糊的大企業。我們開發網站與客製化軟體，並可透過合作夥伴，在美國全部50州、涵蓋3,200個點位的網絡中取得看板廣告資源，包含超大型看板，並在專案需要時提供區塊鏈方面的專業能力。",
+    "p2": "我們直接與個人、新創公司及小型企業合作。沒有中間商，沒有多餘環節，只有清楚的溝通、快速的交付，以及完全屬於您的成果。",
+    "p3": "我們與世界各地的客戶進行遠端協作，負責每個專案從頭到尾的完整流程:從第一行程式碼，到看板正式上線。"  },
+  "contact": {
+    "floating": "聯絡我們"
+  },
+  "projects": {
+    "sectionLabel": "作品",
+    "heading": "近期專案",
+    "viewProject": "查看專案 →",
+    "viewAll": "查看所有專案 →",
+    "detailSubtitle": "深入了解我們正從頭到尾打造的專案。",
+    "backToHome": "← 返回首頁",
+    "backToProjects": "← 返回專案列表",
+    "visitProject": "體驗線上測試版",
+    "comingSoon": "線上連結即將推出",
+    "viewSource": "在GitHub上查看",
+    "moreSoon": "更多專案即將推出。",
+    "items": [
+      { "id": "seculars-online", "title": "Seculars Online", "description": "一款仍在積極開發中的大型多人線上即時戰略遊戲。在一個無限程序化生成的世界中建立村莊，建設並守護它，並與其他玩家一同遊玩。目前已開放公開測試。", "longDescription": "Seculars Online是我們自行研發的MMO即時戰略遊戲(Build 10，正在積極開發中)，完全運行於瀏覽器中，採用我們以three.js與drei打造的自研WebGPU引擎。村莊依靠無限程序化生成技術建立，因此世界永無止境。樹木、草地與建築皆為實例化矩陣實體，採用頂點動畫紋理(VAT)技術實現動畫，運動流暢且對GPU負擔極低，甚至連建築物在建造過程中逐步拼合到位的細節都得以呈現。規劃中的未來功能包括:完整的世界地圖、戰鬥系統、城堡防禦、更深入的城市建設、玩家自有的公會等等。遊戲現已開放公開測試，歡迎加入、探索，並一同參與塑造它的未來。" }
+    ]
+  },
+  "footer": {
+    "country": "法國",
+    "siretLabel": "SIRET",
+    "siretValue": "XXX XXX XXX XXXXX",
+    "phone": "+33 X XX XX XX XX",
+    "tagline": "軟體工程 · 法國",
+    "contactLabel": "聯絡方式",
+    "linksLabel": "連結",
+    "legal": "法律聲明",
+    "rgpd": "GDPR聯絡方式",
+    "rights": "版權所有"
+  },
+  "cookies": {
+    "notice": "本網站僅使用必要的技術性Cookie。",
+    "accept": "知道了"
+  },
+  "legal": {
+    "title": "法律聲明",
+    "editorTitle": "網站發布者",
+    "editorName": "Core Control Unit",
+    "editorType": "簡化股份公司(SAS)，註冊資本XXX歐元",
+    "editorActivity": "業務範圍:電腦程式設計、網站及各類應用程式",
+    "editorSiret": "SIRET: XXX XXX XXX XXXXX",
+    "editorAddress": "註冊地址:XXX，XXXXX，法國",
+    "editorEmail": "電子郵件:business@ccunit.net",
+    "editorPhone": "電話:+33 X XX XX XX XX",
+    "editorDirector": "發行負責人:[名 姓]",
+    "hostingTitle": "主機代管",
+    "hostingName": "提供商:[主機代管提供商名稱]",
+    "hostingAddress": "地址:[主機代管提供商地址]",
+    "hostingContact": "聯絡方式:[主機代管提供商的電子郵件或電話]",
+    "ipTitle": "智慧財產權",
+    "ipText": "本網站上的所有內容(文字、圖片、圖形、標誌、圖示等)均為Core Control Unit獨家所有，受法國及國際智慧財產權法律保護。未經事先授權，嚴禁進行任何形式的複製、散布或使用。",
+    "dataTitle": "個人資料",
+    "dataText": "根據《一般資料保護規則》(GDPR，歐盟2016/679號法規)及法國個人資料保護相關法律，您對個人資料享有以下權利:",
+    "dataRights": [
+      "資料存取權",
+      "資料更正權",
+      "刪除權(被遺忘權)",
+      "資料可攜權",
+      "反對處理權",
+      "限制處理權"
+    ],
+    "dataContact": "如需行使上述權利，請使用下方表單，或透過business@ccunit.net與我們聯繫。我們承諾將於30天內回覆。",
+    "dataLegal": "處理的法律依據:正當利益(商業聯絡表單)以及明確同意(行銷通訊)。",
+    "cookiesTitle": "Cookie",
+    "cookiesText": "本網站不使用追蹤類或廣告類Cookie，僅可能設置網站正常運作所嚴格必需的技術性Cookie。我們不會為了廣告目的而將資料與第三方共享。"
+  }
+}

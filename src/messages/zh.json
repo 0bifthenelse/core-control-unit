@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "title": "Core Control Unit | 工程与数字解决方案",
+    "description": "Core Control Unit是一家专注于系统架构和定制数字解决方案的法国软件工程公司。"
+  },
+  "nav": {
+    "services": "服务",
+    "projects": "项目",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "cta": "开始"
+  },
+  "hero": {
+    "badge": "接受新项目中",
+    "tagline": "网站、应用与全美广告",
+    "taglineSub": "我们打造支撑您业务运转的网站和应用程序，并将您的品牌投放到美国全部50个州的广告牌上，包括超大规格广告牌。",
+    "email": "business@ccunit.net",
+    "pill1": "网站",
+    "pill2": "广告牌广告",
+    "pill3": "定制应用",
+    "pill4": "代码归您所有",
+    "ctaPrimary": "开始您的项目",
+    "ctaSecondary": "了解我们的工作"
+  },
+  "services": {
+    "sectionLabel": "我们的服务",
+    "heading": "服务",
+    "subtitle": "从网站和定制应用，到覆盖美国全部50个州的广告牌宣传活动。我们负责设计、上线，让您的品牌被看见。",
+    "items": [
+      { "title": "网站与网页应用", "description": "面向个人和企业的网站与网页应用。我们可以将全部代码交付给您，也可以为您提供托管服务，由您选择。", "price": "面议报价" },
+      { "title": "广告牌广告", "description": "通过合作方在美国全部50个州、拥有3200个广告位的网络投放实体广告，包括超大规格广告牌。覆盖全国，位置精准，难以被忽视。", "price": "面议报价" },
+      { "title": "机器人、游戏与桌面应用", "description": "Discord和Telegram机器人，基于SDL或Electron结合three.js与drei开发的小型2D/3D网页及Windows/Linux游戏，以及通用桌面图形界面软件。只要能实现，我们就能做出来。", "price": "面议报价" },
+      { "title": "程序化图书生成", "description": "可程序化生成待发布内容的软件，包括谜题书、经典风格小说，并按照Amazon Kindle所需的尺寸和格式排版。只需指定类型或谜题种类，其余交给软件自动完成。", "price": "面议报价" },
+      { "title": "智能合约开发", "description": "定制区块链智能合约:代币、NFT等，从零开始安全构建。", "price": "面议报价" },
+      { "title": "AI安全审计", "description": "我们运行自研的AI审计模型，自动发现Solidity智能合约中的漏洞，揭示人工审查可能忽略的问题。", "price": "面议报价" },
+      { "title": "闪电贷套利机器人", "description": "我们自主设计并运行的区块链闪电贷套利机器人，目前仅运行在Polygon和BNB智能链上，实时捕捉DeFi价格差异。这不是我们对外销售的服务，而是我们内部自行开发和试验的项目。", "price": "内部使用，非卖品" }
+    ],
+    "values": [
+      { "label": "可靠", "desc": "为长期使用而打造，而不仅仅是演示。" },
+      { "label": "精确", "desc": "细致、经过深思熟虑的工作。" },
+      { "label": "高效", "desc": "快速交付，且不牺牲质量。" },
+      { "label": "透明", "desc": "坦诚沟通，价格公开合理。" }
+    ]
+  },
+  "about": {
+    "sectionLabel": "关于我们",
+    "heading": "关于我们",
+    "p1": "Core Control Unit是一家小型独立软件公司，而不是一个面目模糊的大企业。我们开发网站和定制软件，并可通过合作方在美国全部50个州、覆盖3200个广告位的网络中获取广告牌资源，包括超大规格广告牌，并在项目需要时提供区块链方面的专业能力。",
+    "p2": "我们直接与个人、初创企业和小型企业合作。没有中间商，没有多余环节，只有清晰的沟通、快速的交付，以及完全属于您的成果。",
+    "p3": "我们与世界各地的客户进行远程协作，负责每个项目从头到尾的全流程:从第一行代码，到广告牌正式上线。"  },
+  "contact": {
+    "floating": "联系我们"
+  },
+  "projects": {
+    "sectionLabel": "作品",
+    "heading": "近期项目",
+    "viewProject": "查看项目 →",
+    "viewAll": "查看全部项目 →",
+    "detailSubtitle": "深入了解我们正在从头到尾打造的项目。",
+    "backToHome": "← 返回首页",
+    "backToProjects": "← 返回项目列表",
+    "visitProject": "体验在线测试版",
+    "comingSoon": "在线链接即将上线",
+    "viewSource": "在GitHub上查看",
+    "moreSoon": "更多项目即将上线。",
+    "items": [
+      { "id": "seculars-online", "title": "Seculars Online", "description": "一款仍在积极开发中的大型多人在线即时战略游戏。在一个无限程序化生成的世界中建立村庄，建设并守护它，并与其他玩家一同游戏。目前已开放公开测试。", "longDescription": "Seculars Online是我们自主研发的MMO即时战略游戏(Build 10，正在积极开发中)，完全运行于浏览器中，基于我们用three.js和drei构建的自研WebGPU引擎。村庄依靠无限程序化生成技术建立，因此世界永无止境。树木、草地与建筑均为实例化矩阵实体，采用顶点动画纹理(VAT)技术实现动画，运动流畅且对GPU负担极低，甚至连建筑物在建造过程中逐步拼合到位的细节都得以呈现。规划中的未来功能包括:完整的世界地图、战斗系统、城堡防御、更深入的城市建设、玩家自有的公会等等。游戏现已开放公开测试，欢迎加入、探索，并共同参与塑造它的未来。" }
+    ]
+  },
+  "footer": {
+    "country": "法国",
+    "siretLabel": "SIRET",
+    "siretValue": "XXX XXX XXX XXXXX",
+    "phone": "+33 X XX XX XX XX",
+    "tagline": "软件工程 · 法国",
+    "contactLabel": "联系方式",
+    "linksLabel": "链接",
+    "legal": "法律声明",
+    "rgpd": "GDPR联系方式",
+    "rights": "版权所有"
+  },
+  "cookies": {
+    "notice": "本网站仅使用必要的技术性Cookie。",
+    "accept": "知道了"
+  },
+  "legal": {
+    "title": "法律声明",
+    "editorTitle": "网站发布者",
+    "editorName": "Core Control Unit",
+    "editorType": "简化股份公司(SAS)，注册资本XXX欧元",
+    "editorActivity": "业务范围:计算机编程、网站及各类应用程序",
+    "editorSiret": "SIRET: XXX XXX XXX XXXXX",
+    "editorAddress": "注册地址:XXX，XXXXX，法国",
+    "editorEmail": "邮箱:business@ccunit.net",
+    "editorPhone": "电话:+33 X XX XX XX XX",
+    "editorDirector": "出版负责人:[名 姓]",
+    "hostingTitle": "托管服务",
+    "hostingName": "提供商:[托管服务提供商名称]",
+    "hostingAddress": "地址:[托管服务提供商地址]",
+    "hostingContact": "联系方式:[托管服务提供商的邮箱或电话]",
+    "ipTitle": "知识产权",
+    "ipText": "本网站上的所有内容(文本、图片、图形、标志、图标等)均为Core Control Unit独家所有，受法国及国际知识产权法律保护。未经事先授权，严禁进行任何形式的复制、传播或使用。",
+    "dataTitle": "个人数据",
+    "dataText": "根据《通用数据保护条例》(GDPR，欧盟2016/679号法规)及法国数据保护相关法律，您对个人数据享有以下权利:",
+    "dataRights": [
+      "数据访问权",
+      "数据更正权",
+      "删除权(被遗忘权)",
+      "数据可携带权",
+      "反对处理权",
+      "限制处理权"
+    ],
+    "dataContact": "如需行使上述权利，请使用下方表单，或通过business@ccunit.net与我们联系。我们承诺在30天内予以答复。",
+    "dataLegal": "处理的法律依据:合法利益(商业联系表单)以及明确同意(营销通讯)。",
+    "cookiesTitle": "Cookie",
+    "cookiesText": "本网站不使用追踪类或广告类Cookie，仅可能设置网站正常运行所严格必需的技术性Cookie。我们不会将数据出于广告目的与第三方共享。"
+  }
+}

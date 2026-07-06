@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "title": "Core Control Unit | Engineering & Digitale Lösungen",
+    "description": "Core Control Unit ist ein französisches Softwareentwicklungsunternehmen, spezialisiert auf Systemarchitektur und massgeschneiderte digitale Lösungen."
+  },
+  "nav": {
+    "services": "Leistungen",
+    "projects": "Projekte",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "cta": "Starten"
+  },
+  "hero": {
+    "badge": "Verfügbar für neue Projekte",
+    "tagline": "Websites, Apps & landesweite Werbung",
+    "taglineSub": "Wir entwickeln die Websites und Apps, auf denen Ihr Unternehmen läuft, und bringen Ihre Marke auf Plakatwände, auch in Grossformaten, in allen 50 US-Bundesstaaten.",
+    "email": "business@ccunit.net",
+    "pill1": "Websites",
+    "pill2": "Plakatwerbung",
+    "pill3": "Individuelle Apps",
+    "pill4": "Der Code gehört Ihnen",
+    "ctaPrimary": "Projekt starten",
+    "ctaSecondary": "Unsere Leistungen entdecken"
+  },
+  "services": {
+    "sectionLabel": "Was wir tun",
+    "heading": "Leistungen",
+    "subtitle": "Von Websites und individuellen Apps bis zu Plakatkampagnen in allen 50 US-Bundesstaaten. Wir entwickeln, veröffentlichen und sorgen dafür, dass Ihre Marke auffällt.",
+    "items": [
+      { "title": "Websites & Web-Apps", "description": "Websites und Webanwendungen für Privatpersonen und Unternehmen. Wir übergeben Ihnen den kompletten Code oder übernehmen das Hosting für Sie, ganz wie Sie es bevorzugen.", "price": "Auf Anfrage" },
+      { "title": "Plakatwerbung", "description": "Physische Werbung in allen 50 US-Bundesstaaten über einen privaten Kontakt mit einem Netzwerk von 3'200 Werbeflächen, auch in Grossformaten. Landesweite Reichweite, die richtigen Standorte, unmöglich zu übersehen.", "price": "Auf Anfrage" },
+      { "title": "Bots, Spiele & Desktop-Apps", "description": "Discord- und Telegram-Bots, kleine 2D- und 3D-Videospiele für das Web sowie für Windows/Linux, entwickelt mit SDL oder Electron in Kombination mit three.js und drei, dazu allgemeine Desktop-GUI-Software. Wenn es sich bauen lässt, bauen wir es.", "price": "Auf Anfrage" },
+      { "title": "Prozedurale Buchgenerierung", "description": "Software, die druckfertige Inhalte prozedural erzeugt: Rätselbücher, klassische Romane, im Format und Layout für Amazon Kindle. Genre oder Rätseltyp angeben, den Rest erledigt die Software.", "price": "Auf Anfrage" },
+      { "title": "Entwicklung von Smart Contracts", "description": "Massgeschneiderte Blockchain-Smart-Contracts: Tokens, NFTs und mehr, von Grund auf sicher entwickelt.", "price": "Auf Anfrage" },
+      { "title": "KI-Sicherheitsaudits", "description": "Wir setzen unser eigenes KI-Audit-Modell ein, um Schwachstellen in Solidity-Smart-Contracts automatisch aufzudecken und Probleme sichtbar zu machen, die eine manuelle Prüfung übersehen könnte.", "price": "Auf Anfrage" },
+      { "title": "Flash-Loan-Arbitrage-Bots", "description": "Blockchain-Flash-Loan-Arbitrage-Bots, die wir selbst entwickeln und betreiben, vorerst auf Polygon und BNB Smart Chain, auf der Jagd nach DeFi-Preisunterschieden in Echtzeit. Kein Service, den wir verkaufen, sondern ein Projekt, das wir intern entwickeln und testen.", "price": "Intern, nicht verkäuflich" }
+    ],
+    "values": [
+      { "label": "Zuverlässigkeit", "desc": "Gebaut, um zu bestehen, nicht nur für die Demo." },
+      { "label": "Präzision", "desc": "Sorgfältige, durchdachte Arbeit." },
+      { "label": "Geschwindigkeit", "desc": "Schnelle Lieferung, ohne Abstriche bei der Qualität." },
+      { "label": "Transparenz", "desc": "Klare Worte und ehrliche Preise." }
+    ]
+  },
+  "about": {
+    "sectionLabel": "Wer wir sind",
+    "heading": "Über uns",
+    "p1": "Core Control Unit ist ein kleines, unabhängiges Softwareunternehmen, keine gesichtslose Grossfirma. Wir entwickeln Websites und individuelle Software, und über einen privaten Kontakt können wir Werbeflächen, auch in Grossformaten, in allen 50 US-Bundesstaaten über ein Netzwerk von 3'200 Standorten sichern, mit Blockchain-Know-how immer dann, wenn ein Projekt es erfordert.",
+    "p2": "Wir arbeiten direkt mit Privatpersonen, Startups und kleinen Unternehmen zusammen. Keine Zwischenhändler, kein Ballast, nur klare Kommunikation, schnelle Umsetzung und Arbeit, die vollständig Ihnen gehört.",
+    "p3": "Wir arbeiten remote mit Kunden auf der ganzen Welt und betreuen jedes Projekt von Anfang bis Ende: von der ersten Codezeile bis zur aktiven Plakatwand."  },
+  "contact": {
+    "floating": "Kontakt"
+  },
+  "projects": {
+    "sectionLabel": "Arbeiten",
+    "heading": "Aktuelle Projekte",
+    "viewProject": "Projekt ansehen →",
+    "viewAll": "Alle Projekte ansehen →",
+    "detailSubtitle": "Ein genauerer Blick darauf, was wir von Anfang bis Ende entwickeln.",
+    "backToHome": "← Zurück zur Startseite",
+    "backToProjects": "← Zurück zu den Projekten",
+    "visitProject": "Live-Test spielen",
+    "comingSoon": "Live-Link folgt in Kürze",
+    "viewSource": "Auf GitHub ansehen",
+    "moreSoon": "Weitere Projekte folgen in Kürze.",
+    "items": [
+      { "id": "seculars-online", "title": "Seculars Online", "description": "Ein Echtzeit-Strategiespiel für sehr viele Spieler gleichzeitig, in aktiver Entwicklung. Gründen Sie ein Dorf in einer endlosen, prozedural generierten Welt, bauen und verteidigen Sie es und spielen Sie gemeinsam mit anderen. Öffentlich testbar, schon jetzt.", "longDescription": "Seculars Online ist unser hausinternes MMO-Echtzeit-Strategiespiel (Build 10, in aktiver Entwicklung), das vollständig im Browser läuft, auf einer eigenen WebGPU-Engine, entwickelt mit three.js und drei. Dörfer entstehen durch unendliche prozedurale Generierung, die Welt endet nie. Bäume, Gras und Gebäude sind instanzierte Matrix-Entitäten, animiert mit einer Vertex-Animation-Texture-Technik (VAT) für flüssige, GPU-schonende Bewegung, bis hin zu Gebäuden, die beim Bau sichtbar zusammenrasten. Auf der Roadmap: eine vollständige Weltkarte, Schlachten, Burgverteidigung, tiefere Stadtverwaltung, spielereigene Gilden und mehr. Das Spiel steht bereits für öffentliche Tests offen, also einsteigen, erkunden und die Zukunft mitgestalten." }
+    ]
+  },
+  "footer": {
+    "country": "Frankreich",
+    "siretLabel": "SIRET",
+    "siretValue": "XXX XXX XXX XXXXX",
+    "phone": "+33 X XX XX XX XX",
+    "tagline": "Softwareentwicklung · Frankreich",
+    "contactLabel": "Kontakt",
+    "linksLabel": "Links",
+    "legal": "Impressum",
+    "rgpd": "DSGVO-Kontakt",
+    "rights": "Alle Rechte vorbehalten"
+  },
+  "cookies": {
+    "notice": "Diese Website verwendet ausschliesslich technisch notwendige Cookies.",
+    "accept": "Verstanden"
+  },
+  "legal": {
+    "title": "Impressum",
+    "editorTitle": "Seitenbetreiber",
+    "editorName": "Core Control Unit",
+    "editorType": "Vereinfachte Aktiengesellschaft (SAS) mit einem Kapital von XXX €",
+    "editorActivity": "Tätigkeit: Softwareentwicklung, Websites und beliebige Anwendungen",
+    "editorSiret": "SIRET: XXX XXX XXX XXXXX",
+    "editorAddress": "Firmensitz: XXX, XXXXX, Frankreich",
+    "editorEmail": "E-Mail: business@ccunit.net",
+    "editorPhone": "Telefon: +33 X XX XX XX XX",
+    "editorDirector": "Herausgeber: [Vorname NACHNAME]",
+    "hostingTitle": "Hosting",
+    "hostingName": "Anbieter: [Name des Hosting-Anbieters]",
+    "hostingAddress": "Adresse: [Adresse des Hosting-Anbieters]",
+    "hostingContact": "Kontakt: [E-Mail oder Telefon des Anbieters]",
+    "ipTitle": "Geistiges Eigentum",
+    "ipText": "Sämtliche Inhalte dieser Website (Texte, Bilder, Grafiken, Logo, Icons usw.) sind ausschliessliches Eigentum von Core Control Unit und durch französisches und internationales Recht zum Schutz geistigen Eigentums geschützt. Jede Vervielfältigung, Verbreitung oder Nutzung ohne vorherige Genehmigung ist strengstens untersagt.",
+    "dataTitle": "Personenbezogene Daten",
+    "dataText": "Gemäss der Datenschutz-Grundverordnung (DSGVO, EU 2016/679) und dem französischen Datenschutzgesetz haben Sie folgende Rechte in Bezug auf Ihre personenbezogenen Daten:",
+    "dataRights": [
+      "Recht auf Auskunft über Ihre Daten",
+      "Recht auf Berichtigung Ihrer Daten",
+      "Recht auf Löschung (Recht auf Vergessenwerden)",
+      "Recht auf Datenübertragbarkeit",
+      "Recht auf Widerspruch gegen die Verarbeitung",
+      "Recht auf Einschränkung der Verarbeitung"
+    ],
+    "dataContact": "Um diese Rechte auszuüben, nutzen Sie bitte das Formular unten oder kontaktieren Sie uns unter business@ccunit.net. Wir verpflichten uns, innerhalb von 30 Tagen zu antworten.",
+    "dataLegal": "Rechtsgrundlage der Verarbeitung: berechtigtes Interesse (kommerzielles Kontaktformular) und ausdrückliche Einwilligung (Marketingkommunikation).",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Diese Website verwendet keine Tracking- oder Werbe-Cookies. Es werden ausschliesslich technisch unbedingt erforderliche Cookies gesetzt. Es werden keine Daten zu Werbezwecken an Dritte weitergegeben."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "title": "Core Control Unit | Utveckling & Digitala Lösningar",
+    "description": "Core Control Unit är ett franskt mjukvaruföretag specialiserat på systemarkitektur och skräddarsydda digitala lösningar."
+  },
+  "nav": {
+    "services": "Tjänster",
+    "projects": "Projekt",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "cta": "Kom igång"
+  },
+  "hero": {
+    "badge": "Tillgängliga för nya projekt",
+    "tagline": "Webbplatser, appar & rikstäckande reklam",
+    "taglineSub": "Vi bygger webbplatserna och apparna som driver din verksamhet, och sätter ditt varumärke på reklampelare, även i jättestorlek, i alla 50 amerikanska delstater.",
+    "email": "business@ccunit.net",
+    "pill1": "Webbplatser",
+    "pill2": "Reklampelare",
+    "pill3": "Skräddarsydda appar",
+    "pill4": "Du äger koden",
+    "ctaPrimary": "Starta ditt projekt",
+    "ctaSecondary": "Se vad vi gör"
+  },
+  "services": {
+    "sectionLabel": "Vad vi gör",
+    "heading": "Tjänster",
+    "subtitle": "Från webbplatser och skräddarsydda appar till reklamkampanjer i alla 50 amerikanska delstater. Vi bygger det, lanserar det och ser till att ditt varumärke syns.",
+    "items": [
+      { "title": "Webbplatser & webbappar", "description": "Webbplatser och webbappar för privatpersoner och företag. Vi lämnar över all kod till dig, eller sköter hostingen åt dig, precis som du föredrar.", "price": "Offert" },
+      { "title": "Reklampelare", "description": "Fysisk reklam i alla 50 amerikanska delstater via en privat kontakt med ett nätverk av 3 200 reklamplatser, inklusive jätteformat. Rikstäckande räckvidd, rätt platser, omöjliga att missa.", "price": "Offert" },
+      { "title": "Bottar, spel & skrivbordsappar", "description": "Discord- och Telegram-bottar, småskaliga 2D- och 3D-spel för webben och för Windows/Linux byggda med SDL eller Electron tillsammans med three.js och drei, samt generell skrivbordsprogramvara med grafiskt gränssnitt. Går det att bygga, bygger vi det.", "price": "Offert" },
+      { "title": "Procedurell bokgenerering", "description": "Programvara som procedurellt genererar publiceringsklart innehåll: pysselböcker, klassiska romaner, formaterade och anpassade för Amazon Kindle. Ange en genre eller pusseltyp, så sköter programvaran resten.", "price": "Offert" },
+      { "title": "Utveckling av smarta kontrakt", "description": "Skräddarsydda blockkedjebaserade smarta kontrakt: tokens, NFT:er och mer, byggda säkert från grunden.", "price": "Offert" },
+      { "title": "AI-säkerhetsgranskningar", "description": "Vi kör vår egen AI-granskningsmodell för att automatiskt upptäcka sårbarheter i Solidity-smarta kontrakt och synliggöra problem som en manuell granskning kan missa.", "price": "Offert" },
+      { "title": "Flashlån-arbitragebottar", "description": "Blockkedjebaserade flashlån-arbitragebottar som vi själva utvecklar och driver, tills vidare på Polygon och BNB Smart Chain, på jakt efter prisskillnader inom DeFi i realtid. Ingen tjänst vi säljer, bara något vi bygger och experimenterar med internt.", "price": "Internt, ej till salu" }
+    ],
+    "values": [
+      { "label": "Tillförlitlighet", "desc": "Byggt för att hålla, inte bara för en demo." },
+      { "label": "Precision", "desc": "Noggrant, väl genomtänkt arbete." },
+      { "label": "Hastighet", "desc": "Snabb leverans utan att tumma på kvaliteten." },
+      { "label": "Transparens", "desc": "Rakt på sak och ärliga priser." }
+    ]
+  },
+  "about": {
+    "sectionLabel": "Vilka vi är",
+    "heading": "Om oss",
+    "p1": "Core Control Unit är ett litet, oberoende mjukvaruföretag, inget ansiktslöst storbolag. Vi bygger webbplatser och skräddarsydd programvara, och genom en privat kontakt kan vi säkra reklamplatser, inklusive jätteformat, i alla 50 amerikanska delstater via ett nätverk med 3 200 platser, med blockkedjekunskap redo när ett projekt kräver det.",
+    "p2": "Vi arbetar direkt med privatpersoner, startups och småföretag. Inga mellanhänder, inget onödigt krångel, bara tydlig kommunikation, snabb leverans och arbete som helt och hållet är ditt.",
+    "p3": "Vi arbetar på distans med kunder över hela världen och sköter varje projekt från början till slut: från den första kodraden till den aktiva reklampelaren."  },
+  "contact": {
+    "floating": "Kontakta oss"
+  },
+  "projects": {
+    "sectionLabel": "Arbete",
+    "heading": "Senaste projekt",
+    "viewProject": "Visa projekt →",
+    "viewAll": "Se alla projekt →",
+    "detailSubtitle": "En närmare titt på vad vi bygger, från start till mål.",
+    "backToHome": "← Tillbaka till startsidan",
+    "backToProjects": "← Tillbaka till projekten",
+    "visitProject": "Spela livetestet",
+    "comingSoon": "Livelänk kommer snart",
+    "viewSource": "Visa på GitHub",
+    "moreSoon": "Fler projekt kommer snart.",
+    "items": [
+      { "id": "seculars-online", "title": "Seculars Online", "description": "Ett storskaligt realtidsstrategispel för många spelare samtidigt, under aktiv utveckling. Grunda en by i en oändlig, procedurellt genererad värld, bygg och försvara den, och spela tillsammans med andra. Går redan att testa offentligt.", "longDescription": "Seculars Online är vårt egenutvecklade MMO-realtidsstrategispel (Build 10, under aktiv utveckling), som körs helt i webbläsaren på en egen WebGPU-motor byggd med three.js och drei. Byar skapas genom oändlig procedurell generering, så världen tar aldrig slut. Träd, gräs och byggnader är instansierade matrisentiteter animerade med en vertex animation texture-teknik (VAT) för mjuk, GPU-snål rörelse, ända ner till byggnader som klickar på plats när de uppförs. På färdplanen: en fullständig världskarta, strider, borgförsvar, djupare stadsbyggande, spelarägda gillen och mer. Spelet är redan öppet för offentliga tester, så hoppa in, utforska och var med och forma dess framtid." }
+    ]
+  },
+  "footer": {
+    "country": "Frankrike",
+    "siretLabel": "SIRET",
+    "siretValue": "XXX XXX XXX XXXXX",
+    "phone": "+33 X XX XX XX XX",
+    "tagline": "Mjukvaruutveckling · Frankrike",
+    "contactLabel": "Kontakt",
+    "linksLabel": "Länkar",
+    "legal": "Juridisk information",
+    "rgpd": "GDPR-kontakt",
+    "rights": "Alla rättigheter förbehållna"
+  },
+  "cookies": {
+    "notice": "Denna webbplats använder endast nödvändiga tekniska cookies.",
+    "accept": "Jag förstår"
+  },
+  "legal": {
+    "title": "Juridisk information",
+    "editorTitle": "Webbplatsansvarig",
+    "editorName": "Core Control Unit",
+    "editorType": "Förenklat aktiebolag (SAS) med ett aktiekapital på XXX €",
+    "editorActivity": "Verksamhet: datorprogrammering, webbplatser och all typ av applikationer",
+    "editorSiret": "SIRET: XXX XXX XXX XXXXX",
+    "editorAddress": "Säte: XXX, XXXXX, Frankrike",
+    "editorEmail": "E-post: business@ccunit.net",
+    "editorPhone": "Telefon: +33 X XX XX XX XX",
+    "editorDirector": "Ansvarig utgivare: [Förnamn EFTERNAMN]",
+    "hostingTitle": "Webbhotell",
+    "hostingName": "Leverantör: [Namn på webbhotell]",
+    "hostingAddress": "Adress: [Webbhotellets adress]",
+    "hostingContact": "Kontakt: [Webbhotellets e-post eller telefon]",
+    "ipTitle": "Immateriella rättigheter",
+    "ipText": "Allt innehåll på denna webbplats (texter, bilder, grafik, logotyp, ikoner etc.) tillhör uteslutande Core Control Unit och skyddas av fransk och internationell lagstiftning om immateriella rättigheter. All återgivning, spridning eller användning utan föregående tillstånd är strängt förbjuden.",
+    "dataTitle": "Personuppgifter",
+    "dataText": "I enlighet med den allmänna dataskyddsförordningen (GDPR, EU 2016/679) och fransk dataskyddslagstiftning har du följande rättigheter avseende dina personuppgifter:",
+    "dataRights": [
+      "Rätt till tillgång till dina uppgifter",
+      "Rätt till rättelse av dina uppgifter",
+      "Rätt till radering (rätten att bli bortglömd)",
+      "Rätt till dataportabilitet",
+      "Rätt att invända mot behandling",
+      "Rätt till begränsning av behandling"
+    ],
+    "dataContact": "För att utöva dessa rättigheter, använd formuläret nedan eller kontakta oss på business@ccunit.net. Vi åtar oss att svara inom 30 dagar.",
+    "dataLegal": "Rättslig grund för behandlingen: berättigat intresse (kommersiellt kontaktformulär) och uttryckligt samtycke (marknadsföringskommunikation).",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Denna webbplats använder inga spårnings- eller reklamcookies. Endast tekniskt nödvändiga cookies kan förekomma. Ingen data delas med tredje part i reklamsyfte."
+  }
+}

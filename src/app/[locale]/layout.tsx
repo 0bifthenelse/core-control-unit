@@ -1,26 +1,23 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { CookieBanner } from "@/features/cookies/components/CookieBanner";
-import { ThemeProvider } from "@/components/ui/ThemeProvider";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 const ogLocaleMap: Record<string, string> = {
   fr: "fr_FR",
   en: "en_GB",
   es: "es_ES",
   it: "it_IT",
+  de: "de_DE",
+  "de-CH": "de_CH",
+  sv: "sv_SE",
+  ru: "ru_RU",
+  ja: "ja_JP",
+  zh: "zh_CN",
+  "zh-Hant": "zh_TW",
+  he: "he_IL",
+  fa: "fa_IR",
 };
 
 export function generateStaticParams() {
@@ -66,6 +63,15 @@ export async function generateMetadata({
         en: "https://ccunit.net/en",
         es: "https://ccunit.net/es",
         it: "https://ccunit.net/it",
+        de: "https://ccunit.net/de",
+        "de-CH": "https://ccunit.net/de-CH",
+        sv: "https://ccunit.net/sv",
+        ru: "https://ccunit.net/ru",
+        ja: "https://ccunit.net/ja",
+        zh: "https://ccunit.net/zh",
+        "zh-Hant": "https://ccunit.net/zh-Hant",
+        he: "https://ccunit.net/he",
+        fa: "https://ccunit.net/fa",
       },
     },
   };
@@ -73,23 +79,14 @@ export async function generateMetadata({
 
 export default async function LocaleLayout({
   children,
-  params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;
   const messages = await getMessages();
   return (
-    <html lang={locale} className={`${geistSans.variable} ${geistMono.variable} h-full`} suppressHydrationWarning>
-      <body className="min-h-full flex flex-col bg-surface text-text-primary">
-        <ThemeProvider>
-          <NextIntlClientProvider messages={messages}>
-            {children}
-            <CookieBanner />
-          </NextIntlClientProvider>
-        </ThemeProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider messages={messages}>
+      {children}
+      <CookieBanner />
+    </NextIntlClientProvider>
   );
 }

@@ -49,19 +49,7 @@
     "p2": "Trabajamos directamente con particulares, startups y pequeñas empresas. Sin intermediarios ni excesos: solo comunicación clara, entrega rápida y un trabajo que es completamente tuyo.",
     "p3": "Trabajamos en remoto con clientes de todo el mundo y gestionamos cada proyecto de principio a fin: desde la primera línea de código hasta la valla publicitaria en activo."  },
   "contact": {
-    "sectionLabel": "Contáctanos",
-    "heading": "Iniciar un proyecto",
-    "subtitle": "Cuéntanos sobre tu proyecto. Respondemos en 48 horas.",
-    "floating": "Contáctanos",
-    "panelLabel": "FORMULARIO DE CONTACTO",
-    "labelName": "Nombre completo",
-    "placeholderName": "Juan García",
-    "labelEmail": "Email",
-    "placeholderEmail": "juan@empresa.es",
-    "labelProject": "Proyecto",
-    "placeholderProject": "Describe tu proyecto, tu stack actual, tus restricciones...",
-    "submit": "Enviar mensaje",
-    "emailSubject": "Nueva solicitud de proyecto"
+    "floating": "Contáctanos"
   },
   "projects": {
     "sectionLabel": "Trabajos",
@@ -125,24 +113,6 @@
     "dataContact": "Para ejercer estos derechos, utilice el formulario a continuación o contáctenos en business@ccunit.net. Nos comprometemos a responder en un plazo de 30 días.",
     "dataLegal": "Base legal del tratamiento: interés legítimo (formulario de contacto comercial) y consentimiento explícito (comunicaciones de marketing).",
     "cookiesTitle": "Cookies",
-    "cookiesText": "Este sitio no utiliza cookies de seguimiento ni publicitarias. Solo pueden instalarse cookies técnicas estrictamente necesarias para el funcionamiento del sitio. No se comparten datos con terceros con fines publicitarios.",
-    "rgpdTitle": "Ejercer sus derechos RGPD",
-    "rgpdSubtitle": "Utilice este formulario para ejercer sus derechos sobre sus datos personales. Acusamos recibo en 72h y procesamos su solicitud en un plazo de 30 días.",
-    "rgpdPanelLabel": "FORMULARIO RGPD",
-    "rgpdLabelName": "Nombre completo",
-    "rgpdPlaceholderName": "Juan García",
-    "rgpdLabelEmail": "Email",
-    "rgpdPlaceholderEmail": "juan@ejemplo.es",
-    "rgpdLabelType": "Tipo de solicitud",
-    "rgpdTypeAccess": "Derecho de acceso",
-    "rgpdTypeRectification": "Derecho de rectificación",
-    "rgpdTypeDeletion": "Derecho de supresión",
-    "rgpdTypePortability": "Derecho a la portabilidad",
-    "rgpdTypeOpposition": "Derecho de oposición",
-    "rgpdTypeLimitation": "Derecho a la limitación",
-    "rgpdLabelMessage": "Detalle de su solicitud",
-    "rgpdPlaceholderMessage": "Describa su solicitud con precisión...",
-    "rgpdSubmit": "Enviar solicitud",
-    "rgpdEmailSubject": "Solicitud de datos RGPD"
+    "cookiesText": "Este sitio no utiliza cookies de seguimiento ni publicitarias. Solo pueden instalarse cookies técnicas estrictamente necesarias para el funcionamiento del sitio. No se comparten datos con terceros con fines publicitarios."
   }
 }

@@ -8,6 +8,15 @@ const locales = [
   { code: "en", label: "EN" },
   { code: "es", label: "ES" },
   { code: "it", label: "IT" },
+  { code: "de", label: "DE" },
+  { code: "de-CH", label: "DE-CH" },
+  { code: "sv", label: "SV" },
+  { code: "ru", label: "RU" },
+  { code: "ja", label: "JA" },
+  { code: "zh", label: "ZH" },
+  { code: "zh-Hant", label: "ZH-HANT" },
+  { code: "he", label: "HE" },
+  { code: "fa", label: "FA" },
 ];
 
 export function LanguageSelector({ locale }: { locale: string; }) {
@@ -57,7 +66,7 @@ export function LanguageSelector({ locale }: { locale: string; }) {
 
       {open && (
         <div
-          className="absolute top-full mt-1 right-0 bg-[#111418] border border-[#1e2330] py-1 z-50 min-w-[60px]"
+          className="absolute top-full mt-1 right-0 bg-[#111418] border border-[#1e2330] py-1 z-50 min-w-[60px] max-h-64 overflow-y-auto"
           style={{ clipPath: "polygon(0 0, calc(100% - 5px) 0, 100% 5px, 100% 100%, 5px 100%, 0 calc(100% - 5px))" }}
           role="listbox"
         >

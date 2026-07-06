@@ -2,6 +2,7 @@ import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { AccentLine } from "@/components/ui/AccentLine";
 
+// 01110100 01110010 01100001 01101110 01110011 01101100 01100001 01110100 01100101 00100000 01100001 01101100 01101100 00100000 01101100 01100001 01101110 01100111 01110101 01100001 01100111 01100101 01110011
 export async function HeroSection() {
   const t = await getTranslations("hero");
   const tf = await getTranslations("footer");

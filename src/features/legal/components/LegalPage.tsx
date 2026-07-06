@@ -1,4 +1,4 @@
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 import { AccentLine } from "@/components/ui/AccentLine";
 import { RgpdForm } from "./RgpdForm";
 
@@ -14,15 +14,18 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 export async function LegalPage() {
   const t = await getTranslations("legal");
+  const locale = await getLocale();
+  const formLocale = locale === "fr" ? "fr" : "en";
+  const tForm = await getTranslations({ locale: formLocale, namespace: "legal" });
   const dataRights = t.raw("dataRights") as string[];
 
   const rgpdTypes = [
-    { value: "access", label: t("rgpdTypeAccess") },
-    { value: "rectification", label: t("rgpdTypeRectification") },
-    { value: "deletion", label: t("rgpdTypeDeletion") },
-    { value: "portability", label: t("rgpdTypePortability") },
-    { value: "opposition", label: t("rgpdTypeOpposition") },
-    { value: "limitation", label: t("rgpdTypeLimitation") },
+    { value: "access", label: tForm("rgpdTypeAccess") },
+    { value: "rectification", label: tForm("rgpdTypeRectification") },
+    { value: "deletion", label: tForm("rgpdTypeDeletion") },
+    { value: "portability", label: tForm("rgpdTypePortability") },
+    { value: "opposition", label: tForm("rgpdTypeOpposition") },
+    { value: "limitation", label: tForm("rgpdTypeLimitation") },
   ];
 
   return (
@@ -73,22 +76,22 @@ export async function LegalPage() {
 
         <div id="rgpd" className="mt-16">
           <div className="mb-10 text-center">
-            <span className="text-[10px] uppercase tracking-[0.3em] text-[#ff7d27]">{t("rgpdTitle")}</span>
+            <span className="text-[10px] uppercase tracking-[0.3em] text-[#ff7d27]">{tForm("rgpdTitle")}</span>
             <AccentLine className="mt-3 mb-4 max-w-xs mx-auto" />
-            <p className="text-xs text-text-muted max-w-sm mx-auto">{t("rgpdSubtitle")}</p>
+            <p className="text-xs text-text-muted max-w-sm mx-auto">{tForm("rgpdSubtitle")}</p>
           </div>
           <RgpdForm
-            panelLabel={t("rgpdPanelLabel")}
-            labelName={t("rgpdLabelName")}
-            placeholderName={t("rgpdPlaceholderName")}
-            labelEmail={t("rgpdLabelEmail")}
-            placeholderEmail={t("rgpdPlaceholderEmail")}
-            labelType={t("rgpdLabelType")}
+            panelLabel={tForm("rgpdPanelLabel")}
+            labelName={tForm("rgpdLabelName")}
+            placeholderName={tForm("rgpdPlaceholderName")}
+            labelEmail={tForm("rgpdLabelEmail")}
+            placeholderEmail={tForm("rgpdPlaceholderEmail")}
+            labelType={tForm("rgpdLabelType")}
             types={rgpdTypes}
-            labelMessage={t("rgpdLabelMessage")}
-            placeholderMessage={t("rgpdPlaceholderMessage")}
-            submit={t("rgpdSubmit")}
-            emailSubject={t("rgpdEmailSubject")}
+            labelMessage={tForm("rgpdLabelMessage")}
+            placeholderMessage={tForm("rgpdPlaceholderMessage")}
+            submit={tForm("rgpdSubmit")}
+            emailSubject={tForm("rgpdEmailSubject")}
           />
         </div>
       </div>

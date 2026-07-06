@@ -49,19 +49,7 @@
     "p2": "Lavoriamo direttamente con privati, startup e piccole imprese. Nessun intermediario, niente fronzoli: solo comunicazione chiara, consegna rapida e un lavoro che ti appartiene per intero.",
     "p3": "Lavoriamo da remoto con clienti in tutto il mondo e seguiamo ogni progetto dall'inizio alla fine: dalla prima riga di codice al cartellone attivo."  },
   "contact": {
-    "sectionLabel": "Contattaci",
-    "heading": "Avvia un progetto",
-    "subtitle": "Raccontaci il tuo progetto. Rispondiamo entro 48 ore.",
-    "floating": "Contattaci",
-    "panelLabel": "MODULO DI CONTATTO",
-    "labelName": "Nome completo",
-    "placeholderName": "Mario Rossi",
-    "labelEmail": "Email",
-    "placeholderEmail": "mario@azienda.it",
-    "labelProject": "Progetto",
-    "placeholderProject": "Descrivi il tuo progetto, il tuo stack attuale, i tuoi vincoli...",
-    "submit": "Invia messaggio",
-    "emailSubject": "Nuova richiesta di progetto"
+    "floating": "Contattaci"
   },
   "projects": {
     "sectionLabel": "Lavori",
@@ -125,24 +113,6 @@
     "dataContact": "Per esercitare questi diritti, utilizza il modulo sottostante o contattaci a business@ccunit.net. Ci impegniamo a rispondere entro 30 giorni.",
     "dataLegal": "Base giuridica del trattamento: interesse legittimo (modulo di contatto commerciale) e consenso esplicito (comunicazioni di marketing).",
     "cookiesTitle": "Cookie",
-    "cookiesText": "Questo sito non utilizza cookie di tracciamento o pubblicitari. Possono essere depositati solo cookie tecnici strettamente necessari al funzionamento del sito. Nessun dato viene condiviso con terze parti a fini pubblicitari.",
-    "rgpdTitle": "Esercita i tuoi diritti RGPD",
-    "rgpdSubtitle": "Utilizza questo modulo per esercitare i tuoi diritti relativi ai tuoi dati personali. Confermiamo la ricezione entro 72h e trattiamo la tua richiesta entro 30 giorni.",
-    "rgpdPanelLabel": "MODULO RGPD",
-    "rgpdLabelName": "Nome completo",
-    "rgpdPlaceholderName": "Mario Rossi",
-    "rgpdLabelEmail": "Email",
-    "rgpdPlaceholderEmail": "mario@esempio.it",
-    "rgpdLabelType": "Tipo di richiesta",
-    "rgpdTypeAccess": "Diritto di accesso",
-    "rgpdTypeRectification": "Diritto di rettifica",
-    "rgpdTypeDeletion": "Diritto alla cancellazione",
-    "rgpdTypePortability": "Diritto alla portabilità",
-    "rgpdTypeOpposition": "Diritto di opposizione",
-    "rgpdTypeLimitation": "Diritto alla limitazione",
-    "rgpdLabelMessage": "Dettaglio della tua richiesta",
-    "rgpdPlaceholderMessage": "Descrivi con precisione la tua richiesta...",
-    "rgpdSubmit": "Invia richiesta",
-    "rgpdEmailSubject": "Richiesta di dati RGPD"
+    "cookiesText": "Questo sito non utilizza cookie di tracciamento o pubblicitari. Possono essere depositati solo cookie tecnici strettamente necessari al funzionamento del sito. Nessun dato viene condiviso con terze parti a fini pubblicitari."
   }
 }

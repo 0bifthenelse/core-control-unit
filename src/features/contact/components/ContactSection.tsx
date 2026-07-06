@@ -1,9 +1,11 @@
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 import { AccentLine } from "@/components/ui/AccentLine";
 import { ContactForm } from "./ContactForm";
 
 export async function ContactSection() {
-  const t = await getTranslations("contact");
+  const locale = await getLocale();
+  const formLocale = locale === "fr" ? "fr" : "en";
+  const t = await getTranslations({ locale: formLocale, namespace: "contact" });
 
   return (
     <section id="contact" className="py-24 px-6 border-t border-border">
