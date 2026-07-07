@@ -11,6 +11,19 @@
     "contact": "Contacto",
     "cta": "Empezar"
   },
+  "showroom": {
+    "hud": {
+      "label": "SISTEMA // DEMO EN VIVO",
+      "lines": [
+        "Esta escena se ejecuta en vivo en tu navegador vía WebGPU.",
+        "Cada brizna de hierba se instancia por GPU en tiempo real.",
+        "Este agujero negro se sombrea de forma procedural, sin texturas.",
+        "Construimos sitios como este, adaptados a tu producto.",
+        "De una landing page a un showcase 3D completo, el mismo equipo.",
+        "Sin vídeo, sin render, esto está pasando ahora mismo."
+      ]
+    }
+  },
   "hero": {
     "badge": "Disponibles para nuevos proyectos",
     "tagline": "Sitios web, apps y publicidad a nivel nacional",

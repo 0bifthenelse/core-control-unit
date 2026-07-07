@@ -11,6 +11,19 @@
     "contact": "Kontakt",
     "cta": "Kom igång"
   },
+  "showroom": {
+    "hud": {
+      "label": "SYSTEM // LIVEDEMO",
+      "lines": [
+        "Den här scenen körs live i din webbläsare via WebGPU.",
+        "Varje grässtrå instansieras av GPU:n i realtid.",
+        "Det här svarta hålet skuggas proceduralt, utan texturer.",
+        "Vi bygger sajter som denna, anpassade efter din produkt.",
+        "Från en landningssida till ett fullt 3D-skyltfönster, samma team.",
+        "Ingen video, ingen rendering, det här händer just nu."
+      ]
+    }
+  },
   "hero": {
     "badge": "Tillgängliga för nya projekt",
     "tagline": "Webbplatser, appar & rikstäckande reklam",

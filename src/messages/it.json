@@ -11,6 +11,19 @@
     "contact": "Contatto",
     "cta": "Inizia"
   },
+  "showroom": {
+    "hud": {
+      "label": "SISTEMA // DEMO DAL VIVO",
+      "lines": [
+        "Questa scena gira dal vivo nel tuo browser tramite WebGPU.",
+        "Ogni filo d'erba è istanziato dalla GPU in tempo reale.",
+        "Questo buco nero è ombreggiato proceduralmente, senza texture.",
+        "Costruiamo siti come questo, su misura per il tuo prodotto.",
+        "Da una landing page a una vetrina 3D completa, lo stesso team.",
+        "Nessun video, nessun render, sta succedendo proprio ora."
+      ]
+    }
+  },
   "hero": {
     "badge": "Disponibili per nuovi progetti",
     "tagline": "Siti web, app e pubblicità su scala nazionale",

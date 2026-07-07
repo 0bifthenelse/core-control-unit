@@ -11,6 +11,19 @@
     "contact": "Contact",
     "cta": "Start"
   },
+  "showroom": {
+    "hud": {
+      "label": "SYSTEM // LIVE DEMO",
+      "lines": [
+        "This scene runs live in your browser via WebGPU.",
+        "Every blade of grass is GPU-instanced in real time.",
+        "This black hole is shaded procedurally, no textures.",
+        "We build sites like this one, tuned to your product.",
+        "From a landing page to a full 3D showcase, same team.",
+        "No video, no render, this is happening right now."
+      ]
+    }
+  },
   "hero": {
     "badge": "Available for new projects",
     "tagline": "Websites, apps & nationwide advertising",

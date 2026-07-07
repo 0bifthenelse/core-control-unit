@@ -11,6 +11,19 @@
     "contact": "Kontakt",
     "cta": "Starten"
   },
+  "showroom": {
+    "hud": {
+      "label": "SYSTEM // LIVE-DEMO",
+      "lines": [
+        "Diese Szene läuft live in Ihrem Browser über WebGPU.",
+        "Jeder Grashalm wird in Echtzeit per GPU instanziiert.",
+        "Dieses Schwarze Loch wird prozedural schattiert, ohne Texturen.",
+        "Wir bauen Websites wie diese, zugeschnitten auf Ihr Produkt.",
+        "Von einer Landingpage bis zur vollen 3D-Präsentation, dasselbe Team.",
+        "Kein Video, kein Render, das passiert gerade jetzt."
+      ]
+    }
+  },
   "hero": {
     "badge": "Verfügbar für neue Projekte",
     "tagline": "Websites, Apps & landesweite Werbung",

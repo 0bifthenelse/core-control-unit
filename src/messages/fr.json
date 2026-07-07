@@ -11,6 +11,19 @@
     "contact": "Contact",
     "cta": "Démarrer"
   },
+  "showroom": {
+    "hud": {
+      "label": "SYSTÈME // DÉMO EN DIRECT",
+      "lines": [
+        "Cette scène tourne en direct dans votre navigateur via WebGPU.",
+        "Chaque brin d'herbe est instancié par le GPU en temps réel.",
+        "Ce trou noir est ombré de façon procédurale, sans texture.",
+        "Nous construisons des sites comme celui-ci, adaptés à votre produit.",
+        "D'une simple page à une vitrine 3D complète, la même équipe.",
+        "Aucune vidéo, aucun rendu préenregistré, ça se passe en ce moment."
+      ]
+    }
+  },
   "hero": {
     "badge": "Disponible pour de nouveaux projets",
     "tagline": "Sites, applications & publicité à l'échelle nationale",
