@@ -12,6 +12,7 @@ import {
   vec3,
   cos,
   atan,
+  abs,
   length,
   mix,
   clamp,
@@ -61,14 +62,34 @@ function discShading(radius: ScalarNode, angle: ScalarNode, timeS: ScalarNode, i
   const baseColor = mix(vec3(1.0, 0.96, 0.88), vec3(1.0, 0.4, 0.14), radialT);
 
   const side = cos(angle);
-  const brightnessMul = mix(0.4, 1.9, smoothstep(-1, 1, side));
+  const brightnessMul = mix(0.15, 2.6, smoothstep(-1, 1, side));
 
   const warmedUp = mix(baseColor, vec3(1.0, 0.98, 0.95), smoothstep(0.3, 1, side).mul(0.45));
   const cooledDown = mix(warmedUp, vec3(1.0, 0.28, 0.1), smoothstep(0.3, 1, side.negate()).mul(0.45));
 
   const innerGlow = float(1).sub(smoothstep(0, 0.2, radialT)).mul(2.4);
 
-  return cooledDown.mul(brightnessMul).mul(filament).mul(float(1).add(innerGlow)).mul(3.2);
+  const outerFade = float(1).sub(smoothstep(0.72, 1.0, radialT));
+
+  return cooledDown.mul(brightnessMul).mul(filament).mul(float(1).add(innerGlow)).mul(outerFade).mul(3.2);
+}
+
+function dopplerBeaming(angle: ScalarNode) {
+  const side = cos(angle);
+  return mix(0.12, 2.8, smoothstep(-1, 1, side));
+}
+
+function makeEmissiveMaterial(): THREE.MeshStandardNodeMaterial {
+  const m = new THREE.MeshStandardNodeMaterial({
+    roughness: 1,
+    metalness: 0,
+    side: THREE.DoubleSide,
+    transparent: true,
+    depthWrite: false,
+  });
+  m.blending = THREE.AdditiveBlending;
+  m.colorNode = vec3(0.0, 0.0, 0.0);
+  return m;
 }
 
 const scratchAimer = new THREE.Object3D();
@@ -99,40 +120,49 @@ export function createBlackHole(timeUniform: UniformNode) {
   discsPivot.name = "discsPivot";
   group.add(discsPivot);
 
-  const mainInner = HORIZON_RADIUS * 1.15;
+  const mainInner = HORIZON_RADIUS * 0.98;
   const mainOuter = HORIZON_RADIUS * 3.2;
-  const mainGeometry = new THREE.RingGeometry(mainInner, mainOuter, 128, 8);
-  const mainMaterial = new THREE.MeshStandardNodeMaterial({
-    roughness: 1,
-    metalness: 0,
-    side: THREE.DoubleSide,
-  });
+  const mainGeometry = new THREE.RingGeometry(mainInner, mainOuter, 160, 10);
+  const mainMaterial = makeEmissiveMaterial();
   const mainRadius = length(positionLocal.xy);
   const mainAngle = atan(positionLocal.y, positionLocal.x);
-  mainMaterial.colorNode = vec3(0.0, 0.0, 0.0);
   mainMaterial.emissiveNode = discShading(mainRadius, mainAngle, timeS, mainInner, mainOuter);
   const mainDisc = new THREE.Mesh(mainGeometry, mainMaterial);
   mainDisc.rotation.x = -Math.PI / 2 + 0.2;
   discsPivot.add(mainDisc);
 
-  const haloInner = HORIZON_RADIUS * 1.05;
-  const haloOuter = HORIZON_RADIUS * 1.7;
-  const haloGeometry = new THREE.RingGeometry(haloInner, haloOuter, 96, 6);
-  const haloMaterial = new THREE.MeshStandardNodeMaterial({
-    roughness: 1,
-    metalness: 0,
-    side: THREE.DoubleSide,
-  });
-  const haloRadius = length(positionLocal.xy);
-  const haloAngle = atan(positionLocal.y, positionLocal.x);
-  haloMaterial.colorNode = vec3(0.0, 0.0, 0.0);
-  haloMaterial.emissiveNode = discShading(haloRadius, haloAngle, timeS, haloInner, haloOuter).mul(0.5);
-  const haloRing = new THREE.Mesh(haloGeometry, haloMaterial);
-  haloRing.rotation.x = 0.1;
-  discsPivot.add(haloRing);
+  const photonInner = HORIZON_RADIUS * 1.0;
+  const photonOuter = HORIZON_RADIUS * 1.09;
+  const photonGeometry = new THREE.RingGeometry(photonInner, photonOuter, 192, 1);
+  const photonMaterial = makeEmissiveMaterial();
+  const photonRadius = length(positionLocal.xy);
+  const photonT = clamp(photonRadius.sub(photonInner).div(photonOuter - photonInner), 0, 1);
+  const photonProfile = float(1).sub(abs(photonT.sub(0.5)).mul(2));
+  photonMaterial.emissiveNode = vec3(1.0, 0.95, 0.86).mul(photonProfile.pow(2.2)).mul(4.6);
+  const photonRing = new THREE.Mesh(photonGeometry, photonMaterial);
+  discsPivot.add(photonRing);
+
+  const lensInner = HORIZON_RADIUS * 1.04;
+  const lensOuter = HORIZON_RADIUS * 1.5;
+  const lensGeometry = new THREE.RingGeometry(lensInner, lensOuter, 192, 4);
+  const lensMaterial = makeEmissiveMaterial();
+  const lensRadius = length(positionLocal.xy);
+  const lensAngle = atan(positionLocal.y, positionLocal.x);
+  const lensT = clamp(lensRadius.sub(lensInner).div(lensOuter - lensInner), 0, 1);
+  const lensProfile = float(1).sub(abs(lensT.sub(0.28)).mul(2.4));
+  const verticalEmphasis = mix(0.35, 1.0, abs(positionLocal.y.div(lensRadius)));
+  const lensBase = mix(vec3(1.0, 0.86, 0.62), vec3(1.0, 0.49, 0.15), lensT);
+  lensMaterial.emissiveNode = lensBase
+    .mul(clamp(lensProfile, 0, 1).pow(1.4))
+    .mul(verticalEmphasis)
+    .mul(dopplerBeaming(lensAngle))
+    .mul(2.6);
+  const lensRing = new THREE.Mesh(lensGeometry, lensMaterial);
+  discsPivot.add(lensRing);
 
   group.userData.hasAccretionRing = true;
   group.userData.hasHaloRing = true;
+  group.userData.hasPhotonRing = true;
   group.userData.horizonMaterialType = horizonMaterial.constructor.name;
 
   return group;
