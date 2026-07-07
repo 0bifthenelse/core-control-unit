@@ -9,7 +9,7 @@ export const projectAssets: ProjectAsset[] = [
   {
     id: "seculars-online",
     screenshots: ["/secularsonline-preview1.png", "/secularsonline-preview2.png"],
-    liveUrl: "http://167.233.24.127/",
+    liveUrl: "https://www.secularsonline.com",
     repoUrl: "https://github.com/Illumineis/release",
   },
 ];
