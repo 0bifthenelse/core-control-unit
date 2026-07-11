@@ -12,4 +12,10 @@ export const projectAssets: ProjectAsset[] = [
     liveUrl: "https://www.secularsonline.com",
     repoUrl: "https://github.com/Illumineis/release",
   },
+  {
+    id: "atmosphere",
+    screenshots: ["/atmosphere-preview.png"],
+    liveUrl: null,
+    repoUrl: null,
+  },
 ];

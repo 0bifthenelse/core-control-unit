@@ -78,14 +78,14 @@
     "viewSource": "Ver en GitHub",
     "moreSoon": "Más proyectos próximamente.",
     "items": [
-      { "id": "seculars-online", "title": "Seculars Online", "description": "Un juego de estrategia en tiempo real multijugador masivo en desarrollo activo. Funda una aldea en un mundo infinito generado proceduralmente, constrúyela, defiéndela y juega junto a otros. Ya se puede probar públicamente.", "longDescription": "Seculars Online es nuestro juego de estrategia en tiempo real MMO (Build 10, en desarrollo activo), que funciona por completo en el navegador sobre un motor WebGPU propio desarrollado con three.js y drei. Las aldeas usan generación procedural infinita: el mundo nunca termina. Árboles, hierba y edificios son entidades instanciadas animadas con una técnica de vertex animation texture (VAT), para un movimiento fluido y ligero para la GPU, hasta los edificios que encajan a medida que se construyen. Próximamente: un mapa del mundo, batallas, defensa de castillos, una gestión de ciudades más profunda, gremios propiedad de los jugadores y mucho más. El juego ya está abierto a pruebas públicas: entra, explora y ayuda a dar forma a su futuro." }
+      { "id": "seculars-online", "title": "Seculars Online", "description": "Un juego de estrategia en tiempo real multijugador masivo en desarrollo activo. Funda una aldea en un mundo infinito generado proceduralmente, constrúyela, defiéndela y juega junto a otros. Ya se puede probar públicamente.", "longDescription": "Seculars Online es nuestro juego de estrategia en tiempo real MMO (Build 10, en desarrollo activo), que funciona por completo en el navegador sobre un motor WebGPU propio desarrollado con three.js y drei. Las aldeas usan generación procedural infinita: el mundo nunca termina. Árboles, hierba y edificios son entidades instanciadas animadas con una técnica de vertex animation texture (VAT), para un movimiento fluido y ligero para la GPU, hasta los edificios que encajan a medida que se construyen. Próximamente: un mapa del mundo, batallas, defensa de castillos, una gestión de ciudades más profunda, gremios propiedad de los jugadores y mucho más. El juego ya está abierto a pruebas públicas: entra, explora y ayuda a dar forma a su futuro." },
+      {"id": "atmosphere", "title": "Atmosphère", "description": "Una aplicación de escritorio creada para un cliente privado con el fin de controlar su bot de música de Discord, Atmosphère. Gestiona la reproducción, las listas y el estado del bot desde un único panel, sin pasar por el navegador, con un modo de reproducción local para previsualizar pistas sin enviar audio al canal de voz del bot. Realizada como encargo privado, no accesible públicamente.", "longDescription": "Atmosphère es una aplicación de escritorio hecha con Electron y React, creada para un cliente privado con el fin de manejar su bot de música de Discord sin tocar Discord directamente. Se comunica con un backend basado en discord.js y @discordjs/voice a través de un puente IPC tipado, transmitiendo audio mediante un flujo de yt-dlp y ffmpeg. El panel muestra el estado del bot y de la conexión en tiempo real, un gestor de listas organiza y reclasifica las pistas, y una rutina de autocomprobación verifica ffmpeg, el token del bot y la estructura de carpetas en cada inicio, reparando automáticamente lo que puede. Un modo de reproducción local añadido recientemente bloquea la reproducción a la propia aplicación, para poder previsualizar y encolar pistas sin transmitir audio al canal de voz de Discord del bot. Al tratarse de un encargo privado, el código fuente y una instancia en vivo siguen siendo propiedad del cliente y no se comparten públicamente."}
     ]
   },
   "footer": {
     "country": "Francia",
     "siretLabel": "SIRET",
     "siretValue": "XXX XXX XXX XXXXX",
-    "phone": "+33 X XX XX XX XX",
     "tagline": "Ingeniería de software · Francia",
     "contactLabel": "Contacto",
     "linksLabel": "Enlaces",
@@ -106,12 +106,11 @@
     "editorSiret": "SIRET: XXX XXX XXX XXXXX",
     "editorAddress": "Domicilio social: XXX, XXXXX, Francia",
     "editorEmail": "Email: business@ccunit.net",
-    "editorPhone": "Teléfono: +33 X XX XX XX XX",
     "editorDirector": "Director de publicación: [Nombre APELLIDO]",
     "hostingTitle": "Alojamiento",
     "hostingName": "Proveedor: [Nombre del proveedor de alojamiento]",
     "hostingAddress": "Dirección: [Dirección del proveedor de alojamiento]",
-    "hostingContact": "Contacto: [Email o teléfono del proveedor]",
+    "hostingContact": "Contacto: [Email del proveedor]",
     "ipTitle": "Propiedad intelectual",
     "ipText": "Todo el contenido de este sitio (textos, imágenes, gráficos, logo, iconos, etc.) es propiedad exclusiva de Core Control Unit, protegida por las leyes francesas e internacionales de propiedad intelectual. Queda estrictamente prohibida cualquier reproducción, distribución o uso sin autorización previa.",
     "dataTitle": "Datos personales",

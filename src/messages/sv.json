@@ -78,14 +78,14 @@
     "viewSource": "Visa på GitHub",
     "moreSoon": "Fler projekt kommer snart.",
     "items": [
-      { "id": "seculars-online", "title": "Seculars Online", "description": "Ett storskaligt realtidsstrategispel för många spelare samtidigt, under aktiv utveckling. Grunda en by i en oändlig, procedurellt genererad värld, bygg och försvara den, och spela tillsammans med andra. Går redan att testa offentligt.", "longDescription": "Seculars Online är vårt egenutvecklade MMO-realtidsstrategispel (Build 10, under aktiv utveckling), som körs helt i webbläsaren på en egen WebGPU-motor byggd med three.js och drei. Byar skapas genom oändlig procedurell generering, så världen tar aldrig slut. Träd, gräs och byggnader är instansierade matrisentiteter animerade med en vertex animation texture-teknik (VAT) för mjuk, GPU-snål rörelse, ända ner till byggnader som klickar på plats när de uppförs. På färdplanen: en fullständig världskarta, strider, borgförsvar, djupare stadsbyggande, spelarägda gillen och mer. Spelet är redan öppet för offentliga tester, så hoppa in, utforska och var med och forma dess framtid." }
+      { "id": "seculars-online", "title": "Seculars Online", "description": "Ett storskaligt realtidsstrategispel för många spelare samtidigt, under aktiv utveckling. Grunda en by i en oändlig, procedurellt genererad värld, bygg och försvara den, och spela tillsammans med andra. Går redan att testa offentligt.", "longDescription": "Seculars Online är vårt egenutvecklade MMO-realtidsstrategispel (Build 10, under aktiv utveckling), som körs helt i webbläsaren på en egen WebGPU-motor byggd med three.js och drei. Byar skapas genom oändlig procedurell generering, så världen tar aldrig slut. Träd, gräs och byggnader är instansierade matrisentiteter animerade med en vertex animation texture-teknik (VAT) för mjuk, GPU-snål rörelse, ända ner till byggnader som klickar på plats när de uppförs. På färdplanen: en fullständig världskarta, strider, borgförsvar, djupare stadsbyggande, spelarägda gillen och mer. Spelet är redan öppet för offentliga tester, så hoppa in, utforska och var med och forma dess framtid." },
+      {"id": "atmosphere", "title": "Atmosphère", "description": "En skrivbordsapp Atmosphère, byggd åt en privat kund för att styra deras Discord-musikbot. Hantera uppspelning, spellistor och bot-status från en enda instrumentpanel, helt utan webbläsare, med ett lokalt uppspelningsläge för att förhandslyssna på låtar utan att skicka ljud till botens röstkanal. Skapad som ett privat uppdrag, inte publikt tillgänglig.", "longDescription": "Atmosphère är en skrivbordsapp byggd med Electron och React åt en privat kund för att köra deras Discord-musikbot utan att röra Discord direkt. Den kommunicerar med en backend av discord.js och @discordjs/voice via en typad IPC-brygga och strömmar ljud genom en yt-dlp- och ffmpeg-pipeline. Instrumentpanelen visar bot- och anslutningsstatus i realtid, en spellistehanterare organiserar och omkategoriserar låtar, och en självkontrollrutin verifierar ffmpeg, bot-token och mappstrukturen vid varje start, och lagar automatiskt det den kan. Ett nyligen tillagt lokalt uppspelningsläge låser uppspelningen till appen själv, så att låtar kan förhandslyssnas och köas utan att strömma ljud till botens Discord-röstkanal. Eftersom detta byggdes som ett privat uppdrag förblir källkoden och en live-instans kundens egendom och delas inte offentligt."}
     ]
   },
   "footer": {
     "country": "Frankrike",
     "siretLabel": "SIRET",
     "siretValue": "XXX XXX XXX XXXXX",
-    "phone": "+33 X XX XX XX XX",
     "tagline": "Mjukvaruutveckling · Frankrike",
     "contactLabel": "Kontakt",
     "linksLabel": "Länkar",
@@ -106,12 +106,11 @@
     "editorSiret": "SIRET: XXX XXX XXX XXXXX",
     "editorAddress": "Säte: XXX, XXXXX, Frankrike",
     "editorEmail": "E-post: business@ccunit.net",
-    "editorPhone": "Telefon: +33 X XX XX XX XX",
     "editorDirector": "Ansvarig utgivare: [Förnamn EFTERNAMN]",
     "hostingTitle": "Webbhotell",
     "hostingName": "Leverantör: [Namn på webbhotell]",
     "hostingAddress": "Adress: [Webbhotellets adress]",
-    "hostingContact": "Kontakt: [Webbhotellets e-post eller telefon]",
+    "hostingContact": "Kontakt: [Webbhotellets e-post]",
     "ipTitle": "Immateriella rättigheter",
     "ipText": "Allt innehåll på denna webbplats (texter, bilder, grafik, logotyp, ikoner etc.) tillhör uteslutande Core Control Unit och skyddas av fransk och internationell lagstiftning om immateriella rättigheter. All återgivning, spridning eller användning utan föregående tillstånd är strängt förbjuden.",
     "dataTitle": "Personuppgifter",

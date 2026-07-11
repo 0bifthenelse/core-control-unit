@@ -78,14 +78,14 @@
     "viewSource": "在GitHub上查看",
     "moreSoon": "更多项目即将上线。",
     "items": [
-      { "id": "seculars-online", "title": "Seculars Online", "description": "一款仍在积极开发中的大型多人在线即时战略游戏。在一个无限程序化生成的世界中建立村庄，建设并守护它，并与其他玩家一同游戏。目前已开放公开测试。", "longDescription": "Seculars Online是我们自主研发的MMO即时战略游戏(Build 10，正在积极开发中)，完全运行于浏览器中，基于我们用three.js和drei构建的自研WebGPU引擎。村庄依靠无限程序化生成技术建立，因此世界永无止境。树木、草地与建筑均为实例化矩阵实体，采用顶点动画纹理(VAT)技术实现动画，运动流畅且对GPU负担极低，甚至连建筑物在建造过程中逐步拼合到位的细节都得以呈现。规划中的未来功能包括:完整的世界地图、战斗系统、城堡防御、更深入的城市建设、玩家自有的公会等等。游戏现已开放公开测试，欢迎加入、探索，并共同参与塑造它的未来。" }
+      { "id": "seculars-online", "title": "Seculars Online", "description": "一款仍在积极开发中的大型多人在线即时战略游戏。在一个无限程序化生成的世界中建立村庄，建设并守护它，并与其他玩家一同游戏。目前已开放公开测试。", "longDescription": "Seculars Online是我们自主研发的MMO即时战略游戏(Build 10，正在积极开发中)，完全运行于浏览器中，基于我们用three.js和drei构建的自研WebGPU引擎。村庄依靠无限程序化生成技术建立，因此世界永无止境。树木、草地与建筑均为实例化矩阵实体，采用顶点动画纹理(VAT)技术实现动画，运动流畅且对GPU负担极低，甚至连建筑物在建造过程中逐步拼合到位的细节都得以呈现。规划中的未来功能包括:完整的世界地图、战斗系统、城堡防御、更深入的城市建设、玩家自有的公会等等。游戏现已开放公开测试，欢迎加入、探索，并共同参与塑造它的未来。" },
+      {"id": "atmosphere", "title": "Atmosphère", "description": "为一位私人客户打造的桌面控制器应用Atmosphère，用于管理其Discord音乐机器人。可在同一个仪表盘中管理播放、播放列表和机器人状态，无需浏览器，并配有本地播放模式，可在不将音频发送到机器人语音频道的情况下试听曲目。作为私人定制项目开发，不对外公开。", "longDescription": "Atmosphère是一款基于Electron与React构建的桌面应用，为一位私人客户打造，用于在不直接使用Discord的情况下运行其音乐机器人。它通过类型化的IPC桥与基于discord.js和@discordjs/voice的后端通信，并通过yt-dlp与ffmpeg构成的管道进行音频流传输。仪表盘实时显示机器人及连接状态，播放列表管理器可整理与重新分类曲目，自检程序在每次启动时检查ffmpeg、机器人令牌与文件夹结构，并尽可能自动修复问题。近期新增的本地播放模式可将播放锁定在应用本身，从而在不将音频串流到机器人所在Discord语音频道的情况下试听并排队曲目。由于这是一个私人定制项目，源代码与线上实例仍归客户所有，不对外公开分享。"}
     ]
   },
   "footer": {
     "country": "法国",
     "siretLabel": "SIRET",
     "siretValue": "XXX XXX XXX XXXXX",
-    "phone": "+33 X XX XX XX XX",
     "tagline": "软件工程 · 法国",
     "contactLabel": "联系方式",
     "linksLabel": "链接",
@@ -106,12 +106,11 @@
     "editorSiret": "SIRET: XXX XXX XXX XXXXX",
     "editorAddress": "注册地址:XXX，XXXXX，法国",
     "editorEmail": "邮箱:business@ccunit.net",
-    "editorPhone": "电话:+33 X XX XX XX XX",
     "editorDirector": "出版负责人:[名 姓]",
     "hostingTitle": "托管服务",
     "hostingName": "提供商:[托管服务提供商名称]",
     "hostingAddress": "地址:[托管服务提供商地址]",
-    "hostingContact": "联系方式:[托管服务提供商的邮箱或电话]",
+    "hostingContact": "联系方式:[托管服务提供商的邮箱]",
     "ipTitle": "知识产权",
     "ipText": "本网站上的所有内容(文本、图片、图形、标志、图标等)均为Core Control Unit独家所有，受法国及国际知识产权法律保护。未经事先授权，严禁进行任何形式的复制、传播或使用。",
     "dataTitle": "个人数据",

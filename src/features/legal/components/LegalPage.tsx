@@ -42,7 +42,6 @@ export async function LegalPage() {
           <p>{t("editorSiret")}</p>
           <p>{t("editorAddress")}</p>
           <p>{t("editorEmail")}</p>
-          <p>{t("editorPhone")}</p>
           <p>{t("editorDirector")}</p>
         </Section>
 

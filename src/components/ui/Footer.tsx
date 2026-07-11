@@ -29,12 +29,6 @@ export async function Footer() {
           >
             business@ccunit.net
           </a>
-          <a
-            href={`tel:${t("phone").replace(/\s/g, "")}`}
-            className="block text-[10px] uppercase tracking-widest text-[#5a6070] hover:text-[#ff7d27] transition-colors"
-          >
-            {t("phone")}
-          </a>
           <span className="block text-[10px] uppercase tracking-widest text-[#5a6070]">{t("country")}</span>
         </div>
 

@@ -5,9 +5,7 @@ import { AccentLine } from "@/components/ui/AccentLine";
 // 01110100 01110010 01100001 01101110 01110011 01101100 01100001 01110100 01100101 00100000 01100001 01101100 01101100 00100000 01101100 01100001 01101110 01100111 01110101 01100001 01100111 01100101 01110011
 export async function HeroSection() {
   const t = await getTranslations("hero");
-  const tf = await getTranslations("footer");
   const email = t("email");
-  const phone = tf("phone");
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
@@ -101,12 +99,6 @@ export async function HeroSection() {
               <path d="M3 5h18v14H3zM3 6l9 7 9-7" />
             </svg>
             {email}
-          </a>
-          <a href={`tel:${phone.replace(/\s/g, "")}`} className="inline-flex items-center gap-2 hover:text-[#ff7d27] transition-colors">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <path d="M5 4h4l2 5-3 2a12 12 0 005 5l2-3 5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z" />
-            </svg>
-            {phone}
           </a>
         </div>
 

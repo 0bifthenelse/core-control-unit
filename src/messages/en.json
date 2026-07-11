@@ -90,14 +90,14 @@
     "viewSource": "View on GitHub",
     "moreSoon": "More projects coming soon.",
     "items": [
-      { "id": "seculars-online", "title": "Seculars Online", "description": "A massively-multiplayer online real-time strategy game in active development. Found a village in an endless, procedurally generated world, build & defend it, and play alongside others. Publicly testable right now.", "longDescription": "Seculars Online is our in-house MMO real-time strategy game (Build 10, in active development), running entirely in the browser on a custom WebGPU engine built with three.js & drei. Villages come from infinite procedural generation, so the world never ends. Trees, grass and buildings are instanced matrix entities animated with a vertex animation texture (VAT) technique for smooth, GPU-cheap motion, right down to buildings clipping into place as they are constructed. On the roadmap: a full world map, battles, castle defense, deeper city building, player-owned guilds, and more. It is already open for public testing, so jump in, explore, and help shape where it goes." }
+      { "id": "seculars-online", "title": "Seculars Online", "description": "A massively-multiplayer online real-time strategy game in active development. Found a village in an endless, procedurally generated world, build & defend it, and play alongside others. Publicly testable right now.", "longDescription": "Seculars Online is our in-house MMO real-time strategy game (Build 10, in active development), running entirely in the browser on a custom WebGPU engine built with three.js & drei. Villages come from infinite procedural generation, so the world never ends. Trees, grass and buildings are instanced matrix entities animated with a vertex animation texture (VAT) technique for smooth, GPU-cheap motion, right down to buildings clipping into place as they are constructed. On the roadmap: a full world map, battles, castle defense, deeper city building, player-owned guilds, and more. It is already open for public testing, so jump in, explore, and help shape where it goes." },
+      {"id": "atmosphere", "title": "Atmosphère", "description": "A desktop controller app built for a private client's Discord music bot, Atmosphère. Manage playback, playlists and bot status from one dashboard, no browser needed, with a local playback mode to preview tracks without sending audio to the bot's voice channel. Delivered as a private commission, not publicly accessible.", "longDescription": "Atmosphère is an Electron and React desktop app built for a private client to run their Discord music bot without touching Discord itself. It talks to a discord.js and @discordjs/voice backend over a typed IPC bridge, streaming audio through a yt-dlp and ffmpeg pipeline. The dashboard shows live bot status and connection state, a playlist manager organizes and recategorizes tracks, and a self-check routine verifies ffmpeg, the bot token and the folder structure on every launch, healing what it can automatically. A recently added local playback mode locks playback to the app itself, so tracks can be previewed and queued without streaming audio into the bot's Discord voice channel. As this was built as a private commission, the source and a live instance remain the customer's property and are not publicly shared."}
     ]
   },
   "footer": {
     "country": "France",
     "siretLabel": "SIRET",
     "siretValue": "XXX XXX XXX XXXXX",
-    "phone": "+33 X XX XX XX XX",
     "tagline": "Software engineering · France",
     "contactLabel": "Contact",
     "linksLabel": "Links",
@@ -118,12 +118,11 @@
     "editorSiret": "SIRET: XXX XXX XXX XXXXX",
     "editorAddress": "Registered office: XXX, XXXXX, France",
     "editorEmail": "Email: business@ccunit.net",
-    "editorPhone": "Phone: +33 X XX XX XX XX",
     "editorDirector": "Publication director: [First LAST]",
     "hostingTitle": "Hosting",
     "hostingName": "Host: [Hosting provider name]",
     "hostingAddress": "Address: [Hosting provider address]",
-    "hostingContact": "Contact: [Hosting provider email or phone]",
+    "hostingContact": "Contact: [Hosting provider email]",
     "ipTitle": "Intellectual property",
     "ipText": "All content on this site (texts, images, graphics, logo, icons, etc.) is the exclusive property of Core Control Unit, protected by French and international intellectual property laws. Any reproduction, distribution or use without prior authorisation is strictly prohibited.",
     "dataTitle": "Personal data",
