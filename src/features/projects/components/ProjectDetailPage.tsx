@@ -26,6 +26,7 @@ export async function ProjectDetailPage({ slug }: { slug: string }) {
   const screenshots = asset?.screenshots ?? [];
   const liveUrl = asset?.liveUrl ?? null;
   const repoUrl = asset?.repoUrl ?? null;
+  const isPrivate = asset?.private ?? false;
 
   return (
     <main className="pt-32 pb-24 px-6">
@@ -112,7 +113,7 @@ export async function ProjectDetailPage({ slug }: { slug: string }) {
             >
               {t("visitProject")} →
             </a>
-          ) : (
+          ) : isPrivate ? null : (
             <span className="inline-flex items-center gap-2 text-[10px] uppercase tracking-widest text-text-muted font-mono">
               {t("comingSoon")}
             </span>

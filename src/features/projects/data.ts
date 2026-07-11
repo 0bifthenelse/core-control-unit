@@ -3,6 +3,7 @@ export type ProjectAsset = {
   screenshots: string[];
   liveUrl: string | null;
   repoUrl: string | null;
+  private?: boolean;
 };
 
 export const projectAssets: ProjectAsset[] = [
@@ -17,5 +18,6 @@ export const projectAssets: ProjectAsset[] = [
     screenshots: ["/atmosphere-preview.png"],
     liveUrl: null,
     repoUrl: null,
+    private: true,
   },
 ];

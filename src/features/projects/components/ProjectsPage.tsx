@@ -42,6 +42,7 @@ export async function ProjectsPage() {
             const screenshots = asset?.screenshots ?? [];
             const liveUrl = asset?.liveUrl ?? null;
             const repoUrl = asset?.repoUrl ?? null;
+            const isPrivate = asset?.private ?? false;
 
             return (
               <section key={id} id={id} className="scroll-mt-24">
@@ -119,7 +120,7 @@ export async function ProjectsPage() {
                     >
                       {t("visitProject")} →
                     </a>
-                  ) : (
+                  ) : isPrivate ? null : (
                     <span className="inline-flex items-center gap-2 text-[10px] uppercase tracking-widest text-text-muted font-mono">
                       {t("comingSoon")}
                     </span>
