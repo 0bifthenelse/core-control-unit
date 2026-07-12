@@ -85,7 +85,7 @@
   "footer": {
     "country": "法国",
     "siretLabel": "SIRET",
-    "siretValue": "XXX XXX XXX XXXXX",
+    "siretValue": "注册办理中",
     "tagline": "软件工程 · 法国",
     "contactLabel": "联系方式",
     "linksLabel": "链接",
@@ -103,7 +103,7 @@
     "editorName": "Core Control Unit",
     "editorType": "简化股份公司(SAS)，注册资本XXX欧元",
     "editorActivity": "业务范围:计算机编程、网站及各类应用程序",
-    "editorSiret": "SIRET: XXX XXX XXX XXXXX",
+    "editorSiret": "SIRET: 注册办理中",
     "editorAddress": "注册地址:XXX，XXXXX，法国",
     "editorEmail": "邮箱:business@ccunit.net",
     "editorDirector": "出版负责人:[名 姓]",

@@ -1,8 +1,8 @@
-import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { HudPanel } from "@/components/ui/HudPanel";
 import { AccentLine } from "@/components/ui/AccentLine";
+import { ImageLightbox } from "@/components/ui/ImageLightbox";
 import { projectAssets } from "@/features/projects/data";
 
 // 01110100 01110010 01100001 01101110 01110011 01101100 01100001 01110100 01100101 00100000 01100001 01101100 01101100 00100000 01101100 01100001 01101110 01100111 01110101 01100001 01100111 01100101 01110011
@@ -57,7 +57,7 @@ export async function ProjectsPage() {
                   <div className="relative mb-12 sm:mb-16">
                     <HudPanel className="overflow-hidden">
                       <div className="relative w-full aspect-video overflow-hidden">
-                        <Image
+                        <ImageLightbox
                           src={screenshots[0]}
                           alt={`${title} preview 1`}
                           fill
@@ -78,7 +78,7 @@ export async function ProjectsPage() {
                       <div className="hidden sm:block absolute -bottom-8 right-6 w-2/5 max-w-xs">
                         <HudPanel className="overflow-hidden border-[#ff7d27]/40 shadow-[0_0_30px_rgba(255,125,39,0.25)]">
                           <div className="relative w-full aspect-[4/3] overflow-hidden">
-                            <Image
+                            <ImageLightbox
                               src={screenshots[1]}
                               alt={`${title} preview 2`}
                               fill
@@ -97,7 +97,7 @@ export async function ProjectsPage() {
                   <div className="sm:hidden mb-6">
                     <HudPanel className="overflow-hidden">
                       <div className="relative w-full aspect-[4/3] overflow-hidden">
-                        <Image
+                        <ImageLightbox
                           src={screenshots[1]}
                           alt={`${title} preview 2`}
                           fill

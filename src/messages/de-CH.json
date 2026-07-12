@@ -85,7 +85,7 @@
   "footer": {
     "country": "Frankreich",
     "siretLabel": "SIRET",
-    "siretValue": "XXX XXX XXX XXXXX",
+    "siretValue": "Registrierung läuft",
     "tagline": "Softwareentwicklung · Frankreich",
     "contactLabel": "Kontakt",
     "linksLabel": "Links",
@@ -103,7 +103,7 @@
     "editorName": "Core Control Unit",
     "editorType": "Vereinfachte Aktiengesellschaft (SAS) mit einem Kapital von XXX €",
     "editorActivity": "Tätigkeit: Softwareentwicklung, Websites und beliebige Anwendungen",
-    "editorSiret": "SIRET: XXX XXX XXX XXXXX",
+    "editorSiret": "SIRET: Registrierung läuft",
     "editorAddress": "Firmensitz: XXX, XXXXX, Frankreich",
     "editorEmail": "E-Mail: business@ccunit.net",
     "editorDirector": "Herausgeber: [Vorname NACHNAME]",

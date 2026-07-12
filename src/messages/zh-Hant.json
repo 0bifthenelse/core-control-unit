@@ -85,7 +85,7 @@
   "footer": {
     "country": "法國",
     "siretLabel": "SIRET",
-    "siretValue": "XXX XXX XXX XXXXX",
+    "siretValue": "註冊辦理中",
     "tagline": "軟體工程 · 法國",
     "contactLabel": "聯絡方式",
     "linksLabel": "連結",
@@ -103,7 +103,7 @@
     "editorName": "Core Control Unit",
     "editorType": "簡化股份公司(SAS)，註冊資本XXX歐元",
     "editorActivity": "業務範圍:電腦程式設計、網站及各類應用程式",
-    "editorSiret": "SIRET: XXX XXX XXX XXXXX",
+    "editorSiret": "SIRET: 註冊辦理中",
     "editorAddress": "註冊地址:XXX，XXXXX，法國",
     "editorEmail": "電子郵件:business@ccunit.net",
     "editorDirector": "發行負責人:[名 姓]",

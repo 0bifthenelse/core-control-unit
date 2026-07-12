@@ -85,7 +85,7 @@
   "footer": {
     "country": "Frankrike",
     "siretLabel": "SIRET",
-    "siretValue": "XXX XXX XXX XXXXX",
+    "siretValue": "Registrering pågår",
     "tagline": "Mjukvaruutveckling · Frankrike",
     "contactLabel": "Kontakt",
     "linksLabel": "Länkar",
@@ -103,7 +103,7 @@
     "editorName": "Core Control Unit",
     "editorType": "Förenklat aktiebolag (SAS) med ett aktiekapital på XXX €",
     "editorActivity": "Verksamhet: datorprogrammering, webbplatser och all typ av applikationer",
-    "editorSiret": "SIRET: XXX XXX XXX XXXXX",
+    "editorSiret": "SIRET: Registrering pågår",
     "editorAddress": "Säte: XXX, XXXXX, Frankrike",
     "editorEmail": "E-post: business@ccunit.net",
     "editorDirector": "Ansvarig utgivare: [Förnamn EFTERNAMN]",

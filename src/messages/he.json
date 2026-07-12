@@ -85,7 +85,7 @@
   "footer": {
     "country": "צרפת",
     "siretLabel": "SIRET",
-    "siretValue": "XXX XXX XXX XXXXX",
+    "siretValue": "הרישום בתהליך",
     "tagline": "הנדסת תוכנה · צרפת",
     "contactLabel": "צור קשר",
     "linksLabel": "קישורים",
@@ -103,7 +103,7 @@
     "editorName": "Core Control Unit",
     "editorType": "חברת מניות פשוטה (SAS) בעלת הון מניות של XXX אירו",
     "editorActivity": "תחום פעילות: תכנות מחשבים, אתרים וכל סוג של אפליקציה",
-    "editorSiret": "SIRET: XXX XXX XXX XXXXX",
+    "editorSiret": "SIRET: הרישום בתהליך",
     "editorAddress": "מען רשום: XXX, XXXXX, צרפת",
     "editorEmail": "אימייל: business@ccunit.net",
     "editorDirector": "אחראי הפרסום: [שם פרטי שם משפחה]",

@@ -85,7 +85,7 @@
   "footer": {
     "country": "فرانسه",
     "siretLabel": "SIRET",
-    "siretValue": "XXX XXX XXX XXXXX",
+    "siretValue": "ثبت در حال انجام است",
     "tagline": "مهندسی نرم‌افزار · فرانسه",
     "contactLabel": "تماس",
     "linksLabel": "لینک‌ها",
@@ -103,7 +103,7 @@
     "editorName": "Core Control Unit",
     "editorType": "شرکت سهامی ساده (SAS) با سرمایه XXX یورو",
     "editorActivity": "فعالیت: برنامه‌نویسی کامپیوتر، وب‌سایت و هر نوع اپلیکیشن",
-    "editorSiret": "SIRET: XXX XXX XXX XXXXX",
+    "editorSiret": "SIRET: ثبت در حال انجام است",
     "editorAddress": "دفتر ثبت‌شده: XXX، XXXXX، فرانسه",
     "editorEmail": "ایمیل: business@ccunit.net",
     "editorDirector": "مدیر مسئول انتشار: [نام نام خانوادگی]",
