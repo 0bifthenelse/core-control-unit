@@ -56,7 +56,7 @@ export async function ProjectsPage() {
                 {screenshots[0] && (
                   <div className="relative mb-12 sm:mb-16">
                     <HudPanel className="overflow-hidden">
-                      <div className="relative w-full aspect-video overflow-hidden">
+                      <div className="relative w-full aspect-[1924/1079] overflow-hidden">
                         <ImageLightbox
                           src={screenshots[0]}
                           alt={`${title} preview 1`}
@@ -67,17 +67,17 @@ export async function ProjectsPage() {
                           sizes="(max-width: 640px) 100vw, 80vw"
                         />
                         <div
-                          className="absolute inset-0"
+                          className="pointer-events-none absolute inset-0"
                           style={{ background: "linear-gradient(160deg, rgba(255,125,39,0.10) 0%, rgba(13,15,18,0.35) 70%)" }}
                         />
-                        <div className="absolute bottom-0 inset-x-0 h-0.5 bg-gradient-to-r from-[#ff7d27]/70 to-transparent" />
+                        <div className="pointer-events-none absolute bottom-0 inset-x-0 h-0.5 bg-gradient-to-r from-[#ff7d27]/70 to-transparent" />
                       </div>
                     </HudPanel>
 
                     {screenshots[1] && (
                       <div className="hidden sm:block absolute -bottom-8 right-6 w-2/5 max-w-xs">
                         <HudPanel className="overflow-hidden border-[#ff7d27]/40 shadow-[0_0_30px_rgba(255,125,39,0.25)]">
-                          <div className="relative w-full aspect-[4/3] overflow-hidden">
+                          <div className="relative w-full aspect-[1340/722] overflow-hidden">
                             <ImageLightbox
                               src={screenshots[1]}
                               alt={`${title} preview 2`}
@@ -96,7 +96,7 @@ export async function ProjectsPage() {
                 {screenshots[1] && (
                   <div className="sm:hidden mb-6">
                     <HudPanel className="overflow-hidden">
-                      <div className="relative w-full aspect-[4/3] overflow-hidden">
+                      <div className="relative w-full aspect-[1340/722] overflow-hidden">
                         <ImageLightbox
                           src={screenshots[1]}
                           alt={`${title} preview 2`}

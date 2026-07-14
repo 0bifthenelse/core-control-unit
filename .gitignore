@@ -12,6 +12,15 @@
 
 MASTER.md
 MASTER_SOLIDITY.md
+PROJECT_STATE.md
+**/PROJECT_STATE.md
+**/PLAN.md
+**/CHECK.md
+**/REPORT.md
+**/*-plan.md
+**/*-check.md
+**/*-report.md
+/graphify-out/
 
 # testing
 /coverage
