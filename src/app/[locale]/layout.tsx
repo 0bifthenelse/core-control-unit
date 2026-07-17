@@ -3,22 +3,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { CookieBanner } from "@/features/cookies/components/CookieBanner";
-
-const ogLocaleMap: Record<string, string> = {
-  fr: "fr_FR",
-  en: "en_GB",
-  es: "es_ES",
-  it: "it_IT",
-  de: "de_DE",
-  "de-CH": "de_CH",
-  sv: "sv_SE",
-  ru: "ru_RU",
-  ja: "ja_JP",
-  zh: "zh_CN",
-  "zh-Hant": "zh_TW",
-  he: "he_IL",
-  fa: "fa_IR",
-};
+import { SITE_URL, SITE_NAME, ogLocaleMap, localeAlternates } from "@/lib/seo";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -39,8 +24,8 @@ export async function generateMetadata({
     openGraph: {
       title: t("title"),
       description: t("description"),
-      url: `https://ccunit.net/${locale}`,
-      siteName: "Core Control Unit",
+      url: `${SITE_URL}/${locale}`,
+      siteName: SITE_NAME,
       locale: ogLocaleMap[locale] ?? "fr_FR",
       type: "website",
     },
@@ -57,22 +42,8 @@ export async function generateMetadata({
     },
     robots: { index: true, follow: true },
     alternates: {
-      canonical: `https://ccunit.net/${locale}`,
-      languages: {
-        fr: "https://ccunit.net/fr",
-        en: "https://ccunit.net/en",
-        es: "https://ccunit.net/es",
-        it: "https://ccunit.net/it",
-        de: "https://ccunit.net/de",
-        "de-CH": "https://ccunit.net/de-CH",
-        sv: "https://ccunit.net/sv",
-        ru: "https://ccunit.net/ru",
-        ja: "https://ccunit.net/ja",
-        zh: "https://ccunit.net/zh",
-        "zh-Hant": "https://ccunit.net/zh-Hant",
-        he: "https://ccunit.net/he",
-        fa: "https://ccunit.net/fa",
-      },
+      canonical: `${SITE_URL}/${locale}`,
+      languages: localeAlternates("", routing.locales),
     },
   };
 }

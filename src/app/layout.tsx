@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { getLocale } from "next-intl/server";
 import { ThemeProvider } from "@/components/ui/ThemeProvider";
+import { SITE_URL } from "@/lib/seo";
 import "./globals.css";
+
+export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+};
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
