@@ -20,4 +20,11 @@ export const projectAssets: ProjectAsset[] = [
     repoUrl: null,
     private: true,
   },
+  {
+    id: "arbitrage-bot",
+    screenshots: ["/arbitrage-bot-preview.png"],
+    liveUrl: null,
+    repoUrl: null,
+    private: true,
+  },
 ];
