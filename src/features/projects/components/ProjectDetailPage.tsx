@@ -26,6 +26,7 @@ export async function ProjectDetailPage({ slug }: { slug: string }) {
   const screenshots = asset?.screenshots ?? [];
   const liveUrl = asset?.liveUrl ?? null;
   const repoUrl = asset?.repoUrl ?? null;
+  const buyUrl = asset?.buyUrl ?? null;
   const isPrivate = asset?.private ?? false;
 
   return (
@@ -46,30 +47,71 @@ export async function ProjectDetailPage({ slug }: { slug: string }) {
           <p className="text-sm text-text-muted leading-relaxed max-w-3xl">{item.longDescription}</p>
         </div>
 
-        {screenshots[0] && (
-          <div className="relative mb-12 sm:mb-16">
-            <HudPanel className="overflow-hidden">
-              <div className="relative w-full aspect-[1924/1079] overflow-hidden">
-                <ImageLightbox
-                  src={screenshots[0]}
-                  alt={`${item.title} preview 1`}
-                  fill
-                  priority
-                  className="object-cover object-top"
-                  style={{ filter: "saturate(0.9) contrast(1.05)" }}
-                  sizes="(max-width: 640px) 100vw, 80vw"
-                />
-                <div
-                  className="pointer-events-none absolute inset-0"
-                  style={{ background: "linear-gradient(160deg, rgba(255,125,39,0.10) 0%, rgba(13,15,18,0.35) 70%)" }}
-                />
-                <div className="pointer-events-none absolute bottom-0 inset-x-0 h-0.5 bg-gradient-to-r from-[#ff7d27]/70 to-transparent" />
+        {asset?.portrait ? (
+          screenshots.length > 0 && (
+            <div className="grid grid-cols-2 gap-4 sm:gap-6 mb-12 sm:mb-16">
+              {screenshots.map((src, i) => (
+                <HudPanel key={src} className="overflow-hidden">
+                  <div className="relative w-full aspect-[3/4] overflow-hidden bg-[#0d0f12]">
+                    <ImageLightbox
+                      src={src}
+                      alt={`${item.title} preview ${i + 1}`}
+                      fill
+                      priority={i === 0}
+                      className="object-contain"
+                      sizes="(max-width: 640px) 50vw, 40vw"
+                    />
+                    <div className="pointer-events-none absolute bottom-0 inset-x-0 h-0.5 bg-gradient-to-r from-[#ff7d27]/70 to-transparent" />
+                  </div>
+                </HudPanel>
+              ))}
+            </div>
+          )
+        ) : (
+          <>
+            {screenshots[0] && (
+              <div className="relative mb-12 sm:mb-16">
+                <HudPanel className="overflow-hidden">
+                  <div className="relative w-full aspect-[1924/1079] overflow-hidden">
+                    <ImageLightbox
+                      src={screenshots[0]}
+                      alt={`${item.title} preview 1`}
+                      fill
+                      priority
+                      className="object-cover object-top"
+                      style={{ filter: "saturate(0.9) contrast(1.05)" }}
+                      sizes="(max-width: 640px) 100vw, 80vw"
+                    />
+                    <div
+                      className="pointer-events-none absolute inset-0"
+                      style={{ background: "linear-gradient(160deg, rgba(255,125,39,0.10) 0%, rgba(13,15,18,0.35) 70%)" }}
+                    />
+                    <div className="pointer-events-none absolute bottom-0 inset-x-0 h-0.5 bg-gradient-to-r from-[#ff7d27]/70 to-transparent" />
+                  </div>
+                </HudPanel>
+
+                {screenshots[1] && (
+                  <div className="hidden sm:block absolute -bottom-8 right-6 w-2/5 max-w-xs">
+                    <HudPanel className="overflow-hidden border-[#ff7d27]/40 shadow-[0_0_30px_rgba(255,125,39,0.25)]">
+                      <div className="relative w-full aspect-[1340/722] overflow-hidden">
+                        <ImageLightbox
+                          src={screenshots[1]}
+                          alt={`${item.title} preview 2`}
+                          fill
+                          className="object-cover"
+                          style={{ filter: "saturate(0.9) contrast(1.05)" }}
+                          sizes="40vw"
+                        />
+                      </div>
+                    </HudPanel>
+                  </div>
+                )}
               </div>
-            </HudPanel>
+            )}
 
             {screenshots[1] && (
-              <div className="hidden sm:block absolute -bottom-8 right-6 w-2/5 max-w-xs">
-                <HudPanel className="overflow-hidden border-[#ff7d27]/40 shadow-[0_0_30px_rgba(255,125,39,0.25)]">
+              <div className="sm:hidden mb-6">
+                <HudPanel className="overflow-hidden">
                   <div className="relative w-full aspect-[1340/722] overflow-hidden">
                     <ImageLightbox
                       src={screenshots[1]}
@@ -77,34 +119,26 @@ export async function ProjectDetailPage({ slug }: { slug: string }) {
                       fill
                       className="object-cover"
                       style={{ filter: "saturate(0.9) contrast(1.05)" }}
-                      sizes="40vw"
+                      sizes="100vw"
                     />
                   </div>
                 </HudPanel>
               </div>
             )}
-          </div>
-        )}
-
-        {screenshots[1] && (
-          <div className="sm:hidden mb-6">
-            <HudPanel className="overflow-hidden">
-              <div className="relative w-full aspect-[1340/722] overflow-hidden">
-                <ImageLightbox
-                  src={screenshots[1]}
-                  alt={`${item.title} preview 2`}
-                  fill
-                  className="object-cover"
-                  style={{ filter: "saturate(0.9) contrast(1.05)" }}
-                  sizes="100vw"
-                />
-              </div>
-            </HudPanel>
-          </div>
+          </>
         )}
 
         <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
-          {liveUrl ? (
+          {buyUrl ? (
+            <a
+              href={buyUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-[10px] uppercase tracking-widest text-[#ff7d27] hover:text-[#e06b1a] transition-colors font-mono"
+            >
+              {t("buyOnAmazon")} →
+            </a>
+          ) : liveUrl ? (
             <a
               href={liveUrl}
               target="_blank"

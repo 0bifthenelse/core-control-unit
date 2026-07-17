@@ -3,7 +3,9 @@ export type ProjectAsset = {
   screenshots: string[];
   liveUrl: string | null;
   repoUrl: string | null;
+  buyUrl?: string;
   private?: boolean;
+  portrait?: boolean;
 };
 
 export const projectAssets: ProjectAsset[] = [
@@ -26,5 +28,13 @@ export const projectAssets: ProjectAsset[] = [
     liveUrl: null,
     repoUrl: null,
     private: true,
+  },
+  {
+    id: "mots-caches",
+    screenshots: ["/mots-caches-preview1.png", "/mots-caches-preview2.png"],
+    liveUrl: null,
+    repoUrl: null,
+    buyUrl: "https://www.amazon.fr/dp/B0H99J57DN",
+    portrait: true,
   },
 ];

@@ -43,21 +43,23 @@ export async function ProjectsSection() {
             const cover = asset?.screenshots[0];
             return (
               <HudPanel key={id} className="flex flex-col h-full overflow-hidden group hover:border-[#ff7d27]/40 hover:-translate-y-1 transition-all duration-300">
-                <div className="relative w-full aspect-video overflow-hidden">
+                <div className={`relative w-full overflow-hidden ${asset?.portrait ? "aspect-[3/4] bg-[#0d0f12]" : "aspect-video"}`}>
                   {cover && (
                     <Image
                       src={cover}
                       alt={title}
                       fill
-                      className="object-cover group-hover:scale-105 transition-all duration-500"
-                      style={{ filter: "saturate(0.85) contrast(1.05)" }}
+                      className={`group-hover:scale-105 transition-all duration-500 ${asset?.portrait ? "object-contain" : "object-cover"}`}
+                      style={asset?.portrait ? undefined : { filter: "saturate(0.85) contrast(1.05)" }}
                       sizes="(max-width: 1024px) 100vw, 33vw"
                     />
                   )}
-                  <div
-                    className="absolute inset-0 group-hover:opacity-60 transition-opacity duration-500"
-                    style={{ background: "linear-gradient(160deg, rgba(255,125,39,0.22) 0%, rgba(13,15,18,0.75) 65%)" }}
-                  />
+                  {!asset?.portrait && (
+                    <div
+                      className="absolute inset-0 group-hover:opacity-60 transition-opacity duration-500"
+                      style={{ background: "linear-gradient(160deg, rgba(255,125,39,0.22) 0%, rgba(13,15,18,0.75) 65%)" }}
+                    />
+                  )}
                   <div className="absolute bottom-0 inset-x-0 h-0.5 bg-gradient-to-r from-[#ff7d27]/70 to-transparent" />
                 </div>
                 <div className="flex flex-col flex-1 p-6">
