@@ -43,6 +43,7 @@ export async function ProjectsPage() {
             const liveUrl = asset?.liveUrl ?? null;
             const repoUrl = asset?.repoUrl ?? null;
             const buyUrl = asset?.buyUrl ?? null;
+            const buyUrlIt = asset?.buyUrlIt ?? null;
             const isPrivate = asset?.private ?? false;
 
             return (
@@ -158,6 +159,16 @@ export async function ProjectsPage() {
                     <span className="inline-flex items-center gap-2 text-[10px] uppercase tracking-widest text-text-muted font-mono">
                       {t("comingSoon")}
                     </span>
+                  )}
+                  {buyUrlIt && (
+                    <a
+                      href={buyUrlIt}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-[10px] uppercase tracking-widest text-[#ff7d27] hover:text-[#e06b1a] transition-colors font-mono"
+                    >
+                      {t("buyOnAmazonIt")} →
+                    </a>
                   )}
                   {repoUrl && (
                     <a

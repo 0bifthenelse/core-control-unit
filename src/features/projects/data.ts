@@ -4,6 +4,7 @@ export type ProjectAsset = {
   liveUrl: string | null;
   repoUrl: string | null;
   buyUrl?: string;
+  buyUrlIt?: string;
   private?: boolean;
   portrait?: boolean;
 };
@@ -35,6 +36,7 @@ export const projectAssets: ProjectAsset[] = [
     liveUrl: null,
     repoUrl: null,
     buyUrl: "https://www.amazon.fr/dp/B0H99J57DN",
+    buyUrlIt: "https://www.amazon.it/dp/B0H9RXD3NN",
     portrait: true,
   },
 ];

@@ -75,7 +75,7 @@ export async function HeroSection() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="#services"
+            href="#contact"
             className="inline-flex items-center gap-3 bg-[#ff7d27] px-8 py-4 text-xs uppercase tracking-widest text-black font-bold hover:bg-[#e06b1a] transition-colors duration-200 shadow-[0_0_20px_rgba(255,125,39,0.35)]"
             style={{ clipPath: "polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px))" }}
           >
@@ -85,7 +85,7 @@ export async function HeroSection() {
             </svg>
           </a>
           <a
-            href="#contact"
+            href="#services"
             className="inline-flex items-center gap-3 border border-border px-8 py-4 text-xs uppercase tracking-widest text-text-muted hover:border-[#ff7d27] hover:text-[#ff7d27] transition-all duration-200"
             style={{ clipPath: "polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px))" }}
           >
