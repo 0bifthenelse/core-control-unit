@@ -180,7 +180,10 @@ export function BlackHole({ blackHoleRef }: Props) {
   const discsPivot = useMemo(() => blackHole.getObjectByName("discsPivot") as Group, [blackHole]);
   const { camera } = useThree();
 
+  // Three.js uniforms are intentionally mutated from the render loop
+  // eslint-disable-next-line react-hooks/immutability
   useFrame((_, delta) => {
+    // eslint-disable-next-line react-hooks/immutability
     timeU.value += delta;
     elapsedRef.current += delta;
     const growth = blackHoleGrowth(elapsedRef.current);

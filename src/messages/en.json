@@ -9,7 +9,14 @@
     "showroom": "Showroom",
     "about": "About",
     "contact": "Contact",
-    "cta": "Start"
+    "cta": "Start",
+    "menu": "Menu",
+    "home": "Core Control Unit home",
+    "themeLight": "Switch to light theme",
+    "themeDark": "Switch to dark theme",
+    "openImage": "Open image fullscreen",
+    "imagePreview": "Fullscreen image preview",
+    "close": "Close image preview"
   },
   "showroom": {
     "hud": {
@@ -26,12 +33,12 @@
   },
   "hero": {
     "badge": "Available for new projects",
-    "tagline": "Websites, apps & nationwide advertising",
-    "taglineSub": "We build the websites and apps your business runs on, and put your brand on billboards, including giant formats, across all 50 US states.",
+    "tagline": "Websites, apps & custom software",
+    "taglineSub": "We build the websites, apps, and custom software your business runs on, from the first line of code to launch.",
     "email": "business@ccunit.net",
     "pill1": "Websites",
-    "pill2": "Billboard Ads",
-    "pill3": "Custom Apps",
+    "pill2": "Custom Apps",
+    "pill3": "Bots & Games",
     "pill4": "You own the code",
     "ctaPrimary": "Start your project",
     "ctaSecondary": "See what we do"
@@ -39,7 +46,7 @@
   "services": {
     "sectionLabel": "What we do",
     "heading": "Services",
-    "subtitle": "From websites and custom apps to billboard campaigns across all 50 US states. We build it, launch it, and get your brand noticed.",
+    "subtitle": "From websites and custom software to bots, apps, and more. We build it, launch it, and get your brand noticed.",
     "items": [
       { "title": "Websites & Web Apps", "description": "Websites and web apps for people and businesses. We hand over all the code, or take care of hosting for you, whichever suits you best.", "price": "On quote" },
       { "title": "Billboard Advertising", "description": "Physical advertising across all 50 US states through a private contact with a network of 3,200 billboard spots, including giant formats. Nationwide reach, the right locations, hard to miss.", "price": "On quote" },
@@ -59,9 +66,9 @@
   "about": {
     "sectionLabel": "Who we are",
     "heading": "About",
-    "p1": "Core Control Unit is a small, independent software company, not a faceless corporation. We build websites and custom software, and through a private contact we can secure billboard spots, including giant formats, across all 50 US states via a 3,200-strong network, with blockchain expertise on hand whenever a project calls for it.",
+    "p1": "Core Control Unit is a small, independent software company, not a faceless corporation. We build websites, apps, and custom software from the ground up, with blockchain expertise on hand whenever a project calls for it.",
     "p2": "We work directly with individuals, startups, and small businesses. No middlemen, no bloat, just clear communication, quick turnaround, and work you fully own.",
-    "p3": "We work remotely with clients around the world and handle each project end to end: from the first line of code to the billboard going live."  },
+    "p3": "We work remotely with clients around the world and handle each project end to end, from the first line of code to launch."  },
   "contact": {
     "sectionLabel": "Get in touch",
     "heading": "Start a project",
@@ -99,8 +106,8 @@
   },
   "footer": {
     "country": "France",
-    "siretLabel": "SIRET",
-    "siretValue": "Registration in progress",
+    "rcsLabel": "R.C.S",
+    "rcsValue": "910 263 474",
     "tagline": "Software engineering · France",
     "contactLabel": "Contact",
     "linksLabel": "Links",
@@ -116,16 +123,15 @@
     "title": "Legal notice",
     "editorTitle": "Site publisher",
     "editorName": "Core Control Unit",
-    "editorType": "Simplified joint-stock company (SAS) with share capital of XXX €",
+    "editorType": "Micro-entreprise (French sole proprietorship)",
     "editorActivity": "Business activity: computer programming, websites, and any application",
-    "editorSiret": "SIRET: Registration in progress",
-    "editorAddress": "Registered office: XXX, XXXXX, France",
+    "editorRcs": "R.C.S: 910 263 474",
     "editorEmail": "Email: business@ccunit.net",
-    "editorDirector": "Publication director: [First LAST]",
+    "githubButton": "View source on GitHub",
     "hostingTitle": "Hosting",
-    "hostingName": "Host: [Hosting provider name]",
-    "hostingAddress": "Address: [Hosting provider address]",
-    "hostingContact": "Contact: [Hosting provider email]",
+    "hostingName": "Host: Vercel Inc. · Cloudflare, Inc.",
+    "hostingAddress": "Address: Vercel, 340 S Lemon Ave #4133, Walnut, CA 91789, USA · Cloudflare, 101 Townsend St, San Francisco, CA 94107, USA",
+    "hostingContact": "Contact: Vercel, privacy@vercel.com · Cloudflare, abuse@cloudflare.com",
     "ipTitle": "Intellectual property",
     "ipText": "All content on this site (texts, images, graphics, logo, icons, etc.) is the exclusive property of Core Control Unit, protected by French and international intellectual property laws. Any reproduction, distribution or use without prior authorisation is strictly prohibited.",
     "dataTitle": "Personal data",

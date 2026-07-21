@@ -42,7 +42,7 @@ export function LanguageSelector({ locale }: { locale: string; }) {
     <div ref={ref} className="relative">
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-[#5a6070] hover:text-[#ff7d27] hover:cursor-pointer transition-colors duration-200 px-2 py-1.5 border border-[#1e2330] hover:border-[#ff7d27]/40"
+        className="flex h-11 items-center gap-1.5 text-[10px] uppercase tracking-widest text-[#5a6070] hover:text-[#ff7d27] hover:cursor-pointer transition-colors duration-200 px-2 border border-[#1e2330] hover:border-[#ff7d27]/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#ff7d27]"
         style={{ clipPath: "polygon(0 0, calc(100% - 4px) 0, 100% 4px, 100% 100%, 4px 100%, 0 calc(100% - 4px))" }}
         aria-haspopup="listbox"
         aria-expanded={open}
@@ -76,7 +76,7 @@ export function LanguageSelector({ locale }: { locale: string; }) {
               onClick={() => selectLocale(code)}
               role="option"
               aria-selected={locale === code}
-              className={`w-full text-left px-3 py-1.5 text-[10px] uppercase tracking-widest transition-colors hover:cursor-pointer duration-150 ${locale === code
+              className={`w-full min-h-11 text-left px-3 py-1.5 text-[10px] uppercase tracking-widest transition-colors hover:cursor-pointer duration-150 ${locale === code
                 ? "text-[#ff7d27] bg-[#ff7d27]/5"
                 : "text-[#5a6070] hover:text-[#ff7d27] hover:bg-[#ff7d27]/5"
                 }`}

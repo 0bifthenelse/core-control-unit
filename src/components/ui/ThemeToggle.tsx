@@ -1,27 +1,30 @@
 "use client";
 
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
+import { useSyncExternalStore } from "react";
+
+const subscribeToHydration = () => () => {};
+const getClientHydration = () => true;
+const getServerHydration = () => false;
 
 export function ThemeToggle({ className = "" }: { className?: string; }) {
+  const t = useTranslations("nav");
   const { resolvedTheme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  const mounted = useSyncExternalStore(subscribeToHydration, getClientHydration, getServerHydration);
 
   if (!mounted) {
-    return <div className={`h-8 w-8 ${className}`} aria-hidden="true" />;
+    return <div className={`h-11 w-11 ${className}`} aria-hidden="true" />;
   }
 
   const isDark = resolvedTheme === "dark";
 
   return (
     <button
+      type="button"
       onClick={() => setTheme(isDark ? "light" : "dark")}
-      aria-label={isDark ? "Switch to light theme" : "Switch to dark theme"}
-      className={`flex h-8 w-8 items-center justify-center border border-[#1e2330] text-[#5a6070] hover:text-[#ff7d27] hover:border-[#ff7d27] hover:cursor-pointer transition-colors duration-200 ${className}`}
+      aria-label={t(isDark ? "themeLight" : "themeDark")}
+      className={`flex h-11 w-11 items-center justify-center border border-[#1e2330] text-[#5a6070] hover:text-[#ff7d27] hover:border-[#ff7d27] hover:cursor-pointer transition-colors duration-200 ${className}`}
       style={{ clipPath: "polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px))" }}
     >
       {isDark ? (

@@ -9,7 +9,14 @@
     "showroom": "Vitrine",
     "about": "À propos",
     "contact": "Contact",
-    "cta": "Démarrer"
+    "cta": "Démarrer",
+    "menu": "Menu",
+    "home": "Accueil Core Control Unit",
+    "themeLight": "Passer au thème clair",
+    "themeDark": "Passer au thème sombre",
+    "openImage": "Ouvrir l'image en plein écran",
+    "imagePreview": "Aperçu de l'image en plein écran",
+    "close": "Fermer l'aperçu de l'image"
   },
   "showroom": {
     "hud": {
@@ -26,12 +33,12 @@
   },
   "hero": {
     "badge": "Disponible pour de nouveaux projets",
-    "tagline": "Sites, applications & publicité à l'échelle nationale",
-    "taglineSub": "Nous créons les sites web et applications sur lesquels repose votre activité, et affichons votre marque sur des panneaux, y compris des formats géants, dans les 50 États américains.",
+    "tagline": "Sites, applications & logiciels sur mesure",
+    "taglineSub": "Nous créons les sites web, applications et logiciels sur mesure sur lesquels repose votre activité, de la première ligne de code jusqu'au lancement.",
     "email": "business@ccunit.net",
     "pill1": "Sites web",
-    "pill2": "Panneaux publicitaires",
-    "pill3": "Applications sur mesure",
+    "pill2": "Applications sur mesure",
+    "pill3": "Bots & jeux",
     "pill4": "Le code vous appartient",
     "ctaPrimary": "Démarrer votre projet",
     "ctaSecondary": "Découvrir nos services"
@@ -39,7 +46,7 @@
   "services": {
     "sectionLabel": "Ce que nous faisons",
     "heading": "Services",
-    "subtitle": "Des sites web et applications sur mesure aux campagnes d'affichage dans les 50 États américains. Nous le concevons, nous le lançons et nous faisons remarquer votre marque.",
+    "subtitle": "Des sites web et logiciels sur mesure aux bots, applications et bien plus. Nous le concevons, nous le lançons et nous faisons remarquer votre marque.",
     "items": [
       { "title": "Sites & applications web", "description": "Sites et applications web pour particuliers et entreprises. Nous vous livrons l'intégralité du code, ou nous prenons en charge l'hébergement pour vous, selon ce qui vous convient le mieux.", "price": "Sur devis" },
       { "title": "Publicité sur panneaux (USA)", "description": "Publicité physique dans les 50 États américains grâce à un contact privé disposant d'un réseau de 3 200 emplacements publicitaires, y compris des formats géants. Une couverture nationale, les bons emplacements, impossible à manquer.", "price": "Sur devis" },
@@ -59,9 +66,9 @@
   "about": {
     "sectionLabel": "Qui nous sommes",
     "heading": "À propos",
-    "p1": "Core Control Unit est une petite entreprise indépendante, pas une grande société sans visage. Nous concevons des sites web et des logiciels sur mesure, et grâce à un contact privé, nous pouvons obtenir des emplacements publicitaires, y compris des formats géants, dans les 50 États américains via un réseau de 3 200 panneaux, avec un savoir-faire blockchain à disposition dès qu'un projet le nécessite.",
+    "p1": "Core Control Unit est une petite entreprise indépendante, pas une grande société sans visage. Nous concevons des sites web, des applications et des logiciels sur mesure de A à Z, avec un savoir-faire blockchain à disposition dès qu'un projet le nécessite.",
     "p2": "Nous travaillons directement avec des particuliers, des startups et des petites entreprises. Sans intermédiaire ni superflu : une communication claire, des délais rapides et un travail qui vous appartient entièrement.",
-    "p3": "Nous travaillons à distance avec des clients partout dans le monde et gérons chaque projet de bout en bout : de la première ligne de code jusqu'au panneau d'affichage en ligne."  },
+    "p3": "Nous travaillons à distance avec des clients partout dans le monde et gérons chaque projet de bout en bout, de la première ligne de code jusqu'au lancement."  },
   "contact": {
     "sectionLabel": "Nous contacter",
     "heading": "Démarrer un projet",
@@ -99,8 +106,8 @@
   },
   "footer": {
     "country": "France",
-    "siretLabel": "SIRET",
-    "siretValue": "Immatriculation en cours",
+    "rcsLabel": "R.C.S",
+    "rcsValue": "910 263 474",
     "tagline": "Ingénierie logicielle · France",
     "contactLabel": "Contact",
     "linksLabel": "Liens",
@@ -116,16 +123,15 @@
     "title": "Mentions légales",
     "editorTitle": "Éditeur du site",
     "editorName": "Core Control Unit",
-    "editorType": "Société par actions simplifiée (SAS) au capital de XXX €",
+    "editorType": "Micro-entreprise",
     "editorActivity": "Activité : programmation informatique, sites web et toute application",
-    "editorSiret": "SIRET : Immatriculation en cours",
-    "editorAddress": "Siège social : XXX, XXXXX, France",
+    "editorRcs": "R.C.S : 910 263 474",
     "editorEmail": "Email : business@ccunit.net",
-    "editorDirector": "Directeur de la publication : [Prénom NOM]",
+    "githubButton": "Voir le code source sur GitHub",
     "hostingTitle": "Hébergement",
-    "hostingName": "Hébergeur : [Nom de l'hébergeur]",
-    "hostingAddress": "Adresse : [Adresse de l'hébergeur]",
-    "hostingContact": "Contact : [Email de l'hébergeur]",
+    "hostingName": "Hébergeur : Vercel Inc. · Cloudflare, Inc.",
+    "hostingAddress": "Adresse : Vercel, 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis · Cloudflare, 101 Townsend St, San Francisco, CA 94107, États-Unis",
+    "hostingContact": "Contact : Vercel, privacy@vercel.com · Cloudflare, abuse@cloudflare.com",
     "ipTitle": "Propriété intellectuelle",
     "ipText": "L'ensemble des contenus présents sur ce site (textes, images, graphismes, logo, icônes, etc.) est la propriété exclusive de Core Control Unit, protégée par les lois françaises et internationales relatives à la propriété intellectuelle. Toute reproduction, diffusion ou utilisation sans autorisation préalable est strictement interdite.",
     "dataTitle": "Données personnelles",

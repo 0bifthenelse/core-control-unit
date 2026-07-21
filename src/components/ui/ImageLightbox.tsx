@@ -3,8 +3,10 @@
 import { useEffect, useRef, useState } from "react";
 import Image, { ImageProps } from "next/image";
 import { createPortal } from "react-dom";
+import { useTranslations } from "next-intl";
 
 export function ImageLightbox({ className, style, ...imageProps }: ImageProps) {
+  const t = useTranslations("nav");
   const [open, setOpen] = useState(false);
   const triggerRef = useRef<HTMLButtonElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
@@ -38,7 +40,7 @@ export function ImageLightbox({ className, style, ...imageProps }: ImageProps) {
       <button
         ref={triggerRef}
         type="button"
-        aria-label={`Open ${imageProps.alt} fullscreen`}
+        aria-label={`${t("openImage")}: ${imageProps.alt}`}
         className="relative block h-full w-full cursor-zoom-in rounded-inherit outline-none focus-visible:ring-2 focus-visible:ring-[#ff7d27] focus-visible:ring-offset-2 focus-visible:ring-offset-panel"
         onClick={(event) => {
           if (event.button === 0) setOpen(true);
@@ -52,7 +54,7 @@ export function ImageLightbox({ className, style, ...imageProps }: ImageProps) {
           <div
             role="dialog"
             aria-modal="true"
-            aria-label={`${imageProps.alt} fullscreen preview`}
+            aria-label={`${imageProps.alt}: ${t("imagePreview")}`}
             className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 p-4 backdrop-blur-sm motion-reduce:backdrop-blur-none sm:p-8"
             onClick={(event) => {
               if (event.target === event.currentTarget) close();
@@ -68,7 +70,7 @@ export function ImageLightbox({ className, style, ...imageProps }: ImageProps) {
               <button
                 ref={closeRef}
                 type="button"
-                aria-label="Close image preview"
+                aria-label={t("close")}
                 className="absolute right-3 top-3 z-10 inline-flex h-10 w-10 items-center justify-center border border-[#ff7d27]/50 bg-black/70 text-2xl leading-none text-white outline-none transition-colors hover:bg-[#ff7d27] focus-visible:ring-2 focus-visible:ring-[#ff7d27] motion-reduce:transition-none"
                 onClick={close}
               >

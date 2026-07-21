@@ -9,7 +9,14 @@
     "showroom": "展示廳",
     "about": "關於我們",
     "contact": "聯絡我們",
-    "cta": "開始"
+    "cta": "開始",
+    "menu": "選單",
+    "home": "Core Control Unit 首頁",
+    "themeLight": "切換到淺色主題",
+    "themeDark": "切換到深色主題",
+    "openImage": "全螢幕開啟圖片",
+    "imagePreview": "全螢幕圖片預覽",
+    "close": "關閉圖片預覽"
   },
   "showroom": {
     "hud": {
@@ -26,12 +33,12 @@
   },
   "hero": {
     "badge": "接受新專案洽詢",
-    "tagline": "網站、應用程式與全美廣告",
-    "taglineSub": "我們打造支撐您業務運作的網站與應用程式，並將您的品牌投放到美國全部50州的廣告看板上，包含超大型看板。",
+    "tagline": "網站、應用程式與客製化軟體",
+    "taglineSub": "我們從第一行程式碼到正式上線，打造支撐您業務運作的網站、應用程式與客製化軟體。",
     "email": "business@ccunit.net",
     "pill1": "網站",
-    "pill2": "看板廣告",
-    "pill3": "客製化應用程式",
+    "pill2": "客製化應用程式",
+    "pill3": "機器人與遊戲",
     "pill4": "程式碼歸您所有",
     "ctaPrimary": "開始您的專案",
     "ctaSecondary": "了解我們的工作"
@@ -39,7 +46,7 @@
   "services": {
     "sectionLabel": "我們的服務",
     "heading": "服務",
-    "subtitle": "從網站與客製化應用程式，到遍及美國全部50州的看板廣告活動。我們負責設計、上線，讓您的品牌被看見。",
+    "subtitle": "從網站與客製化軟體，到機器人、應用程式等更多服務。我們負責設計、上線，讓您的品牌被看見。",
     "items": [
       { "title": "網站與網頁應用程式", "description": "為個人與企業打造的網站與網頁應用程式。我們可以將全部程式碼交付給您，也可以為您代管主機，由您決定。", "price": "個別報價" },
       { "title": "看板廣告", "description": "透過合作夥伴，在美國全部50州、擁有3,200個看板點位的網絡上刊登實體廣告，包含超大型看板。全國覆蓋，位置精準，難以被忽視。", "price": "個別報價" },
@@ -59,9 +66,9 @@
   "about": {
     "sectionLabel": "關於我們",
     "heading": "關於我們",
-    "p1": "Core Control Unit是一家小型獨立軟體公司，而非面目模糊的大企業。我們開發網站與客製化軟體，並可透過合作夥伴，在美國全部50州、涵蓋3,200個點位的網絡中取得看板廣告資源，包含超大型看板，並在專案需要時提供區塊鏈方面的專業能力。",
+    "p1": "Core Control Unit是一家小型獨立軟體公司，而非面目模糊的大企業。我們從零開始開發網站、應用程式與客製化軟體，並在專案需要時提供區塊鏈方面的專業能力。",
     "p2": "我們直接與個人、新創公司及小型企業合作。沒有中間商，沒有多餘環節，只有清楚的溝通、快速的交付，以及完全屬於您的成果。",
-    "p3": "我們與世界各地的客戶進行遠端協作，負責每個專案從頭到尾的完整流程:從第一行程式碼，到看板正式上線。"  },
+    "p3": "我們與世界各地的客戶進行遠端協作，負責每個專案從頭到尾的完整流程，從第一行程式碼到正式上線。"  },
   "contact": {
     "floating": "聯絡我們"
   },
@@ -87,8 +94,8 @@
   },
   "footer": {
     "country": "法國",
-    "siretLabel": "SIRET",
-    "siretValue": "註冊辦理中",
+    "rcsLabel": "R.C.S",
+    "rcsValue": "910 263 474",
     "tagline": "軟體工程 · 法國",
     "contactLabel": "聯絡方式",
     "linksLabel": "連結",
@@ -104,16 +111,15 @@
     "title": "法律聲明",
     "editorTitle": "網站發布者",
     "editorName": "Core Control Unit",
-    "editorType": "簡化股份公司(SAS)，註冊資本XXX歐元",
+    "editorType": "Micro-entreprise（法國個體經營者）",
     "editorActivity": "業務範圍:電腦程式設計、網站及各類應用程式",
-    "editorSiret": "SIRET: 註冊辦理中",
-    "editorAddress": "註冊地址:XXX，XXXXX，法國",
+    "editorRcs": "R.C.S: 910 263 474",
     "editorEmail": "電子郵件:business@ccunit.net",
-    "editorDirector": "發行負責人:[名 姓]",
+    "githubButton": "在 GitHub 上查看原始碼",
     "hostingTitle": "主機代管",
-    "hostingName": "提供商:[主機代管提供商名稱]",
-    "hostingAddress": "地址:[主機代管提供商地址]",
-    "hostingContact": "聯絡方式:[主機代管提供商的電子郵件]",
+    "hostingName": "提供商: Vercel Inc. · Cloudflare, Inc.",
+    "hostingAddress": "地址: Vercel, 340 S Lemon Ave #4133, Walnut, CA 91789, 美國 · Cloudflare, 101 Townsend St, San Francisco, CA 94107, 美國",
+    "hostingContact": "聯絡方式: Vercel, privacy@vercel.com · Cloudflare, abuse@cloudflare.com",
     "ipTitle": "智慧財產權",
     "ipText": "本網站上的所有內容(文字、圖片、圖形、標誌、圖示等)均為Core Control Unit獨家所有，受法國及國際智慧財產權法律保護。未經事先授權，嚴禁進行任何形式的複製、散布或使用。",
     "dataTitle": "個人資料",

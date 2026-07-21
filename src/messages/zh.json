@@ -9,7 +9,14 @@
     "showroom": "展示厅",
     "about": "关于我们",
     "contact": "联系我们",
-    "cta": "开始"
+    "cta": "开始",
+    "menu": "菜单",
+    "home": "Core Control Unit 首页",
+    "themeLight": "切换到浅色主题",
+    "themeDark": "切换到深色主题",
+    "openImage": "全屏打开图片",
+    "imagePreview": "全屏图片预览",
+    "close": "关闭图片预览"
   },
   "showroom": {
     "hud": {
@@ -26,12 +33,12 @@
   },
   "hero": {
     "badge": "接受新项目中",
-    "tagline": "网站、应用与全美广告",
-    "taglineSub": "我们打造支撑您业务运转的网站和应用程序，并将您的品牌投放到美国全部50个州的广告牌上，包括超大规格广告牌。",
+    "tagline": "网站、应用与定制软件",
+    "taglineSub": "我们从第一行代码到正式上线，开发支撑您业务运转的网站、应用和定制软件。",
     "email": "business@ccunit.net",
     "pill1": "网站",
-    "pill2": "广告牌广告",
-    "pill3": "定制应用",
+    "pill2": "定制应用",
+    "pill3": "机器人与游戏",
     "pill4": "代码归您所有",
     "ctaPrimary": "开始您的项目",
     "ctaSecondary": "了解我们的工作"
@@ -39,7 +46,7 @@
   "services": {
     "sectionLabel": "我们的服务",
     "heading": "服务",
-    "subtitle": "从网站和定制应用，到覆盖美国全部50个州的广告牌宣传活动。我们负责设计、上线，让您的品牌被看见。",
+    "subtitle": "从网站和定制软件到机器人、应用等更多服务。我们负责设计、上线，让您的品牌被看见。",
     "items": [
       { "title": "网站与网页应用", "description": "面向个人和企业的网站与网页应用。我们可以将全部代码交付给您，也可以为您提供托管服务，由您选择。", "price": "面议报价" },
       { "title": "广告牌广告", "description": "通过合作方在美国全部50个州、拥有3200个广告位的网络投放实体广告，包括超大规格广告牌。覆盖全国，位置精准，难以被忽视。", "price": "面议报价" },
@@ -59,9 +66,9 @@
   "about": {
     "sectionLabel": "关于我们",
     "heading": "关于我们",
-    "p1": "Core Control Unit是一家小型独立软件公司，而不是一个面目模糊的大企业。我们开发网站和定制软件，并可通过合作方在美国全部50个州、覆盖3200个广告位的网络中获取广告牌资源，包括超大规格广告牌，并在项目需要时提供区块链方面的专业能力。",
+    "p1": "Core Control Unit是一家小型独立软件公司，而不是一个面目模糊的大企业。我们从零开始开发网站、应用和定制软件，并在项目需要时提供区块链方面的专业能力。",
     "p2": "我们直接与个人、初创企业和小型企业合作。没有中间商，没有多余环节，只有清晰的沟通、快速的交付，以及完全属于您的成果。",
-    "p3": "我们与世界各地的客户进行远程协作，负责每个项目从头到尾的全流程:从第一行代码，到广告牌正式上线。"  },
+    "p3": "我们与世界各地的客户进行远程协作，负责每个项目从头到尾的全流程，从第一行代码到正式上线。"  },
   "contact": {
     "floating": "联系我们"
   },
@@ -87,8 +94,8 @@
   },
   "footer": {
     "country": "法国",
-    "siretLabel": "SIRET",
-    "siretValue": "注册办理中",
+    "rcsLabel": "R.C.S",
+    "rcsValue": "910 263 474",
     "tagline": "软件工程 · 法国",
     "contactLabel": "联系方式",
     "linksLabel": "链接",
@@ -104,16 +111,15 @@
     "title": "法律声明",
     "editorTitle": "网站发布者",
     "editorName": "Core Control Unit",
-    "editorType": "简化股份公司(SAS)，注册资本XXX欧元",
+    "editorType": "Micro-entreprise（法国个体经营者）",
     "editorActivity": "业务范围:计算机编程、网站及各类应用程序",
-    "editorSiret": "SIRET: 注册办理中",
-    "editorAddress": "注册地址:XXX，XXXXX，法国",
+    "editorRcs": "R.C.S: 910 263 474",
     "editorEmail": "邮箱:business@ccunit.net",
-    "editorDirector": "出版负责人:[名 姓]",
+    "githubButton": "在 GitHub 上查看源代码",
     "hostingTitle": "托管服务",
-    "hostingName": "提供商:[托管服务提供商名称]",
-    "hostingAddress": "地址:[托管服务提供商地址]",
-    "hostingContact": "联系方式:[托管服务提供商的邮箱]",
+    "hostingName": "提供商: Vercel Inc. · Cloudflare, Inc.",
+    "hostingAddress": "地址: Vercel, 340 S Lemon Ave #4133, Walnut, CA 91789, 美国 · Cloudflare, 101 Townsend St, San Francisco, CA 94107, 美国",
+    "hostingContact": "联系方式: Vercel, privacy@vercel.com · Cloudflare, abuse@cloudflare.com",
     "ipTitle": "知识产权",
     "ipText": "本网站上的所有内容(文本、图片、图形、标志、图标等)均为Core Control Unit独家所有，受法国及国际知识产权法律保护。未经事先授权，严禁进行任何形式的复制、传播或使用。",
     "dataTitle": "个人数据",

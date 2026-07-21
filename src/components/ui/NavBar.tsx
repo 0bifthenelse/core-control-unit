@@ -31,23 +31,25 @@ type NavLink = { href: string; label: string };
 interface NavBarProps {
   links: NavLink[];
   cta: string;
+  menuLabel: string;
+  homeLabel: string;
   locale: string;
 }
 
-export function NavBar({ links, cta, locale }: NavBarProps) {
+export function NavBar({ links, cta, menuLabel, homeLabel, locale }: NavBarProps) {
   const [open, setOpen] = useState(false);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-[#1e2330] bg-[#0d0f12]/90 backdrop-blur-sm">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <LocaleLink href="/" className="flex items-center" aria-label="Core Control Unit - home">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 sm:py-4">
+        <LocaleLink href="/" className="flex items-center" aria-label={homeLabel}>
           <Image
             src="/ccunit_logo_dark.svg"
             alt="Core Control Unit"
             width={105}
             height={28}
             priority
-            className="h-9 sm:h-10 w-auto"
+            className="h-8 sm:h-10 w-auto"
           />
         </LocaleLink>
 
@@ -77,9 +79,12 @@ export function NavBar({ links, cta, locale }: NavBarProps) {
         </div>
 
         <button
-          className="md:hidden text-[#5a6070] hover:text-[#ff7d27]"
+          type="button"
+          className="md:hidden inline-flex h-11 w-11 items-center justify-center text-[#5a6070] hover:text-[#ff7d27] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#ff7d27]"
           onClick={() => setOpen(!open)}
-          aria-label="Menu"
+          aria-label={menuLabel}
+          aria-controls="mobile-navigation"
+          aria-expanded={open}
         >
           <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
             {open ? (
@@ -100,7 +105,7 @@ export function NavBar({ links, cta, locale }: NavBarProps) {
       </nav>
 
       {open && (
-        <div className="md:hidden border-t border-[#1e2330] bg-[#0d0f12] px-6 py-4">
+        <div id="mobile-navigation" className="md:hidden border-t border-[#1e2330] bg-[#0d0f12] px-4 py-4 sm:px-6">
           <ul className="flex flex-col gap-4 mb-4">
             {links.map(({ href, label }) => (
               <li key={href}>

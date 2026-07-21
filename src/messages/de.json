@@ -9,7 +9,14 @@
     "showroom": "Showroom",
     "about": "Über uns",
     "contact": "Kontakt",
-    "cta": "Starten"
+    "cta": "Starten",
+    "menu": "Menü",
+    "home": "Core Control Unit Startseite",
+    "themeLight": "Zum hellen Design wechseln",
+    "themeDark": "Zum dunklen Design wechseln",
+    "openImage": "Bild im Vollbild öffnen",
+    "imagePreview": "Bildvorschau im Vollbild",
+    "close": "Bildvorschau schließen"
   },
   "showroom": {
     "hud": {
@@ -26,12 +33,12 @@
   },
   "hero": {
     "badge": "Verfügbar für neue Projekte",
-    "tagline": "Websites, Apps & landesweite Werbung",
-    "taglineSub": "Wir entwickeln die Websites und Apps, auf denen Ihr Unternehmen läuft, und bringen Ihre Marke auf Plakatwände, auch in Großformaten, in allen 50 US-Bundesstaaten.",
+    "tagline": "Websites, Apps & individuelle Software",
+    "taglineSub": "Wir entwickeln die Websites, Apps und individuelle Software, auf denen Ihr Unternehmen läuft, von der ersten Codezeile bis zum Launch.",
     "email": "business@ccunit.net",
     "pill1": "Websites",
-    "pill2": "Plakatwerbung",
-    "pill3": "Individuelle Apps",
+    "pill2": "Individuelle Apps",
+    "pill3": "Bots & Spiele",
     "pill4": "Der Code gehört Ihnen",
     "ctaPrimary": "Projekt starten",
     "ctaSecondary": "Unsere Leistungen entdecken"
@@ -39,7 +46,7 @@
   "services": {
     "sectionLabel": "Was wir tun",
     "heading": "Leistungen",
-    "subtitle": "Von Websites und individuellen Apps bis zu Plakatkampagnen in allen 50 US-Bundesstaaten. Wir entwickeln, veröffentlichen und sorgen dafür, dass Ihre Marke auffällt.",
+    "subtitle": "Von Websites und individueller Software bis zu Bots, Apps und mehr. Wir entwickeln, veröffentlichen und sorgen dafür, dass Ihre Marke auffällt.",
     "items": [
       { "title": "Websites & Web-Apps", "description": "Websites und Webanwendungen für Privatpersonen und Unternehmen. Wir übergeben Ihnen den kompletten Code oder übernehmen das Hosting für Sie, ganz wie Sie es bevorzugen.", "price": "Auf Anfrage" },
       { "title": "Plakatwerbung", "description": "Physische Werbung in allen 50 US-Bundesstaaten über einen privaten Kontakt mit einem Netzwerk von 3.200 Werbeflächen, auch in Großformaten. Landesweite Reichweite, die richtigen Standorte, unmöglich zu übersehen.", "price": "Auf Anfrage" },
@@ -59,9 +66,9 @@
   "about": {
     "sectionLabel": "Wer wir sind",
     "heading": "Über uns",
-    "p1": "Core Control Unit ist ein kleines, unabhängiges Softwareunternehmen, keine gesichtslose Großfirma. Wir entwickeln Websites und individuelle Software, und über einen privaten Kontakt können wir Werbeflächen, auch in Großformaten, in allen 50 US-Bundesstaaten über ein Netzwerk von 3.200 Standorten sichern, mit Blockchain-Know-how immer dann, wenn ein Projekt es erfordert.",
+    "p1": "Core Control Unit ist ein kleines, unabhängiges Softwareunternehmen, keine gesichtslose Großfirma. Wir entwickeln Websites, Apps und individuelle Software von Grund auf, mit Blockchain-Know-how immer dann, wenn ein Projekt es erfordert.",
     "p2": "Wir arbeiten direkt mit Privatpersonen, Startups und kleinen Unternehmen zusammen. Keine Zwischenhändler, kein Ballast, nur klare Kommunikation, schnelle Umsetzung und Arbeit, die vollständig Ihnen gehört.",
-    "p3": "Wir arbeiten remote mit Kunden auf der ganzen Welt und betreuen jedes Projekt von Anfang bis Ende: von der ersten Codezeile bis zur aktiven Plakatwand."  },
+    "p3": "Wir arbeiten remote mit Kunden auf der ganzen Welt und betreuen jedes Projekt von Anfang bis Ende, von der ersten Codezeile bis zum Launch."  },
   "contact": {
     "floating": "Kontakt"
   },
@@ -87,8 +94,8 @@
   },
   "footer": {
     "country": "Frankreich",
-    "siretLabel": "SIRET",
-    "siretValue": "Registrierung läuft",
+    "rcsLabel": "R.C.S",
+    "rcsValue": "910 263 474",
     "tagline": "Softwareentwicklung · Frankreich",
     "contactLabel": "Kontakt",
     "linksLabel": "Links",
@@ -104,16 +111,15 @@
     "title": "Impressum",
     "editorTitle": "Seitenbetreiber",
     "editorName": "Core Control Unit",
-    "editorType": "Vereinfachte Aktiengesellschaft (SAS) mit einem Kapital von XXX €",
+    "editorType": "Micro-entreprise (französisches Einzelunternehmen)",
     "editorActivity": "Tätigkeit: Softwareentwicklung, Websites und beliebige Anwendungen",
-    "editorSiret": "SIRET: Registrierung läuft",
-    "editorAddress": "Firmensitz: XXX, XXXXX, Frankreich",
+    "editorRcs": "R.C.S: 910 263 474",
     "editorEmail": "E-Mail: business@ccunit.net",
-    "editorDirector": "Herausgeber: [Vorname NACHNAME]",
+    "githubButton": "Quellcode auf GitHub ansehen",
     "hostingTitle": "Hosting",
-    "hostingName": "Anbieter: [Name des Hosting-Anbieters]",
-    "hostingAddress": "Adresse: [Adresse des Hosting-Anbieters]",
-    "hostingContact": "Kontakt: [E-Mail des Anbieters]",
+    "hostingName": "Anbieter: Vercel Inc. · Cloudflare, Inc.",
+    "hostingAddress": "Adresse: Vercel, 340 S Lemon Ave #4133, Walnut, CA 91789, USA · Cloudflare, 101 Townsend St, San Francisco, CA 94107, USA",
+    "hostingContact": "Kontakt: Vercel, privacy@vercel.com · Cloudflare, abuse@cloudflare.com",
     "ipTitle": "Geistiges Eigentum",
     "ipText": "Sämtliche Inhalte dieser Website (Texte, Bilder, Grafiken, Logo, Icons usw.) sind ausschließliches Eigentum von Core Control Unit und durch französisches und internationales Recht zum Schutz geistigen Eigentums geschützt. Jede Vervielfältigung, Verbreitung oder Nutzung ohne vorherige Genehmigung ist strengstens untersagt.",
     "dataTitle": "Personenbezogene Daten",

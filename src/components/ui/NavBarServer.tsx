@@ -12,5 +12,5 @@ export async function NavBarServer() {
     { href: "#apropos", label: t("about") },
     { href: "#contact", label: t("contact") },
   ];
-  return <NavBar links={links} cta={t("cta")} locale={locale} />;
+  return <NavBar links={links} cta={t("cta")} menuLabel={t("menu")} homeLabel={t("home")} locale={locale} />;
 }

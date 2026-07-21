@@ -21,8 +21,9 @@ const geistMono = Geist_Mono({
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const locale = await getLocale();
+  const direction = locale === "he" || locale === "fa" ? "rtl" : "ltr";
   return (
-    <html lang={locale} className={`${geistSans.variable} ${geistMono.variable} h-full`} suppressHydrationWarning>
+    <html lang={locale} dir={direction} className={`${geistSans.variable} ${geistMono.variable} h-full`} suppressHydrationWarning>
       <body className="min-h-full flex flex-col bg-surface text-text-primary">
         <ThemeProvider>{children}</ThemeProvider>
       </body>

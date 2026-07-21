@@ -63,7 +63,7 @@ export async function Footer() {
       <div className="border-t border-[#1e2330] px-6 py-5">
         <div className="mx-auto max-w-7xl flex flex-col sm:flex-row items-center justify-between gap-3">
           <span className="text-[10px] uppercase tracking-widest text-[#5a6070]">
-            {t("siretLabel")} : {t("siretValue")}
+            {t("rcsLabel")} : {t("rcsValue")}
           </span>
           <span className="text-[10px] uppercase tracking-widest text-[#5a6070]">
             © {new Date().getFullYear()} Core Control Unit | {t("rights")}

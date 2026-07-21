@@ -122,8 +122,12 @@ export function GrassField({ blackHoleRef }: Props) {
   const blades = useMemo(() => createGrassMesh(timeU, bhU), [timeU, bhU]);
   const ground = useMemo(() => createGround(bhU), [bhU]);
 
+  // Three.js uniforms are intentionally mutated from the render loop
+  // eslint-disable-next-line react-hooks/immutability
   useFrame((_, delta) => {
+    // eslint-disable-next-line react-hooks/immutability
     timeU.value += delta;
+    // eslint-disable-next-line react-hooks/immutability
     bhU.value = blackHoleRef.current;
   });
 

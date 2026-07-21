@@ -9,7 +9,14 @@
     "showroom": "Showroom",
     "about": "Om oss",
     "contact": "Kontakt",
-    "cta": "Kom igång"
+    "cta": "Kom igång",
+    "menu": "Meny",
+    "home": "Core Control Unit startsida",
+    "themeLight": "Byt till ljust tema",
+    "themeDark": "Byt till mörkt tema",
+    "openImage": "Öppna bilden i helskärm",
+    "imagePreview": "Bildförhandsvisning i helskärm",
+    "close": "Stäng bildförhandsvisning"
   },
   "showroom": {
     "hud": {
@@ -26,12 +33,12 @@
   },
   "hero": {
     "badge": "Tillgängliga för nya projekt",
-    "tagline": "Webbplatser, appar & rikstäckande reklam",
-    "taglineSub": "Vi bygger webbplatserna och apparna som driver din verksamhet, och sätter ditt varumärke på reklampelare, även i jättestorlek, i alla 50 amerikanska delstater.",
+    "tagline": "Webbplatser, appar & skräddarsydd programvara",
+    "taglineSub": "Vi bygger webbplatserna, apparna och den skräddarsydda programvaran som driver din verksamhet, från den första kodraden till lansering.",
     "email": "business@ccunit.net",
     "pill1": "Webbplatser",
-    "pill2": "Reklampelare",
-    "pill3": "Skräddarsydda appar",
+    "pill2": "Skräddarsydda appar",
+    "pill3": "Bottar & spel",
     "pill4": "Du äger koden",
     "ctaPrimary": "Starta ditt projekt",
     "ctaSecondary": "Se vad vi gör"
@@ -39,7 +46,7 @@
   "services": {
     "sectionLabel": "Vad vi gör",
     "heading": "Tjänster",
-    "subtitle": "Från webbplatser och skräddarsydda appar till reklamkampanjer i alla 50 amerikanska delstater. Vi bygger det, lanserar det och ser till att ditt varumärke syns.",
+    "subtitle": "Från webbplatser och skräddarsydd programvara till bottar, appar och mer därtill. Vi bygger det, lanserar det och ser till att ditt varumärke syns.",
     "items": [
       { "title": "Webbplatser & webbappar", "description": "Webbplatser och webbappar för privatpersoner och företag. Vi lämnar över all kod till dig, eller sköter hostingen åt dig, precis som du föredrar.", "price": "Offert" },
       { "title": "Reklampelare", "description": "Fysisk reklam i alla 50 amerikanska delstater via en privat kontakt med ett nätverk av 3 200 reklamplatser, inklusive jätteformat. Rikstäckande räckvidd, rätt platser, omöjliga att missa.", "price": "Offert" },
@@ -59,9 +66,9 @@
   "about": {
     "sectionLabel": "Vilka vi är",
     "heading": "Om oss",
-    "p1": "Core Control Unit är ett litet, oberoende mjukvaruföretag, inget ansiktslöst storbolag. Vi bygger webbplatser och skräddarsydd programvara, och genom en privat kontakt kan vi säkra reklamplatser, inklusive jätteformat, i alla 50 amerikanska delstater via ett nätverk med 3 200 platser, med blockkedjekunskap redo när ett projekt kräver det.",
+    "p1": "Core Control Unit är ett litet, oberoende mjukvaruföretag, inget ansiktslöst storbolag. Vi bygger webbplatser, appar och skräddarsydd programvara från grunden, med blockkedjekunskap redo när ett projekt kräver det.",
     "p2": "Vi arbetar direkt med privatpersoner, startups och småföretag. Inga mellanhänder, inget onödigt krångel, bara tydlig kommunikation, snabb leverans och arbete som helt och hållet är ditt.",
-    "p3": "Vi arbetar på distans med kunder över hela världen och sköter varje projekt från början till slut: från den första kodraden till den aktiva reklampelaren."  },
+    "p3": "Vi arbetar på distans med kunder över hela världen och sköter varje projekt från början till slut, från den första kodraden till lansering."  },
   "contact": {
     "floating": "Kontakta oss"
   },
@@ -87,8 +94,8 @@
   },
   "footer": {
     "country": "Frankrike",
-    "siretLabel": "SIRET",
-    "siretValue": "Registrering pågår",
+    "rcsLabel": "R.C.S",
+    "rcsValue": "910 263 474",
     "tagline": "Mjukvaruutveckling · Frankrike",
     "contactLabel": "Kontakt",
     "linksLabel": "Länkar",
@@ -104,16 +111,15 @@
     "title": "Juridisk information",
     "editorTitle": "Webbplatsansvarig",
     "editorName": "Core Control Unit",
-    "editorType": "Förenklat aktiebolag (SAS) med ett aktiekapital på XXX €",
+    "editorType": "Micro-entreprise (fransk enskild firma)",
     "editorActivity": "Verksamhet: datorprogrammering, webbplatser och all typ av applikationer",
-    "editorSiret": "SIRET: Registrering pågår",
-    "editorAddress": "Säte: XXX, XXXXX, Frankrike",
+    "editorRcs": "R.C.S: 910 263 474",
     "editorEmail": "E-post: business@ccunit.net",
-    "editorDirector": "Ansvarig utgivare: [Förnamn EFTERNAMN]",
+    "githubButton": "Visa källkoden på GitHub",
     "hostingTitle": "Webbhotell",
-    "hostingName": "Leverantör: [Namn på webbhotell]",
-    "hostingAddress": "Adress: [Webbhotellets adress]",
-    "hostingContact": "Kontakt: [Webbhotellets e-post]",
+    "hostingName": "Leverantör: Vercel Inc. · Cloudflare, Inc.",
+    "hostingAddress": "Adress: Vercel, 340 S Lemon Ave #4133, Walnut, CA 91789, USA · Cloudflare, 101 Townsend St, San Francisco, CA 94107, USA",
+    "hostingContact": "Kontakt: Vercel, privacy@vercel.com · Cloudflare, abuse@cloudflare.com",
     "ipTitle": "Immateriella rättigheter",
     "ipText": "Allt innehåll på denna webbplats (texter, bilder, grafik, logotyp, ikoner etc.) tillhör uteslutande Core Control Unit och skyddas av fransk och internationell lagstiftning om immateriella rättigheter. All återgivning, spridning eller användning utan föregående tillstånd är strängt förbjuden.",
     "dataTitle": "Personuppgifter",
