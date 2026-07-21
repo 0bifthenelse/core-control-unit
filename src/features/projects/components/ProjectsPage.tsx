@@ -170,6 +170,11 @@ export async function ProjectsPage() {
                       {t("buyOnAmazonIt")} →
                     </a>
                   )}
+                  {asset?.usEditionInReview && (
+                    <span className="inline-flex items-center gap-2 text-[10px] uppercase tracking-widest text-text-muted font-mono">
+                      {t("usEditionInReview")}
+                    </span>
+                  )}
                   {repoUrl && (
                     <a
                       href={repoUrl}

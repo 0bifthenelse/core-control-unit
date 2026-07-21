@@ -5,6 +5,8 @@ export type ProjectAsset = {
   repoUrl: string | null;
   buyUrl?: string;
   buyUrlIt?: string;
+  buyUrlUs?: string;
+  usEditionInReview?: boolean;
   private?: boolean;
   portrait?: boolean;
 };
@@ -32,11 +34,12 @@ export const projectAssets: ProjectAsset[] = [
   },
   {
     id: "mots-caches",
-    screenshots: ["/mots-caches-preview1.png", "/mots-caches-preview2.png"],
+    screenshots: ["/mots-caches-preview1.png", "/mots-caches-preview2.png", "/mots-caches-preview3.png"],
     liveUrl: null,
     repoUrl: null,
     buyUrl: "https://www.amazon.fr/dp/B0H99J57DN",
     buyUrlIt: "https://www.amazon.it/dp/B0H9RXD3NN",
+    usEditionInReview: true,
     portrait: true,
   },
 ];
