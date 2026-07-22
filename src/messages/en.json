@@ -54,6 +54,7 @@
       { "title": "Procedural Book Generation", "description": "Software that procedurally generates ready-to-publish content, puzzle books, classic-style novels, sized and formatted for the Amazon Kindle format. Point it at a genre or puzzle type and it does the rest.", "price": "On quote" },
       { "title": "Smart Contract Development", "description": "Custom blockchain smart contracts, tokens, NFTs & more, built securely from the ground up.", "price": "On quote" },
       { "title": "AI Security Audits", "description": "We run our own AI auditing model to automatically flag vulnerabilities in Solidity smart contracts, surfacing issues a manual review might miss.", "price": "On quote" },
+      { "title":"AI-Assisted Asset Creation", "description":"Generated images, illustrations, drawings, 2D art and pixel art, plus low-poly and high-poly 3D models, produced with the most capable AI models and workflows available today as part of a professional production process. AI is a tool in our pipeline, not a guarantee: final quality, originality, ownership and licensing are defined and reviewed with you on each project.", "price":"On quote" },
       { "title": "Flash-Loan Arbitrage Bots", "description": "Blockchain flash-loan arbitrage bots we design and run ourselves on Polygon and BNB Smart Chain for now, hunting DeFi price gaps in real time. Not a service we sell, just something we build and experiment with in-house.", "price": "In-house, not for sale" }
     ],
     "values": [

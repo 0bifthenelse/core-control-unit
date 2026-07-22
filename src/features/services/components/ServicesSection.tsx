@@ -13,6 +13,7 @@ const ICONS = [
   <path key="book" d="M4 4h7a3 3 0 013 3v13a3 3 0 00-3-3H4z M20 4h-7a3 3 0 00-3 3v13a3 3 0 013-3h7z" />,
   <path key="code" d="M8 6l-6 6 6 6M16 6l6 6-6 6M13 4l-2 16" />,
   <path key="shield" d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z M9 12l2 2 4-4" />,
+  <path key="ai" d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8zM19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9zM5 16l.7 1.8L7.5 18.5l-1.8.7L5 21l-.7-1.8L2.5 18.5l1.8-.7z" strokeLinejoin="round" />,
   <path key="flashloan" d="M13 2 4 14h6l-1 8 9-12h-6z" strokeLinejoin="round" />,
 ];
 
@@ -45,10 +46,13 @@ export async function ServicesSection() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {items.map(({ title, description, price }, i) => (
+          {items.map(({ title, description, price }, i) => {
+            const wide = i >= items.length - 2;
+            const inHouse = i === items.length - 1;
+            return (
             <HudPanel
               key={title}
-              wrapperClassName={i === items.length - 1 ? "sm:col-span-2 lg:col-span-3" : ""}
+              wrapperClassName={wide ? "sm:col-span-2 lg:col-span-3" : ""}
               className={`flex flex-col h-full p-6 transition-all duration-300 group hover:-translate-y-1 ${
                 i === 1
                   ? "border-[#ff7d27]/50 shadow-[0_0_24px_rgba(255,125,39,0.12)] hover:border-[#ff7d27]"
@@ -65,24 +69,26 @@ export async function ServicesSection() {
                   strokeWidth="1.5"
                   strokeLinecap="round"
                   strokeLinejoin="round"
+                  aria-hidden="true"
                 >
                   {ICONS[i]}
                 </svg>
               </div>
               <h3 className="text-sm font-bold uppercase tracking-wider text-text-primary mb-3">{title}</h3>
-              <p className="text-xs text-text-muted leading-relaxed">{description}</p>
-              {i === items.length - 1 ? (
+              <p className={`text-xs text-text-muted leading-relaxed${wide ? " max-w-3xl" : ""}`}>{description}</p>
+              {inHouse ? (
                 <span className="mt-auto pt-4 inline-block text-[10px] font-mono text-[#ff7d27] tracking-widest">{price}</span>
               ) : (
                 <a
                   href="#contact"
-                  className="mt-auto pt-4 inline-block w-fit text-[10px] font-mono text-[#ff7d27] tracking-widest hover:underline"
+                  className="mt-auto pt-4 inline-block w-fit text-[10px] font-mono text-[#ff7d27] tracking-widest hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#ff7d27]"
                 >
                   {price}
                 </a>
               )}
             </HudPanel>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
