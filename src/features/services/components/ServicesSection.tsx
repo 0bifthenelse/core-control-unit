@@ -45,14 +45,14 @@ export async function ServicesSection() {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           {items.map(({ title, description, price }, i) => {
             const wide = i >= items.length - 2;
             const inHouse = i === items.length - 1;
             return (
             <HudPanel
               key={title}
-              wrapperClassName={wide ? "sm:col-span-2 lg:col-span-3" : ""}
+              wrapperClassName={wide ? "lg:col-span-2" : ""}
               className={`flex flex-col h-full p-6 transition-all duration-300 group hover:-translate-y-1 ${
                 i === 1
                   ? "border-[#ff7d27]/50 shadow-[0_0_24px_rgba(255,125,39,0.12)] hover:border-[#ff7d27]"

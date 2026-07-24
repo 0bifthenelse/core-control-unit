@@ -37,9 +37,15 @@ export const projectAssets: ProjectAsset[] = [
     screenshots: ["/mots-caches-preview1.png", "/mots-caches-preview2.png", "/mots-caches-preview3.png"],
     liveUrl: null,
     repoUrl: null,
-    buyUrl: "https://www.amazon.fr/dp/B0H99J57DN",
+    buyUrl: "https://www.amazon.fr/dp/B0H9B33P2Y",
     buyUrlIt: "https://www.amazon.it/dp/B0H9RXD3NN",
     usEditionInReview: true,
     portrait: true,
+  },
+  {
+    id: "tui-explorer",
+    screenshots: ["/tui-explorer-preview1.png", "/tui-explorer-preview2.png"],
+    liveUrl: null,
+    repoUrl: "https://github.com/0bifthenelse/tui-explorer",
   },
 ];

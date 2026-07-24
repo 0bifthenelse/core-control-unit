@@ -43,7 +43,7 @@ export async function ProjectsSection() {
             const cover = asset?.screenshots[0];
             return (
               <HudPanel key={id} className="flex flex-col h-full overflow-hidden group hover:border-[#ff7d27]/40 hover:-translate-y-1 transition-all duration-300">
-                <div className={`relative w-full overflow-hidden ${asset?.portrait ? "aspect-[3/4] bg-[#0d0f12]" : "aspect-video"}`}>
+                <div className={`relative w-full overflow-hidden ${asset?.portrait ? "aspect-video bg-[#0d0f12]" : "aspect-video"}`}>
                   {cover && (
                     <Image
                       src={cover}

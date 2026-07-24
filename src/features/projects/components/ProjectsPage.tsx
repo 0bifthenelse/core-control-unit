@@ -60,7 +60,7 @@ export async function ProjectsPage() {
                     <div className="grid grid-cols-2 gap-4 sm:gap-6 mb-12 sm:mb-16">
                       {screenshots.map((src, i) => (
                         <HudPanel key={src} className="overflow-hidden">
-                          <div className="relative w-full aspect-[3/4] overflow-hidden bg-[#0d0f12]">
+                          <div className="relative w-full aspect-[1924/1079] overflow-hidden bg-[#0d0f12]">
                             <ImageLightbox
                               src={src}
                               alt={`${title} preview ${i + 1}`}
@@ -155,7 +155,7 @@ export async function ProjectsPage() {
                     >
                       {t("visitProject")} →
                     </a>
-                  ) : isPrivate ? null : (
+                  ) : isPrivate ? null : repoUrl ? null : (
                     <span className="inline-flex items-center gap-2 text-[10px] uppercase tracking-widest text-text-muted font-mono">
                       {t("comingSoon")}
                     </span>
