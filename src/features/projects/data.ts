@@ -13,10 +13,26 @@ export type ProjectAsset = {
 
 export const projectAssets: ProjectAsset[] = [
   {
+    id: "master-memory-unit",
+    screenshots: ["/master-memory-unit.png"],
+    liveUrl: null,
+    repoUrl: "https://github.com/0bifthenelse/master-memory-unit",
+  },
+  {
     id: "seculars-online",
     screenshots: ["/secularsonline-preview1.png", "/secularsonline-preview2.png"],
     liveUrl: "https://www.secularsonline.com",
     repoUrl: "https://github.com/Illumineis/release",
+  },
+  {
+    id: "mots-caches",
+    screenshots: ["/mots-caches-preview1.png", "/mots-caches-preview2.png", "/mots-caches-preview3.png"],
+    liveUrl: null,
+    repoUrl: null,
+    buyUrl: "https://www.amazon.fr/dp/B0H9B33P2Y",
+    buyUrlIt: "https://www.amazon.it/dp/B0H9RXD3NN",
+    usEditionInReview: true,
+    portrait: true,
   },
   {
     id: "atmosphere",
@@ -31,16 +47,6 @@ export const projectAssets: ProjectAsset[] = [
     liveUrl: null,
     repoUrl: null,
     private: true,
-  },
-  {
-    id: "mots-caches",
-    screenshots: ["/mots-caches-preview1.png", "/mots-caches-preview2.png", "/mots-caches-preview3.png"],
-    liveUrl: null,
-    repoUrl: null,
-    buyUrl: "https://www.amazon.fr/dp/B0H9B33P2Y",
-    buyUrlIt: "https://www.amazon.it/dp/B0H9RXD3NN",
-    usEditionInReview: true,
-    portrait: true,
   },
   {
     id: "tui-explorer",

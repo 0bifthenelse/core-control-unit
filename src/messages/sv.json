@@ -48,20 +48,64 @@
     "heading": "Tjänster",
     "subtitle": "Från webbplatser och skräddarsydd programvara till bottar, appar och mer därtill. Vi bygger det, lanserar det och ser till att ditt varumärke syns.",
     "items": [
-      { "title": "Webbplatser & webbappar", "description": "Webbplatser och webbappar för privatpersoner och företag. Vi lämnar över all kod till dig, eller sköter hostingen åt dig, precis som du föredrar.", "price": "Offert" },
-      { "title": "Reklampelare", "description": "Fysisk reklam i alla 50 amerikanska delstater via en privat kontakt med ett nätverk av 3 200 reklamplatser, inklusive jätteformat. Rikstäckande räckvidd, rätt platser, omöjliga att missa.", "price": "Offert" },
-      { "title": "Bottar, spel & skrivbordsappar", "description": "Discord- och Telegram-bottar, småskaliga 2D- och 3D-spel för webben och för Windows/Linux byggda med SDL eller Electron tillsammans med three.js och drei, samt generell skrivbordsprogramvara med grafiskt gränssnitt. Går det att bygga, bygger vi det.", "price": "Offert" },
-      { "title": "Procedurell bokgenerering", "description": "Programvara som procedurellt genererar publiceringsklart innehåll: pysselböcker, klassiska romaner, formaterade och anpassade för Amazon Kindle. Ange en genre eller pusseltyp, så sköter programvaran resten.", "price": "Offert" },
-      { "title": "Utveckling av smarta kontrakt", "description": "Skräddarsydda blockkedjebaserade smarta kontrakt: tokens, NFT:er och mer, byggda säkert från grunden.", "price": "Offert" },
-      { "title": "AI-säkerhetsgranskningar", "description": "Vi kör vår egen AI-granskningsmodell för att automatiskt upptäcka sårbarheter i Solidity-smarta kontrakt och synliggöra problem som en manuell granskning kan missa.", "price": "Offert" },
-      { "title":"AI-assisterad framställning av assets", "description":"Genererade bilder, illustrationer, teckningar, 2D-grafik och pixel art samt low-poly- och high-poly-3D-modeller, producerade med de mest kapabla AI-modeller och arbetsflöden som finns tillgängliga i dag inom en professionell produktionsprocess. AI är ett verktyg i vår pipeline, inte en garanti: slutkvalitet, originalitet, äganderätt och licenser definieras och granskas tillsammans med dig för varje projekt.", "price":"Offert" },
-      { "title": "Flashlån-arbitragebottar", "description": "Blockkedjebaserade flashlån-arbitragebottar som vi själva utvecklar och driver, tills vidare på Polygon och BNB Smart Chain, på jakt efter prisskillnader inom DeFi i realtid. Ingen tjänst vi säljer, bara något vi bygger och experimenterar med internt.", "price": "Internt, ej till salu" }
+      {
+        "title": "Webbplatser & webbappar",
+        "description": "Webbplatser och webbappar för privatpersoner och företag. Vi lämnar över all kod till dig, eller sköter hostingen åt dig, precis som du föredrar.",
+        "price": "Offert"
+      },
+      {
+        "title": "Reklampelare",
+        "description": "Fysisk reklam i alla 50 amerikanska delstater via en privat kontakt med ett nätverk av 3 200 reklamplatser, inklusive jätteformat. Rikstäckande räckvidd, rätt platser, omöjliga att missa.",
+        "price": "Offert"
+      },
+      {
+        "title": "Bottar, spel & skrivbordsappar",
+        "description": "Discord- och Telegram-bottar, småskaliga 2D- och 3D-spel för webben och för Windows/Linux byggda med SDL eller Electron tillsammans med three.js och drei, samt generell skrivbordsprogramvara med grafiskt gränssnitt. Går det att bygga, bygger vi det.",
+        "price": "Offert"
+      },
+      {
+        "title": "Procedurell bokgenerering",
+        "description": "Programvara som procedurellt genererar publiceringsklart innehåll: pysselböcker, klassiska romaner, formaterade och anpassade för Amazon Kindle. Ange en genre eller pusseltyp, så sköter programvaran resten.",
+        "price": "Offert"
+      },
+      {
+        "title": "Utveckling av smarta kontrakt",
+        "description": "Skräddarsydda blockkedjebaserade smarta kontrakt: tokens, NFT:er och mer, byggda säkert från grunden.",
+        "price": "Offert"
+      },
+      {
+        "title": "AI-säkerhetsgranskningar",
+        "description": "Vi kör vår egen AI-granskningsmodell för att automatiskt upptäcka sårbarheter i Solidity-smarta kontrakt och synliggöra problem som en manuell granskning kan missa.",
+        "price": "Offert"
+      },
+      {
+        "title": "AI-assisterad framställning av assets",
+        "description": "Genererade bilder, illustrationer, teckningar, 2D-grafik och pixel art samt low-poly- och high-poly-3D-modeller, producerade med de mest kapabla AI-modeller och arbetsflöden som finns tillgängliga i dag inom en professionell produktionsprocess. AI är ett verktyg i vår pipeline, inte en garanti: slutkvalitet, originalitet, äganderätt och licenser definieras och granskas tillsammans med dig för varje projekt.",
+        "price": "Offert"
+      },
+      {
+        "title": "Flashlån-arbitragebottar",
+        "description": "Blockkedjebaserade flashlån-arbitragebottar som vi själva utvecklar och driver, tills vidare på Polygon och BNB Smart Chain, på jakt efter prisskillnader inom DeFi i realtid. Ingen tjänst vi säljer, bara något vi bygger och experimenterar med internt.",
+        "price": "Internt, ej till salu"
+      }
     ],
     "values": [
-      { "label": "Tillförlitlighet", "desc": "Byggt för att hålla, inte bara för en demo." },
-      { "label": "Precision", "desc": "Noggrant, väl genomtänkt arbete." },
-      { "label": "Hastighet", "desc": "Snabb leverans utan att tumma på kvaliteten." },
-      { "label": "Transparens", "desc": "Rakt på sak och ärliga priser." }
+      {
+        "label": "Tillförlitlighet",
+        "desc": "Byggt för att hålla, inte bara för en demo."
+      },
+      {
+        "label": "Precision",
+        "desc": "Noggrant, väl genomtänkt arbete."
+      },
+      {
+        "label": "Hastighet",
+        "desc": "Snabb leverans utan att tumma på kvaliteten."
+      },
+      {
+        "label": "Transparens",
+        "desc": "Rakt på sak och ärliga priser."
+      }
     ]
   },
   "about": {
@@ -69,7 +113,8 @@
     "heading": "Om oss",
     "p1": "Core Control Unit är ett litet, oberoende mjukvaruföretag, inget ansiktslöst storbolag. Vi bygger webbplatser, appar och skräddarsydd programvara från grunden, med blockkedjekunskap redo när ett projekt kräver det.",
     "p2": "Vi arbetar direkt med privatpersoner, startups och småföretag. Inga mellanhänder, inget onödigt krångel, bara tydlig kommunikation, snabb leverans och arbete som helt och hållet är ditt.",
-    "p3": "Vi arbetar på distans med kunder över hela världen och sköter varje projekt från början till slut, från den första kodraden till lansering."  },
+    "p3": "Vi arbetar på distans med kunder över hela världen och sköter varje projekt från början till slut, från den första kodraden till lansering."
+  },
   "contact": {
     "floating": "Kontakta oss"
   },
@@ -89,11 +134,42 @@
     "usEditionInReview": "Amerikanska utgåvan granskas, Amazon-länk kommer snart",
     "moreSoon": "Fler projekt kommer snart.",
     "items": [
-      { "id": "seculars-online", "title": "Seculars Online", "description": "En strategiprototyp för webbläsaren byggd kring en beständig världskarta. En kartsektion är implementerad i dag, med potential att utöka världen i det oändliga. Styr kameran och förflytta dig med ZQSD eller piltangenterna på datorn, eller spela på mobilen.", "longDescription": "Seculars Online är en strategiprototyp för webbläsaren byggd kring en beständig världskarta. En spelbar kartsektion är implementerad i dag, medan arkitekturen är utformad för att världen ska kunna utökas i det oändliga över tid. Utforska kartan med kamerakontrollerna, använd ZQSD eller piltangenterna för att förflytta dig på datorn, eller spela direkt på mobilen med pekstyrning." },
-      {"id": "atmosphere", "title": "Atmosphère", "description": "En skrivbordsapp Atmosphère, byggd åt en privat kund för att styra deras Discord-musikbot. Hantera uppspelning, spellistor och bot-status från en enda instrumentpanel, helt utan webbläsare, med ett lokalt uppspelningsläge för att förhandslyssna på låtar utan att skicka ljud till botens röstkanal. Skapad som ett privat uppdrag, inte publikt tillgänglig.", "longDescription": "Atmosphère är en skrivbordsapp byggd med Electron och React åt en privat kund för att köra deras Discord-musikbot utan att röra Discord direkt. Den kommunicerar med en backend av discord.js och @discordjs/voice via en typad IPC-brygga och strömmar ljud genom en yt-dlp- och ffmpeg-pipeline. Instrumentpanelen visar bot- och anslutningsstatus i realtid, en spellistehanterare organiserar och omkategoriserar låtar, och en självkontrollrutin verifierar ffmpeg, bot-token och mappstrukturen vid varje start, och lagar automatiskt det den kan. Ett nyligen tillagt lokalt uppspelningsläge låser uppspelningen till appen själv, så att låtar kan förhandslyssnas och köas utan att strömma ljud till botens Discord-röstkanal. Eftersom detta byggdes som ett privat uppdrag förblir källkoden och en live-instans kundens egendom och delas inte offentligt."},
-      {"id": "arbitrage-bot", "title": "Equilibrium", "description": "Vår egen arbitragebot, live på BNB Smart Chain. Den köper där en tillgång är billig och säljer där den kostar mer, helt automatiskt.", "longDescription": "Equilibrium körs live på BNB Smart Chain. Den övervakar flera marknader via oberoende anslutningar och handlar automatiskt när en lönsam prisskillnad uppstår. Flashlån finansierar affärerna och återbetalas i samma transaktion. Frontrunning-läget är begränsat till 180 minuter per dag. Konsolen visar den direkta övervakningen. Byggd och driven helt internt, inte till salu. Genom ett privat distribuerat smart kontrakt kan ett flashlån låna upp till 10 miljoner dollar i krypto, utan någon investering utöver mycket låga gasavgifter."},
-      {"id": "mots-caches", "title": "Mots Cachés", "description": "Tre ordsöksböcker med extra stor text från vår procedurella generator: Mots Cachés på franska, med tema veteranbilar, Parole Intrecciate på italienska, tillägnad minnen från Italien på 1950-, 60- och 70-talet, och American Word Search på engelska, tillägnad välbekanta delar av det amerikanska livet. 120 pussel vardera, extra stor text, lösningar ingår.", "longDescription": "Mots Cachés är en serie ordsöksböcker skapade med vår egen procedurella generator för pusselböcker, utgivna i samlingen Les Grands Jeux d'Antan för vuxna och seniorer som gillar att söka, observera och ta det lugnt. Den franska volymen kretsar kring bilar och veteranbilar, med 120 rutnät, över 960 ord att hitta fördelat på två rutnätsvarianter, extra stor text för bekväm läsning och ett fullständigt facit i slutet. Den italienska volymen, Parole Intrecciate, väcker vardagsminnen från Italien på 1950-, 60- och 70-talet: skolan, radion och sångerna, televisionen och underhållningsprogrammen, Vespan och motorerna, havet, semestrarna och livet hemma, med ett stortextat rutnät per sida i en tydlig svartvit layout, och alla lösningar samlade i bokens andra del. Den amerikanska volymen, American Word Search, hyllar välbekanta delar av livet i USA: radion, familjens tv, diners, baseboll, bilresor, countymässor, skolåren, trädgårdar, camping och rymdåldern, med 120 stortextade pussel med bara 8 välbekanta ord vardera i en tydlig och luftig layout, och med alla lösningar sist i boken. Den franska utgåvan finns som Kindle-e-bok med fast layout och som pocketbok på Amazon.fr, den italienska utgåvan finns tryckt på Amazon.it. Den amerikanska utgåvan granskas för närvarande och blir snart tillgänglig på Amazon. Generatorn bakom dem kan skapa i princip obegränsat många volymer på begäran, var och en med eget tema, egen ordlista och eget omslag, de här böckerna är bara ett exempel på vad den kan skapa."},
-      {"id": "tui-explorer", "title": "TUI Explorer", "description": "En snabb, öppen källkods terminalfilutforskare för Linux, styrbar med mus för GUI-liknande navigering eller helt med tangentbord i Vim-stil, utan att lämna terminalen.", "longDescription": "TUI Explorer förvandlar Linux-terminalen till en filhanterare som känns som ett litet skrivbordsprogram, med ett sidofält för platser, monteringar, taggar och bokmärken, en klickbar sökväg, ett responsivt ASCII-ikonrutnät och en förhandsvisningspanel. Alla ikoner är ren ASCII-konst från programmets egen ikonmotor, så det fungerar i valfri terminal utan patchade typsnitt eller emoji. Namngivna taggar sparas i SQLite och överlever omstarter, filer och mappar krypteras på plats med age-cratens lösenfras-API, och bilder visar en levande förhandsvisning på Kitty-, Sixel- eller iTerm2-terminaler med en halvblocks-fallback. Helt skrivet i Rust och endast för Linux, källkoden finns på github.com/0bifthenelse/tui-explorer."}
+{
+        "id": "master-memory-unit",
+        "title": "Master Memory Unit",
+        "description": "En lokal Rust-baserad minnesplattform för programvaruagenter och människor, med beständiga poster i namnrymder, snabb arbetskontext på kort sikt, MCP-verktyg och en Qt Quick/QML-vy i realtid för läs-, skriv-, uppdaterings-, raderings- och sökaktivitet.",
+        "longDescription": "Master Memory Unit är en lokal Rust-baserad minnesplattform för programvaruagenter och människor. Den lagrar beständiga poster i namnrymder under /master/memory och tillhandahåller ett separat korttidslager för aktiv arbetskontext. MCP-verktygen exponerar operationerna memory_read, memory_write, memory_update, memory_delete, memory_search och memory_context_pack. Qt Quick/QML-gränssnittet reagerar i realtid på läs-, skriv-, uppdaterings-, raderings- och sökaktivitet som tas emot via aktivitetsbussen. Åtkomst till en minnesrot, eller till en mapp eller fil under den, grupperas under roten och får dess animerade bana att pulsera i minnesinteraktionsvyn. Därmed blir namnrymdens aktivitet synlig medan hierarkin fortfarande kan inspekteras. Detta är vårt eget projekt och vår egen uppfinning (ett upphovsuttalande, inte ett anspråk på registrerad immateriell egendom). Licensierat under MIT License. Källkod: https://github.com/0bifthenelse/master-memory-unit"
+      },
+{
+        "id": "seculars-online",
+        "title": "Seculars Online",
+        "description": "En strategiprototyp för webbläsaren byggd kring en beständig världskarta. En kartsektion är implementerad i dag, med potential att utöka världen i det oändliga. Styr kameran och förflytta dig med ZQSD eller piltangenterna på datorn, eller spela på mobilen.",
+        "longDescription": "Seculars Online är en strategiprototyp för webbläsaren byggd kring en beständig världskarta. En spelbar kartsektion är implementerad i dag, medan arkitekturen är utformad för att världen ska kunna utökas i det oändliga över tid. Utforska kartan med kamerakontrollerna, använd ZQSD eller piltangenterna för att förflytta dig på datorn, eller spela direkt på mobilen med pekstyrning."
+      },
+{
+        "id": "mots-caches",
+        "title": "Mots Cachés",
+        "description": "Tre ordsöksböcker med extra stor text från vår procedurella generator: Mots Cachés på franska, med tema veteranbilar, Parole Intrecciate på italienska, tillägnad minnen från Italien på 1950-, 60- och 70-talet, och American Word Search på engelska, tillägnad välbekanta delar av det amerikanska livet. 120 pussel vardera, extra stor text, lösningar ingår.",
+        "longDescription": "Mots Cachés är en serie ordsöksböcker skapade med vår egen procedurella generator för pusselböcker, utgivna i samlingen Les Grands Jeux d'Antan för vuxna och seniorer som gillar att söka, observera och ta det lugnt. Den franska volymen kretsar kring bilar och veteranbilar, med 120 rutnät, över 960 ord att hitta fördelat på två rutnätsvarianter, extra stor text för bekväm läsning och ett fullständigt facit i slutet. Den italienska volymen, Parole Intrecciate, väcker vardagsminnen från Italien på 1950-, 60- och 70-talet: skolan, radion och sångerna, televisionen och underhållningsprogrammen, Vespan och motorerna, havet, semestrarna och livet hemma, med ett stortextat rutnät per sida i en tydlig svartvit layout, och alla lösningar samlade i bokens andra del. Den amerikanska volymen, American Word Search, hyllar välbekanta delar av livet i USA: radion, familjens tv, diners, baseboll, bilresor, countymässor, skolåren, trädgårdar, camping och rymdåldern, med 120 stortextade pussel med bara 8 välbekanta ord vardera i en tydlig och luftig layout, och med alla lösningar sist i boken. Den franska utgåvan finns som Kindle-e-bok med fast layout och som pocketbok på Amazon.fr, den italienska utgåvan finns tryckt på Amazon.it. Den amerikanska utgåvan granskas för närvarande och blir snart tillgänglig på Amazon. Generatorn bakom dem kan skapa i princip obegränsat många volymer på begäran, var och en med eget tema, egen ordlista och eget omslag, de här böckerna är bara ett exempel på vad den kan skapa."
+      },
+{
+        "id": "atmosphere",
+        "title": "Atmosphère",
+        "description": "En skrivbordsapp Atmosphère, byggd åt en privat kund för att styra deras Discord-musikbot. Hantera uppspelning, spellistor och bot-status från en enda instrumentpanel, helt utan webbläsare, med ett lokalt uppspelningsläge för att förhandslyssna på låtar utan att skicka ljud till botens röstkanal. Skapad som ett privat uppdrag, inte publikt tillgänglig.",
+        "longDescription": "Atmosphère är en skrivbordsapp byggd med Electron och React åt en privat kund för att köra deras Discord-musikbot utan att röra Discord direkt. Den kommunicerar med en backend av discord.js och @discordjs/voice via en typad IPC-brygga och strömmar ljud genom en yt-dlp- och ffmpeg-pipeline. Instrumentpanelen visar bot- och anslutningsstatus i realtid, en spellistehanterare organiserar och omkategoriserar låtar, och en självkontrollrutin verifierar ffmpeg, bot-token och mappstrukturen vid varje start, och lagar automatiskt det den kan. Ett nyligen tillagt lokalt uppspelningsläge låser uppspelningen till appen själv, så att låtar kan förhandslyssnas och köas utan att strömma ljud till botens Discord-röstkanal. Eftersom detta byggdes som ett privat uppdrag förblir källkoden och en live-instans kundens egendom och delas inte offentligt."
+      },
+{
+        "id": "arbitrage-bot",
+        "title": "Equilibrium",
+        "description": "Vår egen arbitragebot, live på BNB Smart Chain. Den köper där en tillgång är billig och säljer där den kostar mer, helt automatiskt.",
+        "longDescription": "Equilibrium körs live på BNB Smart Chain. Den övervakar flera marknader via oberoende anslutningar och handlar automatiskt när en lönsam prisskillnad uppstår. Flashlån finansierar affärerna och återbetalas i samma transaktion. Frontrunning-läget är begränsat till 180 minuter per dag. Konsolen visar den direkta övervakningen. Byggd och driven helt internt, inte till salu. Genom ett privat distribuerat smart kontrakt kan ett flashlån låna upp till 10 miljoner dollar i krypto, utan någon investering utöver mycket låga gasavgifter."
+      },
+{
+        "id": "tui-explorer",
+        "title": "TUI Explorer",
+        "description": "En snabb, öppen källkods terminalfilutforskare för Linux, styrbar med mus för GUI-liknande navigering eller helt med tangentbord i Vim-stil, utan att lämna terminalen.",
+        "longDescription": "TUI Explorer förvandlar Linux-terminalen till en filhanterare som känns som ett litet skrivbordsprogram, med ett sidofält för platser, monteringar, taggar och bokmärken, en klickbar sökväg, ett responsivt ASCII-ikonrutnät och en förhandsvisningspanel. Alla ikoner är ren ASCII-konst från programmets egen ikonmotor, så det fungerar i valfri terminal utan patchade typsnitt eller emoji. Namngivna taggar sparas i SQLite och överlever omstarter, filer och mappar krypteras på plats med age-cratens lösenfras-API, och bilder visar en levande förhandsvisning på Kitty-, Sixel- eller iTerm2-terminaler med en halvblocks-fallback. Helt skrivet i Rust och endast för Linux, källkoden finns på github.com/0bifthenelse/tui-explorer."
+      }
     ]
   },
   "footer": {

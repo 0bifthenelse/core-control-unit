@@ -48,20 +48,64 @@
     "heading": "Servicios",
     "subtitle": "Desde sitios web y software a medida hasta bots, apps y mucho más. Lo creamos, lo lanzamos y hacemos que se note tu marca.",
     "items": [
-      { "title": "Sitios y apps web", "description": "Sitios y aplicaciones web para particulares y empresas. Te entregamos todo el código, o nos encargamos del alojamiento por ti, como prefieras.", "price": "A consultar" },
-      { "title": "Publicidad en vallas (EE. UU.)", "description": "Publicidad física por los 50 estados de EE. UU. a través de un contacto privado con una red de 3.200 vallas publicitarias, incluidos formatos gigantes. Cobertura nacional, las ubicaciones adecuadas, imposible de pasar por alto.", "price": "A consultar" },
-      { "title": "Bots, juegos y apps de escritorio", "description": "Bots de Discord y Telegram, videojuegos 2D y 3D de pequeña escala para web y para Windows/Linux desarrollados con SDL o Electron junto con three.js y drei, además de software de escritorio con interfaz gráfica a medida. Si se puede construir, lo construimos.", "price": "A consultar" },
-      { "title": "Generación procedural de libros", "description": "Software que genera contenido listo para publicar de forma procedural: libros de pasatiempos, novelas clásicas, maquetados y dimensionados para el formato Kindle de Amazon. Indica un género o tipo de pasatiempo y el resto se genera solo.", "price": "A consultar" },
-      { "title": "Desarrollo de smart contract", "description": "Smart contracts en blockchain a medida: tokens, NFTs y más, creados de forma segura desde el principio.", "price": "A consultar" },
-      { "title": "Auditorías de seguridad con IA", "description": "Ejecutamos nuestro propio modelo de auditoría con IA para detectar automáticamente vulnerabilidades en smart contracts de Solidity, sacando a la luz problemas que una revisión manual podría pasar por alto.", "price": "A consultar" },
-      { "title":"Creación de assets asistida por IA", "description":"Imágenes generadas, ilustraciones, dibujos, arte 2D y pixel art, además de modelos 3D low-poly y high-poly, producidos con los modelos y flujos de trabajo de IA más capaces disponibles hoy, dentro de un proceso de producción profesional. La IA es una herramienta de nuestro pipeline, no una garantía: la calidad final, la originalidad, la propiedad y las licencias se definen y revisan contigo en cada proyecto.", "price":"A consultar" },
-      { "title": "Bots de arbitraje flash-loan", "description": "Bots de arbitraje mediante flash-loans que diseñamos y ejecutamos nosotros mismos, por ahora en Polygon y BNB Smart Chain, cazando diferencias de precio en DeFi en tiempo real. No es un servicio que vendamos, solo algo que construimos y probamos internamente.", "price": "Proyecto interno, no a la venta" }
+      {
+        "title": "Sitios y apps web",
+        "description": "Sitios y aplicaciones web para particulares y empresas. Te entregamos todo el código, o nos encargamos del alojamiento por ti, como prefieras.",
+        "price": "A consultar"
+      },
+      {
+        "title": "Publicidad en vallas (EE. UU.)",
+        "description": "Publicidad física por los 50 estados de EE. UU. a través de un contacto privado con una red de 3.200 vallas publicitarias, incluidos formatos gigantes. Cobertura nacional, las ubicaciones adecuadas, imposible de pasar por alto.",
+        "price": "A consultar"
+      },
+      {
+        "title": "Bots, juegos y apps de escritorio",
+        "description": "Bots de Discord y Telegram, videojuegos 2D y 3D de pequeña escala para web y para Windows/Linux desarrollados con SDL o Electron junto con three.js y drei, además de software de escritorio con interfaz gráfica a medida. Si se puede construir, lo construimos.",
+        "price": "A consultar"
+      },
+      {
+        "title": "Generación procedural de libros",
+        "description": "Software que genera contenido listo para publicar de forma procedural: libros de pasatiempos, novelas clásicas, maquetados y dimensionados para el formato Kindle de Amazon. Indica un género o tipo de pasatiempo y el resto se genera solo.",
+        "price": "A consultar"
+      },
+      {
+        "title": "Desarrollo de smart contract",
+        "description": "Smart contracts en blockchain a medida: tokens, NFTs y más, creados de forma segura desde el principio.",
+        "price": "A consultar"
+      },
+      {
+        "title": "Auditorías de seguridad con IA",
+        "description": "Ejecutamos nuestro propio modelo de auditoría con IA para detectar automáticamente vulnerabilidades en smart contracts de Solidity, sacando a la luz problemas que una revisión manual podría pasar por alto.",
+        "price": "A consultar"
+      },
+      {
+        "title": "Creación de assets asistida por IA",
+        "description": "Imágenes generadas, ilustraciones, dibujos, arte 2D y pixel art, además de modelos 3D low-poly y high-poly, producidos con los modelos y flujos de trabajo de IA más capaces disponibles hoy, dentro de un proceso de producción profesional. La IA es una herramienta de nuestro pipeline, no una garantía: la calidad final, la originalidad, la propiedad y las licencias se definen y revisan contigo en cada proyecto.",
+        "price": "A consultar"
+      },
+      {
+        "title": "Bots de arbitraje flash-loan",
+        "description": "Bots de arbitraje mediante flash-loans que diseñamos y ejecutamos nosotros mismos, por ahora en Polygon y BNB Smart Chain, cazando diferencias de precio en DeFi en tiempo real. No es un servicio que vendamos, solo algo que construimos y probamos internamente.",
+        "price": "Proyecto interno, no a la venta"
+      }
     ],
     "values": [
-      { "label": "Fiabilidad", "desc": "Hecho para durar, no solo para la demo." },
-      { "label": "Precisión", "desc": "Un trabajo cuidado y bien pensado." },
-      { "label": "Velocidad", "desc": "Entrega rápida, sin recortar en calidad." },
-      { "label": "Transparencia", "desc": "Trato franco y precios honestos." }
+      {
+        "label": "Fiabilidad",
+        "desc": "Hecho para durar, no solo para la demo."
+      },
+      {
+        "label": "Precisión",
+        "desc": "Un trabajo cuidado y bien pensado."
+      },
+      {
+        "label": "Velocidad",
+        "desc": "Entrega rápida, sin recortar en calidad."
+      },
+      {
+        "label": "Transparencia",
+        "desc": "Trato franco y precios honestos."
+      }
     ]
   },
   "about": {
@@ -69,7 +113,8 @@
     "heading": "Acerca de",
     "p1": "Core Control Unit es una pequeña empresa independiente, no una gran corporación sin rostro. Creamos sitios web, apps y software a medida desde cero, con conocimientos de blockchain a mano siempre que un proyecto lo requiere.",
     "p2": "Trabajamos directamente con particulares, startups y pequeñas empresas. Sin intermediarios ni excesos: solo comunicación clara, entrega rápida y un trabajo que es completamente tuyo.",
-    "p3": "Trabajamos en remoto con clientes de todo el mundo y gestionamos cada proyecto de principio a fin, desde la primera línea de código hasta el lanzamiento."  },
+    "p3": "Trabajamos en remoto con clientes de todo el mundo y gestionamos cada proyecto de principio a fin, desde la primera línea de código hasta el lanzamiento."
+  },
   "contact": {
     "floating": "Contáctanos"
   },
@@ -89,11 +134,42 @@
     "usEditionInReview": "Edición americana en revisión, enlace de Amazon próximamente",
     "moreSoon": "Más proyectos próximamente.",
     "items": [
-      { "id": "seculars-online", "title": "Seculars Online", "description": "Un prototipo de estrategia para navegador basado en un mapa del mundo persistente. Actualmente hay una sección implementada, con potencial para ampliar el mundo de forma infinita. Controla la cámara y muévete con ZQSD o las flechas en ordenador, o juega en el móvil.", "longDescription": "Seculars Online es un prototipo de estrategia para navegador basado en un mapa del mundo persistente. Actualmente hay una sección jugable implementada, mientras que la arquitectura está diseñada para que el mundo pueda ampliarse de forma infinita con el tiempo. Explora el mapa con los controles de cámara, usa ZQSD o las flechas para moverte en ordenador, o juega directamente en el móvil con controles táctiles." },
-      {"id": "atmosphere", "title": "Atmosphère", "description": "Una aplicación de escritorio creada para un cliente privado con el fin de controlar su bot de música de Discord, Atmosphère. Gestiona la reproducción, las listas y el estado del bot desde un único panel, sin pasar por el navegador, con un modo de reproducción local para previsualizar pistas sin enviar audio al canal de voz del bot. Realizada como encargo privado, no accesible públicamente.", "longDescription": "Atmosphère es una aplicación de escritorio hecha con Electron y React, creada para un cliente privado con el fin de manejar su bot de música de Discord sin tocar Discord directamente. Se comunica con un backend basado en discord.js y @discordjs/voice a través de un puente IPC tipado, transmitiendo audio mediante un flujo de yt-dlp y ffmpeg. El panel muestra el estado del bot y de la conexión en tiempo real, un gestor de listas organiza y reclasifica las pistas, y una rutina de autocomprobación verifica ffmpeg, el token del bot y la estructura de carpetas en cada inicio, reparando automáticamente lo que puede. Un modo de reproducción local añadido recientemente bloquea la reproducción a la propia aplicación, para poder previsualizar y encolar pistas sin transmitir audio al canal de voz de Discord del bot. Al tratarse de un encargo privado, el código fuente y una instancia en vivo siguen siendo propiedad del cliente y no se comparten públicamente."},
-      {"id": "arbitrage-bot", "title": "Equilibrium", "description": "Nuestro bot de arbitraje interno, activo en BNB Smart Chain. Compra donde un activo es barato y vende donde cuesta más, automáticamente.", "longDescription": "Equilibrium funciona en directo en BNB Smart Chain. Vigila varios mercados mediante conexiones independientes y actúa cuando aparece una diferencia de precio rentable. Los flash loans financian cada operación y se devuelven dentro de la misma transacción. El modo de frontrunning está limitado a 180 minutos al día. La consola muestra su monitorización en directo. Lo construimos y gestionamos internamente; no está a la venta. Mediante un smart contract desplegado de forma privada, un flash loan puede pedir prestados hasta 10 millones de dólares en criptoactivos, sin necesidad de invertir nada más allá de unas comisiones de gas muy bajas."},
-      {"id": "mots-caches", "title": "Mots Cachés", "description": "Tres libros de sopa de letras en letra muy grande creados con nuestro generador procedural: Mots Cachés en francés, ambientado en los coches de época, Parole Intrecciate en italiano, dedicado a los recuerdos de la Italia de los años 50, 60 y 70, y American Word Search en inglés, dedicado a los recuerdos familiares de la vida estadounidense. 120 juegos cada uno, letra muy grande, soluciones incluidas.", "longDescription": "Mots Cachés es una serie de libros de sopas de letras creada con nuestro propio generador procedural de libros de juegos, publicada en la colección Les Grands Jeux d'Antan para adultos y personas mayores a quienes les gusta buscar, observar y tomarse su tiempo. El volumen francés gira en torno a los automóviles y los coches de época, con 120 cuadrículas, más de 960 palabras por encontrar repartidas en dos variantes de cuadrícula, letra muy grande para una lectura cómoda y un índice completo de soluciones al final. El volumen italiano, Parole Intrecciate, evoca los momentos cotidianos de la Italia de los años 50, 60 y 70: la escuela, la radio y las canciones, la televisión y los programas de variedades, la Vespa y los motores, el mar, las vacaciones y la vida diaria en casa, con una cuadrícula en letra grande por página en una maquetación clara en blanco y negro, y todas las soluciones reunidas en la segunda parte del libro. El volumen americano, American Word Search, celebra los momentos cotidianos de la vida en Estados Unidos: la radio, la televisión en familia, los diners, el béisbol, los viajes por carretera, las ferias de condado, los años de escuela, los jardines, el camping y la era espacial, con 120 cuadrículas en letra grande de solo 8 palabras conocidas cada una en una maquetación clara y despejada, y todas las soluciones al final del libro. La edición francesa está disponible en ebook Kindle de maquetación fija y en edición de bolsillo en Amazon.fr, la edición italiana está disponible impresa en Amazon.it. La edición americana está actualmente en revisión y estará disponible pronto en Amazon. El generador que hay detrás puede producir prácticamente un número ilimitado de volúmenes bajo demanda, cada uno con su propio tema, su propia lista de palabras y su propia portada: estos libros son solo un ejemplo de lo que puede crear."},
-      {"id": "tui-explorer", "title": "TUI Explorer", "description": "Un explorador de archivos de terminal rápido y de código abierto para Linux, manejable con ratón para una navegación estilo interfaz gráfica o por completo con el teclado en estilo Vim, sin salir del terminal.", "longDescription": "TUI Explorer convierte el terminal de Linux en un gestor de archivos que se siente como una pequeña aplicación de escritorio, con una barra lateral de lugares, montajes, etiquetas y marcadores, una ruta de navegación clicable, una rejilla de iconos en arte ASCII adaptable y un panel de vista previa. Todos los iconos son arte ASCII dibujado por el propio motor de la aplicación, así que funciona en cualquier terminal sin fuentes parcheadas ni emoji. Las etiquetas con nombre se guardan en SQLite y sobreviven a los reinicios, los archivos y carpetas se cifran en el sitio con la API de frase de paso de la crate age, y las imágenes muestran vista previa en directo en terminales Kitty, Sixel o iTerm2 con un respaldo de medios bloques. Escrito íntegramente en Rust y solo para Linux, el código fuente está en github.com/0bifthenelse/tui-explorer."}
+{
+        "id": "master-memory-unit",
+        "title": "Master Memory Unit",
+        "description": "Una plataforma de memoria local basada en Rust para agentes de software y personas, con registros persistentes organizados por espacios de nombres, contexto de trabajo rápido, herramientas MCP y una vista Qt Quick/QML en directo de la actividad de lectura, escritura, actualización, eliminación y búsqueda.",
+        "longDescription": "Master Memory Unit es una plataforma de memoria local basada en Rust para agentes de software y personas. Almacena registros persistentes organizados por espacios de nombres bajo /master/memory y ofrece una capa independiente de corto plazo para el contexto de trabajo activo. Las herramientas MCP exponen las operaciones memory_read, memory_write, memory_update, memory_delete, memory_search y memory_context_pack. La GUI Qt Quick/QML reacciona en directo a la actividad de lectura, escritura, actualización, eliminación y búsqueda recibida a través del bus de actividad. El acceso a una raíz de memoria, o a cualquier carpeta o archivo situado debajo de ella, se agrupa bajo esa raíz y hace pulsar su pista animada en la vista de interacción de la memoria. Así la actividad del espacio de nombres queda visible mientras la jerarquía sigue siendo inspeccionable. Este es nuestro propio proyecto e invención (una declaración de autoría, no una afirmación de propiedad intelectual registrada). Licenciado bajo la MIT License. Código fuente: https://github.com/0bifthenelse/master-memory-unit"
+      },
+{
+        "id": "seculars-online",
+        "title": "Seculars Online",
+        "description": "Un prototipo de estrategia para navegador basado en un mapa del mundo persistente. Actualmente hay una sección implementada, con potencial para ampliar el mundo de forma infinita. Controla la cámara y muévete con ZQSD o las flechas en ordenador, o juega en el móvil.",
+        "longDescription": "Seculars Online es un prototipo de estrategia para navegador basado en un mapa del mundo persistente. Actualmente hay una sección jugable implementada, mientras que la arquitectura está diseñada para que el mundo pueda ampliarse de forma infinita con el tiempo. Explora el mapa con los controles de cámara, usa ZQSD o las flechas para moverte en ordenador, o juega directamente en el móvil con controles táctiles."
+      },
+{
+        "id": "mots-caches",
+        "title": "Mots Cachés",
+        "description": "Tres libros de sopa de letras en letra muy grande creados con nuestro generador procedural: Mots Cachés en francés, ambientado en los coches de época, Parole Intrecciate en italiano, dedicado a los recuerdos de la Italia de los años 50, 60 y 70, y American Word Search en inglés, dedicado a los recuerdos familiares de la vida estadounidense. 120 juegos cada uno, letra muy grande, soluciones incluidas.",
+        "longDescription": "Mots Cachés es una serie de libros de sopas de letras creada con nuestro propio generador procedural de libros de juegos, publicada en la colección Les Grands Jeux d'Antan para adultos y personas mayores a quienes les gusta buscar, observar y tomarse su tiempo. El volumen francés gira en torno a los automóviles y los coches de época, con 120 cuadrículas, más de 960 palabras por encontrar repartidas en dos variantes de cuadrícula, letra muy grande para una lectura cómoda y un índice completo de soluciones al final. El volumen italiano, Parole Intrecciate, evoca los momentos cotidianos de la Italia de los años 50, 60 y 70: la escuela, la radio y las canciones, la televisión y los programas de variedades, la Vespa y los motores, el mar, las vacaciones y la vida diaria en casa, con una cuadrícula en letra grande por página en una maquetación clara en blanco y negro, y todas las soluciones reunidas en la segunda parte del libro. El volumen americano, American Word Search, celebra los momentos cotidianos de la vida en Estados Unidos: la radio, la televisión en familia, los diners, el béisbol, los viajes por carretera, las ferias de condado, los años de escuela, los jardines, el camping y la era espacial, con 120 cuadrículas en letra grande de solo 8 palabras conocidas cada una en una maquetación clara y despejada, y todas las soluciones al final del libro. La edición francesa está disponible en ebook Kindle de maquetación fija y en edición de bolsillo en Amazon.fr, la edición italiana está disponible impresa en Amazon.it. La edición americana está actualmente en revisión y estará disponible pronto en Amazon. El generador que hay detrás puede producir prácticamente un número ilimitado de volúmenes bajo demanda, cada uno con su propio tema, su propia lista de palabras y su propia portada: estos libros son solo un ejemplo de lo que puede crear."
+      },
+{
+        "id": "atmosphere",
+        "title": "Atmosphère",
+        "description": "Una aplicación de escritorio creada para un cliente privado con el fin de controlar su bot de música de Discord, Atmosphère. Gestiona la reproducción, las listas y el estado del bot desde un único panel, sin pasar por el navegador, con un modo de reproducción local para previsualizar pistas sin enviar audio al canal de voz del bot. Realizada como encargo privado, no accesible públicamente.",
+        "longDescription": "Atmosphère es una aplicación de escritorio hecha con Electron y React, creada para un cliente privado con el fin de manejar su bot de música de Discord sin tocar Discord directamente. Se comunica con un backend basado en discord.js y @discordjs/voice a través de un puente IPC tipado, transmitiendo audio mediante un flujo de yt-dlp y ffmpeg. El panel muestra el estado del bot y de la conexión en tiempo real, un gestor de listas organiza y reclasifica las pistas, y una rutina de autocomprobación verifica ffmpeg, el token del bot y la estructura de carpetas en cada inicio, reparando automáticamente lo que puede. Un modo de reproducción local añadido recientemente bloquea la reproducción a la propia aplicación, para poder previsualizar y encolar pistas sin transmitir audio al canal de voz de Discord del bot. Al tratarse de un encargo privado, el código fuente y una instancia en vivo siguen siendo propiedad del cliente y no se comparten públicamente."
+      },
+{
+        "id": "arbitrage-bot",
+        "title": "Equilibrium",
+        "description": "Nuestro bot de arbitraje interno, activo en BNB Smart Chain. Compra donde un activo es barato y vende donde cuesta más, automáticamente.",
+        "longDescription": "Equilibrium funciona en directo en BNB Smart Chain. Vigila varios mercados mediante conexiones independientes y actúa cuando aparece una diferencia de precio rentable. Los flash loans financian cada operación y se devuelven dentro de la misma transacción. El modo de frontrunning está limitado a 180 minutos al día. La consola muestra su monitorización en directo. Lo construimos y gestionamos internamente; no está a la venta. Mediante un smart contract desplegado de forma privada, un flash loan puede pedir prestados hasta 10 millones de dólares en criptoactivos, sin necesidad de invertir nada más allá de unas comisiones de gas muy bajas."
+      },
+{
+        "id": "tui-explorer",
+        "title": "TUI Explorer",
+        "description": "Un explorador de archivos de terminal rápido y de código abierto para Linux, manejable con ratón para una navegación estilo interfaz gráfica o por completo con el teclado en estilo Vim, sin salir del terminal.",
+        "longDescription": "TUI Explorer convierte el terminal de Linux en un gestor de archivos que se siente como una pequeña aplicación de escritorio, con una barra lateral de lugares, montajes, etiquetas y marcadores, una ruta de navegación clicable, una rejilla de iconos en arte ASCII adaptable y un panel de vista previa. Todos los iconos son arte ASCII dibujado por el propio motor de la aplicación, así que funciona en cualquier terminal sin fuentes parcheadas ni emoji. Las etiquetas con nombre se guardan en SQLite y sobreviven a los reinicios, los archivos y carpetas se cifran en el sitio con la API de frase de paso de la crate age, y las imágenes muestran vista previa en directo en terminales Kitty, Sixel o iTerm2 con un respaldo de medios bloques. Escrito íntegramente en Rust y solo para Linux, el código fuente está en github.com/0bifthenelse/tui-explorer."
+      }
     ]
   },
   "footer": {
