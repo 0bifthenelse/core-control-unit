@@ -49,16 +49,13 @@ export async function HeroSection() {
           </span>
         </div>
 
-        <h1 className="text-3xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-none mb-6">
+        <h1 className="text-3xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-none mb-12">
           <span className="block text-text-primary">CORE</span>
           <span className="block text-[#ff7d27]" style={{ textShadow: "0 0 40px rgba(255,125,39,0.45), 0 0 80px rgba(255,125,39,0.2)" }}>CONTROL</span>
           <span className="block text-text-primary">UNIT</span>
         </h1>
 
-        <AccentLine className="my-8 max-w-xs mx-auto" />
-
         <p className="max-w-2xl mx-auto leading-relaxed mb-10">
-          <span className="block text-[11px] uppercase tracking-[0.25em] text-[#ff7d27] mb-4">{t("tagline")}</span>
           <span className="block text-text-primary text-lg sm:text-2xl font-semibold leading-snug">{t("taglineSub")}</span>
         </p>
 
