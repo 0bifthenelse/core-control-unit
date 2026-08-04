@@ -71,7 +71,7 @@ export function ImageLightbox({ className, style, ...imageProps }: ImageProps) {
                 ref={closeRef}
                 type="button"
                 aria-label={t("close")}
-                className="absolute right-3 top-3 z-10 inline-flex h-10 w-10 items-center justify-center border border-[#ff7d27]/50 bg-black/70 text-2xl leading-none text-white outline-none transition-colors hover:bg-[#ff7d27] focus-visible:ring-2 focus-visible:ring-[#ff7d27] motion-reduce:transition-none"
+                className="absolute right-3 top-3 z-10 inline-flex h-10 w-10 items-center justify-center border border-[#ff7d27]/50 bg-black/70 text-2xl leading-none text-white outline-none transition-colors hover:bg-[#ff7d27] focus-visible:ring-2 focus-visible:ring-[#ff7d27] motion-reduce:transition-none hover:cursor-pointer"
                 onClick={close}
               >
                 <span aria-hidden="true">×</span>

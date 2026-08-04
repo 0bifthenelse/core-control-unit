@@ -11,14 +11,6 @@ export async function HeroSection() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       <div className="absolute inset-0 pointer-events-none">
         <div
-          className="absolute inset-0 opacity-20"
-          style={{
-            backgroundImage:
-              "linear-gradient(var(--color-border) 1px, transparent 1px), linear-gradient(90deg, var(--color-border) 1px, transparent 1px)",
-            backgroundSize: "60px 60px",
-          }}
-        />
-        <div
           className="absolute inset-0 animate-pulse"
           style={{
             background:
@@ -52,12 +44,9 @@ export async function HeroSection() {
           />
         </div>
         <div className="flex items-center justify-center gap-3 mb-8">
-          <span className="w-1.5 h-1.5 rounded-full bg-[#4ade80] animate-pulse" />
-          <div className="h-px w-12 bg-[#ff7d27]" />
           <span className="text-[10px] uppercase tracking-[0.3em] text-[#ff7d27]">
             {t("badge")}
           </span>
-          <div className="h-px w-12 bg-[#ff7d27]" />
         </div>
 
         <h1 className="text-3xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-none mb-6">
